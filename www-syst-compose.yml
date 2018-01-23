@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  bufe-buedu-test:
+    build: 
+      context: .
+      args:
+        landscape: syst
+    read_only: true
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    environment:
+      - LANDSCAPE=syst
