@@ -1,8 +1,12 @@
 # This version string is used to make certain we are on the latest version
 version 2017-04-12 ;
 
+# items from the Apache configuration
 htbin legacy ;
 studentlink redirect ; 
+#######uis content ;
+uis legacy ;
+uis_web3270 legacy ;
 
 # items from the www:phpmap.txt
 buniverse phpbin ;
@@ -3052,7 +3056,6 @@ uctech content ;
 ## ugneuro: wordpress
 ## ugc: wordpress
 uhc content ;
-uis content ;
 ## uisacs: wordpress
 uis-core content ;
 ## ul: wordpress
