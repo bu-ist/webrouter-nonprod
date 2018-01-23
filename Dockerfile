@@ -10,4 +10,6 @@ ARG landscape=syst
 # These files remains in the landscape specific CodePipeline area.
 ADD landscape/${landscape}/sites.map /etc/nginx/sites.map
 ADD landscape/${landscape}/vars.sh /etc/nginx/vars.sh
+ADD landscape/${landscape}/redirects.map.erb /etc/erb/nginx/redirects.map.erb
+ADD landscape/${landscape}/hosts.map.erb /etc/erb/nginx/hosts.map.erb
 
