@@ -206,7 +206,7 @@ fi
 echo ""
 echo "### Test legacy routing"
 test_url "legacy-http-htbin-weblogin" http://${CONNECT_TO}/htbin/login 302 legacy "bu.edu/web@login3/"
-test_url "legacy-http-web3270" http://${CONNECT_TO}/uis_web3270 302 legacy "bu.edu/web@login3/"
+test_url "legacy-http-web3270" http://${CONNECT_TO}/uis_web3270/ 302 legacy "bu.edu/web@login3/"
 
 echo ""
 echo "### Test routing to UISCGI"
