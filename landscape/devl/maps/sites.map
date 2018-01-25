@@ -1,3 +1,19 @@
+### Common mapping to all bu.edu systems
+
+# old CGI script locations (right now we send those to the existing Solaris backend)
+htbin legacy ;
+testing legacy ;
+
+# these entries all have dates from the 1990's and will be commented out unless we 
+# need them
+#ph legacy ;
+#PH legacy ;
+#abroad content ;
+#providers content ;
+#resources content ;
+#IMAGES content ;
+
+
 ### Django applications
 #
 index                          django ;       # 2012-04-04 TEST & DEVL ONLY
@@ -367,7 +383,7 @@ interactive-design content ;
   wwildman content ;  # top-level
   washington content ;  # top-level
   washintern content ;  # top-level
-  whole_staging_site_in.cms content ;  # top-level
+  #whole_staging_site_in.cms content ;  # top-level
   whistlingduck content ;  # top-level
   whatsnew content ;  # top-level
   whatsnew.html content ;  # top-level
@@ -1325,7 +1341,6 @@ interactive-design content ;
   offices content ;  # top-level
   offcampus content ;  # top-level
   office365 content ;  # top-level
-  old.law content ;  # top-level
   opg content ;  # top-level
   operations content ;  # top-level
   openaccess content ;  # top-level
@@ -1358,7 +1373,6 @@ interactive-design content ;
 # skipping OSFM as we should only add the redirect2lower if necessary
 # skipping OUTREACH as we should only add the redirect2lower if necessary
 # skipping OUTDOOR as we should only add the redirect2lower if necessary
-  50000 content ;  # top-level
   rcl content ;  # top-level
   rc content ;  # top-level
   rccp content ;  # top-level
@@ -1566,7 +1580,7 @@ interactive-design content ;
   familymed content ;  # top-level
   faculty-council content ;  # top-level
   fammed content ;  # top-level
-  farewell content ;  # top-level
+  #farewell content ;  # top-level
   fafc-files content ;  # top-level
   fafc content ;  # top-level
   faculty-mslade1 content ;  # top-level
@@ -1918,7 +1932,6 @@ interactive-design content ;
   testnfs content ;  # top-level
   teal content ;  # top-level
   testnfs2 content ;  # top-level
-  testing content ;  # top-level
   telecom2 content ;  # top-level
   test content ;  # top-level
   terriermarketplace content ;  # top-level
@@ -2277,7 +2290,7 @@ interactive-design content ;
 ##TODO: get phpmap entry for degree-audit and put in separate file
   deanshost content ;  # top-level
   deafautism content ;  # top-level
-  whole_staging_site_in.cms content ;  # top-level
+  #whole_staging_site_in.cms content ;  # top-level
   doubleit content ;  # top-level
   dos/facebook content ;  # 
   double-it content ;  # top-level
