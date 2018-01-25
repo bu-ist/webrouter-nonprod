@@ -1,4 +1,31 @@
 ### Common mapping to all bu.edu systems
+version 2018-01-26 ;
+
+# redirects
+studentlink redirect ;
+
+# items from the www:phpmap.txt
+#buniverse phpbin ;
+#maps phpbin ;
+#bufellow/db-admin django ;
+
+# DegreeAdvice needs to be added
+# we should make a third party table for http backend services (maybe)
+#
+#degree-advice degreeadvice ;
+
+django apps ;
+
+# UISCGI/link entries
+link/bin uiscgi_app ;
+link uiscgi_content ;
+
+#uis content ;
+uis_web3270 legacy ;
+
+#admissions wordpress
+# dbin
+dbin dbin ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 htbin legacy ;
