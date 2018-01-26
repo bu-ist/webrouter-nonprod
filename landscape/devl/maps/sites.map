@@ -3,11 +3,12 @@ version 2018-01-26 ;
 
 # redirects
 studentlink redirect ;
+geography/brdf redirect ;
 
 # items from the www:phpmap.txt
-#buniverse phpbin ;
-#maps phpbin ;
-#bufellow/db-admin django ;
+buniverse phpbin ;
+maps phpbin ;
+bufellow/db-admin django ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
@@ -24,22 +25,25 @@ link uiscgi_content ;
 uis_web3270 legacy ;
 
 #admissions wordpress
+
 # dbin
+
+# default application backends
 dbin dbin ;
+phpbin phpbin ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 htbin legacy ;
 testing legacy ;
 
-# these entries all have dates from the 1990's and will be commented out unless we 
-# need them
-#ph legacy ;
-#PH legacy ;
-#abroad content ;
-#providers content ;
-#resources content ;
-#IMAGES content ;
+# Send old-style redirects and aliases to the content backend
+# we are not transitioning anything older than 2009 unless necessary.
+#
 
+##### END of common prefix
+###############################################
+
+##### PHPMAP items
 
 ### Django applications
 #
@@ -76,6 +80,8 @@ degree-audit degree-advice ;
 
 marcom content ;
 interactive-design content ;
+
+####### From stub files/directory scan
 
   jcap content ;  # top-level
   japanese content ;  # top-level
@@ -763,7 +769,7 @@ interactive-design content ;
   madrid content ;  # top-level
   map content ;  # top-level
   marks-test-blog3 content ;  # top-level
-  maps content ;  # top-level
+#  maps content ;  # top-level
   marketingscience2012 content ;  # top-level
   madlab content ;  # top-level
   masscoalitionfororalhealth content ;  # top-level
@@ -1809,8 +1815,8 @@ interactive-design content ;
   pm content ;  # top-level
   p2pguide content ;  # top-level
   phylogeny content ;  # top-level
-  phpbin.rw content ;  # top-level
-  phpbin content ;  # top-level
+#  phpbin.rw content ;  # top-level
+#  phpbin content ;  # top-level
   photo content ;  # top-level
   phys-biophys content ;  # top-level
   phhprc content ;  # top-level
@@ -1818,7 +1824,7 @@ interactive-design content ;
   photonics content ;  # top-level
   philo content ;  # top-level
   physics content ;  # top-level
-  phpbin.ro content ;  # top-level
+#  phpbin.ro content ;  # top-level
   pharm content ;  # top-level
   pilj content ;  # top-level
   pike content ;  # top-level
@@ -2528,7 +2534,7 @@ interactive-design content ;
   buwc content ;  # top-level
   bulletins content ;  # top-level
   but content ;  # top-level
-  buniverse content ;  # top-level
+#  buniverse content ;  # top-level
   bus content ;  # top-level
   buworks content ;  # top-level
   buworks-training content ;  # top-level
