@@ -11,6 +11,9 @@ maps phpbin ;
 bufellow/db-admin django ;
 nisdev phpbin ;
 
+# These mappings are needed for Shibboleth authentication
+saml/content content ;
+
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
 #
