@@ -9,6 +9,7 @@ geography/brdf redirect ;
 buniverse phpbin ;
 maps phpbin ;
 bufellow/db-admin django ;
+nisdev phpbin ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
@@ -497,7 +498,7 @@ interactive-design content ;
   nislab content ;  # top-level
   nida-mrc content ;  # top-level
   nitrides content ;  # top-level
-  nisdev content ;  # top-level
+#  nisdev content ;  # top-level
   nightingale content ;  # top-level
   nisguide content ;  # top-level
   nisprod content ;  # top-level
