@@ -5,7 +5,8 @@ version 2017-04-12 ;
 htbin legacy ;
 studentlink redirect ; 
 #######uis content ;
-uis legacy ;
+uis content ;
+uis content ;
 uis_web3270 legacy ;
 
 # items from the www:phpmap.txt
