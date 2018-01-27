@@ -10,6 +10,7 @@ phases:
   build:
     commands:
       - docker build --build-arg "landscape=$LANDSCAPE" --tag "$IMAGEURI" .
+      - docker run "$IMAGEURI" /usr/sbin/run-nginx.sh -t
   post_build:
     commands:
       - docker push "$IMAGEURI"
