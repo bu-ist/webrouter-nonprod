@@ -1,4 +1,3 @@
-# This version string is used to make certain we are on the latest version
 version 2017-04-12 ;
 
 # items from the Apache configuration
@@ -199,7 +198,7 @@ itunes content ;
 itunesu content ;
 ithelp content ;
 it-commons content ;
-farewell content ;
+#farewell content ;
 ## it-common: wordpress
 ## ithelpsandbox: wordpress
 1000000 content ;
