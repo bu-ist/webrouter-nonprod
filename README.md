@@ -14,7 +14,7 @@ safe to release to in a change restriction period.  That is because:
 ## Changing a map entry
 
 1. Use `git pull` to ensure that we are operating with the latest version of the configuration.
-2. Use `git status` to double-check status of files.
+2. Use `git status` to double-check that you are on the correct landscape.  If not then do `git checkout landscape`
 3. Edit landscape/LANDSCAPE/maps/sites.map to reflect our map path.
 4. Use `git status` to double-check status of files.
 5. Use `git diff` to see what changed.
