@@ -489,7 +489,7 @@ interactive-design content ;
   nislab content ;  # top-level
   nida-mrc content ;  # top-level
   nitrides content ;  # top-level
-  nisdev content ;  # top-level
+#  nisdev content ;  # top-level
   nightingale content ;  # top-level
   nisprod content ;  # top-level
   nisprojects content ;  # top-level
@@ -640,7 +640,7 @@ interactive-design content ;
   admissionsstatic content ;  # top-level
   adlab content ;  # top-level
   admissions/applicantlink content ;  # 
-  admissions/applicantlink - archive content ;  # 
+#  admissions/applicantlink - archive content ;  # 
   auctions content ;  # top-level
   autism content ;  # top-level
   aux content ;  # top-level
@@ -714,7 +714,7 @@ interactive-design content ;
   mattdm content ;  # top-level
   marshplaza content ;  # top-level
   map content ;  # top-level
-  maps content ;  # top-level
+#  maps content ;  # top-level
   marketingscience2012 content ;  # top-level
   madlab content ;  # top-level
   masscoalitionfororalhealth content ;  # top-level
@@ -764,12 +764,12 @@ interactive-design content ;
   met/ads content ;  # 
   met/forbes content ;  # 
   met/acela content ;  # 
-  met/USA content ;  # 
+#  met/USA content ;  # 
   met/usa content ;  # 
   met/bestofboston content ;  # 
   met/yellowpages content ;  # 
   met/audio content ;  # 
-  met/Acela content ;  # 
+#  met/Acela content ;  # 
   met/magazine content ;  # 
   met/mag content ;  # 
   met/merry content ;  # 
@@ -1440,7 +1440,7 @@ interactive-design content ;
   finance content ;  # top-level
   finplanners content ;  # top-level
   firesafety content ;  # top-level
-  fifty-states content ;  # top-level
+#  fifty-states content ;  # top-level
   festival content ;  # top-level
   feltensteinchallenge content ;  # top-level
   features content ;  # top-level
@@ -1580,7 +1580,7 @@ interactive-design content ;
   p2pguide content ;  # top-level
   phylogeny content ;  # top-level
   phpbin.rw content ;  # top-level
-  phpbin content ;  # top-level
+#  phpbin content ;  # top-level
   photo content ;  # top-level
   phhprc content ;  # top-level
   phpbin-selector content ;  # top-level
@@ -1692,7 +1692,7 @@ interactive-design content ;
   telefund content ;  # top-level
   techweb-survey content ;  # top-level
   testnfs content ;  # top-level
-  testing content ;  # top-level
+#  testing content ;  # top-level
   test content ;  # top-level
   terriermarketplace content ;  # top-level
   tedbu content ;  # top-level
@@ -1971,7 +1971,7 @@ interactive-design content ;
 ##TODO: get phpmap entry for degree-audit and put in separate file
   dental/lobbyscreen content ;  # 
   dental/nerb-mcmanama content ;  # 
-  degree advice content ;  # top-level
+#  degree advice content ;  # top-level
   deanshost content ;  # top-level
   dos-test content ;  # top-level
   doubleit content ;  # top-level
