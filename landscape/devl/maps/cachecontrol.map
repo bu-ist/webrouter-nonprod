@@ -2,5 +2,4 @@
   phpbin "no-cache, no-store" ;
   dbin "no-cache, no-store" ;
   degree-advice "no-cache, no-store" ;
-  wordpress "no-cache, no-store" ;
 
