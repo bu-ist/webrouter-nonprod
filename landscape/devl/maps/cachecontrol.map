@@ -1,0 +1,5 @@
+  uiscgi_app "no-cache, no-store" ;
+  phpbin "no-cache, no-store" ;
+  dbin "no-cache, no-store" ;
+  degree-advice "no-cache, no-store" ;
+

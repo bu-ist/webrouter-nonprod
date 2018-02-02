@@ -1,0 +1,64 @@
+### Common mapping to all bu.edu systems
+version 2018-01-26 ;
+
+# redirects
+studentlink redirect ;
+geography/brdf redirect ;
+
+# items from the www:phpmap.txt
+buniverse phpbin ;
+maps phpbin ;
+bufellow/db-admin django ;
+nisdev phpbin ;
+
+# These mappings are needed for Shibboleth authentication
+saml/content content ;
+
+# DegreeAdvice needs to be added
+# we should make a third party table for http backend services (maybe)
+#
+#degree-advice degreeadvice ;
+
+django apps ;
+
+# UISCGI/link entries
+link/bin uiscgi_app ;
+link uiscgi_content ;
+
+#uis content ;
+uis_web3270 legacy ;
+
+#admissions wordpress
+
+# dbin
+
+# default application backends
+dbin dbin ;
+phpbin phpbin ;
+
+# old CGI script locations (right now we send those to the existing Solaris backend)
+htbin legacy ;
+testing legacy ;
+
+# by default we map degree-advice although it should be listed in the phpmap file
+degree-advice degree-advice ;
+degree-audit degree-advice ;
+
+# Send old-style redirects and aliases to the content backend
+# we are not transitioning anything older than 2009 unless necessary.
+#
+
+##### END of common prefix
+###############################################
+
+##### PHPMAP items
+
+### Django applications
+#
+# Ask Web team about:
+
+marcom content ;
+interactive-design content ;
+
+####### From stub files/directory scan
+

@@ -272,6 +272,10 @@ fi
 test_url "http-healthcheck" "http://${CONNECT_TO}/server/healthcheck" 200  healthcheck OK
 test_url "https-healthcheck" "https://${CONNECT_TO}/server/healthcheck" 200  healthcheck OK
 
+#echo ""
+#echo "Testing legacy entries from the Apache config"
+#test_url "apache-redirect-pcsc" "http://${CONNECT_TO}/pcsc/foo" 301 content '/tech/help/foo'
+
 # to double-check stuff
 #debug=/bin/true
 #test_url "https-degree-advice-cgi" "https://${CONNECT_TO}/degree-advice/IRISLink.cgi" 302 degree-advice "idp/profile/SAML2/Redirect/SSO" "X-Backend-Protocol: http" "X-Backend-Host: test-backend"
