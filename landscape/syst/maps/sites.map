@@ -1,9 +1,8 @@
-version 2017-04-12 ;
+version 20180202 ;
 
 # items from the Apache configuration
 htbin legacy ;
 studentlink redirect ; 
-#######uis content ;
 uis content ;
 uis_web3270 legacy ;
 
