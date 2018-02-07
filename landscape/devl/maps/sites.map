@@ -76,7 +76,10 @@ law-pub                        django ;
 # The following line was added on 5/3/2017 by Barry Fitzgibbon per Ben Fenster
 #/phpbin/courseware              http://ist-phpbin-devl.bu.edu:182
 
-# bumobile django ;
+### PHPBIN apps
+
+bumobile phpbin ;
+
 #
 
 degree-advice degree-advice ;
