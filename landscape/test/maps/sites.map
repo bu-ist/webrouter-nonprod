@@ -1,5 +1,5 @@
 ### Common mapping to all bu.edu systems
-version 2018-01-26 ;
+version 20180208 ;
 
 # redirects
 studentlink redirect ;
@@ -434,6 +434,7 @@ interactive-design content ;
   webmail content ;  # top-level
   websummit content ;  # top-level
   webteam/mgburns content ;  # 
+  webteam/projects content ;  # match ignore_prod.cms
   weblogin content ;  # top-level
   womenspolo content ;  # top-level
   womensguild content ;  # top-level

@@ -1,5 +1,5 @@
 ### Common mapping to all bu.edu systems
-version 2018-01-26 ;
+version 20180202 ;
 
 # redirects
 studentlink redirect ;
@@ -76,7 +76,10 @@ law-pub                        django ;
 # The following line was added on 5/3/2017 by Barry Fitzgibbon per Ben Fenster
 #/phpbin/courseware              http://ist-phpbin-devl.bu.edu:182
 
-# bumobile django ;
+### PHPBIN apps
+
+bumobile phpbin ;
+
 #
 
 degree-advice degree-advice ;
@@ -440,6 +443,7 @@ interactive-design content ;
   websummit content ;  # top-level
   webteam/mgburns content ;  # 
   webteam/awbauer content ;  # 
+  webteam/projects content ; #match ignore_prod.cms
   weddings content ;  # top-level
   weblogin content ;  # top-level
   womenspolo content ;  # top-level
