@@ -443,6 +443,7 @@ interactive-design content ;
   websummit content ;  # top-level
   webteam/mgburns content ;  # 
   webteam/awbauer content ;  # 
+  webteam/projects content ; #match ignore_prod.cms
   weddings content ;  # top-level
   weblogin content ;  # top-level
   womenspolo content ;  # top-level
