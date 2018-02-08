@@ -2357,7 +2357,7 @@ buildyourgift content ;
 bumc-research content ;
 bucld/wp-assets content ;
 ## bucld: wordpress
-bumobile app ;
+bumobile phpbin ;
 ## burgos: wordpress
 busm-pm content ;
 busm-facultycentral content ;
