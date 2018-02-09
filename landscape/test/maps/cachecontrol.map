@@ -2,5 +2,6 @@
   phpbin "no-cache, no-store" ;
   dbin "no-cache, no-store" ;
   degree-advice "no-cache, no-store" ;
+  legacy "no-cache, no-store" ;
   django "no-cache, no-store" ;
 
