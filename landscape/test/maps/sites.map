@@ -607,7 +607,8 @@ interactive-design content ;
   allocate content ;  # top-level
   alumni-forms content ;  # top-level
   alistaircooke content ;  # top-level
-  alert content ;  # top-level
+  # disable caching 
+  alert content-nocache ;  # top-level
   alumni/link content ;  # 
   alumni/images content ;  # 
   alumni/common content ;  # 

@@ -4,4 +4,5 @@
   degree-advice "no-cache, no-store" ;
   legacy "no-cache, no-store" ;
   django "no-cache, no-store" ;
+  content-nocache "no-cache, no-store" ;
 
