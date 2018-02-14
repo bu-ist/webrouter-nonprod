@@ -25,8 +25,10 @@ _/django apps ;
 _/link/bin uiscgi_app ;
 _/link uiscgi_content ;
 
-#uis content ;
+# These are the old tomcat servlets on the server
 _/uis_web3270 legacy ;
+_/uiszl_eostc legacy ;
+_/uiszl_j2ee legacy ;
 
 #admissions wordpress
 
