@@ -1,44 +1,44 @@
 ### Common mapping to all bu.edu systems
-version 20180202 ;
+_/version 20180202 ;
 
 # redirects
-studentlink redirect ;
-geography/brdf redirect ;
+_/studentlink redirect ;
+_/geography/brdf redirect ;
 
 # items from the www:phpmap.txt
-buniverse phpbin ;
-maps phpbin ;
-bufellow/db-admin django ;
-nisdev phpbin ;
+_/buniverse phpbin ;
+_/maps phpbin ;
+_/bufellow/db-admin django ;
+_/nisdev phpbin ;
 
 # These mappings are needed for Shibboleth authentication
-saml/content content ;
+_/saml/content content ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
 #
 #degree-advice degreeadvice ;
 
-django apps ;
+_/django apps ;
 
 # UISCGI/link entries
-link/bin uiscgi_app ;
-link uiscgi_content ;
+_/link/bin uiscgi_app ;
+_/link uiscgi_content ;
 
 #uis content ;
-uis_web3270 legacy ;
+_/uis_web3270 legacy ;
 
 #admissions wordpress
 
 # dbin
 
 # default application backends
-dbin dbin ;
-phpbin phpbin ;
+_/dbin dbin ;
+_/phpbin phpbin ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
-htbin legacy ;
-testing legacy ;
+_/htbin legacy ;
+_/testing legacy ;
 
 # Send old-style redirects and aliases to the content backend
 # we are not transitioning anything older than 2009 unless necessary.
@@ -51,23 +51,23 @@ testing legacy ;
 
 ### Django applications
 #
-index                          django ;       # 2012-04-04 TEST & DEVL ONLY
-dnamixtures                    django ;
-systems-programming/django     django ;
-cellphone-compliance           django ;
-courseware-manager             django ;       #            kgrin
-casdemo                        django ;       #            kgrin
-summer/admin                   django ;       # 2011-03    scottm
-fifty-states                   django ;       # 2012-03-08 scottm
-ssw/usfostercare               django ;
-html-email                     django ;       # 2012-12-12 fwolf
-betabionics                    django ;       # 2012-23-01 isingh
-rpm-agreements                 django ;       # 2013-01-29 mgburns
-wp-deploy                      django ;       #            isingh
-search                         django ;       # 2014-03-24 ntk
-api                            django ;
-globalhealth                   django ;
-law-pub                        django ;
+_/index                          django ;       # 2012-04-04 TEST & DEVL ONLY
+_/dnamixtures                    django ;
+_/systems-programming/django     django ;
+_/cellphone-compliance           django ;
+_/courseware-manager             django ;       #            kgrin
+_/casdemo                        django ;       #            kgrin
+_/summer/admin                   django ;       # 2011-03    scottm
+_/fifty-states                   django ;       # 2012-03-08 scottm
+_/ssw/usfostercare               django ;
+_/html-email                     django ;       # 2012-12-12 fwolf
+_/betabionics                    django ;       # 2012-23-01 isingh
+_/rpm-agreements                 django ;       # 2013-01-29 mgburns
+_/wp-deploy                      django ;       #            isingh
+_/search                         django ;       # 2014-03-24 ntk
+_/api                            django ;
+_/globalhealth                   django ;
+_/law-pub                        django ;
 
 # Ask Web team about:
 
@@ -78,266 +78,266 @@ law-pub                        django ;
 
 ### PHPBIN apps
 
-bumobile phpbin ;
+_/bumobile phpbin ;
 
 #
 
-degree-advice degree-advice ;
-degree-audit degree-advice ;
+_/degree-advice degree-advice ;
+_/degree-audit degree-advice ;
 
-marcom content ;
-interactive-design content ;
+_/marcom content ;
+_/interactive-design content ;
 
 ####### From stub files/directory scan
 
-  jcap content ;  # top-level
-  japanese content ;  # top-level
-  jamdocs content ;  # top-level
-  jam content ;  # top-level
-  jamsponsor content ;  # top-level
-  jmedday content ;  # top-level
-  jeremymb content ;  # top-level
-  journalofeducation content ;  # top-level
-  jobs content ;  # top-level
-  journals content ;  # top-level
-  join-the-challenge content ;  # top-level
-  jostl content ;  # top-level
-  johndesz content ;  # top-level
-  jfa content ;  # top-level
-  jlengel content ;  # top-level
-  jlab content ;  # top-level
-  jp content ;  # top-level
-  jts2000 content ;  # top-level
-  jd content ;  # top-level
-  judaicstudies content ;  # top-level
-  judicialaffairs content ;  # top-level
+_/jcap content ;  # top-level
+_/japanese content ;  # top-level
+_/jamdocs content ;  # top-level
+_/jam content ;  # top-level
+_/jamsponsor content ;  # top-level
+_/jmedday content ;  # top-level
+_/jeremymb content ;  # top-level
+_/journalofeducation content ;  # top-level
+_/jobs content ;  # top-level
+_/journals content ;  # top-level
+_/join-the-challenge content ;  # top-level
+_/jostl content ;  # top-level
+_/johndesz content ;  # top-level
+_/jfa content ;  # top-level
+_/jlengel content ;  # top-level
+_/jlab content ;  # top-level
+_/jp content ;  # top-level
+_/jts2000 content ;  # top-level
+_/jd content ;  # top-level
+_/judaicstudies content ;  # top-level
+_/judicialaffairs content ;  # top-level
 # skipping JOBS as we should only add the redirect2lower if necessary
 # skipping JOURNALS as we should only add the redirect2lower if necessary
 # skipping JTS2000 as we should only add the redirect2lower if necessary
 # skipping JUDICIALAFFAIRS as we should only add the redirect2lower if necessary
-  zaman content ;  # top-level
-  zhdanovalab content ;  # top-level
-  zhanglab content ;  # top-level
-  zgct content ;  # top-level
-  ccrd content ;  # top-level
-  ccsr content ;  # top-level
-  cc content ;  # top-level
-  ccs content ;  # top-level
-  ccboard content ;  # top-level
-  cci content ;  # top-level
-  cwf content ;  # top-level
-  cwc content ;  # top-level
-  cnn-nanocancer content ;  # top-level
-  camping content ;  # top-level
-  cascsg content ;  # top-level
-  casprograms content ;  # top-level
-  campaignlaunch content ;  # top-level
-  casecomp content ;  # top-level
-  cawses content ;  # top-level
-  caregivinghealthresearch content ;  # top-level
-  campaignvip content ;  # top-level
-  caswriting content ;  # top-level
-  cateringonthecharles content ;  # top-level
-  care content ;  # top-level
-  cardiothoracicmain content ;  # top-level
-  casit content ;  # top-level
-  casadvising content ;  # top-level
-  caadlab content ;  # top-level
-  cas-promotion content ;  # top-level
-  carnalknowledge content ;  # top-level
-  campaignkickoffvip content ;  # top-level
-  casinternal content ;  # top-level
-  cap content ;  # top-level
-  campussurvey content ;  # top-level
-  cashelpdesk content ;  # top-level
-  case-melville content ;  # top-level
-  campaignkickoff content ;  # top-level
-  cas/magazine content ;  # 
-  castle content ;  # top-level
-  catholic content ;  # top-level
-  casstudentacademiclife content ;  # top-level
-  cas-tenure content ;  # top-level
-  caswpinternal content ;  # top-level
-  caryl content ;  # top-level
-  cardiovascular-medicine content ;  # top-level
-  casw content ;  # top-level
-  catering content ;  # top-level
-  capbridge content ;  # top-level
-  cader content ;  # top-level
-  careerex content ;  # top-level
-  cab content ;  # top-level
-  calendar content ;  # top-level
+_/zaman content ;  # top-level
+_/zhdanovalab content ;  # top-level
+_/zhanglab content ;  # top-level
+_/zgct content ;  # top-level
+_/ccrd content ;  # top-level
+_/ccsr content ;  # top-level
+_/cc content ;  # top-level
+_/ccs content ;  # top-level
+_/ccboard content ;  # top-level
+_/cci content ;  # top-level
+_/cwf content ;  # top-level
+_/cwc content ;  # top-level
+_/cnn-nanocancer content ;  # top-level
+_/camping content ;  # top-level
+_/cascsg content ;  # top-level
+_/casprograms content ;  # top-level
+_/campaignlaunch content ;  # top-level
+_/casecomp content ;  # top-level
+_/cawses content ;  # top-level
+_/caregivinghealthresearch content ;  # top-level
+_/campaignvip content ;  # top-level
+_/caswriting content ;  # top-level
+_/cateringonthecharles content ;  # top-level
+_/care content ;  # top-level
+_/cardiothoracicmain content ;  # top-level
+_/casit content ;  # top-level
+_/casadvising content ;  # top-level
+_/caadlab content ;  # top-level
+_/cas-promotion content ;  # top-level
+_/carnalknowledge content ;  # top-level
+_/campaignkickoffvip content ;  # top-level
+_/casinternal content ;  # top-level
+_/cap content ;  # top-level
+_/campussurvey content ;  # top-level
+_/cashelpdesk content ;  # top-level
+_/case-melville content ;  # top-level
+_/campaignkickoff content ;  # top-level
+_/cas/magazine content ;  # 
+_/castle content ;  # top-level
+_/catholic content ;  # top-level
+_/casstudentacademiclife content ;  # top-level
+_/cas-tenure content ;  # top-level
+_/caswpinternal content ;  # top-level
+_/caryl content ;  # top-level
+_/cardiovascular-medicine content ;  # top-level
+_/casw content ;  # top-level
+_/catering content ;  # top-level
+_/capbridge content ;  # top-level
+_/cader content ;  # top-level
+_/careerex content ;  # top-level
+_/cab content ;  # top-level
+_/calendar content ;  # top-level
 ##TODO: get phpmap entry for casdemo and put in separate file
-  caderonline content ;  # top-level
-  casgov content ;  # top-level
-  cagt content ;  # top-level
-  card content ;  # top-level
-  caspreprofessional content ;  # top-level
-  cas-scholars content ;  # top-level
-  cmmh content ;  # top-level
-  cmb content ;  # top-level
-  cmezian content ;  # top-level
-  cme content ;  # top-level
-  cmld content ;  # top-level
-  cmrl content ;  # top-level
-  cmu content ;  # top-level
-  cms content ;  # top-level
-  cmetips content ;  # top-level
-  cvn content ;  # top-level
-  childhoodtrauma content ;  # top-level
-  childlanguage content ;  # top-level
-  chelmsford content ;  # top-level
-  changingthegame content ;  # top-level
-  chapel content ;  # top-level
-  childcognition content ;  # top-level
-  chinese content ;  # top-level
-  choosemet content ;  # top-level
-  charles content ;  # top-level
-  checkpc content ;  # top-level
-  childlabs content ;  # top-level
-  charlesmed content ;  # top-level
-  childlab content ;  # top-level
-  chemistry content ;  # top-level
-  cise content ;  # top-level
-  cims content ;  # top-level
-  cip content ;  # top-level
-  cityplanning content ;  # top-level
-  citylab-olc content ;  # top-level
-  civsa content ;  # top-level
-  cism content ;  # top-level
-  citylab content ;  # top-level
-  citylabacademy content ;  # top-level
-  ciap content ;  # top-level
-  center-for-anxiety-related-disorders content ;  # top-level
-  celebrationvip content ;  # top-level
-  censsis content ;  # top-level
-  celop content ;  # top-level
-  centurychallenge content ;  # top-level
+_/caderonline content ;  # top-level
+_/casgov content ;  # top-level
+_/cagt content ;  # top-level
+_/card content ;  # top-level
+_/caspreprofessional content ;  # top-level
+_/cas-scholars content ;  # top-level
+_/cmmh content ;  # top-level
+_/cmb content ;  # top-level
+_/cmezian content ;  # top-level
+_/cme content ;  # top-level
+_/cmld content ;  # top-level
+_/cmrl content ;  # top-level
+_/cmu content ;  # top-level
+_/cms content ;  # top-level
+_/cmetips content ;  # top-level
+_/cvn content ;  # top-level
+_/childhoodtrauma content ;  # top-level
+_/childlanguage content ;  # top-level
+_/chelmsford content ;  # top-level
+_/changingthegame content ;  # top-level
+_/chapel content ;  # top-level
+_/childcognition content ;  # top-level
+_/chinese content ;  # top-level
+_/choosemet content ;  # top-level
+_/charles content ;  # top-level
+_/checkpc content ;  # top-level
+_/childlabs content ;  # top-level
+_/charlesmed content ;  # top-level
+_/childlab content ;  # top-level
+_/chemistry content ;  # top-level
+_/cise content ;  # top-level
+_/cims content ;  # top-level
+_/cip content ;  # top-level
+_/cityplanning content ;  # top-level
+_/citylab-olc content ;  # top-level
+_/civsa content ;  # top-level
+_/cism content ;  # top-level
+_/citylab content ;  # top-level
+_/citylabacademy content ;  # top-level
+_/ciap content ;  # top-level
+_/center-for-anxiety-related-disorders content ;  # top-level
+_/celebrationvip content ;  # top-level
+_/censsis content ;  # top-level
+_/celop content ;  # top-level
+_/centurychallenge content ;  # top-level
 ##TODO: get phpmap entry for cellphone-compliance and put in separate file
-  centers content ;  # top-level
-  celop-hub content ;  # top-level
-  ce content ;  # top-level
-  celebrationofbu content ;  # top-level
-  cecb content ;  # top-level
-  cedh content ;  # top-level
-  cet content ;  # top-level
-  cermak content ;  # top-level
-  ceei content ;  # top-level
-  cellular-imaging content ;  # top-level
-  cees content ;  # top-level
-  cel content ;  # top-level
-  ckls content ;  # top-level
-  consumer content ;  # top-level
-  comit content ;  # top-level
-  corporations content ;  # top-level
-  copley content ;  # top-level
-  counseling content ;  # top-level
-  comlabs content ;  # top-level
-  conscious content ;  # top-level
-  congregationalstudies content ;  # top-level
-  com-careers content ;  # top-level
-  coursenet content ;  # top-level
-  community content ;  # top-level
-  codes content ;  # top-level
-  cobth content ;  # top-level
-  cohenchallenge content ;  # top-level
-  coreframework content ;  # top-level
-  common content ;  # top-level
-  contact content ;  # top-level
-  commsurvey content ;  # top-level
-  cort content ;  # top-level
-  composition content ;  # top-level
-  cod content ;  # top-level
-  comp content ;  # top-level
-  com-dean-search content ;  # top-level
-  common-place content ;  # top-level
-  com2 content ;  # top-level
-  corpfound content ;  # top-level
-  cogneuro content ;  # top-level
-  com100 content ;  # top-level
-  computational-biomedicine content ;  # top-level
-  commavefair content ;  # top-level
-  coredesign content ;  # top-level
-  commonground content ;  # top-level
-  computationalimmunology content ;  # top-level
-  core content ;  # top-level
-  compnet content ;  # top-level
-  comm content ;  # top-level
-  comet content ;  # top-level
-  connect content ;  # top-level
+_/centers content ;  # top-level
+_/celop-hub content ;  # top-level
+_/ce content ;  # top-level
+_/celebrationofbu content ;  # top-level
+_/cecb content ;  # top-level
+_/cedh content ;  # top-level
+_/cet content ;  # top-level
+_/cermak content ;  # top-level
+_/ceei content ;  # top-level
+_/cellular-imaging content ;  # top-level
+_/cees content ;  # top-level
+_/cel content ;  # top-level
+_/ckls content ;  # top-level
+_/consumer content ;  # top-level
+_/comit content ;  # top-level
+_/corporations content ;  # top-level
+_/copley content ;  # top-level
+_/counseling content ;  # top-level
+_/comlabs content ;  # top-level
+_/conscious content ;  # top-level
+_/congregationalstudies content ;  # top-level
+_/com-careers content ;  # top-level
+_/coursenet content ;  # top-level
+_/community content ;  # top-level
+_/codes content ;  # top-level
+_/cobth content ;  # top-level
+_/cohenchallenge content ;  # top-level
+_/coreframework content ;  # top-level
+_/common content ;  # top-level
+_/contact content ;  # top-level
+_/commsurvey content ;  # top-level
+_/cort content ;  # top-level
+_/composition content ;  # top-level
+_/cod content ;  # top-level
+_/comp content ;  # top-level
+_/com-dean-search content ;  # top-level
+_/common-place content ;  # top-level
+_/com2 content ;  # top-level
+_/corpfound content ;  # top-level
+_/cogneuro content ;  # top-level
+_/com100 content ;  # top-level
+_/computational-biomedicine content ;  # top-level
+_/commavefair content ;  # top-level
+_/coredesign content ;  # top-level
+_/commonground content ;  # top-level
+_/computationalimmunology content ;  # top-level
+_/core content ;  # top-level
+_/compnet content ;  # top-level
+_/comm content ;  # top-level
+_/comet content ;  # top-level
+_/connect content ;  # top-level
 ##TODO: get phpmap entry for courseware-manager and put in separate file
-  comjobs content ;  # top-level
-  copyright content ;  # top-level
-  collegechampion content ;  # top-level
-  comtalk content ;  # top-level
-  countdown content ;  # top-level
-  coi content ;  # top-level
-  cores content ;  # top-level
-  construction content ;  # top-level
-  com-csc content ;  # top-level
-  compbiomed content ;  # top-level
-  complete content ;  # top-level
-  creative content ;  # top-level
-  crowdfunding content ;  # top-level
-  crm content ;  # top-level
-  crossdomain.xml content ;  # top-level
-  crro content ;  # top-level
-  crew content ;  # top-level
-  creedd content ;  # top-level
-  creativewriting content ;  # top-level
-  cre content ;  # top-level
-  crtimes content ;  # top-level
-  cghd content ;  # top-level
-  cgs content ;  # top-level
-  cgap content ;  # top-level
-  cgsnow content ;  # top-level
-  cga content ;  # top-level
-  cgs60th content ;  # top-level
-  cgcm content ;  # top-level
-  cgsa content ;  # top-level
-  cghdac content ;  # top-level
-  cfait content ;  # top-level
-  cfo content ;  # top-level
-  cfa-alumni content ;  # top-level
-  cfa-dean-search content ;  # top-level
-  cfdi content ;  # top-level
-  cftcc content ;  # top-level
-  cflp content ;  # top-level
-  cleanenergyventures content ;  # top-level
-  clarion content ;  # top-level
-  clinicalinvestigation content ;  # top-level
-  cliveg content ;  # top-level
-  classics content ;  # top-level
-  clerkship-subinternship content ;  # top-level
-  climate content ;  # top-level
-  classroom content ;  # top-level
-  clas content ;  # top-level
-  classgift content ;  # top-level
-  cpr content ;  # top-level
-  cphs content ;  # top-level
-  cpt content ;  # top-level
-  ctsi content ;  # top-level
-  ctf content ;  # top-level
-  cte content ;  # top-level
-  csc content ;  # top-level
-  cs content ;  # top-level
-  csp content ;  # top-level
-  csharp content ;  # top-level
-  csiacademy content ;  # top-level
-  cste content ;  # top-level
-  cscd content ;  # top-level
-  css content ;  # top-level
-  csmet content ;  # top-level
-  cd content ;  # top-level
-  cdl content ;  # top-level
-  cdc2007 content ;  # top-level
-  cdaly content ;  # top-level
-  cdn content ;  # top-level
-  culture content ;  # top-level
-  culinaryarts content ;  # top-level
-  cball content ;  # top-level
-  cbm content ;  # top-level
-  cbss content ;  # top-level
+_/comjobs content ;  # top-level
+_/copyright content ;  # top-level
+_/collegechampion content ;  # top-level
+_/comtalk content ;  # top-level
+_/countdown content ;  # top-level
+_/coi content ;  # top-level
+_/cores content ;  # top-level
+_/construction content ;  # top-level
+_/com-csc content ;  # top-level
+_/compbiomed content ;  # top-level
+_/complete content ;  # top-level
+_/creative content ;  # top-level
+_/crowdfunding content ;  # top-level
+_/crm content ;  # top-level
+_/crossdomain.xml content ;  # top-level
+_/crro content ;  # top-level
+_/crew content ;  # top-level
+_/creedd content ;  # top-level
+_/creativewriting content ;  # top-level
+_/cre content ;  # top-level
+_/crtimes content ;  # top-level
+_/cghd content ;  # top-level
+_/cgs content ;  # top-level
+_/cgap content ;  # top-level
+_/cgsnow content ;  # top-level
+_/cga content ;  # top-level
+_/cgs60th content ;  # top-level
+_/cgcm content ;  # top-level
+_/cgsa content ;  # top-level
+_/cghdac content ;  # top-level
+_/cfait content ;  # top-level
+_/cfo content ;  # top-level
+_/cfa-alumni content ;  # top-level
+_/cfa-dean-search content ;  # top-level
+_/cfdi content ;  # top-level
+_/cftcc content ;  # top-level
+_/cflp content ;  # top-level
+_/cleanenergyventures content ;  # top-level
+_/clarion content ;  # top-level
+_/clinicalinvestigation content ;  # top-level
+_/cliveg content ;  # top-level
+_/classics content ;  # top-level
+_/clerkship-subinternship content ;  # top-level
+_/climate content ;  # top-level
+_/classroom content ;  # top-level
+_/clas content ;  # top-level
+_/classgift content ;  # top-level
+_/cpr content ;  # top-level
+_/cphs content ;  # top-level
+_/cpt content ;  # top-level
+_/ctsi content ;  # top-level
+_/ctf content ;  # top-level
+_/cte content ;  # top-level
+_/csc content ;  # top-level
+_/cs content ;  # top-level
+_/csp content ;  # top-level
+_/csharp content ;  # top-level
+_/csiacademy content ;  # top-level
+_/cste content ;  # top-level
+_/cscd content ;  # top-level
+_/css content ;  # top-level
+_/csmet content ;  # top-level
+_/cd content ;  # top-level
+_/cdl content ;  # top-level
+_/cdc2007 content ;  # top-level
+_/cdaly content ;  # top-level
+_/cdn content ;  # top-level
+_/culture content ;  # top-level
+_/culinaryarts content ;  # top-level
+_/cball content ;  # top-level
+_/cbm content ;  # top-level
+_/cbss content ;  # top-level
 # skipping CCRD as we should only add the redirect2lower if necessary
 # skipping CC as we should only add the redirect2lower if necessary
 # skipping CCBOARD as we should only add the redirect2lower if necessary
@@ -403,68 +403,68 @@ interactive-design content ;
 # skipping CDF as we should only add the redirect2lower if necessary
 # skipping CULTURE as we should only add the redirect2lower if necessary
 # skipping CULINARYARTS as we should only add the redirect2lower if necessary
-  yac content ;  # top-level
-  y2kpartners content ;  # top-level
-  y2k content ;  # top-level
-  y2k-partners content ;  # top-level
-  yearbook content ;  # top-level
-  yourimpact content ;  # top-level
-  yourbusm content ;  # top-level
-  yourgift content ;  # top-level
-  youdo content ;  # top-level
+_/yac content ;  # top-level
+_/y2kpartners content ;  # top-level
+_/y2k content ;  # top-level
+_/y2k-partners content ;  # top-level
+_/yearbook content ;  # top-level
+_/yourimpact content ;  # top-level
+_/yourbusm content ;  # top-level
+_/yourgift content ;  # top-level
+_/youdo content ;  # top-level
 # skipping YAC as we should only add the redirect2lower if necessary
 # skipping YEARBOOK as we should only add the redirect2lower if necessary
-  wcp content ;  # top-level
-  wci-training-programs content ;  # top-level
-  wcbct2010 content ;  # top-level
-  wcrew content ;  # top-level
-  wwwv content ;  # top-level
-  www-test.bu.edu content ;  # top-level
-  wwildman content ;  # top-level
-  washington content ;  # top-level
-  washintern content ;  # top-level
+_/wcp content ;  # top-level
+_/wci-training-programs content ;  # top-level
+_/wcbct2010 content ;  # top-level
+_/wcrew content ;  # top-level
+_/wwwv content ;  # top-level
+_/www-test.bu.edu content ;  # top-level
+_/wwildman content ;  # top-level
+_/washington content ;  # top-level
+_/washintern content ;  # top-level
   #whole_staging_site_in.cms content ;  # top-level
-  whistlingduck content ;  # top-level
-  whatsnew content ;  # top-level
-  whatsnew.html content ;  # top-level
-  win content ;  # top-level
-  wiki content ;  # top-level
-  wine content ;  # top-level
-  wiesel content ;  # top-level
-  wita content ;  # top-level
-  wib content ;  # top-level
-  wise content ;  # top-level
-  wilsonwonglab content ;  # top-level
-  wireless content ;  # top-level
-  winterfest content ;  # top-level
-  webcast content ;  # top-level
-  wellness content ;  # top-level
-  webmail content ;  # top-level
-  websummit content ;  # top-level
-  webteam/mgburns content ;  # 
-  webteam/awbauer content ;  # 
-  webteam/projects content ; #match ignore_prod.cms
-  weddings content ;  # top-level
-  weblogin content ;  # top-level
-  womenspolo content ;  # top-level
-  womensguild content ;  # top-level
-  woundbiotech content ;  # top-level
-  womenstudies content ;  # top-level
-  wonca content ;  # top-level
-  world content ;  # top-level
-  wordpress content ;  # top-level
-  wolozinlab content ;  # top-level
-  writingprogram content ;  # top-level
-  writing content ;  # top-level
-  wgrimes content ;  # top-level
-  wgs content ;  # top-level
-  wpmu/static content ;  # 
-  wpnet content ;  # top-level
-  wptraining content ;  # top-level
+_/whistlingduck content ;  # top-level
+_/whatsnew content ;  # top-level
+_/whatsnew.html content ;  # top-level
+_/win content ;  # top-level
+_/wiki content ;  # top-level
+_/wine content ;  # top-level
+_/wiesel content ;  # top-level
+_/wita content ;  # top-level
+_/wib content ;  # top-level
+_/wise content ;  # top-level
+_/wilsonwonglab content ;  # top-level
+_/wireless content ;  # top-level
+_/winterfest content ;  # top-level
+_/webcast content ;  # top-level
+_/wellness content ;  # top-level
+_/webmail content ;  # top-level
+_/websummit content ;  # top-level
+_/webteam/mgburns content ;  # 
+_/webteam/awbauer content ;  # 
+_/webteam/projects content ; #match ignore_prod.cms
+_/weddings content ;  # top-level
+_/weblogin content ;  # top-level
+_/womenspolo content ;  # top-level
+_/womensguild content ;  # top-level
+_/woundbiotech content ;  # top-level
+_/womenstudies content ;  # top-level
+_/wonca content ;  # top-level
+_/world content ;  # top-level
+_/wordpress content ;  # top-level
+_/wolozinlab content ;  # top-level
+_/writingprogram content ;  # top-level
+_/writing content ;  # top-level
+_/wgrimes content ;  # top-level
+_/wgs content ;  # top-level
+_/wpmu/static content ;  # 
+_/wpnet content ;  # top-level
+_/wptraining content ;  # top-level
 ##TODO: get phpmap entry for wp-deploy and put in separate file
-  wtbu content ;  # top-level
-  wbball content ;  # top-level
-  wbur content ;  # top-level
+_/wtbu content ;  # top-level
+_/wbball content ;  # top-level
+_/wbur content ;  # top-level
 # skipping WCP as we should only add the redirect2lower if necessary
 # skipping WCREW as we should only add the redirect2lower if necessary
 # skipping WWWV as we should only add the redirect2lower if necessary
@@ -487,70 +487,70 @@ interactive-design content ;
 # skipping WTBU as we should only add the redirect2lower if necessary
 # skipping WBBALL as we should only add the redirect2lower if necessary
 # skipping WBUR as we should only add the redirect2lower if necessary
-  xzhou content ;  # top-level
-  xyz content ;  # top-level
+_/xzhou content ;  # top-level
+_/xyz content ;  # top-level
 # skipping XYZ as we should only add the redirect2lower if necessary
-  nassr-2013 content ;  # top-level
-  naitest content ;  # top-level
-  navyrotc content ;  # top-level
-  nassr2013 content ;  # top-level
-  nanoheat content ;  # top-level
-  naeser content ;  # top-level
-  nano content ;  # top-level
-  narrative content ;  # top-level
-  nm content ;  # top-level
-  nmrc content ;  # top-level
-  nis-bkup content ;  # top-level
-  nis-sym content ;  # top-level
-  nislab content ;  # top-level
-  nida-mrc content ;  # top-level
-  nitrides content ;  # top-level
+_/nassr-2013 content ;  # top-level
+_/naitest content ;  # top-level
+_/navyrotc content ;  # top-level
+_/nassr2013 content ;  # top-level
+_/nanoheat content ;  # top-level
+_/naeser content ;  # top-level
+_/nano content ;  # top-level
+_/narrative content ;  # top-level
+_/nm content ;  # top-level
+_/nmrc content ;  # top-level
+_/nis-bkup content ;  # top-level
+_/nis-sym content ;  # top-level
+_/nislab content ;  # top-level
+_/nida-mrc content ;  # top-level
+_/nitrides content ;  # top-level
 #  nisdev content ;  # top-level
-  nightingale content ;  # top-level
-  nisguide content ;  # top-level
-  nisprod content ;  # top-level
-  nisprojects content ;  # top-level
-  nis content ;  # top-level
-  networks content ;  # top-level
-  neh content ;  # top-level
-  neurorehabilitationlab content ;  # top-level
-  newswire content ;  # top-level
-  newindex4.html content ;  # top-level
-  neft content ;  # top-level
-  neuron content ;  # top-level
-  neuroengineering content ;  # top-level
-  netreg content ;  # top-level
-  neuro content ;  # top-level
-  neuropsychology content ;  # top-level
-  news2 content ;  # top-level
-  neurorehab content ;  # top-level
-  nehsummerworkshop content ;  # top-level
-  neural content ;  # top-level
-  newyear content ;  # top-level
-  newman content ;  # top-level
-  newindex3.html content ;  # top-level
-  neidl content ;  # top-level
-  newindex2.html content ;  # top-level
-  neuroscience content ;  # top-level
-  nerscic content ;  # top-level
-  newindex.html content ;  # top-level
-  nems content ;  # top-level
-  new2bu content ;  # top-level
-  neuromusculardisease content ;  # top-level
-  nox content ;  # top-level
-  nonprofitmba content ;  # top-level
-  noyce content ;  # top-level
-  north-campus content ;  # top-level
-  northmba content ;  # top-level
-  northcampus content ;  # top-level
-  nrc content ;  # top-level
-  nrotc content ;  # top-level
-  nfc content ;  # top-level
-  nf-kb content ;  # top-level
-  npl content ;  # top-level
-  ntt content ;  # top-level
-  nsg content ;  # top-level
-  nseg content ;  # top-level
+_/nightingale content ;  # top-level
+_/nisguide content ;  # top-level
+_/nisprod content ;  # top-level
+_/nisprojects content ;  # top-level
+_/nis content ;  # top-level
+_/networks content ;  # top-level
+_/neh content ;  # top-level
+_/neurorehabilitationlab content ;  # top-level
+_/newswire content ;  # top-level
+_/newindex4.html content ;  # top-level
+_/neft content ;  # top-level
+_/neuron content ;  # top-level
+_/neuroengineering content ;  # top-level
+_/netreg content ;  # top-level
+_/neuro content ;  # top-level
+_/neuropsychology content ;  # top-level
+_/news2 content ;  # top-level
+_/neurorehab content ;  # top-level
+_/nehsummerworkshop content ;  # top-level
+_/neural content ;  # top-level
+_/newyear content ;  # top-level
+_/newman content ;  # top-level
+_/newindex3.html content ;  # top-level
+_/neidl content ;  # top-level
+_/newindex2.html content ;  # top-level
+_/neuroscience content ;  # top-level
+_/nerscic content ;  # top-level
+_/newindex.html content ;  # top-level
+_/nems content ;  # top-level
+_/new2bu content ;  # top-level
+_/neuromusculardisease content ;  # top-level
+_/nox content ;  # top-level
+_/nonprofitmba content ;  # top-level
+_/noyce content ;  # top-level
+_/north-campus content ;  # top-level
+_/northmba content ;  # top-level
+_/northcampus content ;  # top-level
+_/nrc content ;  # top-level
+_/nrotc content ;  # top-level
+_/nfc content ;  # top-level
+_/nf-kb content ;  # top-level
+_/npl content ;  # top-level
+_/ntt content ;  # top-level
+_/nsg content ;  # top-level
+_/nseg content ;  # top-level
 # skipping NAITEST as we should only add the redirect2lower if necessary
 # skipping NARRATIVE as we should only add the redirect2lower if necessary
 # skipping NIDA-MRC as we should only add the redirect2lower if necessary
@@ -569,140 +569,140 @@ interactive-design content ;
 # skipping NSG as we should only add the redirect2lower if necessary
 # skipping NSEG as we should only add the redirect2lower if necessary
 # skipping NUTRITION as we should only add the redirect2lower if necessary
-  accreditation content ;  # top-level
-  acoustics content ;  # top-level
-  aceilab content ;  # top-level
-  acs content ;  # top-level
-  academy content ;  # top-level
-  actforhealth content ;  # top-level
-  aclonline content ;  # top-level
-  acor content ;  # top-level
-  actuary content ;  # top-level
-  act content ;  # top-level
-  awship content ;  # top-level
-  analesgaldosianos content ;  # top-level
-  anatneuro content ;  # top-level
-  analytical-core content ;  # top-level
-  answers content ;  # top-level
-  animal content ;  # top-level
-  annualfund content ;  # top-level
-  anep content ;  # top-level
-  anatomy content ;  # top-level
-  anajam content ;  # top-level
-  annualfundroster content ;  # top-level
-  anthrop content ;  # top-level
-  anderssonlab content ;  # top-level
-  anxiety content ;  # top-level
-  animalcare content ;  # top-level
-  aat content ;  # top-level
-  aaastudy content ;  # top-level
-  aac content ;  # top-level
-  ampprogram content ;  # top-level
-  ame content ;  # top-level
-  amp content ;  # top-level
-  amyloid content ;  # top-level
-  avl content ;  # top-level
-  av content ;  # top-level
-  ah content ;  # top-level
-  airo content ;  # top-level
-  aiaa content ;  # top-level
-  aig content ;  # top-level
-  aias content ;  # top-level
-  aemdprl content ;  # top-level
-  aeacus content ;  # top-level
-  aodhealth content ;  # top-level
-  ar content ;  # top-level
-  arn content ;  # top-level
-  arche content ;  # top-level
-  artaid content ;  # top-level
-  art content ;  # top-level
-  armyrotc content ;  # top-level
-  armenia content ;  # top-level
-  archaeology content ;  # top-level
-  arts content ;  # top-level
-  arlington content ;  # top-level
-  ars content ;  # top-level
-  archsci content ;  # top-level
-  army content ;  # top-level
-  arrows content ;  # top-level
-  arcs content ;  # top-level
-  archive-vista content ;  # top-level
-  artsaid content ;  # top-level
-  art.ro content ;  # top-level
-  artsadmin content ;  # top-level
-  artslive content ;  # top-level
-  arthritis-center content ;  # top-level
-  archives content ;  # top-level
-  ag content ;  # top-level
-  agingbrain content ;  # top-level
-  agep content ;  # top-level
-  agganisarena content ;  # top-level
-  afam content ;  # top-level
-  af-rotc content ;  # top-level
-  afox content ;  # top-level
-  afrotc content ;  # top-level
-  afr content ;  # top-level
-  alumnicollege content ;  # top-level
-  alcohol-forum content ;  # top-level
-  albert content ;  # top-level
-  alzresearch content ;  # top-level
-  allocate content ;  # top-level
-  alumni-forms content ;  # top-level
-  alumniweekend content ;  # top-level
-  alistaircooke content ;  # top-level
-  alert content ;  # top-level
-  alpha-1 content ;  # top-level
-  alumnirelations content ;  # top-level
-  alumni content ;  # top-level
-  alcoholeducationforyouth content ;  # top-level
-  aldolase content ;  # top-level
-  apfd content ;  # top-level
-  aphasia content ;  # top-level
-  aparcrt content ;  # top-level
-  apr content ;  # top-level
-  apreso content ;  # top-level
-  applied-linguistics content ;  # top-level
-  aparc content ;  # top-level
-  apc content ;  # top-level
-  apls content ;  # top-level
-  apply content ;  # top-level
-  ap content ;  # top-level
-  apps-rewrite content ;  # top-level
-  aphasiacenter content ;  # top-level
-  aphasiareflections content ;  # top-level
-  aphasiaresearch content ;  # top-level
-  apcsc content ;  # top-level
+_/accreditation content ;  # top-level
+_/acoustics content ;  # top-level
+_/aceilab content ;  # top-level
+_/acs content ;  # top-level
+_/academy content ;  # top-level
+_/actforhealth content ;  # top-level
+_/aclonline content ;  # top-level
+_/acor content ;  # top-level
+_/actuary content ;  # top-level
+_/act content ;  # top-level
+_/awship content ;  # top-level
+_/analesgaldosianos content ;  # top-level
+_/anatneuro content ;  # top-level
+_/analytical-core content ;  # top-level
+_/answers content ;  # top-level
+_/animal content ;  # top-level
+_/annualfund content ;  # top-level
+_/anep content ;  # top-level
+_/anatomy content ;  # top-level
+_/anajam content ;  # top-level
+_/annualfundroster content ;  # top-level
+_/anthrop content ;  # top-level
+_/anderssonlab content ;  # top-level
+_/anxiety content ;  # top-level
+_/animalcare content ;  # top-level
+_/aat content ;  # top-level
+_/aaastudy content ;  # top-level
+_/aac content ;  # top-level
+_/ampprogram content ;  # top-level
+_/ame content ;  # top-level
+_/amp content ;  # top-level
+_/amyloid content ;  # top-level
+_/avl content ;  # top-level
+_/av content ;  # top-level
+_/ah content ;  # top-level
+_/airo content ;  # top-level
+_/aiaa content ;  # top-level
+_/aig content ;  # top-level
+_/aias content ;  # top-level
+_/aemdprl content ;  # top-level
+_/aeacus content ;  # top-level
+_/aodhealth content ;  # top-level
+_/ar content ;  # top-level
+_/arn content ;  # top-level
+_/arche content ;  # top-level
+_/artaid content ;  # top-level
+_/art content ;  # top-level
+_/armyrotc content ;  # top-level
+_/armenia content ;  # top-level
+_/archaeology content ;  # top-level
+_/arts content ;  # top-level
+_/arlington content ;  # top-level
+_/ars content ;  # top-level
+_/archsci content ;  # top-level
+_/army content ;  # top-level
+_/arrows content ;  # top-level
+_/arcs content ;  # top-level
+_/archive-vista content ;  # top-level
+_/artsaid content ;  # top-level
+_/art.ro content ;  # top-level
+_/artsadmin content ;  # top-level
+_/artslive content ;  # top-level
+_/arthritis-center content ;  # top-level
+_/archives content ;  # top-level
+_/ag content ;  # top-level
+_/agingbrain content ;  # top-level
+_/agep content ;  # top-level
+_/agganisarena content ;  # top-level
+_/afam content ;  # top-level
+_/af-rotc content ;  # top-level
+_/afox content ;  # top-level
+_/afrotc content ;  # top-level
+_/afr content ;  # top-level
+_/alumnicollege content ;  # top-level
+_/alcohol-forum content ;  # top-level
+_/albert content ;  # top-level
+_/alzresearch content ;  # top-level
+_/allocate content ;  # top-level
+_/alumni-forms content ;  # top-level
+_/alumniweekend content ;  # top-level
+_/alistaircooke content ;  # top-level
+_/alert content ;  # top-level
+_/alpha-1 content ;  # top-level
+_/alumnirelations content ;  # top-level
+_/alumni content ;  # top-level
+_/alcoholeducationforyouth content ;  # top-level
+_/aldolase content ;  # top-level
+_/apfd content ;  # top-level
+_/aphasia content ;  # top-level
+_/aparcrt content ;  # top-level
+_/apr content ;  # top-level
+_/apreso content ;  # top-level
+_/applied-linguistics content ;  # top-level
+_/aparc content ;  # top-level
+_/apc content ;  # top-level
+_/apls content ;  # top-level
+_/apply content ;  # top-level
+_/ap content ;  # top-level
+_/apps-rewrite content ;  # top-level
+_/aphasiacenter content ;  # top-level
+_/aphasiareflections content ;  # top-level
+_/aphasiaresearch content ;  # top-level
+_/apcsc content ;  # top-level
 ##TODO: get phpmap entry for api and put in separate file
-  atttend content ;  # top-level
-  attend content ;  # top-level
-  attention content ;  # top-level
-  athletics content ;  # top-level
-  atssa content ;  # top-level
-  asor content ;  # top-level
-  assistive_technology content ;  # top-level
-  asianarc content ;  # top-level
-  asllrp content ;  # top-level
-  assist_tech content ;  # top-level
-  astronomy content ;  # top-level
-  advancement content ;  # top-level
-  admissions-signage content ;  # top-level
-  addictions content ;  # top-level
-  addiction content ;  # top-level
-  adminsc content ;  # top-level
-  admissionsstatic content ;  # top-level
-  adlab content ;  # top-level
-  admissions/applicantlink content ;  # 
-  auctions content ;  # top-level
-  autismconnections content ;  # top-level
-  autism content ;  # top-level
-  auckland content ;  # top-level
-  aux content ;  # top-level
-  auxiliary-services content ;  # top-level
-  abl content ;  # top-level
-  aboutcgs content ;  # top-level
-  abrahamicreligionssymposium content ;  # top-level
-  abroad-dublin content ;  # top-level
-  abroadatbu content ;  # top-level
+_/atttend content ;  # top-level
+_/attend content ;  # top-level
+_/attention content ;  # top-level
+_/athletics content ;  # top-level
+_/atssa content ;  # top-level
+_/asor content ;  # top-level
+_/assistive_technology content ;  # top-level
+_/asianarc content ;  # top-level
+_/asllrp content ;  # top-level
+_/assist_tech content ;  # top-level
+_/astronomy content ;  # top-level
+_/advancement content ;  # top-level
+_/admissions-signage content ;  # top-level
+_/addictions content ;  # top-level
+_/addiction content ;  # top-level
+_/adminsc content ;  # top-level
+_/admissionsstatic content ;  # top-level
+_/adlab content ;  # top-level
+_/admissions/applicantlink content ;  # 
+_/auctions content ;  # top-level
+_/autismconnections content ;  # top-level
+_/autism content ;  # top-level
+_/auckland content ;  # top-level
+_/aux content ;  # top-level
+_/auxiliary-services content ;  # top-level
+_/abl content ;  # top-level
+_/aboutcgs content ;  # top-level
+_/abrahamicreligionssymposium content ;  # top-level
+_/abroad-dublin content ;  # top-level
+_/abroadatbu content ;  # top-level
 # skipping ACCREDITATION as we should only add the redirect2lower if necessary
 # skipping ACOUSTICS as we should only add the redirect2lower if necessary
 # skipping ACADEMY as we should only add the redirect2lower if necessary
@@ -755,150 +755,150 @@ interactive-design content ;
 # skipping ADMINSC as we should only add the redirect2lower if necessary
 # skipping ADMISSIONS as we should only add the redirect2lower if necessary
 # skipping Aux as we should only add the redirect2lower if necessary
-  mzank content ;  # top-level
-  mcinnes content ;  # top-level
-  mcapr content ;  # top-level
-  mch content ;  # top-level
-  mcbb content ;  # top-level
-  mcoh content ;  # top-level
-  myprint content ;  # top-level
-  myopathy content ;  # top-level
-  myocardial content ;  # top-level
-  mysummer content ;  # top-level
-  mybu content ;  # top-level
-  mathfn content ;  # top-level
-  mag content ;  # top-level
-  marketsandpolicy content ;  # top-level
-  marshgiving content ;  # top-level
-  management-old content ;  # top-level
-  matthies content ;  # top-level
-  mattdm content ;  # top-level
-  marshplaza content ;  # top-level
-  madrid content ;  # top-level
-  map content ;  # top-level
-  marks-test-blog3 content ;  # top-level
+_/mzank content ;  # top-level
+_/mcinnes content ;  # top-level
+_/mcapr content ;  # top-level
+_/mch content ;  # top-level
+_/mcbb content ;  # top-level
+_/mcoh content ;  # top-level
+_/myprint content ;  # top-level
+_/myopathy content ;  # top-level
+_/myocardial content ;  # top-level
+_/mysummer content ;  # top-level
+_/mybu content ;  # top-level
+_/mathfn content ;  # top-level
+_/mag content ;  # top-level
+_/marketsandpolicy content ;  # top-level
+_/marshgiving content ;  # top-level
+_/management-old content ;  # top-level
+_/matthies content ;  # top-level
+_/mattdm content ;  # top-level
+_/marshplaza content ;  # top-level
+_/madrid content ;  # top-level
+_/map content ;  # top-level
+_/marks-test-blog3 content ;  # top-level
 #  maps content ;  # top-level
-  marketingscience2012 content ;  # top-level
-  madlab content ;  # top-level
-  masscoalitionfororalhealth content ;  # top-level
-  makeagift content ;  # top-level
-  make content ;  # top-level
-  marks-test-blog content ;  # top-level
-  marsh content ;  # top-level
-  mailservices content ;  # top-level
-  mathfinance content ;  # top-level
-  marks-test-blog2 content ;  # top-level
-  mathematicseducation content ;  # top-level
-  masstwins content ;  # top-level
-  mahoa content ;  # top-level
-  maintenance content ;  # top-level
-  marketplaceinfo content ;  # top-level
-  mathfinanceconference content ;  # top-level
-  masterit content ;  # top-level
-  match content ;  # top-level
-  management-event content ;  # top-level
-  maci content ;  # top-level
-  mml content ;  # top-level
-  mvp content ;  # top-level
-  miaac content ;  # top-level
-  millionhours content ;  # top-level
-  mille content ;  # top-level
-  military content ;  # top-level
-  missiology content ;  # top-level
-  mii content ;  # top-level
-  minds content ;  # top-level
-  mickswan content ;  # top-level
-  midas content ;  # top-level
-  militarynight content ;  # top-level
-  microscopylab content ;  # top-level
-  microarray content ;  # top-level
-  mih content ;  # top-level
-  microstratigraphy content ;  # top-level
-  medevents content ;  # top-level
-  mediatoday content ;  # top-level
-  medlibstaff content ;  # top-level
-  menorca content ;  # top-level
-  met-eti content ;  # top-level
-  met-research content ;  # top-level
-  medfellowship content ;  # top-level
-  metfacultydevelopment content ;  # top-level
-  medclassnotes content ;  # top-level
-  mediaguidebook content ;  # top-level
-  metadmin content ;  # top-level
-  medalum content ;  # top-level
-  metpm content ;  # top-level
-  metabolomics content ;  # top-level
-  medaw content ;  # top-level
-  messiaen content ;  # top-level
-  mec content ;  # top-level
-  medieval content ;  # top-level
-  medgrossanatomy content ;  # top-level
-  mentalhealth content ;  # top-level
-  medenews content ;  # top-level
-  metro content ;  # top-level
-  media content ;  # top-level
-  meller content ;  # top-level
-  metmarcom content ;  # top-level
-  medschool content ;  # top-level
-  met/homepage content ;  # 
-  metropolitan content ;  # top-level
-  medalumni content ;  # top-level
-  metit content ;  # top-level
-  mena content ;  # top-level
-  medstures content ;  # top-level
-  mentornet content ;  # top-level
-  metinternational content ;  # top-level
-  medal content ;  # top-level
-  mkramer content ;  # top-level
-  motordevlab content ;  # top-level
-  morin content ;  # top-level
-  move-out content ;  # top-level
-  modl content ;  # top-level
-  mobile-life-workshop content ;  # top-level
-  mobilelab content ;  # top-level
-  motives content ;  # top-level
-  moc content ;  # top-level
-  mrg content ;  # top-level
-  mgburns content ;  # top-level
-  mfd content ;  # top-level
-  mfll content ;  # top-level
-  mfeldman content ;  # top-level
-  mlkjr content ;  # top-level
-  mlstaff content ;  # top-level
-  mlcl content ;  # top-level
-  mln content ;  # top-level
-  mlv content ;  # top-level
-  mpact content ;  # top-level
-  msm content ;  # top-level
-  msim content ;  # top-level
-  msadvertising content ;  # top-level
-  mspring content ;  # top-level
-  mscasecomp content ;  # top-level
-  msphotonics content ;  # top-level
-  msmf content ;  # top-level
-  msmba content ;  # top-level
-  mslade-test content ;  # top-level
-  mdparents content ;  # top-level
-  mdrc content ;  # top-level
-  mdowney content ;  # top-level
-  musicology content ;  # top-level
-  muedpolicyproject content ;  # top-level
-  multimediapoet content ;  # top-level
-  mugarlab content ;  # top-level
-  muhlbergerlab content ;  # top-level
-  mbta content ;  # top-level
-  mbabu content ;  # top-level
-  mba2010 content ;  # top-level
-  mbanorth content ;  # top-level
-  mba-programs content ;  # top-level
-  mba-finance content ;  # top-level
-  mba-event content ;  # top-level
-  mbs content ;  # top-level
-  mba-apply content ;  # top-level
-  mba-guide content ;  # top-level
-  mbamph content ;  # top-level
-  mba content ;  # top-level
-  mba-facts content ;  # top-level
+_/marketingscience2012 content ;  # top-level
+_/madlab content ;  # top-level
+_/masscoalitionfororalhealth content ;  # top-level
+_/makeagift content ;  # top-level
+_/make content ;  # top-level
+_/marks-test-blog content ;  # top-level
+_/marsh content ;  # top-level
+_/mailservices content ;  # top-level
+_/mathfinance content ;  # top-level
+_/marks-test-blog2 content ;  # top-level
+_/mathematicseducation content ;  # top-level
+_/masstwins content ;  # top-level
+_/mahoa content ;  # top-level
+_/maintenance content ;  # top-level
+_/marketplaceinfo content ;  # top-level
+_/mathfinanceconference content ;  # top-level
+_/masterit content ;  # top-level
+_/match content ;  # top-level
+_/management-event content ;  # top-level
+_/maci content ;  # top-level
+_/mml content ;  # top-level
+_/mvp content ;  # top-level
+_/miaac content ;  # top-level
+_/millionhours content ;  # top-level
+_/mille content ;  # top-level
+_/military content ;  # top-level
+_/missiology content ;  # top-level
+_/mii content ;  # top-level
+_/minds content ;  # top-level
+_/mickswan content ;  # top-level
+_/midas content ;  # top-level
+_/militarynight content ;  # top-level
+_/microscopylab content ;  # top-level
+_/microarray content ;  # top-level
+_/mih content ;  # top-level
+_/microstratigraphy content ;  # top-level
+_/medevents content ;  # top-level
+_/mediatoday content ;  # top-level
+_/medlibstaff content ;  # top-level
+_/menorca content ;  # top-level
+_/met-eti content ;  # top-level
+_/met-research content ;  # top-level
+_/medfellowship content ;  # top-level
+_/metfacultydevelopment content ;  # top-level
+_/medclassnotes content ;  # top-level
+_/mediaguidebook content ;  # top-level
+_/metadmin content ;  # top-level
+_/medalum content ;  # top-level
+_/metpm content ;  # top-level
+_/metabolomics content ;  # top-level
+_/medaw content ;  # top-level
+_/messiaen content ;  # top-level
+_/mec content ;  # top-level
+_/medieval content ;  # top-level
+_/medgrossanatomy content ;  # top-level
+_/mentalhealth content ;  # top-level
+_/medenews content ;  # top-level
+_/metro content ;  # top-level
+_/media content ;  # top-level
+_/meller content ;  # top-level
+_/metmarcom content ;  # top-level
+_/medschool content ;  # top-level
+_/met/homepage content ;  # 
+_/metropolitan content ;  # top-level
+_/medalumni content ;  # top-level
+_/metit content ;  # top-level
+_/mena content ;  # top-level
+_/medstures content ;  # top-level
+_/mentornet content ;  # top-level
+_/metinternational content ;  # top-level
+_/medal content ;  # top-level
+_/mkramer content ;  # top-level
+_/motordevlab content ;  # top-level
+_/morin content ;  # top-level
+_/move-out content ;  # top-level
+_/modl content ;  # top-level
+_/mobile-life-workshop content ;  # top-level
+_/mobilelab content ;  # top-level
+_/motives content ;  # top-level
+_/moc content ;  # top-level
+_/mrg content ;  # top-level
+_/mgburns content ;  # top-level
+_/mfd content ;  # top-level
+_/mfll content ;  # top-level
+_/mfeldman content ;  # top-level
+_/mlkjr content ;  # top-level
+_/mlstaff content ;  # top-level
+_/mlcl content ;  # top-level
+_/mln content ;  # top-level
+_/mlv content ;  # top-level
+_/mpact content ;  # top-level
+_/msm content ;  # top-level
+_/msim content ;  # top-level
+_/msadvertising content ;  # top-level
+_/mspring content ;  # top-level
+_/mscasecomp content ;  # top-level
+_/msphotonics content ;  # top-level
+_/msmf content ;  # top-level
+_/msmba content ;  # top-level
+_/mslade-test content ;  # top-level
+_/mdparents content ;  # top-level
+_/mdrc content ;  # top-level
+_/mdowney content ;  # top-level
+_/musicology content ;  # top-level
+_/muedpolicyproject content ;  # top-level
+_/multimediapoet content ;  # top-level
+_/mugarlab content ;  # top-level
+_/muhlbergerlab content ;  # top-level
+_/mbta content ;  # top-level
+_/mbabu content ;  # top-level
+_/mba2010 content ;  # top-level
+_/mbanorth content ;  # top-level
+_/mba-programs content ;  # top-level
+_/mba-finance content ;  # top-level
+_/mba-event content ;  # top-level
+_/mbs content ;  # top-level
+_/mba-apply content ;  # top-level
+_/mba-guide content ;  # top-level
+_/mbamph content ;  # top-level
+_/mba content ;  # top-level
+_/mba-facts content ;  # top-level
 # skipping MCAPR as we should only add the redirect2lower if necessary
 # skipping MCH as we should only add the redirect2lower if necessary
 # skipping MCBB as we should only add the redirect2lower if necessary
@@ -931,118 +931,118 @@ interactive-design content ;
 # skipping MPACT as we should only add the redirect2lower if necessary
 # skipping MSPHOTONICS as we should only add the redirect2lower if necessary
 # skipping MDRC as we should only add the redirect2lower if necessary
-  28qatest content ;  # top-level
-  236magazine content ;  # top-level
-  25000 content ;  # top-level
-  200word content ;  # top-level
-  qa-2 content ;  # top-level
-  qa-3 content ;  # top-level
-  qa-1 content ;  # top-level
-  qa-4 content ;  # top-level
-  qale content ;  # top-level
-  qil content ;  # top-level
-  qtencoder content ;  # top-level
-  qtencodersdp content ;  # top-level
-  quito content ;  # top-level
-  quickpolls content ;  # top-level
-  quantumconcepts content ;  # top-level
-  qualtrics content ;  # top-level
-  quantum content ;  # top-level
-  quitnet content ;  # top-level
-  qbp content ;  # top-level
+_/28qatest content ;  # top-level
+_/236magazine content ;  # top-level
+_/25000 content ;  # top-level
+_/200word content ;  # top-level
+_/qa-2 content ;  # top-level
+_/qa-3 content ;  # top-level
+_/qa-1 content ;  # top-level
+_/qa-4 content ;  # top-level
+_/qale content ;  # top-level
+_/qil content ;  # top-level
+_/qtencoder content ;  # top-level
+_/qtencodersdp content ;  # top-level
+_/quito content ;  # top-level
+_/quickpolls content ;  # top-level
+_/quantumconcepts content ;  # top-level
+_/qualtrics content ;  # top-level
+_/quantum content ;  # top-level
+_/quitnet content ;  # top-level
+_/qbp content ;  # top-level
 # skipping QALE as we should only add the redirect2lower if necessary
 # skipping QIL as we should only add the redirect2lower if necessary
 # skipping QUANTUM as we should only add the redirect2lower if necessary
 # skipping QUITNET as we should only add the redirect2lower if necessary
-  vcb content ;  # top-level
-  vnns content ;  # top-level
-  vasculitis content ;  # top-level
-  vangons content ;  # top-level
-  vista-archive content ;  # top-level
-  virtualpatient content ;  # top-level
-  visit content ;  # top-level
-  video content ;  # top-level
-  vip content ;  # top-level
-  vista content ;  # top-level
-  visionlab content ;  # top-level
-  vending content ;  # top-level
-  vesalius content ;  # top-level
-  vetsatwins content ;  # top-level
-  vrc content ;  # top-level
-  vpdos content ;  # top-level
-  vpensa content ;  # top-level
+_/vcb content ;  # top-level
+_/vnns content ;  # top-level
+_/vasculitis content ;  # top-level
+_/vangons content ;  # top-level
+_/vista-archive content ;  # top-level
+_/virtualpatient content ;  # top-level
+_/visit content ;  # top-level
+_/video content ;  # top-level
+_/vip content ;  # top-level
+_/vista content ;  # top-level
+_/visionlab content ;  # top-level
+_/vending content ;  # top-level
+_/vesalius content ;  # top-level
+_/vetsatwins content ;  # top-level
+_/vrc content ;  # top-level
+_/vpdos content ;  # top-level
+_/vpensa content ;  # top-level
 # skipping VCB as we should only add the redirect2lower if necessary
 # skipping VIRTUALPATIENT as we should only add the redirect2lower if necessary
 # skipping VISIT as we should only add the redirect2lower if necessary
 # skipping VIDEO as we should only add the redirect2lower if necessary
 # skipping VENDING as we should only add the redirect2lower if necessary
-  hj2013 content ;  # top-level
-  hcep content ;  # top-level
-  hydrology content ;  # top-level
-  haneke content ;  # top-level
-  haydn content ;  # top-level
-  hagen content ;  # top-level
-  hanlab content ;  # top-level
-  handbook content ;  # top-level
-  haydarlab content ;  # top-level
-  haitihelp content ;  # top-level
-  hasselmo content ;  # top-level
-  hhh content ;  # top-level
-  hic content ;  # top-level
-  hilleldining content ;  # top-level
-  hipaa content ;  # top-level
-  histology content ;  # top-level
-  hipart content ;  # top-level
-  hiccse content ;  # top-level
-  high-throughput content ;  # top-level
-  hi content ;  # top-level
-  historic content ;  # top-level
-  hillel content ;  # top-level
-  hicse content ;  # top-level
-  helpinfo content ;  # top-level
-  healthfit content ;  # top-level
-  hem-masters content ;  # top-level
-  healthyminds content ;  # top-level
-  healthconnection content ;  # top-level
-  herbalstudy content ;  # top-level
-  help content ;  # top-level
-  home-media content ;  # top-level
-  hotelcommonwealth content ;  # top-level
-  housing2010 content ;  # top-level
-  hoarding content ;  # top-level
-  hockeygolf content ;  # top-level
-  homepage content ;  # top-level
-  home content ;  # top-level
-  holmul content ;  # top-level
-  hockey-task-force content ;  # top-level
-  homecoming content ;  # top-level
-  honoringeve content ;  # top-level
-  honordeanwells content ;  # top-level
-  homiletical-theology-project content ;  # top-level
-  homeimages content ;  # top-level
-  homepage2 content ;  # top-level
-  hr/documents content ;  # 
-  hrc content ;  # top-level
-  hrpi content ;  # top-level
-  hre content ;  # top-level
-  hf content ;  # top-level
-  hprp content ;  # top-level
-  hpcworkshop content ;  # top-level
-  hpl content ;  # top-level
-  hps-scied content ;  # top-level
-  hts-core content ;  # top-level
-  htpp content ;  # top-level
-  htbin.ph content ;  # top-level
+_/hj2013 content ;  # top-level
+_/hcep content ;  # top-level
+_/hydrology content ;  # top-level
+_/haneke content ;  # top-level
+_/haydn content ;  # top-level
+_/hagen content ;  # top-level
+_/hanlab content ;  # top-level
+_/handbook content ;  # top-level
+_/haydarlab content ;  # top-level
+_/haitihelp content ;  # top-level
+_/hasselmo content ;  # top-level
+_/hhh content ;  # top-level
+_/hic content ;  # top-level
+_/hilleldining content ;  # top-level
+_/hipaa content ;  # top-level
+_/histology content ;  # top-level
+_/hipart content ;  # top-level
+_/hiccse content ;  # top-level
+_/high-throughput content ;  # top-level
+_/hi content ;  # top-level
+_/historic content ;  # top-level
+_/hillel content ;  # top-level
+_/hicse content ;  # top-level
+_/helpinfo content ;  # top-level
+_/healthfit content ;  # top-level
+_/hem-masters content ;  # top-level
+_/healthyminds content ;  # top-level
+_/healthconnection content ;  # top-level
+_/herbalstudy content ;  # top-level
+_/help content ;  # top-level
+_/home-media content ;  # top-level
+_/hotelcommonwealth content ;  # top-level
+_/housing2010 content ;  # top-level
+_/hoarding content ;  # top-level
+_/hockeygolf content ;  # top-level
+_/homepage content ;  # top-level
+_/home content ;  # top-level
+_/holmul content ;  # top-level
+_/hockey-task-force content ;  # top-level
+_/homecoming content ;  # top-level
+_/honoringeve content ;  # top-level
+_/honordeanwells content ;  # top-level
+_/homiletical-theology-project content ;  # top-level
+_/homeimages content ;  # top-level
+_/homepage2 content ;  # top-level
+_/hr/documents content ;  # 
+_/hrc content ;  # top-level
+_/hrpi content ;  # top-level
+_/hre content ;  # top-level
+_/hf content ;  # top-level
+_/hprp content ;  # top-level
+_/hpcworkshop content ;  # top-level
+_/hpl content ;  # top-level
+_/hps-scied content ;  # top-level
+_/hts-core content ;  # top-level
+_/htpp content ;  # top-level
+_/htbin.ph content ;  # top-level
 ##TODO: get phpmap entry for html-email and put in separate file
-  htmg content ;  # top-level
-  hsdeptclined content ;  # top-level
-  hdhd content ;  # top-level
-  hdgolf content ;  # top-level
-  hdr content ;  # top-level
-  hdwg content ;  # top-level
-  huntington content ;  # top-level
-  humandevelopment content ;  # top-level
-  humanities content ;  # top-level
+_/htmg content ;  # top-level
+_/hsdeptclined content ;  # top-level
+_/hdhd content ;  # top-level
+_/hdgolf content ;  # top-level
+_/hdr content ;  # top-level
+_/hdwg content ;  # top-level
+_/huntington content ;  # top-level
+_/humandevelopment content ;  # top-level
+_/humanities content ;  # top-level
 # skipping HCEP as we should only add the redirect2lower if necessary
 # skipping HHH as we should only add the redirect2lower if necessary
 # skipping HIPAA as we should only add the redirect2lower if necessary
@@ -1067,115 +1067,115 @@ interactive-design content ;
 # skipping HDGOLF as we should only add the redirect2lower if necessary
 # skipping HDWG as we should only add the redirect2lower if necessary
 # skipping HUNTINGTON as we should only add the redirect2lower if necessary
-  icshm content ;  # top-level
-  ict content ;  # top-level
-  icce15 content ;  # top-level
-  ice content ;  # top-level
-  icsg content ;  # top-level
-  icons content ;  # top-level
-  interative_design content ;  # top-level
-  integrativemed content ;  # top-level
-  inst-tech content ;  # top-level
-  india2010 content ;  # top-level
-  interv content ;  # top-level
-  index2.html content ;  # top-level
-  india-global content ;  # top-level
-  investigate content ;  # top-level
-  index.html content ;  # top-level
-  integratedmed content ;  # top-level
-  inaugural content ;  # top-level
-  infantcp content ;  # top-level
-  info content ;  # top-level
-  indiaroi content ;  # top-level
-  international content ;  # top-level
-  inml content ;  # top-level
-  inmlcfp content ;  # top-level
-  infancp content ;  # top-level
-  index99.html content ;  # top-level
+_/icshm content ;  # top-level
+_/ict content ;  # top-level
+_/icce15 content ;  # top-level
+_/ice content ;  # top-level
+_/icsg content ;  # top-level
+_/icons content ;  # top-level
+_/interative_design content ;  # top-level
+_/integrativemed content ;  # top-level
+_/inst-tech content ;  # top-level
+_/india2010 content ;  # top-level
+_/interv content ;  # top-level
+_/index2.html content ;  # top-level
+_/india-global content ;  # top-level
+_/investigate content ;  # top-level
+_/index.html content ;  # top-level
+_/integratedmed content ;  # top-level
+_/inaugural content ;  # top-level
+_/infantcp content ;  # top-level
+_/info content ;  # top-level
+_/indiaroi content ;  # top-level
+_/international content ;  # top-level
+_/inml content ;  # top-level
+_/inmlcfp content ;  # top-level
+_/infancp content ;  # top-level
+_/index99.html content ;  # top-level
 ##TODO: get phpmap entry for index and put in separate file
-  inauguration content ;  # top-level
-  index3.html content ;  # top-level
-  interactive content ;  # top-level
-  infosec content ;  # top-level
-  insidecampaign content ;  # top-level
-  interleukin-16 content ;  # top-level
-  infocenter content ;  # top-level
-  intracghd content ;  # top-level
-  injurypsychology content ;  # top-level
-  inmlprograms content ;  # top-level
-  inmlcore content ;  # top-level
-  indigobirds content ;  # top-level
-  iaen content ;  # top-level
-  iaj content ;  # top-level
-  iass content ;  # top-level
-  iar content ;  # top-level
-  impact content ;  # top-level
-  im-intranet content ;  # top-level
-  im-residency content ;  # top-level
-  immunohistochemistry-core content ;  # top-level
-  iml content ;  # top-level
-  images content ;  # top-level
-  impac content ;  # top-level
-  i2b2 content ;  # top-level
-  ivcf content ;  # top-level
-  ihp content ;  # top-level
-  ihs content ;  # top-level
-  ihblast content ;  # top-level
-  ihi content ;  # top-level
-  iis content ;  # top-level
-  iip content ;  # top-level
-  iedp content ;  # top-level
-  i3e-ac content ;  # top-level
-  ionchannelcalcium content ;  # top-level
-  ioc content ;  # top-level
-  irc content ;  # top-level
-  ircenter content ;  # top-level
-  irb content ;  # top-level
-  iraopportunity content ;  # top-level
-  irwa content ;  # top-level
-  irafa content ;  # top-level
-  irsd content ;  # top-level
-  igert content ;  # top-level
-  igsw-register content ;  # top-level
-  igsw content ;  # top-level
-  ilj content ;  # top-level
-  ipe content ;  # top-level
-  iptech content ;  # top-level
-  iphone content ;  # top-level
-  ipcp content ;  # top-level
-  ipr content ;  # top-level
-  ipl content ;  # top-level
-  itunesu content ;  # top-level
-  ithelp content ;  # top-level
-  itcommon content ;  # top-level
-  itec content ;  # top-level
-  it content ;  # top-level
-  italian content ;  # top-level
-  farewell content ;  # top-level
-  it-commons content ;  # top-level
-  itrp content ;  # top-level
-  it-common content ;  # top-level
-  it_front_office content ;  # top-level
-  itunes content ;  # top-level
-  ithelpsandbox content ;  # top-level
-  istnews content ;  # top-level
-  isi content ;  # top-level
-  iscf content ;  # top-level
-  isingh2 content ;  # top-level
-  ist-sa content ;  # top-level
-  isec content ;  # top-level
-  isso content ;  # top-level
-  isle content ;  # top-level
-  iss content ;  # top-level
-  ist-news content ;  # top-level
-  iscip content ;  # top-level
-  ist-intranet content ;  # top-level
-  ist-automation content ;  # top-level
-  ist content ;  # top-level
-  isic content ;  # top-level
-  isps content ;  # top-level
-  id content ;  # top-level
-  idp content ;  # top-level
+_/inauguration content ;  # top-level
+_/index3.html content ;  # top-level
+_/interactive content ;  # top-level
+_/infosec content ;  # top-level
+_/insidecampaign content ;  # top-level
+_/interleukin-16 content ;  # top-level
+_/infocenter content ;  # top-level
+_/intracghd content ;  # top-level
+_/injurypsychology content ;  # top-level
+_/inmlprograms content ;  # top-level
+_/inmlcore content ;  # top-level
+_/indigobirds content ;  # top-level
+_/iaen content ;  # top-level
+_/iaj content ;  # top-level
+_/iass content ;  # top-level
+_/iar content ;  # top-level
+_/impact content ;  # top-level
+_/im-intranet content ;  # top-level
+_/im-residency content ;  # top-level
+_/immunohistochemistry-core content ;  # top-level
+_/iml content ;  # top-level
+_/images content ;  # top-level
+_/impac content ;  # top-level
+_/i2b2 content ;  # top-level
+_/ivcf content ;  # top-level
+_/ihp content ;  # top-level
+_/ihs content ;  # top-level
+_/ihblast content ;  # top-level
+_/ihi content ;  # top-level
+_/iis content ;  # top-level
+_/iip content ;  # top-level
+_/iedp content ;  # top-level
+_/i3e-ac content ;  # top-level
+_/ionchannelcalcium content ;  # top-level
+_/ioc content ;  # top-level
+_/irc content ;  # top-level
+_/ircenter content ;  # top-level
+_/irb content ;  # top-level
+_/iraopportunity content ;  # top-level
+_/irwa content ;  # top-level
+_/irafa content ;  # top-level
+_/irsd content ;  # top-level
+_/igert content ;  # top-level
+_/igsw-register content ;  # top-level
+_/igsw content ;  # top-level
+_/ilj content ;  # top-level
+_/ipe content ;  # top-level
+_/iptech content ;  # top-level
+_/iphone content ;  # top-level
+_/ipcp content ;  # top-level
+_/ipr content ;  # top-level
+_/ipl content ;  # top-level
+_/itunesu content ;  # top-level
+_/ithelp content ;  # top-level
+_/itcommon content ;  # top-level
+_/itec content ;  # top-level
+_/it content ;  # top-level
+_/italian content ;  # top-level
+_/farewell content ;  # top-level
+_/it-commons content ;  # top-level
+_/itrp content ;  # top-level
+_/it-common content ;  # top-level
+_/it_front_office content ;  # top-level
+_/itunes content ;  # top-level
+_/ithelpsandbox content ;  # top-level
+_/istnews content ;  # top-level
+_/isi content ;  # top-level
+_/iscf content ;  # top-level
+_/isingh2 content ;  # top-level
+_/ist-sa content ;  # top-level
+_/isec content ;  # top-level
+_/isso content ;  # top-level
+_/isle content ;  # top-level
+_/iss content ;  # top-level
+_/ist-news content ;  # top-level
+_/iscip content ;  # top-level
+_/ist-intranet content ;  # top-level
+_/ist-automation content ;  # top-level
+_/ist content ;  # top-level
+_/isic content ;  # top-level
+_/isps content ;  # top-level
+_/id content ;  # top-level
+_/idp content ;  # top-level
 # skipping ICSHM as we should only add the redirect2lower if necessary
 # skipping ICT as we should only add the redirect2lower if necessary
 # skipping ICCE15 as we should only add the redirect2lower if necessary
@@ -1211,104 +1211,104 @@ interactive-design content ;
 # skipping ISSO as we should only add the redirect2lower if necessary
 # skipping ISCIP as we should only add the redirect2lower if necessary
 # skipping IST as we should only add the redirect2lower if necessary
-  ezproxy content ;  # top-level
-  ecpt content ;  # top-level
-  echu content ;  # top-level
-  ecrop content ;  # top-level
-  ecologyonline content ;  # top-level
-  econ content ;  # top-level
-  ece-clotho content ;  # top-level
-  ecofest content ;  # top-level
-  ece-cidar content ;  # top-level
-  econometrics content ;  # top-level
-  eye content ;  # top-level
-  experts content ;  # top-level
-  execmba content ;  # top-level
-  exerciseandcancer content ;  # top-level
-  exec content ;  # top-level
-  experience-room content ;  # top-level
-  executive content ;  # top-level
-  explore content ;  # top-level
-  extended content ;  # top-level
-  explorations content ;  # top-level
-  executivemba content ;  # top-level
-  exafmm content ;  # top-level
-  experience content ;  # top-level
-  exchange content ;  # top-level
-  excellence content ;  # top-level
-  executivevp content ;  # top-level
-  ensa content ;  # top-level
-  encoder content ;  # top-level
-  energytransitions content ;  # top-level
-  eng-news content ;  # top-level
-  environment content ;  # top-level
-  engit content ;  # top-level
-  english-backup content ;  # top-level
-  entrepreneurship content ;  # top-level
-  enrsa content ;  # top-level
-  english content ;  # top-level
-  energy content ;  # top-level
-  ensembles content ;  # top-level
-  earlymusic content ;  # top-level
-  eas content ;  # top-level
-  embafaculty content ;  # top-level
-  emba09 content ;  # top-level
-  emba-facts content ;  # top-level
-  emoc content ;  # top-level
-  eml content ;  # top-level
-  emba22 content ;  # top-level
-  emba1 content ;  # top-level
-  embainfo content ;  # top-level
-  emba content ;  # top-level
-  emergingmedia content ;  # top-level
-  embacurriculum content ;  # top-level
-  emt content ;  # top-level
-  events content ;  # top-level
-  evening-info content ;  # top-level
-  evcon content ;  # top-level
-  evp content ;  # top-level
-  everett content ;  # top-level
-  evening content ;  # top-level
-  evergreen content ;  # top-level
-  eveningmba content ;  # top-level
-  ehs-mobile-test content ;  # top-level
-  ehs-mc content ;  # top-level
-  ehsmc content ;  # top-level
-  ehs content ;  # top-level
-  eeef content ;  # top-level
-  ee content ;  # top-level
-  eeo content ;  # top-level
-  eoo content ;  # top-level
-  er content ;  # top-level
-  erp content ;  # top-level
-  erc content ;  # top-level
-  egch content ;  # top-level
-  eforwarding content ;  # top-level
-  election content ;  # top-level
-  eportfolio content ;  # top-level
-  episcopal content ;  # top-level
-  ethics content ;  # top-level
-  etc content ;  # top-level
-  ethno content ;  # top-level
-  ethnomusicology content ;  # top-level
-  esa content ;  # top-level
-  esi content ;  # top-level
-  esprit content ;  # top-level
-  escort content ;  # top-level
-  estateplanning content ;  # top-level
-  eso content ;  # top-level
-  es content ;  # top-level
-  esl content ;  # top-level
-  esf content ;  # top-level
-  edrt content ;  # top-level
-  edtechcouncil content ;  # top-level
-  education content ;  # top-level
-  edneuro content ;  # top-level
-  editinst content ;  # top-level
-  eugene content ;  # top-level
-  european content ;  # top-level
-  euforyou content ;  # top-level
-  ebrochures content ;  # top-level
+_/ezproxy content ;  # top-level
+_/ecpt content ;  # top-level
+_/echu content ;  # top-level
+_/ecrop content ;  # top-level
+_/ecologyonline content ;  # top-level
+_/econ content ;  # top-level
+_/ece-clotho content ;  # top-level
+_/ecofest content ;  # top-level
+_/ece-cidar content ;  # top-level
+_/econometrics content ;  # top-level
+_/eye content ;  # top-level
+_/experts content ;  # top-level
+_/execmba content ;  # top-level
+_/exerciseandcancer content ;  # top-level
+_/exec content ;  # top-level
+_/experience-room content ;  # top-level
+_/executive content ;  # top-level
+_/explore content ;  # top-level
+_/extended content ;  # top-level
+_/explorations content ;  # top-level
+_/executivemba content ;  # top-level
+_/exafmm content ;  # top-level
+_/experience content ;  # top-level
+_/exchange content ;  # top-level
+_/excellence content ;  # top-level
+_/executivevp content ;  # top-level
+_/ensa content ;  # top-level
+_/encoder content ;  # top-level
+_/energytransitions content ;  # top-level
+_/eng-news content ;  # top-level
+_/environment content ;  # top-level
+_/engit content ;  # top-level
+_/english-backup content ;  # top-level
+_/entrepreneurship content ;  # top-level
+_/enrsa content ;  # top-level
+_/english content ;  # top-level
+_/energy content ;  # top-level
+_/ensembles content ;  # top-level
+_/earlymusic content ;  # top-level
+_/eas content ;  # top-level
+_/embafaculty content ;  # top-level
+_/emba09 content ;  # top-level
+_/emba-facts content ;  # top-level
+_/emoc content ;  # top-level
+_/eml content ;  # top-level
+_/emba22 content ;  # top-level
+_/emba1 content ;  # top-level
+_/embainfo content ;  # top-level
+_/emba content ;  # top-level
+_/emergingmedia content ;  # top-level
+_/embacurriculum content ;  # top-level
+_/emt content ;  # top-level
+_/events content ;  # top-level
+_/evening-info content ;  # top-level
+_/evcon content ;  # top-level
+_/evp content ;  # top-level
+_/everett content ;  # top-level
+_/evening content ;  # top-level
+_/evergreen content ;  # top-level
+_/eveningmba content ;  # top-level
+_/ehs-mobile-test content ;  # top-level
+_/ehs-mc content ;  # top-level
+_/ehsmc content ;  # top-level
+_/ehs content ;  # top-level
+_/eeef content ;  # top-level
+_/ee content ;  # top-level
+_/eeo content ;  # top-level
+_/eoo content ;  # top-level
+_/er content ;  # top-level
+_/erp content ;  # top-level
+_/erc content ;  # top-level
+_/egch content ;  # top-level
+_/eforwarding content ;  # top-level
+_/election content ;  # top-level
+_/eportfolio content ;  # top-level
+_/episcopal content ;  # top-level
+_/ethics content ;  # top-level
+_/etc content ;  # top-level
+_/ethno content ;  # top-level
+_/ethnomusicology content ;  # top-level
+_/esa content ;  # top-level
+_/esi content ;  # top-level
+_/esprit content ;  # top-level
+_/escort content ;  # top-level
+_/estateplanning content ;  # top-level
+_/eso content ;  # top-level
+_/es content ;  # top-level
+_/esl content ;  # top-level
+_/esf content ;  # top-level
+_/edrt content ;  # top-level
+_/edtechcouncil content ;  # top-level
+_/education content ;  # top-level
+_/edneuro content ;  # top-level
+_/editinst content ;  # top-level
+_/eugene content ;  # top-level
+_/european content ;  # top-level
+_/euforyou content ;  # top-level
+_/ebrochures content ;  # top-level
 # skipping ECE as we should only add the redirect2lower if necessary
 # skipping ECOLOGYONLINE as we should only add the redirect2lower if necessary
 # skipping ECON as we should only add the redirect2lower if necessary
@@ -1335,70 +1335,70 @@ interactive-design content ;
 # skipping ES as we should only add the redirect2lower if necessary
 # skipping EDUCATION as we should only add the redirect2lower if necessary
 # skipping EDITINST as we should only add the redirect2lower if necessary
-  3dcampus content ;  # top-level
-  kcrm content ;  # top-level
-  kandarian content ;  # top-level
-  karystos content ;  # top-level
-  katkom content ;  # top-level
-  katrina content ;  # top-level
-  khalillab content ;  # top-level
-  kidsworld content ;  # top-level
-  kiosk content ;  # top-level
-  kidneypathlab content ;  # top-level
-  kidsincontext content ;  # top-level
-  kerberos content ;  # top-level
-  kerberosonly content ;  # top-level
-  kenmore content ;  # top-level
-  kendall content ;  # top-level
-  krugman content ;  # top-level
-  klapperich content ;  # top-level
-  kpw content ;  # top-level
-  kuntzelab content ;  # top-level
+_/3dcampus content ;  # top-level
+_/kcrm content ;  # top-level
+_/kandarian content ;  # top-level
+_/karystos content ;  # top-level
+_/katkom content ;  # top-level
+_/katrina content ;  # top-level
+_/khalillab content ;  # top-level
+_/kidsworld content ;  # top-level
+_/kiosk content ;  # top-level
+_/kidneypathlab content ;  # top-level
+_/kidsincontext content ;  # top-level
+_/kerberos content ;  # top-level
+_/kerberosonly content ;  # top-level
+_/kenmore content ;  # top-level
+_/kendall content ;  # top-level
+_/krugman content ;  # top-level
+_/klapperich content ;  # top-level
+_/kpw content ;  # top-level
+_/kuntzelab content ;  # top-level
 # skipping KARYSTOS as we should only add the redirect2lower if necessary
-  ocn content ;  # top-level
-  ocs content ;  # top-level
-  onestop content ;  # top-level
-  online content ;  # top-level
-  online-portal content ;  # top-level
-  onbase-ug content ;  # top-level
-  oad content ;  # top-level
-  oas content ;  # top-level
-  oaa content ;  # top-level
-  oma content ;  # top-level
-  omc content ;  # top-level
-  ombuds content ;  # top-level
-  om content ;  # top-level
-  ovc-care content ;  # top-level
-  oittest content ;  # top-level
-  oep content ;  # top-level
-  orcid content ;  # top-level
-  organlibrary content ;  # top-level
-  orccommittees content ;  # top-level
-  orctraining content ;  # top-level
-  ortho content ;  # top-level
-  orpm content ;  # top-level
-  orl content ;  # top-level
-  ofa content ;  # top-level
-  offices content ;  # top-level
-  offcampus content ;  # top-level
-  office365 content ;  # top-level
-  opg content ;  # top-level
-  operations content ;  # top-level
-  openaccess content ;  # top-level
-  ot content ;  # top-level
-  otherwithin content ;  # top-level
-  osp content ;  # top-level
-  oscar-berman content ;  # top-level
-  osa_spie content ;  # top-level
-  osc content ;  # top-level
-  osfm content ;  # top-level
-  odbl content ;  # top-level
-  odsreunionsurvey content ;  # top-level
-  output content ;  # top-level
-  outreach content ;  # top-level
-  outdoor content ;  # top-level
-  obgyn-clerkship content ;  # top-level
-  obgyn content ;  # top-level
+_/ocn content ;  # top-level
+_/ocs content ;  # top-level
+_/onestop content ;  # top-level
+_/online content ;  # top-level
+_/online-portal content ;  # top-level
+_/onbase-ug content ;  # top-level
+_/oad content ;  # top-level
+_/oas content ;  # top-level
+_/oaa content ;  # top-level
+_/oma content ;  # top-level
+_/omc content ;  # top-level
+_/ombuds content ;  # top-level
+_/om content ;  # top-level
+_/ovc-care content ;  # top-level
+_/oittest content ;  # top-level
+_/oep content ;  # top-level
+_/orcid content ;  # top-level
+_/organlibrary content ;  # top-level
+_/orccommittees content ;  # top-level
+_/orctraining content ;  # top-level
+_/ortho content ;  # top-level
+_/orpm content ;  # top-level
+_/orl content ;  # top-level
+_/ofa content ;  # top-level
+_/offices content ;  # top-level
+_/offcampus content ;  # top-level
+_/office365 content ;  # top-level
+_/opg content ;  # top-level
+_/operations content ;  # top-level
+_/openaccess content ;  # top-level
+_/ot content ;  # top-level
+_/otherwithin content ;  # top-level
+_/osp content ;  # top-level
+_/oscar-berman content ;  # top-level
+_/osa_spie content ;  # top-level
+_/osc content ;  # top-level
+_/osfm content ;  # top-level
+_/odbl content ;  # top-level
+_/odsreunionsurvey content ;  # top-level
+_/output content ;  # top-level
+_/outreach content ;  # top-level
+_/outdoor content ;  # top-level
+_/obgyn-clerkship content ;  # top-level
+_/obgyn content ;  # top-level
 # skipping OCS as we should only add the redirect2lower if necessary
 # skipping ONLINE as we should only add the redirect2lower if necessary
 # skipping OAS as we should only add the redirect2lower if necessary
@@ -1414,74 +1414,74 @@ interactive-design content ;
 # skipping OSFM as we should only add the redirect2lower if necessary
 # skipping OUTREACH as we should only add the redirect2lower if necessary
 # skipping OUTDOOR as we should only add the redirect2lower if necessary
-  rcl content ;  # top-level
-  rc content ;  # top-level
-  rccp content ;  # top-level
-  rct content ;  # top-level
-  rcrc content ;  # top-level
-  ryeany content ;  # top-level
-  rayleigh content ;  # top-level
-  raceto50 content ;  # top-level
-  raisethebar content ;  # top-level
-  ravidlab content ;  # top-level
-  rvs content ;  # top-level
-  rhett-talks content ;  # top-level
-  rims content ;  # top-level
-  rize content ;  # top-level
-  rilke content ;  # top-level
-  rideshare content ;  # top-level
-  risk content ;  # top-level
-  richardgoldsteinlab content ;  # top-level
-  reslife content ;  # top-level
-  recycling content ;  # top-level
-  rehab content ;  # top-level
-  recording content ;  # top-level
-  researchcommittees content ;  # top-level
-  research-compliance content ;  # top-level
-  resilience content ;  # top-level
-  reliable content ;  # top-level
-  reg content ;  # top-level
-  reinhardlab content ;  # top-level
-  recognizes content ;  # top-level
-  reply content ;  # top-level
-  receptions content ;  # top-level
-  regionalization content ;  # top-level
-  reports content ;  # top-level
-  remotehelp content ;  # top-level
-  religion content ;  # top-level
-  respectregistry content ;  # top-level
-  research-internal content ;  # top-level
-  reman content ;  # top-level
-  registrar content ;  # top-level
-  research-external content ;  # top-level
-  recentgrads content ;  # top-level
-  register content ;  # top-level
-  revpash content ;  # top-level
-  remember content ;  # top-level
-  retired content ;  # top-level
-  resnet content ;  # top-level
-  research/wp-assets content ;  # 
-  research/email content ;  # 
-  reunion content ;  # top-level
-  resources content ;  # top-level
-  robots.txt content ;  # top-level
-  rohp content ;  # top-level
-  roybal content ;  # top-level
-  roaric content ;  # top-level
-  ror content ;  # top-level
-  rosa content ;  # top-level
-  rocket content ;  # top-level
-  rrtcout content ;  # top-level
-  rl content ;  # top-level
-  rpm/panos content ;  # 
+_/rcl content ;  # top-level
+_/rc content ;  # top-level
+_/rccp content ;  # top-level
+_/rct content ;  # top-level
+_/rcrc content ;  # top-level
+_/ryeany content ;  # top-level
+_/rayleigh content ;  # top-level
+_/raceto50 content ;  # top-level
+_/raisethebar content ;  # top-level
+_/ravidlab content ;  # top-level
+_/rvs content ;  # top-level
+_/rhett-talks content ;  # top-level
+_/rims content ;  # top-level
+_/rize content ;  # top-level
+_/rilke content ;  # top-level
+_/rideshare content ;  # top-level
+_/risk content ;  # top-level
+_/richardgoldsteinlab content ;  # top-level
+_/reslife content ;  # top-level
+_/recycling content ;  # top-level
+_/rehab content ;  # top-level
+_/recording content ;  # top-level
+_/researchcommittees content ;  # top-level
+_/research-compliance content ;  # top-level
+_/resilience content ;  # top-level
+_/reliable content ;  # top-level
+_/reg content ;  # top-level
+_/reinhardlab content ;  # top-level
+_/recognizes content ;  # top-level
+_/reply content ;  # top-level
+_/receptions content ;  # top-level
+_/regionalization content ;  # top-level
+_/reports content ;  # top-level
+_/remotehelp content ;  # top-level
+_/religion content ;  # top-level
+_/respectregistry content ;  # top-level
+_/research-internal content ;  # top-level
+_/reman content ;  # top-level
+_/registrar content ;  # top-level
+_/research-external content ;  # top-level
+_/recentgrads content ;  # top-level
+_/register content ;  # top-level
+_/revpash content ;  # top-level
+_/remember content ;  # top-level
+_/retired content ;  # top-level
+_/resnet content ;  # top-level
+_/research/wp-assets content ;  # 
+_/research/email content ;  # 
+_/reunion content ;  # top-level
+_/resources content ;  # top-level
+_/robots.txt content ;  # top-level
+_/rohp content ;  # top-level
+_/roybal content ;  # top-level
+_/roaric content ;  # top-level
+_/ror content ;  # top-level
+_/rosa content ;  # top-level
+_/rocket content ;  # top-level
+_/rrtcout content ;  # top-level
+_/rl content ;  # top-level
+_/rpm/panos content ;  # 
 ##TODO: get phpmap entry for rpm-agreements and put in separate file
 # skipping rp18p.GIF as we should only add the redirect2lower if necessary
-  rsg content ;  # top-level
-  rss content ;  # top-level
-  rs content ;  # top-level
-  rdlewis content ;  # top-level
-  rbfl content ;  # top-level
-  rbarnett content ;  # top-level
+_/rsg content ;  # top-level
+_/rss content ;  # top-level
+_/rs content ;  # top-level
+_/rdlewis content ;  # top-level
+_/rbfl content ;  # top-level
+_/rbarnett content ;  # top-level
 # skipping RCL as we should only add the redirect2lower if necessary
 # skipping RC as we should only add the redirect2lower if necessary
 # skipping RCRC as we should only add the redirect2lower if necessary
@@ -1506,97 +1506,97 @@ interactive-design content ;
 # skipping ROR as we should only add the redirect2lower if necessary
 # skipping RRTCOUT as we should only add the redirect2lower if necessary
 # skipping RS as we should only add the redirect2lower if necessary
-  gcc content ;  # top-level
-  gc content ;  # top-level
-  gyoung content ;  # top-level
-  gwise content ;  # top-level
-  galacticring content ;  # top-level
-  games content ;  # top-level
-  gastronomy content ;  # top-level
-  gms content ;  # top-level
-  g2kge content ;  # top-level
-  ghc content ;  # top-level
-  ghblast content ;  # top-level
-  ghi content ;  # top-level
-  ghpci content ;  # top-level
-  give content ;  # top-level
-  giving content ;  # top-level
-  giftcalculator content ;  # top-level
-  givethepoint content ;  # top-level
-  giveonline content ;  # top-level
-  giveclassgift content ;  # top-level
-  gift content ;  # top-level
-  givingsocieties content ;  # top-level
-  givetoday content ;  # top-level
-  givethroughbu content ;  # top-level
-  gipgap content ;  # top-level
-  give2busm content ;  # top-level
-  givingday content ;  # top-level
-  givingback content ;  # top-level
-  gep content ;  # top-level
-  gensex content ;  # top-level
-  generalsurgery content ;  # top-level
-  geochemistry content ;  # top-level
-  gegi content ;  # top-level
-  geoscience content ;  # top-level
-  gerontology content ;  # top-level
-  geosciences content ;  # top-level
-  geophysics content ;  # top-level
-  genome content ;  # top-level
-  geneva content ;  # top-level
-  geology content ;  # top-level
-  geddes content ;  # top-level
-  getready content ;  # top-level
-  geriatrics content ;  # top-level
-  genetics content ;  # top-level
-  geography content ;  # top-level
-  gk12 content ;  # top-level
-  google665a4eb2dcd06afe.html content ;  # top-level
-  google9f2e7abecb89081e.html content ;  # top-level
-  google content ;  # top-level
-  googlehostedservice.html content ;  # top-level
-  google46db49694c214422.html content ;  # top-level
-  google99ca0794d90971e7.html content ;  # top-level
-  googlec64352682593c8e8.html content ;  # top-level
-  gobu content ;  # top-level
-  govcenter content ;  # top-level
-  goglobal content ;  # top-level
-  googlesites content ;  # top-level
-  googledc42a80ca7f24a7b.html content ;  # top-level
-  go content ;  # top-level
-  greetbu content ;  # top-level
-  grenoble content ;  # top-level
-  greeklife content ;  # top-level
-  graphics content ;  # top-level
-  globalexec content ;  # top-level
-  globalquestionnaire content ;  # top-level
-  globaldayofservice content ;  # top-level
-  glaisne content ;  # top-level
-  globalprograms content ;  # top-level
-  globalfuture content ;  # top-level
-  glc content ;  # top-level
-  globalops-questionnaire content ;  # top-level
-  glacier content ;  # top-level
-  globe content ;  # top-level
-  global content ;  # top-level
-  globalbeat content ;  # top-level
-  globaltoast content ;  # top-level
-  globaloperations content ;  # top-level
-  globalmfg content ;  # top-level
-  globalmediakit content ;  # top-level
-  global-crisis content ;  # top-level
-  gpgg content ;  # top-level
-  gpmm content ;  # top-level
-  gpts content ;  # top-level
-  gplc content ;  # top-level
-  gpto content ;  # top-level
-  gsu content ;  # top-level
-  gsm content ;  # top-level
-  gso content ;  # top-level
-  gsi content ;  # top-level
-  gdrs content ;  # top-level
-  gdp content ;  # top-level
-  gds content ;  # top-level
+_/gcc content ;  # top-level
+_/gc content ;  # top-level
+_/gyoung content ;  # top-level
+_/gwise content ;  # top-level
+_/galacticring content ;  # top-level
+_/games content ;  # top-level
+_/gastronomy content ;  # top-level
+_/gms content ;  # top-level
+_/g2kge content ;  # top-level
+_/ghc content ;  # top-level
+_/ghblast content ;  # top-level
+_/ghi content ;  # top-level
+_/ghpci content ;  # top-level
+_/give content ;  # top-level
+_/giving content ;  # top-level
+_/giftcalculator content ;  # top-level
+_/givethepoint content ;  # top-level
+_/giveonline content ;  # top-level
+_/giveclassgift content ;  # top-level
+_/gift content ;  # top-level
+_/givingsocieties content ;  # top-level
+_/givetoday content ;  # top-level
+_/givethroughbu content ;  # top-level
+_/gipgap content ;  # top-level
+_/give2busm content ;  # top-level
+_/givingday content ;  # top-level
+_/givingback content ;  # top-level
+_/gep content ;  # top-level
+_/gensex content ;  # top-level
+_/generalsurgery content ;  # top-level
+_/geochemistry content ;  # top-level
+_/gegi content ;  # top-level
+_/geoscience content ;  # top-level
+_/gerontology content ;  # top-level
+_/geosciences content ;  # top-level
+_/geophysics content ;  # top-level
+_/genome content ;  # top-level
+_/geneva content ;  # top-level
+_/geology content ;  # top-level
+_/geddes content ;  # top-level
+_/getready content ;  # top-level
+_/geriatrics content ;  # top-level
+_/genetics content ;  # top-level
+_/geography content ;  # top-level
+_/gk12 content ;  # top-level
+_/google665a4eb2dcd06afe.html content ;  # top-level
+_/google9f2e7abecb89081e.html content ;  # top-level
+_/google content ;  # top-level
+_/googlehostedservice.html content ;  # top-level
+_/google46db49694c214422.html content ;  # top-level
+_/google99ca0794d90971e7.html content ;  # top-level
+_/googlec64352682593c8e8.html content ;  # top-level
+_/gobu content ;  # top-level
+_/govcenter content ;  # top-level
+_/goglobal content ;  # top-level
+_/googlesites content ;  # top-level
+_/googledc42a80ca7f24a7b.html content ;  # top-level
+_/go content ;  # top-level
+_/greetbu content ;  # top-level
+_/grenoble content ;  # top-level
+_/greeklife content ;  # top-level
+_/graphics content ;  # top-level
+_/globalexec content ;  # top-level
+_/globalquestionnaire content ;  # top-level
+_/globaldayofservice content ;  # top-level
+_/glaisne content ;  # top-level
+_/globalprograms content ;  # top-level
+_/globalfuture content ;  # top-level
+_/glc content ;  # top-level
+_/globalops-questionnaire content ;  # top-level
+_/glacier content ;  # top-level
+_/globe content ;  # top-level
+_/global content ;  # top-level
+_/globalbeat content ;  # top-level
+_/globaltoast content ;  # top-level
+_/globaloperations content ;  # top-level
+_/globalmfg content ;  # top-level
+_/globalmediakit content ;  # top-level
+_/global-crisis content ;  # top-level
+_/gpgg content ;  # top-level
+_/gpmm content ;  # top-level
+_/gpts content ;  # top-level
+_/gplc content ;  # top-level
+_/gpto content ;  # top-level
+_/gsu content ;  # top-level
+_/gsm content ;  # top-level
+_/gso content ;  # top-level
+_/gsi content ;  # top-level
+_/gdrs content ;  # top-level
+_/gdp content ;  # top-level
+_/gds content ;  # top-level
 # skipping Games as we should only add the redirect2lower if necessary
 # skipping GIVING as we should only add the redirect2lower if necessary
 # skipping GIVETHEPOINT as we should only add the redirect2lower if necessary
@@ -1614,71 +1614,71 @@ interactive-design content ;
 # skipping GLOBAL as we should only add the redirect2lower if necessary
 # skipping GLOBALMFG as we should only add the redirect2lower if necessary
 # skipping GSU as we should only add the redirect2lower if necessary
-  fcoi content ;  # top-level
-  fye content ;  # top-level
-  fysopstyle content ;  # top-level
-  favicon.ico content ;  # top-level
-  familymed content ;  # top-level
-  faculty-council content ;  # top-level
-  fammed content ;  # top-level
+_/fcoi content ;  # top-level
+_/fye content ;  # top-level
+_/fysopstyle content ;  # top-level
+_/favicon.ico content ;  # top-level
+_/familymed content ;  # top-level
+_/faculty-council content ;  # top-level
+_/fammed content ;  # top-level
   #farewell content ;  # top-level
-  fafc-files content ;  # top-level
-  fafc content ;  # top-level
-  faculty-mslade1 content ;  # top-level
-  families content ;  # top-level
-  facultycouncil content ;  # top-level
-  faqs content ;  # top-level
-  fabde content ;  # top-level
-  faculty-funding content ;  # top-level
-  family content ;  # top-level
-  faculty content ;  # top-level
-  fames content ;  # top-level
-  favoritepoem content ;  # top-level
-  fmherbalstudy content ;  # top-level
-  fhs content ;  # top-level
-  fhcmi content ;  # top-level
-  finance content ;  # top-level
-  finaid/status_documents content ;  # 
-  finaid/pdfs content ;  # 
-  finaid/fedfunds content ;  # 
-  finplanners content ;  # top-level
-  firesafety content ;  # top-level
-  firstpoint content ;  # top-level
-  fitrec content ;  # top-level
+_/fafc-files content ;  # top-level
+_/fafc content ;  # top-level
+_/faculty-mslade1 content ;  # top-level
+_/families content ;  # top-level
+_/facultycouncil content ;  # top-level
+_/faqs content ;  # top-level
+_/fabde content ;  # top-level
+_/faculty-funding content ;  # top-level
+_/family content ;  # top-level
+_/faculty content ;  # top-level
+_/fames content ;  # top-level
+_/favoritepoem content ;  # top-level
+_/fmherbalstudy content ;  # top-level
+_/fhs content ;  # top-level
+_/fhcmi content ;  # top-level
+_/finance content ;  # top-level
+_/finaid/status_documents content ;  # 
+_/finaid/pdfs content ;  # 
+_/finaid/fedfunds content ;  # 
+_/finplanners content ;  # top-level
+_/firesafety content ;  # top-level
+_/firstpoint content ;  # top-level
+_/fitrec content ;  # top-level
 ##TODO: get phpmap entry for fifty-states and put in separate file
-  federal content ;  # top-level
-  festival content ;  # top-level
-  feltensteinchallenge content ;  # top-level
-  features content ;  # top-level
-  fetters content ;  # top-level
-  formerworker content ;  # top-level
-  foreignpolicyconf content ;  # top-level
-  foo content ;  # top-level
-  forensicanthro content ;  # top-level
-  forse content ;  # top-level
-  forms content ;  # top-level
-  forensicinvestigation content ;  # top-level
-  foodandwine content ;  # top-level
-  foundations content ;  # top-level
-  forums content ;  # top-level
-  franco content ;  # top-level
-  freshmen content ;  # top-level
-  frydmanlab content ;  # top-level
-  flexi-framework content ;  # top-level
-  flow-cytometry content ;  # top-level
-  flexi-basic content ;  # top-level
-  fluidlab content ;  # top-level
-  florencenightingale content ;  # top-level
-  fps content ;  # top-level
-  ftp-survey content ;  # top-level
-  ftl content ;  # top-level
-  ftcc content ;  # top-level
-  fsl content ;  # top-level
-  fsap content ;  # top-level
-  fsao content ;  # top-level
-  fdretf content ;  # top-level
-  fd content ;  # top-level
-  futuremba content ;  # top-level
+_/federal content ;  # top-level
+_/festival content ;  # top-level
+_/feltensteinchallenge content ;  # top-level
+_/features content ;  # top-level
+_/fetters content ;  # top-level
+_/formerworker content ;  # top-level
+_/foreignpolicyconf content ;  # top-level
+_/foo content ;  # top-level
+_/forensicanthro content ;  # top-level
+_/forse content ;  # top-level
+_/forms content ;  # top-level
+_/forensicinvestigation content ;  # top-level
+_/foodandwine content ;  # top-level
+_/foundations content ;  # top-level
+_/forums content ;  # top-level
+_/franco content ;  # top-level
+_/freshmen content ;  # top-level
+_/frydmanlab content ;  # top-level
+_/flexi-framework content ;  # top-level
+_/flow-cytometry content ;  # top-level
+_/flexi-basic content ;  # top-level
+_/fluidlab content ;  # top-level
+_/florencenightingale content ;  # top-level
+_/fps content ;  # top-level
+_/ftp-survey content ;  # top-level
+_/ftl content ;  # top-level
+_/ftcc content ;  # top-level
+_/fsl content ;  # top-level
+_/fsap content ;  # top-level
+_/fsao content ;  # top-level
+_/fdretf content ;  # top-level
+_/fd content ;  # top-level
+_/futuremba content ;  # top-level
 # skipping FAMILYMED as we should only add the redirect2lower if necessary
 # skipping FACULTY-COUNCIL as we should only add the redirect2lower if necessary
 # skipping FAMMED as we should only add the redirect2lower if necessary
@@ -1696,76 +1696,76 @@ interactive-design content ;
 # skipping FSL as we should only add the redirect2lower if necessary
 # skipping FSAP as we should only add the redirect2lower if necessary
 # skipping FSAO as we should only add the redirect2lower if necessary
-  ljerrett content ;  # top-level
-  lcme content ;  # top-level
-  lcsc content ;  # top-level
-  lamilpa content ;  # top-level
-  laane content ;  # top-level
-  law.bkup content ;  # top-level
-  language content ;  # top-level
-  las content ;  # top-level
-  lawgiving content ;  # top-level
-  laverdes content ;  # top-level
-  lamovie content ;  # top-level
-  old.law content ;  # top-level
-  law/workingpapers-archive content ;  # 
-  law/journals-archive content ;  # 
-  laprogram content ;  # top-level
-  lawyearbooks content ;  # top-level
+_/ljerrett content ;  # top-level
+_/lcme content ;  # top-level
+_/lcsc content ;  # top-level
+_/lamilpa content ;  # top-level
+_/laane content ;  # top-level
+_/law.bkup content ;  # top-level
+_/language content ;  # top-level
+_/las content ;  # top-level
+_/lawgiving content ;  # top-level
+_/laverdes content ;  # top-level
+_/lamovie content ;  # top-level
+_/old.law content ;  # top-level
+_/law/workingpapers-archive content ;  # 
+_/law/journals-archive content ;  # 
+_/laprogram content ;  # top-level
+_/lawyearbooks content ;  # top-level
 ##TODO: get phpmap entry for law-pub and put in separate file
-  lab content ;  # top-level
-  laloba content ;  # top-level
-  lawav content ;  # top-level
-  lawdean content ;  # top-level
-  lawlibrary content ;  # top-level
-  latenightkitchen content ;  # top-level
-  lawlibintranet content ;  # top-level
-  lmn content ;  # top-level
-  lms content ;  # top-level
-  lvn content ;  # top-level
-  litphil content ;  # top-level
-  lifebook content ;  # top-level
-  linguistics.ro content ;  # top-level
-  lifesciences content ;  # top-level
-  literary content ;  # top-level
-  liveon content ;  # top-level
-  linux content ;  # top-level
-  links content ;  # top-level
-  linga content ;  # top-level
-  linguistics content ;  # top-level
-  lifelong content ;  # top-level
-  links2 content ;  # top-level
-  lite content ;  # top-level
-  liberalstudies content ;  # top-level
-  libdb-old content ;  # top-level
-  libfiles content ;  # top-level
-  lifelonglearning content ;  # top-level
-  life content ;  # top-level
-  libdb content ;  # top-level
-  libdb-tst content ;  # top-level
-  index.asis content ;  # top-level
-  leed100bsr content ;  # top-level
-  leegroup content ;  # top-level
-  learn content ;  # top-level
-  levantine-ceramics content ;  # top-level
-  lecturesincriticism content ;  # top-level
-  lernet content ;  # top-level
-  leed content ;  # top-level
-  lesotho content ;  # top-level
-  learninglab content ;  # top-level
-  lecture content ;  # top-level
-  leboha content ;  # top-level
-  leading-by-example content ;  # top-level
-  losangeles content ;  # top-level
-  logout content ;  # top-level
-  login content ;  # top-level
-  london content ;  # top-level
-  lovecanal content ;  # top-level
-  lu-lingzi-fund content ;  # top-level
-  lungs content ;  # top-level
-  lully content ;  # top-level
-  lutheran content ;  # top-level
-  luce content ;  # top-level
+_/lab content ;  # top-level
+_/laloba content ;  # top-level
+_/lawav content ;  # top-level
+_/lawdean content ;  # top-level
+_/lawlibrary content ;  # top-level
+_/latenightkitchen content ;  # top-level
+_/lawlibintranet content ;  # top-level
+_/lmn content ;  # top-level
+_/lms content ;  # top-level
+_/lvn content ;  # top-level
+_/litphil content ;  # top-level
+_/lifebook content ;  # top-level
+_/linguistics.ro content ;  # top-level
+_/lifesciences content ;  # top-level
+_/literary content ;  # top-level
+_/liveon content ;  # top-level
+_/linux content ;  # top-level
+_/links content ;  # top-level
+_/linga content ;  # top-level
+_/linguistics content ;  # top-level
+_/lifelong content ;  # top-level
+_/links2 content ;  # top-level
+_/lite content ;  # top-level
+_/liberalstudies content ;  # top-level
+_/libdb-old content ;  # top-level
+_/libfiles content ;  # top-level
+_/lifelonglearning content ;  # top-level
+_/life content ;  # top-level
+_/libdb content ;  # top-level
+_/libdb-tst content ;  # top-level
+_/index.asis content ;  # top-level
+_/leed100bsr content ;  # top-level
+_/leegroup content ;  # top-level
+_/learn content ;  # top-level
+_/levantine-ceramics content ;  # top-level
+_/lecturesincriticism content ;  # top-level
+_/lernet content ;  # top-level
+_/leed content ;  # top-level
+_/lesotho content ;  # top-level
+_/learninglab content ;  # top-level
+_/lecture content ;  # top-level
+_/leboha content ;  # top-level
+_/leading-by-example content ;  # top-level
+_/losangeles content ;  # top-level
+_/logout content ;  # top-level
+_/login content ;  # top-level
+_/london content ;  # top-level
+_/lovecanal content ;  # top-level
+_/lu-lingzi-fund content ;  # top-level
+_/lungs content ;  # top-level
+_/lully content ;  # top-level
+_/lutheran content ;  # top-level
+_/luce content ;  # top-level
 # skipping LAMILPA as we should only add the redirect2lower if necessary
 # skipping LAANE as we should only add the redirect2lower if necessary
 # skipping LAW as we should only add the redirect2lower if necessary
@@ -1787,122 +1787,122 @@ interactive-design content ;
 # skipping LOVECANAL as we should only add the redirect2lower if necessary
 # skipping LUNGS as we should only add the redirect2lower if necessary
 # skipping LUTHERAN as we should only add the redirect2lower if necessary
-  pzekos content ;  # top-level
-  pcl content ;  # top-level
-  pc content ;  # top-level
-  pci content ;  # top-level
-  pcsc content ;  # top-level
-  pcms content ;  # top-level
-  pnemec content ;  # top-level
-  parttimefaculty content ;  # top-level
-  paclab content ;  # top-level
-  parentsprogram content ;  # top-level
-  paris content ;  # top-level
-  pasi-tsunami content ;  # top-level
-  parkstreet content ;  # top-level
-  paprogram content ;  # top-level
-  pathology content ;  # top-level
-  paiella content ;  # top-level
-  panek content ;  # top-level
-  parentmagazine content ;  # top-level
-  paideia content ;  # top-level
-  parklab content ;  # top-level
-  partisanreview content ;  # top-level
-  pardeestaff content ;  # top-level
-  payroll content ;  # top-level
-  padua content ;  # top-level
-  parentsweekend content ;  # top-level
-  parents content ;  # top-level
-  pasi content ;  # top-level
-  paadmissions content ;  # top-level
-  parentfund content ;  # top-level
-  padova content ;  # top-level
-  parking/dbtemplates content ;  # 
-  pace content ;  # top-level
-  payment content ;  # top-level
-  pm content ;  # top-level
-  p2pguide content ;  # top-level
-  phylogeny content ;  # top-level
+_/pzekos content ;  # top-level
+_/pcl content ;  # top-level
+_/pc content ;  # top-level
+_/pci content ;  # top-level
+_/pcsc content ;  # top-level
+_/pcms content ;  # top-level
+_/pnemec content ;  # top-level
+_/parttimefaculty content ;  # top-level
+_/paclab content ;  # top-level
+_/parentsprogram content ;  # top-level
+_/paris content ;  # top-level
+_/pasi-tsunami content ;  # top-level
+_/parkstreet content ;  # top-level
+_/paprogram content ;  # top-level
+_/pathology content ;  # top-level
+_/paiella content ;  # top-level
+_/panek content ;  # top-level
+_/parentmagazine content ;  # top-level
+_/paideia content ;  # top-level
+_/parklab content ;  # top-level
+_/partisanreview content ;  # top-level
+_/pardeestaff content ;  # top-level
+_/payroll content ;  # top-level
+_/padua content ;  # top-level
+_/parentsweekend content ;  # top-level
+_/parents content ;  # top-level
+_/pasi content ;  # top-level
+_/paadmissions content ;  # top-level
+_/parentfund content ;  # top-level
+_/padova content ;  # top-level
+_/parking/dbtemplates content ;  # 
+_/pace content ;  # top-level
+_/payment content ;  # top-level
+_/pm content ;  # top-level
+_/p2pguide content ;  # top-level
+_/phylogeny content ;  # top-level
 #  phpbin.rw content ;  # top-level
 #  phpbin content ;  # top-level
-  photo content ;  # top-level
-  phys-biophys content ;  # top-level
-  phhprc content ;  # top-level
-  phpbin-selector content ;  # top-level
-  photonics content ;  # top-level
-  philo content ;  # top-level
-  physics content ;  # top-level
+_/photo content ;  # top-level
+_/phys-biophys content ;  # top-level
+_/phhprc content ;  # top-level
+_/phpbin-selector content ;  # top-level
+_/photonics content ;  # top-level
+_/philo content ;  # top-level
+_/physics content ;  # top-level
 #  phpbin.ro content ;  # top-level
-  pharm content ;  # top-level
-  pilj content ;  # top-level
-  pike content ;  # top-level
-  picf content ;  # top-level
-  pin content ;  # top-level
-  peermentor content ;  # top-level
-  personnel content ;  # top-level
-  pep content ;  # top-level
-  perd content ;  # top-level
-  peaclab content ;  # top-level
-  pehs content ;  # top-level
-  perlstaff content ;  # top-level
-  peeradvising content ;  # top-level
-  pehc content ;  # top-level
-  pemba content ;  # top-level
-  posenprogram content ;  # top-level
-  polisci content ;  # top-level
-  porco content ;  # top-level
-  polymer content ;  # top-level
-  pocketmba content ;  # top-level
-  policies content ;  # top-level
-  police content ;  # top-level
-  prerelease content ;  # top-level
-  president content ;  # top-level
-  projectgo content ;  # top-level
-  proposaldevelopment content ;  # top-level
-  prism content ;  # top-level
-  professorvoices content ;  # top-level
-  premodern content ;  # top-level
-  presidential-functions content ;  # top-level
-  prehealth content ;  # top-level
-  prudential content ;  # top-level
-  professional content ;  # top-level
-  prlab content ;  # top-level
-  prc content ;  # top-level
-  proarte content ;  # top-level
-  provost2 content ;  # top-level
-  presidentsearch content ;  # top-level
-  prssa content ;  # top-level
-  protected content ;  # top-level
-  prj content ;  # top-level
-  printcenter content ;  # top-level
-  practice content ;  # top-level
-  prostars content ;  # top-level
-  prelaw content ;  # top-level
-  proxy content ;  # top-level
-  projects content ;  # top-level
-  prod content ;  # top-level
-  prs content ;  # top-level
-  prevmedresidency content ;  # top-level
-  procurement content ;  # top-level
-  plakias content ;  # top-level
-  playwriting content ;  # top-level
-  plan2015 content ;  # top-level
-  plannedgiving content ;  # top-level
-  pt3 content ;  # top-level
-  ptresidency content ;  # top-level
-  ptc content ;  # top-level
-  psychdiversity content ;  # top-level
-  psych content ;  # top-level
-  psc content ;  # top-level
-  psp content ;  # top-level
-  pdme content ;  # top-level
-  pdc content ;  # top-level
-  pusteblume content ;  # top-level
-  publications content ;  # top-level
-  purchasing content ;  # top-level
-  pulmonarycenter content ;  # top-level
-  publichealthworkforce content ;  # top-level
-  publicsafety content ;  # top-level
+_/pharm content ;  # top-level
+_/pilj content ;  # top-level
+_/pike content ;  # top-level
+_/picf content ;  # top-level
+_/pin content ;  # top-level
+_/peermentor content ;  # top-level
+_/personnel content ;  # top-level
+_/pep content ;  # top-level
+_/perd content ;  # top-level
+_/peaclab content ;  # top-level
+_/pehs content ;  # top-level
+_/perlstaff content ;  # top-level
+_/peeradvising content ;  # top-level
+_/pehc content ;  # top-level
+_/pemba content ;  # top-level
+_/posenprogram content ;  # top-level
+_/polisci content ;  # top-level
+_/porco content ;  # top-level
+_/polymer content ;  # top-level
+_/pocketmba content ;  # top-level
+_/policies content ;  # top-level
+_/police content ;  # top-level
+_/prerelease content ;  # top-level
+_/president content ;  # top-level
+_/projectgo content ;  # top-level
+_/proposaldevelopment content ;  # top-level
+_/prism content ;  # top-level
+_/professorvoices content ;  # top-level
+_/premodern content ;  # top-level
+_/presidential-functions content ;  # top-level
+_/prehealth content ;  # top-level
+_/prudential content ;  # top-level
+_/professional content ;  # top-level
+_/prlab content ;  # top-level
+_/prc content ;  # top-level
+_/proarte content ;  # top-level
+_/provost2 content ;  # top-level
+_/presidentsearch content ;  # top-level
+_/prssa content ;  # top-level
+_/protected content ;  # top-level
+_/prj content ;  # top-level
+_/printcenter content ;  # top-level
+_/practice content ;  # top-level
+_/prostars content ;  # top-level
+_/prelaw content ;  # top-level
+_/proxy content ;  # top-level
+_/projects content ;  # top-level
+_/prod content ;  # top-level
+_/prs content ;  # top-level
+_/prevmedresidency content ;  # top-level
+_/procurement content ;  # top-level
+_/plakias content ;  # top-level
+_/playwriting content ;  # top-level
+_/plan2015 content ;  # top-level
+_/plannedgiving content ;  # top-level
+_/pt3 content ;  # top-level
+_/ptresidency content ;  # top-level
+_/ptc content ;  # top-level
+_/psychdiversity content ;  # top-level
+_/psych content ;  # top-level
+_/psc content ;  # top-level
+_/psp content ;  # top-level
+_/pdme content ;  # top-level
+_/pdc content ;  # top-level
+_/pusteblume content ;  # top-level
+_/publications content ;  # top-level
+_/purchasing content ;  # top-level
+_/pulmonarycenter content ;  # top-level
+_/publichealthworkforce content ;  # top-level
+_/publicsafety content ;  # top-level
 # skipping PCL as we should only add the redirect2lower if necessary
 # skipping PCSC as we should only add the redirect2lower if necessary
 # skipping PCMS as we should only add the redirect2lower if necessary
@@ -1942,93 +1942,93 @@ interactive-design content ;
 # skipping PUBLICATIONS as we should only add the redirect2lower if necessary
 # skipping PURCHASING as we should only add the redirect2lower if necessary
 # skipping PUBLICHEALTHWORKFORCE as we should only add the redirect2lower if necessary
-  tcp content ;  # top-level
-  tyngsboro content ;  # top-level
-  tad content ;  # top-level
-  tanglewoodtwo content ;  # top-level
-  tanglewood content ;  # top-level
-  talks content ;  # top-level
-  tmp-orc/wp-assets content ;  # 
-  tml content ;  # top-level
-  tmp-admissions/wp-assets content ;  # 
-  tmp-webcentral content ;  # top-level
-  tv content ;  # top-level
-  thedash content ;  # top-level
-  thurmanarchives content ;  # top-level
-  thurman content ;  # top-level
-  theaternow content ;  # top-level
-  thecology content ;  # top-level
-  theory content ;  # top-level
-  themovement content ;  # top-level
-  this_is_not_a_url content ;  # top-level
-  thenerve content ;  # top-level
-  theotrauma content ;  # top-level
-  tickle content ;  # top-level
-  timeline content ;  # top-level
-  tims content ;  # top-level
-  tedxbu content ;  # top-level
-  telefund content ;  # top-level
-  terrierpride content ;  # top-level
-  test-blog content ;  # top-level
-  testnfs content ;  # top-level
-  teal content ;  # top-level
-  testnfs2 content ;  # top-level
-  telecom2 content ;  # top-level
-  test content ;  # top-level
-  terriermarketplace content ;  # top-level
-  tedbu content ;  # top-level
-  teenpanic content ;  # top-level
-  tech-prod content ;  # top-level
-  terriercard content ;  # top-level
-  tech-maintenance content ;  # top-level
-  techv1 content ;  # top-level
-  terrierconnection content ;  # top-level
-  tech-copy content ;  # top-level
-  tech-backup content ;  # top-level
-  tech-restricted content ;  # top-level
-  techorg content ;  # top-level
-  terriers content ;  # top-level
-  techbios content ;  # top-level
-  testprep content ;  # top-level
-  techhelp content ;  # top-level
-  techweb content ;  # top-level
-  terriertoasts content ;  # top-level
-  telecom content ;  # top-level
-  today/common content ;  # 
-  today/media content ;  # 
-  today/bubooks content ;  # 
-  today/frozenfour content ;  # 
-  today/blasts content ;  # 
-  today/commencement content ;  # 
-  today/v2-devl content ;  # 
-  today/news content ;  # 
-  today/buniverse content ;  # 
-  today/v2 content ;  # 
-  tol content ;  # top-level
-  tokyo content ;  # top-level
-  today-spash content ;  # top-level
-  traumamemorylab content ;  # top-level
-  translation content ;  # top-level
-  trustees content ;  # top-level
-  tricia content ;  # top-level
-  transportation content ;  # top-level
-  transfer content ;  # top-level
-  trl content ;  # top-level
-  transgenic content ;  # top-level
-  trb content ;  # top-level
-  trusteescholars content ;  # top-level
-  track content ;  # top-level
-  transcomm content ;  # top-level
-  travel content ;  # top-level
-  tlcstudy content ;  # top-level
-  ttt content ;  # top-level
-  tskoog content ;  # top-level
-  tso content ;  # top-level
-  tsai content ;  # top-level
-  turnitin content ;  # top-level
-  tutorials content ;  # top-level
-  tulliusgroup content ;  # top-level
-  tbergend content ;  # top-level
+_/tcp content ;  # top-level
+_/tyngsboro content ;  # top-level
+_/tad content ;  # top-level
+_/tanglewoodtwo content ;  # top-level
+_/tanglewood content ;  # top-level
+_/talks content ;  # top-level
+_/tmp-orc/wp-assets content ;  # 
+_/tml content ;  # top-level
+_/tmp-admissions/wp-assets content ;  # 
+_/tmp-webcentral content ;  # top-level
+_/tv content ;  # top-level
+_/thedash content ;  # top-level
+_/thurmanarchives content ;  # top-level
+_/thurman content ;  # top-level
+_/theaternow content ;  # top-level
+_/thecology content ;  # top-level
+_/theory content ;  # top-level
+_/themovement content ;  # top-level
+_/this_is_not_a_url content ;  # top-level
+_/thenerve content ;  # top-level
+_/theotrauma content ;  # top-level
+_/tickle content ;  # top-level
+_/timeline content ;  # top-level
+_/tims content ;  # top-level
+_/tedxbu content ;  # top-level
+_/telefund content ;  # top-level
+_/terrierpride content ;  # top-level
+_/test-blog content ;  # top-level
+_/testnfs content ;  # top-level
+_/teal content ;  # top-level
+_/testnfs2 content ;  # top-level
+_/telecom2 content ;  # top-level
+_/test content ;  # top-level
+_/terriermarketplace content ;  # top-level
+_/tedbu content ;  # top-level
+_/teenpanic content ;  # top-level
+_/tech-prod content ;  # top-level
+_/terriercard content ;  # top-level
+_/tech-maintenance content ;  # top-level
+_/techv1 content ;  # top-level
+_/terrierconnection content ;  # top-level
+_/tech-copy content ;  # top-level
+_/tech-backup content ;  # top-level
+_/tech-restricted content ;  # top-level
+_/techorg content ;  # top-level
+_/terriers content ;  # top-level
+_/techbios content ;  # top-level
+_/testprep content ;  # top-level
+_/techhelp content ;  # top-level
+_/techweb content ;  # top-level
+_/terriertoasts content ;  # top-level
+_/telecom content ;  # top-level
+_/today/common content ;  # 
+_/today/media content ;  # 
+_/today/bubooks content ;  # 
+_/today/frozenfour content ;  # 
+_/today/blasts content ;  # 
+_/today/commencement content ;  # 
+_/today/v2-devl content ;  # 
+_/today/news content ;  # 
+_/today/buniverse content ;  # 
+_/today/v2 content ;  # 
+_/tol content ;  # top-level
+_/tokyo content ;  # top-level
+_/today-spash content ;  # top-level
+_/traumamemorylab content ;  # top-level
+_/translation content ;  # top-level
+_/trustees content ;  # top-level
+_/tricia content ;  # top-level
+_/transportation content ;  # top-level
+_/transfer content ;  # top-level
+_/trl content ;  # top-level
+_/transgenic content ;  # top-level
+_/trb content ;  # top-level
+_/trusteescholars content ;  # top-level
+_/track content ;  # top-level
+_/transcomm content ;  # top-level
+_/travel content ;  # top-level
+_/tlcstudy content ;  # top-level
+_/ttt content ;  # top-level
+_/tskoog content ;  # top-level
+_/tso content ;  # top-level
+_/tsai content ;  # top-level
+_/turnitin content ;  # top-level
+_/tutorials content ;  # top-level
+_/tulliusgroup content ;  # top-level
+_/tbergend content ;  # top-level
 # skipping TAD as we should only add the redirect2lower if necessary
 # skipping TANGLEWOOD as we should only add the redirect2lower if necessary
 # skipping THURMAN as we should only add the redirect2lower if necessary
@@ -2045,196 +2045,196 @@ interactive-design content ;
 # skipping TLTR as we should only add the redirect2lower if necessary
 # skipping TSO as we should only add the redirect2lower if necessary
 # skipping TSAI as we should only add the redirect2lower if necessary
-  sjmag content ;  # top-level
-  schroeter content ;  # top-level
-  scoe content ;  # top-level
-  scscb content ;  # top-level
-  schoolofeducation content ;  # top-level
-  scibowl content ;  # top-level
-  sciguide content ;  # top-level
-  scanning content ;  # top-level
-  schneiderslab content ;  # top-level
-  scnutrition content ;  # top-level
-  scarlet-squad content ;  # top-level
-  schools content ;  # top-level
-  scarletkey content ;  # top-level
-  sci content ;  # top-level
-  scenery content ;  # top-level
-  schneider content ;  # top-level
-  sccc content ;  # top-level
-  scriparts content ;  # top-level
-  sclerodermaworkshop content ;  # top-level
-  schoolphys content ;  # top-level
-  scnc content ;  # top-level
-  scv content ;  # top-level
-  scv_import content ;  # top-level
+_/sjmag content ;  # top-level
+_/schroeter content ;  # top-level
+_/scoe content ;  # top-level
+_/scscb content ;  # top-level
+_/schoolofeducation content ;  # top-level
+_/scibowl content ;  # top-level
+_/sciguide content ;  # top-level
+_/scanning content ;  # top-level
+_/schneiderslab content ;  # top-level
+_/scnutrition content ;  # top-level
+_/scarlet-squad content ;  # top-level
+_/schools content ;  # top-level
+_/scarletkey content ;  # top-level
+_/sci content ;  # top-level
+_/scenery content ;  # top-level
+_/schneider content ;  # top-level
+_/sccc content ;  # top-level
+_/scriparts content ;  # top-level
+_/sclerodermaworkshop content ;  # top-level
+_/schoolphys content ;  # top-level
+_/scnc content ;  # top-level
+_/scv content ;  # top-level
+_/scv_import content ;  # top-level
 # skipping systems-programming.RESTORED as we should only add the redirect2lower if necessary
-  synbio content ;  # top-level
-  synapse content ;  # top-level
-  systemsbiology content ;  # top-level
-  sydney content ;  # top-level
-  systems-programming content ;  # top-level
-  systems-support content ;  # top-level
-  synt content ;  # top-level
-  synesthesia content ;  # top-level
-  swrnet content ;  # top-level
-  sncn content ;  # top-level
-  snl content ;  # top-level
-  snc content ;  # top-level
-  sn content ;  # top-level
-  sage content ;  # top-level
-  sarp content ;  # top-level
-  sardlb content ;  # top-level
-  sargentluncheon content ;  # top-level
-  sara content ;  # top-level
-  sargentcamp content ;  # top-level
-  sargenteconnection content ;  # top-level
-  sao content ;  # top-level
-  sargentchoice content ;  # top-level
-  sarhouse content ;  # top-level
-  samlab content ;  # top-level
-  sac content ;  # top-level
-  sarpsych content ;  # top-level
-  saa content ;  # top-level
-  satellite content ;  # top-level
-  safety content ;  # top-level
-  sm322 content ;  # top-level
-  smgmarcom content ;  # top-level
-  smg-dean-search content ;  # top-level
-  smgcentennial content ;  # top-level
-  smgalum content ;  # top-level
-  smartmoney101 content ;  # top-level
-  smg-em content ;  # top-level
-  smscint content ;  # top-level
-  smghonors content ;  # top-level
-  smg content ;  # top-level
-  smscinst content ;  # top-level
-  smg100 content ;  # top-level
-  smg-event content ;  # top-level
-  smec content ;  # top-level
-  smartlighting content ;  # top-level
-  smhaley content ;  # top-level
-  smartcities content ;  # top-level
-  shawnp content ;  # top-level
-  shprp content ;  # top-level
-  shanghai content ;  # top-level
-  shibboleth-sp content ;  # top-level
-  sha-dean-search content ;  # top-level
-  shaw content ;  # top-level
-  shongchallenge content ;  # top-level
-  showme content ;  # top-level
-  sha content ;  # top-level
-  sif content ;  # top-level
-  sil content ;  # top-level
-  sir content ;  # top-level
-  silber content ;  # top-level
-  sicklecell content ;  # top-level
-  sicklegen content ;  # top-level
-  sites content ;  # top-level
-  simulation content ;  # top-level
-  sixsixty content ;  # top-level
-  senlab content ;  # top-level
+_/synbio content ;  # top-level
+_/synapse content ;  # top-level
+_/systemsbiology content ;  # top-level
+_/sydney content ;  # top-level
+_/systems-programming content ;  # top-level
+_/systems-support content ;  # top-level
+_/synt content ;  # top-level
+_/synesthesia content ;  # top-level
+_/swrnet content ;  # top-level
+_/sncn content ;  # top-level
+_/snl content ;  # top-level
+_/snc content ;  # top-level
+_/sn content ;  # top-level
+_/sage content ;  # top-level
+_/sarp content ;  # top-level
+_/sardlb content ;  # top-level
+_/sargentluncheon content ;  # top-level
+_/sara content ;  # top-level
+_/sargentcamp content ;  # top-level
+_/sargenteconnection content ;  # top-level
+_/sao content ;  # top-level
+_/sargentchoice content ;  # top-level
+_/sarhouse content ;  # top-level
+_/samlab content ;  # top-level
+_/sac content ;  # top-level
+_/sarpsych content ;  # top-level
+_/saa content ;  # top-level
+_/satellite content ;  # top-level
+_/safety content ;  # top-level
+_/sm322 content ;  # top-level
+_/smgmarcom content ;  # top-level
+_/smg-dean-search content ;  # top-level
+_/smgcentennial content ;  # top-level
+_/smgalum content ;  # top-level
+_/smartmoney101 content ;  # top-level
+_/smg-em content ;  # top-level
+_/smscint content ;  # top-level
+_/smghonors content ;  # top-level
+_/smg content ;  # top-level
+_/smscinst content ;  # top-level
+_/smg100 content ;  # top-level
+_/smg-event content ;  # top-level
+_/smec content ;  # top-level
+_/smartlighting content ;  # top-level
+_/smhaley content ;  # top-level
+_/smartcities content ;  # top-level
+_/shawnp content ;  # top-level
+_/shprp content ;  # top-level
+_/shanghai content ;  # top-level
+_/shibboleth-sp content ;  # top-level
+_/sha-dean-search content ;  # top-level
+_/shaw content ;  # top-level
+_/shongchallenge content ;  # top-level
+_/showme content ;  # top-level
+_/sha content ;  # top-level
+_/sif content ;  # top-level
+_/sil content ;  # top-level
+_/sir content ;  # top-level
+_/silber content ;  # top-level
+_/sicklecell content ;  # top-level
+_/sicklegen content ;  # top-level
+_/sites content ;  # top-level
+_/simulation content ;  # top-level
+_/sixsixty content ;  # top-level
+_/senlab content ;  # top-level
 ##TODO: get phpmap entry for search and put in separate file
-  sendoffs content ;  # top-level
-  service content ;  # top-level
-  sed-gpape content ;  # top-level
-  sequitur content ;  # top-level
-  service-now content ;  # top-level
-  sedreadingclinic content ;  # top-level
-  sed-jsp content ;  # top-level
-  secret content ;  # top-level
-  sed-gsa content ;  # top-level
-  seo content ;  # top-level
-  seniors content ;  # top-level
-  selstaff content ;  # top-level
-  se content ;  # top-level
-  securityinfo content ;  # top-level
-  seaurchinmeeting2011 content ;  # top-level
-  sedadmitted content ;  # top-level
-  sedaccepted content ;  # top-level
-  securitycamp content ;  # top-level
-  services content ;  # top-level
-  sedimc content ;  # top-level
-  session content ;  # top-level
-  segrelab content ;  # top-level
-  sep content ;  # top-level
-  security content ;  # top-level
-  sedtfa content ;  # top-level
-  software content ;  # top-level
-  south content ;  # top-level
-  sourceguide content ;  # top-level
-  sourcing/wp-protected content ;  # 
-  sociology content ;  # top-level
-  srp content ;  # top-level
-  sfa content ;  # top-level
-  sfsf content ;  # top-level
-  slone content ;  # top-level
-  slatkin content ;  # top-level
-  sleepmed content ;  # top-level
-  sleeplab content ;  # top-level
-  sloan content ;  # top-level
-  50000 content ;  # top-level
-  sportsmed content ;  # top-level
-  spirithealth content ;  # top-level
-  spidr content ;  # top-level
-  specialreports content ;  # top-level
-  sph-imports content ;  # top-level
-  spectrumarts content ;  # top-level
-  sps content ;  # top-level
-  specialty content ;  # top-level
-  sph-coalitions content ;  # top-level
-  speechlab content ;  # top-level
-  speccol content ;  # top-level
-  space content ;  # top-level
-  sportsmedicine content ;  # top-level
-  sports content ;  # top-level
-  storage-admin content ;  # top-level
-  startup content ;  # top-level
-  studentexperience content ;  # top-level
-  sthacker content ;  # top-level
-  state content ;  # top-level
-  stepup content ;  # top-level
-  studentvillage content ;  # top-level
-  studio content ;  # top-level
-  studentvillage2 content ;  # top-level
-  stats content ;  # top-level
-  stationery content ;  # top-level
-  staff content ;  # top-level
-  sth-sc content ;  # top-level
-  stem content ;  # top-level
-  strategicreport content ;  # top-level
-  sthconnect content ;  # top-level
-  sth-history content ;  # top-level
-  sthfulladmission content ;  # top-level
-  studentaccountingservices content ;  # top-level
-  sthope content ;  # top-level
-  studentleader content ;  # top-level
-  stimulus content ;  # top-level
-  sthlibrary content ;  # top-level
-  stat content ;  # top-level
-  studyfinder content ;  # top-level
-  statehouse content ;  # top-level
-  stratcom content ;  # top-level
-  stemcells content ;  # top-level
-  studentloanaccounting content ;  # top-level
-  stayemployed content ;  # top-level
-  stamasfund content ;  # top-level
-  sth-directory content ;  # top-level
-  sswit content ;  # top-level
-  sscores content ;  # top-level
-  sdll content ;  # top-level
-  summerterm content ;  # top-level
-  suemac content ;  # top-level
-  suppliers content ;  # top-level
-  summerfun content ;  # top-level
-  survey content ;  # top-level
-  surf content ;  # top-level
-  summer content ;  # top-level
-  supportingbusm content ;  # top-level
-  supportrotc content ;  # top-level
-  supplier content ;  # top-level
-  sbd content ;  # top-level
-  sbrptraining content ;  # top-level
+_/sendoffs content ;  # top-level
+_/service content ;  # top-level
+_/sed-gpape content ;  # top-level
+_/sequitur content ;  # top-level
+_/service-now content ;  # top-level
+_/sedreadingclinic content ;  # top-level
+_/sed-jsp content ;  # top-level
+_/secret content ;  # top-level
+_/sed-gsa content ;  # top-level
+_/seo content ;  # top-level
+_/seniors content ;  # top-level
+_/selstaff content ;  # top-level
+_/se content ;  # top-level
+_/securityinfo content ;  # top-level
+_/seaurchinmeeting2011 content ;  # top-level
+_/sedadmitted content ;  # top-level
+_/sedaccepted content ;  # top-level
+_/securitycamp content ;  # top-level
+_/services content ;  # top-level
+_/sedimc content ;  # top-level
+_/session content ;  # top-level
+_/segrelab content ;  # top-level
+_/sep content ;  # top-level
+_/security content ;  # top-level
+_/sedtfa content ;  # top-level
+_/software content ;  # top-level
+_/south content ;  # top-level
+_/sourceguide content ;  # top-level
+_/sourcing/wp-protected content ;  # 
+_/sociology content ;  # top-level
+_/srp content ;  # top-level
+_/sfa content ;  # top-level
+_/sfsf content ;  # top-level
+_/slone content ;  # top-level
+_/slatkin content ;  # top-level
+_/sleepmed content ;  # top-level
+_/sleeplab content ;  # top-level
+_/sloan content ;  # top-level
+_/50000 content ;  # top-level
+_/sportsmed content ;  # top-level
+_/spirithealth content ;  # top-level
+_/spidr content ;  # top-level
+_/specialreports content ;  # top-level
+_/sph-imports content ;  # top-level
+_/spectrumarts content ;  # top-level
+_/sps content ;  # top-level
+_/specialty content ;  # top-level
+_/sph-coalitions content ;  # top-level
+_/speechlab content ;  # top-level
+_/speccol content ;  # top-level
+_/space content ;  # top-level
+_/sportsmedicine content ;  # top-level
+_/sports content ;  # top-level
+_/storage-admin content ;  # top-level
+_/startup content ;  # top-level
+_/studentexperience content ;  # top-level
+_/sthacker content ;  # top-level
+_/state content ;  # top-level
+_/stepup content ;  # top-level
+_/studentvillage content ;  # top-level
+_/studio content ;  # top-level
+_/studentvillage2 content ;  # top-level
+_/stats content ;  # top-level
+_/stationery content ;  # top-level
+_/staff content ;  # top-level
+_/sth-sc content ;  # top-level
+_/stem content ;  # top-level
+_/strategicreport content ;  # top-level
+_/sthconnect content ;  # top-level
+_/sth-history content ;  # top-level
+_/sthfulladmission content ;  # top-level
+_/studentaccountingservices content ;  # top-level
+_/sthope content ;  # top-level
+_/studentleader content ;  # top-level
+_/stimulus content ;  # top-level
+_/sthlibrary content ;  # top-level
+_/stat content ;  # top-level
+_/studyfinder content ;  # top-level
+_/statehouse content ;  # top-level
+_/stratcom content ;  # top-level
+_/stemcells content ;  # top-level
+_/studentloanaccounting content ;  # top-level
+_/stayemployed content ;  # top-level
+_/stamasfund content ;  # top-level
+_/sth-directory content ;  # top-level
+_/sswit content ;  # top-level
+_/sscores content ;  # top-level
+_/sdll content ;  # top-level
+_/summerterm content ;  # top-level
+_/suemac content ;  # top-level
+_/suppliers content ;  # top-level
+_/summerfun content ;  # top-level
+_/survey content ;  # top-level
+_/surf content ;  # top-level
+_/summer content ;  # top-level
+_/supportingbusm content ;  # top-level
+_/supportrotc content ;  # top-level
+_/supplier content ;  # top-level
+_/sbd content ;  # top-level
+_/sbrptraining content ;  # top-level
 # skipping SCOE as we should only add the redirect2lower if necessary
 # skipping SCANNING as we should only add the redirect2lower if necessary
 # skipping SCHOOLS as we should only add the redirect2lower if necessary
@@ -2283,77 +2283,77 @@ interactive-design content ;
 # skipping SSW as we should only add the redirect2lower if necessary
 # skipping SUMMERTERM as we should only add the redirect2lower if necessary
 # skipping SUMMER as we should only add the redirect2lower if necessary
-  dje content ;  # top-level
-  dcg content ;  # top-level
-  dct content ;  # top-level
-  dcc content ;  # top-level
-  dna content ;  # top-level
+_/dje content ;  # top-level
+_/dcg content ;  # top-level
+_/dct content ;  # top-level
+_/dcc content ;  # top-level
+_/dna content ;  # top-level
 ##TODO: get phpmap entry for dnamixtures and put in separate file
-  darwin2009 content ;  # top-level
-  darwin content ;  # top-level
-  datamanagement content ;  # top-level
-  dan content ;  # top-level
-  daysofservice content ;  # top-level
-  darstaff content ;  # top-level
-  dar-talent content ;  # top-level
-  dar content ;  # top-level
-  darapps content ;  # top-level
-  data content ;  # top-level
-  dayofservice content ;  # top-level
-  danielsen content ;  # top-level
-  darlibrary content ;  # top-level
-  darsecure content ;  # top-level
-  dme content ;  # top-level
-  disability content ;  # top-level
-  dinghysailors content ;  # top-level
-  diabetescenter content ;  # top-level
-  directory content ;  # top-level
-  diversity content ;  # top-level
-  digication content ;  # top-level
-  distance content ;  # top-level
-  diploma content ;  # top-level
-  digital content ;  # top-level
-  discoveries content ;  # top-level
-  dioa content ;  # top-level
-  discover content ;  # top-level
-  disted content ;  # top-level
+_/darwin2009 content ;  # top-level
+_/darwin content ;  # top-level
+_/datamanagement content ;  # top-level
+_/dan content ;  # top-level
+_/daysofservice content ;  # top-level
+_/darstaff content ;  # top-level
+_/dar-talent content ;  # top-level
+_/dar content ;  # top-level
+_/darapps content ;  # top-level
+_/data content ;  # top-level
+_/dayofservice content ;  # top-level
+_/danielsen content ;  # top-level
+_/darlibrary content ;  # top-level
+_/darsecure content ;  # top-level
+_/dme content ;  # top-level
+_/disability content ;  # top-level
+_/dinghysailors content ;  # top-level
+_/diabetescenter content ;  # top-level
+_/directory content ;  # top-level
+_/diversity content ;  # top-level
+_/digication content ;  # top-level
+_/distance content ;  # top-level
+_/diploma content ;  # top-level
+_/digital content ;  # top-level
+_/discoveries content ;  # top-level
+_/dioa content ;  # top-level
+_/discover content ;  # top-level
+_/disted content ;  # top-level
 ##TODO: get phpmap entry for degree-advice and put in separate file
-  deafstudies content ;  # top-level
-  degreecomplete content ;  # top-level
-  dentures content ;  # top-level
-  devcom content ;  # top-level
-  derm content ;  # top-level
-  devbio content ;  # top-level
-  dermatology-associates content ;  # top-level
-  dentalassisting content ;  # top-level
-  dental-research content ;  # top-level
-  demoarea content ;  # top-level
+_/deafstudies content ;  # top-level
+_/degreecomplete content ;  # top-level
+_/dentures content ;  # top-level
+_/devcom content ;  # top-level
+_/derm content ;  # top-level
+_/devbio content ;  # top-level
+_/dermatology-associates content ;  # top-level
+_/dentalassisting content ;  # top-level
+_/dental-research content ;  # top-level
+_/demoarea content ;  # top-level
 ##TODO: get phpmap entry for degree-audit and put in separate file
-  deanshost content ;  # top-level
-  deafautism content ;  # top-level
+_/deanshost content ;  # top-level
+_/deafautism content ;  # top-level
   #whole_staging_site_in.cms content ;  # top-level
-  doubleit content ;  # top-level
-  dos/facebook content ;  # 
-  double-it content ;  # top-level
-  drts content ;  # top-level
-  dresden content ;  # top-level
-  drrk content ;  # top-level
-  dli content ;  # top-level
-  dlanglai content ;  # top-level
-  ds-enrollment-a content ;  # top-level
-  dsgsupport content ;  # top-level
-  dsg content ;  # top-level
-  ds-test content ;  # top-level
-  ds-enrollment-d content ;  # top-level
-  ds-enrollment-b content ;  # top-level
-  dsmk content ;  # top-level
-  ds-enrollment-e content ;  # top-level
-  ds-cas-b content ;  # top-level
-  ds-enrollment-c content ;  # top-level
-  ddalton content ;  # top-level
-  dublin content ;  # top-level
-  dublinseminar content ;  # top-level
-  dbin-selector content ;  # top-level
+_/doubleit content ;  # top-level
+_/dos/facebook content ;  # 
+_/double-it content ;  # top-level
+_/drts content ;  # top-level
+_/dresden content ;  # top-level
+_/drrk content ;  # top-level
+_/dli content ;  # top-level
+_/dlanglai content ;  # top-level
+_/ds-enrollment-a content ;  # top-level
+_/dsgsupport content ;  # top-level
+_/dsg content ;  # top-level
+_/ds-test content ;  # top-level
+_/ds-enrollment-d content ;  # top-level
+_/ds-enrollment-b content ;  # top-level
+_/dsmk content ;  # top-level
+_/ds-enrollment-e content ;  # top-level
+_/ds-cas-b content ;  # top-level
+_/ds-enrollment-c content ;  # top-level
+_/ddalton content ;  # top-level
+_/dublin content ;  # top-level
+_/dublinseminar content ;  # top-level
+_/dbin-selector content ;  # top-level
 # skipping DCG as we should only add the redirect2lower if necessary
 # skipping DAR as we should only add the redirect2lower if necessary
 # skipping DANIELSEN as we should only add the redirect2lower if necessary
@@ -2370,42 +2370,42 @@ interactive-design content ;
 # skipping DEANSHOST as we should only add the redirect2lower if necessary
 # skipping DSGSUPPORT as we should only add the redirect2lower if necessary
 # skipping DUBLINSEMINAR as we should only add the redirect2lower if necessary
-  uc content ;  # top-level
-  uctech content ;  # top-level
-  ucccd content ;  # top-level
-  uccap content ;  # top-level
-  universe content ;  # top-level
-  union content ;  # top-level
-  universityprovostsearch content ;  # top-level
-  unlock content ;  # top-level
+_/uc content ;  # top-level
+_/uctech content ;  # top-level
+_/ucccd content ;  # top-level
+_/uccap content ;  # top-level
+_/universe content ;  # top-level
+_/union content ;  # top-level
+_/universityprovostsearch content ;  # top-level
+_/unlock content ;  # top-level
 # skipping Templates as we should only add the redirect2lower if necessary
-  univcomp content ;  # top-level
-  undergrad content ;  # top-level
-  undaunted content ;  # top-level
-  univcomputer content ;  # top-level
-  uni content ;  # top-level
-  uapt content ;  # top-level
-  uav content ;  # top-level
-  uhc content ;  # top-level
-  uis content ;  # top-level
-  uisacs content ;  # top-level
-  uis-core content ;  # top-level
-  urc content ;  # top-level
-  urlc content ;  # top-level
-  urgent content ;  # top-level
-  ur content ;  # top-level
-  urop content ;  # top-level
-  ugc content ;  # top-level
-  ugneuro content ;  # top-level
-  ufmal content ;  # top-level
-  ultra-ex content ;  # top-level
-  ul content ;  # top-level
-  us-microimaging content ;  # top-level
-  usenet content ;  # top-level
-  ussi content ;  # top-level
-  ub content ;  # top-level
-  ubms content ;  # top-level
-  ubx content ;  # top-level
+_/univcomp content ;  # top-level
+_/undergrad content ;  # top-level
+_/undaunted content ;  # top-level
+_/univcomputer content ;  # top-level
+_/uni content ;  # top-level
+_/uapt content ;  # top-level
+_/uav content ;  # top-level
+_/uhc content ;  # top-level
+_/uis content ;  # top-level
+_/uisacs content ;  # top-level
+_/uis-core content ;  # top-level
+_/urc content ;  # top-level
+_/urlc content ;  # top-level
+_/urgent content ;  # top-level
+_/ur content ;  # top-level
+_/urop content ;  # top-level
+_/ugc content ;  # top-level
+_/ugneuro content ;  # top-level
+_/ufmal content ;  # top-level
+_/ultra-ex content ;  # top-level
+_/ul content ;  # top-level
+_/us-microimaging content ;  # top-level
+_/usenet content ;  # top-level
+_/ussi content ;  # top-level
+_/ub content ;  # top-level
+_/ubms content ;  # top-level
+_/ubx content ;  # top-level
 # skipping UC as we should only add the redirect2lower if necessary
 # skipping UCTECH as we should only add the redirect2lower if necessary
 # skipping UNION as we should only add the redirect2lower if necessary
@@ -2420,144 +2420,144 @@ interactive-design content ;
 # skipping USC as we should only add the redirect2lower if necessary
 # skipping USSI as we should only add the redirect2lower if necessary
 # skipping UB as we should only add the redirect2lower if necessary
-  1970commencement content ;  # top-level
-  bcrhhr content ;  # top-level
-  bcdsp content ;  # top-level
-  bysocelebrates content ;  # top-level
-  bwhs content ;  # top-level
-  bniart content ;  # top-level
-  bnorc content ;  # top-level
-  backbay content ;  # top-level
-  baburmemorial content ;  # top-level
-  battleforbu content ;  # top-level
-  bahec content ;  # top-level
-  baumlab content ;  # top-level
-  ballab content ;  # top-level
-  bands content ;  # top-level
-  bam2012 content ;  # top-level
-  barc2007 content ;  # top-level
-  bmb content ;  # top-level
-  bmerc content ;  # top-level
-  bmo content ;  # top-level
-  bmel content ;  # top-level
-  bmegsc content ;  # top-level
-  bhlp content ;  # top-level
-  bhr content ;  # top-level
-  bio-geo content ;  # top-level
-  biosci content ;  # top-level
-  bioimaging content ;  # top-level
-  bioimages content ;  # top-level
-  biotechlab content ;  # top-level
-  bike content ;  # top-level
-  bilingualaphasia content ;  # top-level
-  biosquare content ;  # top-level
-  bikesaftey content ;  # top-level
-  biotech content ;  # top-level
-  bioinformatics content ;  # top-level
-  biosafety content ;  # top-level
-  biomuseum content ;  # top-level
-  biomediacenter content ;  # top-level
-  biomedforensic content ;  # top-level
-  binaural content ;  # top-level
-  biomed content ;  # top-level
-  biology content ;  # top-level
-  biomedcrimas content ;  # top-level
-  biorobotics content ;  # top-level
-  bioskin content ;  # top-level
-  becf content ;  # top-level
-  benefitstransition content ;  # top-level
-  bemerson content ;  # top-level
-  behaviorlab content ;  # top-level
-  beanpot-party content ;  # top-level
+_/1970commencement content ;  # top-level
+_/bcrhhr content ;  # top-level
+_/bcdsp content ;  # top-level
+_/bysocelebrates content ;  # top-level
+_/bwhs content ;  # top-level
+_/bniart content ;  # top-level
+_/bnorc content ;  # top-level
+_/backbay content ;  # top-level
+_/baburmemorial content ;  # top-level
+_/battleforbu content ;  # top-level
+_/bahec content ;  # top-level
+_/baumlab content ;  # top-level
+_/ballab content ;  # top-level
+_/bands content ;  # top-level
+_/bam2012 content ;  # top-level
+_/barc2007 content ;  # top-level
+_/bmb content ;  # top-level
+_/bmerc content ;  # top-level
+_/bmo content ;  # top-level
+_/bmel content ;  # top-level
+_/bmegsc content ;  # top-level
+_/bhlp content ;  # top-level
+_/bhr content ;  # top-level
+_/bio-geo content ;  # top-level
+_/biosci content ;  # top-level
+_/bioimaging content ;  # top-level
+_/bioimages content ;  # top-level
+_/biotechlab content ;  # top-level
+_/bike content ;  # top-level
+_/bilingualaphasia content ;  # top-level
+_/biosquare content ;  # top-level
+_/bikesaftey content ;  # top-level
+_/biotech content ;  # top-level
+_/bioinformatics content ;  # top-level
+_/biosafety content ;  # top-level
+_/biomuseum content ;  # top-level
+_/biomediacenter content ;  # top-level
+_/biomedforensic content ;  # top-level
+_/binaural content ;  # top-level
+_/biomed content ;  # top-level
+_/biology content ;  # top-level
+_/biomedcrimas content ;  # top-level
+_/biorobotics content ;  # top-level
+_/bioskin content ;  # top-level
+_/becf content ;  # top-level
+_/benefitstransition content ;  # top-level
+_/bemerson content ;  # top-level
+_/behaviorlab content ;  # top-level
+_/beanpot-party content ;  # top-level
 ##TODO: get phpmap entry for betabionics and put in separate file
-  beelab content ;  # top-level
-  bergethonlab content ;  # top-level
-  betonrhett content ;  # top-level
-  behavneuro content ;  # top-level
-  because content ;  # top-level
-  beijing2014 content ;  # top-level
-  behaviorallab content ;  # top-level
-  botlab content ;  # top-level
-  bonrc content ;  # top-level
-  bostonia/wpassets content ;  # 
-  bostonroc content ;  # top-level
-  books content ;  # top-level
-  bostonscholars content ;  # top-level
-  borinsky content ;  # top-level
-  braintree content ;  # top-level
-  bravi content ;  # top-level
-  brussels content ;  # top-level
-  brainlab content ;  # top-level
-  bridge content ;  # top-level
-  brownstone content ;  # top-level
-  bfr2011 content ;  # top-level
-  blended content ;  # top-level
-  blazars content ;  # top-level
-  blogs content ;  # top-level
-  blacklegacy content ;  # top-level
-  bpt content ;  # top-level
-  bpassoff content ;  # top-level
-  bpir content ;  # top-level
-  btm content ;  # top-level
-  bsl content ;  # top-level
-  buildyourgift content ;  # top-level
-  busdm content ;  # top-level
-  buvs content ;  # top-level
-  buworkscentral content ;  # top-level
-  busm-facultycentral content ;  # top-level
-  buba content ;  # top-level
-  bullying content ;  # top-level
-  bua-robotics content ;  # top-level
-  busmplus content ;  # top-level
-  bubin content ;  # top-level
-  bulawreview content ;  # top-level
-  bu.edu content ;  # top-level
-  bucop content ;  # top-level
-  bumc-wellness content ;  # top-level
-  bumcparking content ;  # top-level
-  bunow content ;  # top-level
-  business content ;  # top-level
-  buildyourbu content ;  # top-level
-  buworks-files content ;  # top-level
+_/beelab content ;  # top-level
+_/bergethonlab content ;  # top-level
+_/betonrhett content ;  # top-level
+_/behavneuro content ;  # top-level
+_/because content ;  # top-level
+_/beijing2014 content ;  # top-level
+_/behaviorallab content ;  # top-level
+_/botlab content ;  # top-level
+_/bonrc content ;  # top-level
+_/bostonia/wpassets content ;  # 
+_/bostonroc content ;  # top-level
+_/books content ;  # top-level
+_/bostonscholars content ;  # top-level
+_/borinsky content ;  # top-level
+_/braintree content ;  # top-level
+_/bravi content ;  # top-level
+_/brussels content ;  # top-level
+_/brainlab content ;  # top-level
+_/bridge content ;  # top-level
+_/brownstone content ;  # top-level
+_/bfr2011 content ;  # top-level
+_/blended content ;  # top-level
+_/blazars content ;  # top-level
+_/blogs content ;  # top-level
+_/blacklegacy content ;  # top-level
+_/bpt content ;  # top-level
+_/bpassoff content ;  # top-level
+_/bpir content ;  # top-level
+_/btm content ;  # top-level
+_/bsl content ;  # top-level
+_/buildyourgift content ;  # top-level
+_/busdm content ;  # top-level
+_/buvs content ;  # top-level
+_/buworkscentral content ;  # top-level
+_/busm-facultycentral content ;  # top-level
+_/buba content ;  # top-level
+_/bullying content ;  # top-level
+_/bua-robotics content ;  # top-level
+_/busmplus content ;  # top-level
+_/bubin content ;  # top-level
+_/bulawreview content ;  # top-level
+_/bu.edu content ;  # top-level
+_/bucop content ;  # top-level
+_/bumc-wellness content ;  # top-level
+_/bumcparking content ;  # top-level
+_/bunow content ;  # top-level
+_/business content ;  # top-level
+_/buildyourbu content ;  # top-level
+_/buworks-files content ;  # top-level
 ##TODO: get phpmap entry for bumobile and put in separate file
-  bucie content ;  # top-level
-  bumclive content ;  # top-level
-  bupp content ;  # top-level
-  bums content ;  # top-level
-  buonline content ;  # top-level
-  buildingbu content ;  # top-level
-  bump content ;  # top-level
-  buee content ;  # top-level
-  bufirst content ;  # top-level
-  burgos content ;  # top-level
-  burc content ;  # top-level
-  buspace content ;  # top-level
-  bumcprovost content ;  # top-level
-  budget content ;  # top-level
-  buildbu content ;  # top-level
-  bumo content ;  # top-level
-  butp content ;  # top-level
-  busat content ;  # top-level
-  bucentral content ;  # top-level
-  buwc content ;  # top-level
-  bulletins content ;  # top-level
-  but content ;  # top-level
+_/bucie content ;  # top-level
+_/bumclive content ;  # top-level
+_/bupp content ;  # top-level
+_/bums content ;  # top-level
+_/buonline content ;  # top-level
+_/buildingbu content ;  # top-level
+_/bump content ;  # top-level
+_/buee content ;  # top-level
+_/bufirst content ;  # top-level
+_/burgos content ;  # top-level
+_/burc content ;  # top-level
+_/buspace content ;  # top-level
+_/bumcprovost content ;  # top-level
+_/budget content ;  # top-level
+_/buildbu content ;  # top-level
+_/bumo content ;  # top-level
+_/butp content ;  # top-level
+_/busat content ;  # top-level
+_/bucentral content ;  # top-level
+_/buwc content ;  # top-level
+_/bulletins content ;  # top-level
+_/but content ;  # top-level
 #  buniverse content ;  # top-level
-  bus content ;  # top-level
-  buworks content ;  # top-level
-  buworks-training content ;  # top-level
-  bufellow content ;  # top-level
-  buworksforum content ;  # top-level
-  bua content ;  # top-level
-  buworks-staff content ;  # top-level
-  bucde content ;  # top-level
-  bucld content ;  # top-level
-  bumc-research content ;  # top-level
-  budarwin content ;  # top-level
-  buleads content ;  # top-level
-  build content ;  # top-level
-  burppe content ;  # top-level
-  u content ;  # top-level
+_/bus content ;  # top-level
+_/buworks content ;  # top-level
+_/buworks-training content ;  # top-level
+_/bufellow content ;  # top-level
+_/buworksforum content ;  # top-level
+_/bua content ;  # top-level
+_/buworks-staff content ;  # top-level
+_/bucde content ;  # top-level
+_/bucld content ;  # top-level
+_/bumc-research content ;  # top-level
+_/budarwin content ;  # top-level
+_/buleads content ;  # top-level
+_/build content ;  # top-level
+_/burppe content ;  # top-level
+_/u content ;  # top-level
 # skipping BCDSP as we should only add the redirect2lower if necessary
 # skipping BWHS as we should only add the redirect2lower if necessary
 # skipping BME as we should only add the redirect2lower if necessary
