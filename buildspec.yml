@@ -15,6 +15,7 @@ phases:
     commands:
       - docker push "$IMAGEURI"
       - docker tag "$IMAGEURI" "${REPOSITORY_URI}:latest"
+      - docker push "${REPOSITORY_URI}:latest"
       - printf '[{"name":"bu-webrouter", "imageUri":"%s"}]' "$IMAGEURI" >build.json 
 artifacts:
   files: build.json
