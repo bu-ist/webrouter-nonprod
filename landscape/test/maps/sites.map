@@ -2,8 +2,8 @@
 _/version 20180208 ;
 
 # redirects
-_/studentlink redirect ;
-_/geography/brdf redirect ;
+_/studentlink redirect_asis ;
+_/geography/brdf redirect_asis ;
 
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
