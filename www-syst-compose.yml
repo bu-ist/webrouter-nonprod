@@ -13,3 +13,4 @@ services:
     restart: always
     environment:
       - LANDSCAPE=syst
+      - ALLOW_DOCKER_NETS=true
