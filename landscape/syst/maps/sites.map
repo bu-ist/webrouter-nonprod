@@ -2,7 +2,7 @@ _/version 20180202 ;
 
 # items from the Apache configuration
 _/htbin legacy ;
-_/studentlink redirect ; 
+_/studentlink redirect_asis ; 
 
 # UIS content
 _/uis content ;
