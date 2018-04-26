@@ -1710,6 +1710,8 @@ _/terrierconnection content ;  # top-level
 _/tech-backup content ;  # top-level
 _/tech-restricted content ;  # top-level
 _/test-to-production content ;  # top-level
+_/testshibro content ; #top-level
+_/testshibrw content ; #top-level
 _/techorg content ;  # top-level
 _/terriers content ;  # top-level
 _/tech-staging content ;  # top-level
