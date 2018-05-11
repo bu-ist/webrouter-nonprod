@@ -693,6 +693,7 @@ _/admissionsstatic content ;  # top-level
 _/adlab content ;  # top-level
 _/admissions/applicantlink content ;  # 
 _/auctions content ;  # top-level
+_/auth-test content ; #top-level for authentication load test
 _/autismconnections content ;  # top-level
 _/autism content ;  # top-level
 _/auckland content ;  # top-level
