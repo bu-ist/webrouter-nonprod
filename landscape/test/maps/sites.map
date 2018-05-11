@@ -648,6 +648,7 @@ _/adlab content ;  # top-level
 _/admissions/applicantlink content ;  # 
 #  admissions/applicantlink - archive content ;  # 
 _/auctions content ;  # top-level
+_/auth-test content ; #top-level for authentication load test
 _/autism content ;  # top-level
 _/aux content ;  # top-level
 _/abl content ;  # top-level
