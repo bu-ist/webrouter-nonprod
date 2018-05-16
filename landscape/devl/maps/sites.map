@@ -166,7 +166,7 @@ _/capbridge content ;  # top-level
 _/cader content ;  # top-level
 _/careerex content ;  # top-level
 _/cab content ;  # top-level
-_/calendar content ;  # top-level
+_/calendar phpbin ;  # top-level
 ##TODO: get phpmap entry for casdemo and put in separate file
 _/caderonline content ;  # top-level
 _/casgov content ;  # top-level
