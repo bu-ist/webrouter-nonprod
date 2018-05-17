@@ -1,0 +1,3164 @@
+_/version 20180202 ;
+
+# items from the Apache configuration
+_/htbin legacy ;
+_/studentlink redirect_asis ; 
+
+# UIS content
+_/uis content ;
+_/uis_web3270 legacy ;
+
+# items from the www:phpmap.txt
+_/buniverse phpbin ;
+_/maps phpbin ;
+_/bufellow/db-admin django ;
+
+# DegreeAdvice needs to be added
+# we should make a third party table for http backend services (maybe)
+#
+#degree-advice degreeadvice ;
+
+_/django apps ;
+
+# UISCGI/link entries
+_/link/bin uiscgi_app ;
+_/link uiscgi_content ;
+
+#admissions wordpress
+# dbin
+_/dbin dbin ;
+
+## LAW: redirect to lowercase
+## LAWLIBRARY: redirect to lowercase
+## LAWDEAN: redirect to lowercase
+## LAMILPA: redirect to lowercase
+## LAANE: redirect to lowercase
+## LAB: redirect to lowercase
+## LINGUISTICS: redirect to lowercase
+## LIBRARY: redirect to lowercase
+## LIBDB-TST: redirect to lowercase
+## LIBDB: redirect to lowercase
+## LITERARY: redirect to lowercase
+## LIFELONGLEARNING: redirect to lowercase
+## LIFELONG: redirect to lowercase
+## LIFEBOOK: redirect to lowercase
+## LITE: redirect to lowercase
+## LECTURE: redirect to lowercase
+## LERNET: redirect to lowercase
+## LEEGROUP: redirect to lowercase
+## LOVECANAL: redirect to lowercase
+## LUTHERAN: redirect to lowercase
+## LUNGS: redirect to lowercase
+_/robots.txt content ;
+_/roaric content ;
+_/roybal content ;
+_/ror content ;
+## rotc: wordpress
+## rocket: wordpress
+## rohp: wordpress
+## rosa: wordpress
+_/rosenbergarchive content ;
+## rp18p.GIF: redirect to lowercase
+_/rpm/panos content ;
+## rpm: wordpress
+_/rpm-agreements app ;
+_/rbarnett content ;
+## rbfl: wordpress
+_/rvs content ;
+_/ryeany content ;
+_/rayleigh content ;
+_/ravidlab content ;
+_/raisethebar content ;
+_/raceto50 content ;
+_/rcrc content ;
+_/rc content ;
+_/rcl content ;
+## rct: wordpress
+## rccp: wordpress
+_/rdlewis content ;
+_/reg/common content ;
+_/reg/information content ;
+_/reg/graphics content ;
+_/reg/gainful-employment content ;
+_/reg/schedules content ;
+## reg: wordpress
+## rehab: wordpress
+## religion: wordpress
+_/resnet content ;
+_/resources content ;
+_/reunion content ;
+## reslife: wordpress
+_/research/xml content ;
+_/research/spotlight content ;
+_/research/magazine content ;
+_/research/wp-assets content ;
+_/research/magazine2008 content ;
+_/research/email content ;
+_/research/careerfair2016 content ;
+## research: wordpress
+_/recording content ;
+_/reports content ;
+## remotesensing: wordpress
+_/resilience content ;
+_/recycling content ;
+_/remember content ;
+_/reman content ;
+_/retired content ;
+_/register content ;
+_/reply content ;
+## reinhardlab: wordpress
+_/registrar content ;
+_/receptions content ;
+_/recognizes content ;
+_/research-compliance content ;
+_/remotehelp content ;
+_/researchcommittees content ;
+## reliable: wordpress
+_/respectregistry content ;
+## regionalization: wordpress
+_/recentgrads content ;
+_/revpash content ;
+_/realestate/panos content ;
+## realestate: wordpress
+_/research-internal content ;
+_/research-external content ;
+_/researchsupport content ;
+_/rhett-talks content ;
+_/risk content ;
+## riscs: wordpress
+_/rideshare content ;
+## rims: wordpress
+## rilke: wordpress
+_/richardgoldsteinlab content ;
+_/rize content ;
+_/rl content ;
+_/rrtcout content ;
+## rs: wordpress
+_/rss content ;
+_/rsg content ;
+_/index.html content ;
+_/index2.html content ;
+_/inst-tech content ;
+_/index3.html content ;
+_/interv content ;
+## index: wordpress
+_/index99.html content ;
+_/info/downloads content ;
+## info: wordpress
+_/interactive content ;
+_/inml content ;
+_/injurypsychology content ;
+## infosec: wordpress
+_/investigate content ;
+_/infocenter content ;
+_/inaugural content ;
+_/internal-research content ;
+_/integratedmed content ;
+_/integrativemed content ;
+## india2010: wordpress
+_/indigobirds content ;
+## international: wordpress
+## infantcp: wordpress
+## intracghd: wordpress
+_/interactive-design/resources content ;
+_/interactive-design/2 content ;
+_/interactive-design/exported content ;
+## interactive-design: wordpress
+## india-global: wordpress
+_/insidecampaign content ;
+## indiaroi: wordpress
+_/inmlcore content ;
+_/inmlcfp content ;
+_/inmlprograms content ;
+## interleukin-16: wordpress
+_/infancp content ;
+_/investinprevention content ;
+_/investinginprevention content ;
+_/images content ;
+_/im-residency content ;
+_/impac content ;
+_/impact content ;
+## iml: wordpress
+_/im-intranet content ;
+_/immunohistochemistry-core content ;
+## ir: wordpress
+_/irsd content ;
+_/irwa content ;
+_/irafa content ;
+_/irc content ;
+_/ircenter content ;
+## irb: wordpress
+_/iraopportunity content ;
+_/it content ;
+_/italian content ;
+_/it_front_office content ;
+_/itcommon content ;
+_/itrp content ;
+## itec: wordpress
+_/itunes content ;
+_/itunesu content ;
+_/ithelp content ;
+_/it-commons content ;
+#farewell content ;
+## it-common: wordpress
+## ithelpsandbox: wordpress
+_/1000000 content ;
+## iar: wordpress
+_/iaj content ;
+_/iaen content ;
+## iass: wordpress
+_/ict content ;
+_/icshm content ;
+_/icce15 content ;
+_/icons content ;
+_/ice content ;
+## icsg: wordpress
+_/idp content ;
+_/id content ;
+## iedp: wordpress
+_/igsw content ;
+_/igert content ;
+_/igsw-register content ;
+## ihi: wordpress
+_/ihs content ;
+_/ihp content ;
+## ihblast: wordpress
+_/ihsip content ;
+_/iip content ;
+## iis: wordpress
+## ilj: wordpress
+_/ionchannelcalcium content ;
+## ioc: wordpress
+## ip: wordpress
+## ipr: wordpress
+_/iphone content ;
+## iptech: wordpress
+_/ipcp content ;
+_/ipe content ;
+_/ipl content ;
+_/iscip content ;
+_/isso/wp-assets content ;
+## isso: wordpress
+_/ist content ;
+_/isps content ;
+_/isec content ;
+_/istnews content ;
+## ist-news: wordpress
+## iscf: wordpress
+## iss: wordpress
+## isle: wordpress
+_/isi content ;
+_/ist-sa content ;
+## ist-intranet: wordpress
+_/ist-automation content ;
+_/isic content ;
+## isingh: wordpress
+_/isingh2 content ;
+## ise: wordpress
+_/ivcf content ;
+_/i3e-ac content ;
+## i2b2: wordpress
+## TERRIERS: redirect to lowercase
+## TERRIERCARD: redirect to lowercase
+## TELECOM: redirect to lowercase
+## TESTPREP: redirect to lowercase
+## TAD: redirect to lowercase
+## TANGLEWOOD: redirect to lowercase
+## THURMAN: redirect to lowercase
+## TLTR: redirect to lowercase
+## TRL: redirect to lowercase
+## TRACK: redirect to lowercase
+## TRANSPORTATION: redirect to lowercase
+## TRUSTEESCHOLARS: redirect to lowercase
+## TRANSGENIC: redirect to lowercase
+## TSO: redirect to lowercase
+## TSAI: redirect to lowercase
+## OSP: redirect to lowercase
+## OSFM: redirect to lowercase
+## ORPM: redirect to lowercase
+## ORIENTATION: redirect to lowercase
+## OAS: redirect to lowercase
+## OCS: redirect to lowercase
+## OED2E: redirect to lowercase
+## OEP: redirect to lowercase
+## OFFICES: redirect to lowercase
+## OMA: redirect to lowercase
+## OM: redirect to lowercase
+## ONLINE: redirect to lowercase
+## OT: redirect to lowercase
+## OUTDOOR: redirect to lowercase
+## OUTREACH: redirect to lowercase
+## COM-CSC: redirect to lowercase
+## COM: redirect to lowercase
+## CORE: redirect to lowercase
+## COURSENET: redirect to lowercase
+## COMP: redirect to lowercase
+## COMMENCEMENT: redirect to lowercase
+## COUNSELING: redirect to lowercase
+## COMJOBS: redirect to lowercase
+## COMMONGROUND: redirect to lowercase
+## COPYRIGHT: redirect to lowercase
+## COMMON-PLACE: redirect to lowercase
+## COBTH: redirect to lowercase
+## COGNEURO: redirect to lowercase
+## COMMUNITY: redirect to lowercase
+## COMPUTING: redirect to lowercase
+## CONSTRUCTION: redirect to lowercase
+## CC: redirect to lowercase
+## CCBOARD: redirect to lowercase
+## CCRD: redirect to lowercase
+## CREW: redirect to lowercase
+## CRE: redirect to lowercase
+## CELOP: redirect to lowercase
+## CEES: redirect to lowercase
+## CENTERS: redirect to lowercase
+## CECB: redirect to lowercase
+## CEDH: redirect to lowercase
+## CENSSIS: redirect to lowercase
+## CET: redirect to lowercase
+## CATHOLIC: redirect to lowercase
+## CAREERS: redirect to lowercase
+## CAS: redirect to lowercase
+## CALENDAR: redirect to lowercase
+## CASW: redirect to lowercase
+## CASHELPDESK: redirect to lowercase
+## CAMPAIGN: redirect to lowercase
+## CASWRITING: redirect to lowercase
+## CAB: redirect to lowercase
+## CAGT: redirect to lowercase
+## CASTLE: redirect to lowercase
+## CAMPING: redirect to lowercase
+## CDF: redirect to lowercase
+## CD: redirect to lowercase
+## CFA: redirect to lowercase
+## CGS: redirect to lowercase
+## CHAPEL: redirect to lowercase
+## CHINESE: redirect to lowercase
+## CHELSEA: redirect to lowercase
+## CHEMISTRY: redirect to lowercase
+## CHILDCOGNITION: redirect to lowercase
+## CHECKPC: redirect to lowercase
+## CHILDHOODTRAUMA: redirect to lowercase
+## CISM: redirect to lowercase
+## CLASSICS: redirect to lowercase
+## CMRL: redirect to lowercase
+## CME: redirect to lowercase
+## CMLD: redirect to lowercase
+## CMB: redirect to lowercase
+## CPR: redirect to lowercase
+## CSP: redirect to lowercase
+## CSS: redirect to lowercase
+## CTF: redirect to lowercase
+## CULTURE: redirect to lowercase
+## CULINARYARTS: redirect to lowercase
+## CWF: redirect to lowercase
+## CWC: redirect to lowercase
+## WCP: redirect to lowercase
+## WCREW: redirect to lowercase
+## WELLNESS: redirect to lowercase
+## WEBCENTRAL: redirect to lowercase
+## WEBCAST: redirect to lowercase
+## WEBLOGIN: redirect to lowercase
+## WEBSUMMIT: redirect to lowercase
+## WEBMAIL: redirect to lowercase
+## WBBALL: redirect to lowercase
+## WBUR: redirect to lowercase
+## WHATSNEW: redirect to lowercase
+## WHISTLINGDUCK: redirect to lowercase
+## WIRELESS: redirect to lowercase
+## WINE: redirect to lowercase
+## WOMENSPOLO: redirect to lowercase
+## WOMENSTUDIES: redirect to lowercase
+## WOUNDBIOTECH: redirect to lowercase
+## WORKANDFAMILY: redirect to lowercase
+## WRITING: redirect to lowercase
+## WTBU: redirect to lowercase
+## WWWV: redirect to lowercase
+## WhatsNew.html: redirect to lowercase
+## DME: redirect to lowercase
+## DINING: redirect to lowercase
+## DIRECTORY: redirect to lowercase
+## DISTED: redirect to lowercase
+## DISABILITY: redirect to lowercase
+## DISTANCE: redirect to lowercase
+## DANIELSEN: redirect to lowercase
+## DAR: redirect to lowercase
+## DCG: redirect to lowercase
+## DENTAL: redirect to lowercase
+## DEV: redirect to lowercase
+## DEANSHOST: redirect to lowercase
+## DEAFSTUDIES: redirect to lowercase
+## DEGREECOMPLETE: redirect to lowercase
+## DSGSUPPORT: redirect to lowercase
+## DUBLINSEMINAR: redirect to lowercase
+## MORIN: redirect to lowercase
+## MODL: redirect to lowercase
+## MFLL: redirect to lowercase
+## MFG: redirect to lowercase
+## MFD: redirect to lowercase
+## MAG: redirect to lowercase
+## MAPS: redirect to lowercase
+## MAP: redirect to lowercase
+## MARCOM: redirect to lowercase
+## MARSH: redirect to lowercase
+## MARSHPLAZA: redirect to lowercase
+## MASSTWINS: redirect to lowercase
+## MATTDM: redirect to lowercase
+## MATHFN: redirect to lowercase
+## MACI: redirect to lowercase
+## MCAPR: redirect to lowercase
+## MCH: redirect to lowercase
+## MCBB: redirect to lowercase
+## MDRC: redirect to lowercase
+## MEDIAGUIDEBOOK: redirect to lowercase
+## MET: redirect to lowercase
+## MEDSCHOOL: redirect to lowercase
+## MEDIA: redirect to lowercase
+## MEDIEVAL: redirect to lowercase
+## MEDALUMNI: redirect to lowercase
+## MILLE: redirect to lowercase
+## MICROSCOPYLAB: redirect to lowercase
+## MILITARY: redirect to lowercase
+## MIH: redirect to lowercase
+## MPACT: redirect to lowercase
+## MSPHOTONICS: redirect to lowercase
+## MVR: redirect to lowercase
+## SPECCOL: redirect to lowercase
+## SPIRITHEALTH: redirect to lowercase
+## SPIDR: redirect to lowercase
+## SPECIALREPORTS: redirect to lowercase
+## SARGENT: redirect to lowercase
+## SARPSYCH: redirect to lowercase
+## SATELLITE: redirect to lowercase
+## SAO: redirect to lowercase
+## SARGENTCAMP: redirect to lowercase
+## SARHOUSE: redirect to lowercase
+## SAC: redirect to lowercase
+## SSW: redirect to lowercase
+## STH: redirect to lowercase
+## STATS: redirect to lowercase
+## STUDENTVILLAGE: redirect to lowercase
+## STUDENTS: redirect to lowercase
+## STRATCOM: redirect to lowercase
+## SEARCH: redirect to lowercase
+## SERVICES: redirect to lowercase
+## SECURITY: redirect to lowercase
+## SED: redirect to lowercase
+## SEO: redirect to lowercase
+## SECURITYINFO: redirect to lowercase
+## SUMMERTERM: redirect to lowercase
+## SUMMER: redirect to lowercase
+## SOFTWARE: redirect to lowercase
+## SOCIOLOGY: redirect to lowercase
+## SOURCEGUIDE: redirect to lowercase
+## SCHOOLS: redirect to lowercase
+## SCOE: redirect to lowercase
+## SCHOOLPHYS: redirect to lowercase
+## SCARLETKEY: redirect to lowercase
+## SCANNING: redirect to lowercase
+## SFA: redirect to lowercase
+## SHA: redirect to lowercase
+## SHS: redirect to lowercase
+## SHPRP: redirect to lowercase
+## SIMULATION: redirect to lowercase
+## SIL: redirect to lowercase
+## SICKLECELL: redirect to lowercase
+## SLONE: redirect to lowercase
+## SMG-EM: redirect to lowercase
+## SMEC: redirect to lowercase
+## SMG: redirect to lowercase
+## SYNT: redirect to lowercase
+## SYSTEMS: redirect to lowercase
+## SYSTEMS-SUPPORT: redirect to lowercase
+## SYSTEMS-PROGRAMMING: redirect to lowercase
+# This should be WordPress -dsmk 2017/07/18
+#students content ;
+## ISSO: redirect to lowercase
+## ISCIP: redirect to lowercase
+## IST: redirect to lowercase
+## ISEC: redirect to lowercase
+## IMAGES: redirect to lowercase
+## IAR: redirect to lowercase
+## IAJ: redirect to lowercase
+## ICT: redirect to lowercase
+## ICSHM: redirect to lowercase
+## ICCE15: redirect to lowercase
+## ICONS: redirect to lowercase
+## ICE: redirect to lowercase
+## IEDP: redirect to lowercase
+## IGSW: redirect to lowercase
+## IHI: redirect to lowercase
+## IHS: redirect to lowercase
+## IKONCOPY: redirect to lowercase
+## ILJ: redirect to lowercase
+## INFO: redirect to lowercase
+## INST-TECH: redirect to lowercase
+## INDEX: redirect to lowercase
+## INDEX.HTML: redirect to lowercase
+## INTERV: redirect to lowercase
+## INJURYPSYCHOLOGY: redirect to lowercase
+## INTERACTIVE: redirect to lowercase
+## INFOSEC: redirect to lowercase
+## IP: redirect to lowercase
+## IR: redirect to lowercase
+## IRSD: redirect to lowercase
+## IRWA: redirect to lowercase
+## IRAFA: redirect to lowercase
+## IT_FRONT_OFFICE: redirect to lowercase
+## IT: redirect to lowercase
+## ITALIAN: redirect to lowercase
+## IVCF: redirect to lowercase
+## JOBS: redirect to lowercase
+## JOURNALS: redirect to lowercase
+## JTS2000: redirect to lowercase
+## JUDICIALAFFAIRS: redirect to lowercase
+## ADMISSIONS: redirect to lowercase
+## ADMINISTRATION: redirect to lowercase
+## ADVANCEMENT: redirect to lowercase
+## ADMINSC: redirect to lowercase
+## ASLLRP: redirect to lowercase
+## ASSISTIVE_TECHNOLOGY: redirect to lowercase
+## ASSIST_TECH: redirect to lowercase
+## ASOR: redirect to lowercase
+## ASTRONOMY: redirect to lowercase
+## ASIANARC: redirect to lowercase
+## AG: redirect to lowercase
+## AGNI: redirect to lowercase
+## AF-ROTC: redirect to lowercase
+## AFR: redirect to lowercase
+## AFAM: redirect to lowercase
+## AFRICA: redirect to lowercase
+## ACOR: redirect to lowercase
+## ACCREDITATION: redirect to lowercase
+## ACTUARY: redirect to lowercase
+## ACOUSTICS: redirect to lowercase
+## ACADEMY: redirect to lowercase
+## AEMDPRL: redirect to lowercase
+## AEC: redirect to lowercase
+## AH: redirect to lowercase
+## AIG: redirect to lowercase
+## ALUMNI: redirect to lowercase
+## ALDOLASE: redirect to lowercase
+## ALBERT: redirect to lowercase
+## ALZRESEARCH: redirect to lowercase
+## AMNESP: redirect to lowercase
+## AME: redirect to lowercase
+## ANTHROP: redirect to lowercase
+## ANXIETY: redirect to lowercase
+## ANSWERS: redirect to lowercase
+## ANEP: redirect to lowercase
+## ANATOMY: redirect to lowercase
+## ANATNEURO: redirect to lowercase
+## APPLY: redirect to lowercase
+## APHASIA: redirect to lowercase
+## APARC: redirect to lowercase
+## ARMYROTC: redirect to lowercase
+## ART: redirect to lowercase
+## ARTSAID: redirect to lowercase
+## ARCHAEOLOGY: redirect to lowercase
+## ARTAID: redirect to lowercase
+## ARION: redirect to lowercase
+## ARTSADMIN: redirect to lowercase
+## ARCHAEOLOGYCENTER: redirect to lowercase
+## ARMENIA: redirect to lowercase
+## ATHLETICS: redirect to lowercase
+## AV: redirect to lowercase
+## Aux: redirect to lowercase
+## PUBLICATIONS: redirect to lowercase
+## PURCHASING: redirect to lowercase
+## PUBLICHEALTHWORKFORCE: redirect to lowercase
+## PCSC: redirect to lowercase
+## PCMS: redirect to lowercase
+## PCL: redirect to lowercase
+## PIKE: redirect to lowercase
+## PIN: redirect to lowercase
+## POLISCI: redirect to lowercase
+## POLICIES: redirect to lowercase
+## POLICE: redirect to lowercase
+## PARENTS: redirect to lowercase
+## PARKING: redirect to lowercase
+## PARTISANREVIEW: redirect to lowercase
+## PACLAB: redirect to lowercase
+## PARDEE: redirect to lowercase
+## PATHOLOGY: redirect to lowercase
+## PERSONNEL: redirect to lowercase
+## PEHC: redirect to lowercase
+## PERD: redirect to lowercase
+## PHILO: redirect to lowercase
+## PHOTONICS: redirect to lowercase
+## PHOTO: redirect to lowercase
+## PHYSICS: redirect to lowercase
+## PROXY: redirect to lowercase
+## PRC: redirect to lowercase
+## PRSSA: redirect to lowercase
+## PROVOST: redirect to lowercase
+## PRELAW: redirect to lowercase
+## PROCUREMENT: redirect to lowercase
+## PRACTICE: redirect to lowercase
+## PRJ: redirect to lowercase
+## PRESIDENT: redirect to lowercase
+## PROFESSIONAL: redirect to lowercase
+## PROARTE: redirect to lowercase
+## PSYCH: redirect to lowercase
+## PSP: redirect to lowercase
+## PT3: redirect to lowercase
+## PTC: redirect to lowercase
+## HOMEIMAGES: redirect to lowercase
+## HOUSING: redirect to lowercase
+## HOSPITALITY: redirect to lowercase
+## HOTELCOMMONWEALTH: redirect to lowercase
+## HOMECOMING: redirect to lowercase
+## HHH: redirect to lowercase
+## HELP: redirect to lowercase
+## Help: redirect to lowercase
+## HEALTHCONNECTION: redirect to lowercase
+## HEALTHFIT: redirect to lowercase
+## HCEP: redirect to lowercase
+## HDWG: redirect to lowercase
+## HDGOLF: redirect to lowercase
+## HF: redirect to lowercase
+## HILLEL: redirect to lowercase
+## HISTORY: redirect to lowercase
+## HISTORIC: redirect to lowercase
+## HISTOLOGY: redirect to lowercase
+## HIPART: redirect to lowercase
+## HIPAA: redirect to lowercase
+## HPL: redirect to lowercase
+## HRC: redirect to lowercase
+## HTMG: redirect to lowercase
+## HUNTINGTON: redirect to lowercase
+## Help: redirect to lowercase
+## BUMS: redirect to lowercase
+## BUbin: redirect to lowercase
+## BUSDM: redirect to lowercase
+## BUCDE: redirect to lowercase
+## BULLETINS: redirect to lowercase
+## BUMO: redirect to lowercase
+## BUSINESS: redirect to lowercase
+## BUFELLOW: redirect to lowercase
+## BUOHC: redirect to lowercase
+## BUMP: redirect to lowercase
+## BUPP: redirect to lowercase
+## BUT: redirect to lowercase
+## BUILDINGBU: redirect to lowercase
+## BUILD: redirect to lowercase
+## BCDSP: redirect to lowercase
+## BEANPOT-PARTY: redirect to lowercase
+## BEHAVNEURO: redirect to lowercase
+## BIKE: redirect to lowercase
+## BIOINFORMATICS: redirect to lowercase
+## BIOSKIN: redirect to lowercase
+## BIOSQUARE: redirect to lowercase
+## BINAURAL: redirect to lowercase
+## BIOLOGY: redirect to lowercase
+## BIOMED: redirect to lowercase
+## BIOMEDIACENTER: redirect to lowercase
+## BLAZARS: redirect to lowercase
+## BME: redirect to lowercase
+## BOSTONIA: redirect to lowercase
+## BOOKS: redirect to lowercase
+## BPT: redirect to lowercase
+## BRIDGE: redirect to lowercase
+## BRAINTREE: redirect to lowercase
+## BRUSSELS: redirect to lowercase
+## BRAVI: redirect to lowercase
+## BSL: redirect to lowercase
+## BTM: redirect to lowercase
+## BWHS: redirect to lowercase
+## KARYSTOS: redirect to lowercase
+## NEWS: redirect to lowercase
+## NEWMAN: redirect to lowercase
+## NEWSWIRE: redirect to lowercase
+## NEURO: redirect to lowercase
+## NEUROPSYCHOLOGY: redirect to lowercase
+## NEWMEDIA: redirect to lowercase
+## NEMS: redirect to lowercase
+## NEURAL: redirect to lowercase
+## NAITEST: redirect to lowercase
+## NARRATIVE: redirect to lowercase
+## NIS: redirect to lowercase
+## NITRIDES: redirect to lowercase
+## NIDA-MRC: redirect to lowercase
+## nisdev-NI-location: redirect to lowercase
+## NOX: redirect to lowercase
+## NROTC: redirect to lowercase
+## NSEG: redirect to lowercase
+## NSG: redirect to lowercase
+## NUTRITION: redirect to lowercase
+## EAS: redirect to lowercase
+## ECE: redirect to lowercase
+## ECON: redirect to lowercase
+## ECOLOGYONLINE: redirect to lowercase
+## EDUCATION: redirect to lowercase
+## EDITINST: redirect to lowercase
+## EFORWARDING: redirect to lowercase
+## EHS: redirect to lowercase
+## EHS-MC: redirect to lowercase
+## EHSMC: redirect to lowercase
+## ENGLISH: redirect to lowercase
+## ENG: redirect to lowercase
+## ENCODER: redirect to lowercase
+## ENGIT: redirect to lowercase
+## ENTREPRENEURSHIP: redirect to lowercase
+## EPISCOPAL: redirect to lowercase
+## ERC: redirect to lowercase
+## ES: redirect to lowercase
+## ESA: redirect to lowercase
+## ESO: redirect to lowercase
+## ETC: redirect to lowercase
+## EVENTS: redirect to lowercase
+## EVERGREEN: redirect to lowercase
+## EXERCISEANDCANCER: redirect to lowercase
+## EXTENDED: redirect to lowercase
+## EXPLORATIONS: redirect to lowercase
+## FACULTY-COUNCIL: redirect to lowercase
+## FAMILY: redirect to lowercase
+## FACULTY: redirect to lowercase
+## FAVORITEPOEM: redirect to lowercase
+## FAFC: redirect to lowercase
+## FAMMED: redirect to lowercase
+## FAMILYMED: redirect to lowercase
+## FAQS: redirect to lowercase
+## FEATURES: redirect to lowercase
+## FHCMI: redirect to lowercase
+## FINAID: redirect to lowercase
+## FINPLANNERS: redirect to lowercase
+## FORMS: redirect to lowercase
+## FOO: redirect to lowercase
+## FSL: redirect to lowercase
+## FSAP: redirect to lowercase
+## FSAO: redirect to lowercase
+## GEDDES: redirect to lowercase
+## GEP: redirect to lowercase
+## GENEPD: redirect to lowercase
+## GERONTOLOGY: redirect to lowercase
+## GENETICS: redirect to lowercase
+## GENOME: redirect to lowercase
+## GIFT: redirect to lowercase
+## GIVING: redirect to lowercase
+## GIVETHEPOINT: redirect to lowercase
+## GLOBAL: redirect to lowercase
+## GLC: redirect to lowercase
+## GLOBALMFG: redirect to lowercase
+## GOGLOBAL: redirect to lowercase
+## GRAPHICS: redirect to lowercase
+## GRS: redirect to lowercase
+## GSU: redirect to lowercase
+## Games: redirect to lowercase
+## QALE: redirect to lowercase
+## QIL: redirect to lowercase
+## QUANTUM: redirect to lowercase
+## QUITNET: redirect to lowercase
+## RAYLEIGH: redirect to lowercase
+## RCRC: redirect to lowercase
+## RC: redirect to lowercase
+## RCL: redirect to lowercase
+## REHAB: redirect to lowercase
+## RELIGION: redirect to lowercase
+## REG: redirect to lowercase
+## RESNET: redirect to lowercase
+## RESOURCES: redirect to lowercase
+## REUNION: redirect to lowercase
+## RESLIFE: redirect to lowercase
+## RESEARCH: redirect to lowercase
+## RECORDING: redirect to lowercase
+## REPORTS: redirect to lowercase
+## REMOTESENSING: redirect to lowercase
+## RESILIENCE: redirect to lowercase
+## RECYCLING: redirect to lowercase
+## REMEMBER: redirect to lowercase
+## REMAN: redirect to lowercase
+## RISK: redirect to lowercase
+## ROYBAL: redirect to lowercase
+## ROR: redirect to lowercase
+## RRTCOUT: redirect to lowercase
+## RS: redirect to lowercase
+## UB: redirect to lowercase
+## UCTECH: redirect to lowercase
+## UC: redirect to lowercase
+## UIS: redirect to lowercase
+## UISACS: redirect to lowercase
+## UNI: redirect to lowercase
+## UNION: redirect to lowercase
+## UNIVCOMP: redirect to lowercase
+## URC: redirect to lowercase
+## URGENT: redirect to lowercase
+## UROP: redirect to lowercase
+## UR: redirect to lowercase
+## USSI: redirect to lowercase
+## USC: redirect to lowercase
+## VCB: redirect to lowercase
+## VENDING: redirect to lowercase
+## VISIT: redirect to lowercase
+## VIRTUALPATIENT: redirect to lowercase
+## VIDEO: redirect to lowercase
+## XYZ: redirect to lowercase
+## YAC: redirect to lowercase
+## YEARBOOK: redirect to lowercase
+_/htbin.ph content ;
+_/htmg content ;
+_/hts-core content ;
+## htpp: wordpress
+_/html-email app ;
+_/htc content ;
+_/hagen content ;
+## handbook: wordpress
+_/haneke content ;
+_/hasselmo content ;
+_/haydn content ;
+## haitihelp: wordpress
+## hanlab: wordpress
+_/haydarlab content ;
+_/halloween content ;
+_/hariri content ;
+_/hdgolf content ;
+_/hdr content ;
+_/hdhd content ;
+_/hdwg content ;
+_/hcep content ;
+_/help content ;
+_/healthconnection content ;
+_/healthfit content ;
+_/helpinfo content ;
+_/healthyminds content ;
+_/herbalstudy content ;
+_/hem-masters content ;
+_/healthmba content ;
+_/healthmatters content ;
+## hf: wordpress
+## hhh: wordpress
+## hillel: wordpress
+_/history/gradconference content ;
+_/history/APHI content ;
+_/history/apps content ;
+## history: wordpress
+_/historic content ;
+_/histology content ;
+_/hipart content ;
+_/hipaa content ;
+_/hilleldining content ;
+_/high-throughput content ;
+## hicse: wordpress
+## hic: wordpress
+_/hi content ;
+_/hiccse content ;
+_/hj2013 content ;
+_/homeimages content ;
+## housing: wordpress
+_/home content ;
+_/home-media content ;
+_/hospitality/revenator content ;
+_/hospitality/wp-assets content ;
+## hospitality: wordpress
+_/homecoming content ;
+_/hotelcommonwealth content ;
+_/holmul content ;
+## honoringeve: wordpress
+_/housing2010 content ;
+_/hoarding content ;
+_/homepage content ;
+_/hockeygolf content ;
+_/homepage2 content ;
+## hockey-task-force: wordpress
+## homiletical-theology-project: wordpress
+_/honordeanwells content ;
+_/honordeanmeenan content ;
+_/hpcworkshop content ;
+_/hpl content ;
+_/hprp content ;
+## hps-scied: wordpress
+## hrc: wordpress
+_/hr/flash content ;
+_/hr/articulate content ;
+_/hr/documents content ;
+## hr: wordpress
+_/hre content ;
+## hrpi: wordpress
+## hsdeptclined: wordpress
+_/huntington content ;
+_/humandevelopment content ;
+## humanities: wordpress
+_/hydrology content ;
+_/games content ;
+_/galacticring content ;
+_/gastronomy content ;
+_/glaisne content ;
+## global: wordpress
+_/glc content ;
+_/globalmfg content ;
+_/globalexec content ;
+_/globalbeat content ;
+_/globalmediakit content ;
+_/glacier content ;
+## globallyspeaking: wordpress
+## globaltoast: wordpress
+_/globaloperations content ;
+## globalops-questionnaire: wordpress
+_/globaldayofservice content ;
+## globalprograms: wordpress
+_/globalquestionnaire content ;
+_/global-crisis content ;
+_/globe content ;
+_/globaldaysofservice/logyourhours content ;
+## globaldaysofservice: wordpress
+## globalhealthtechnologies: wordpress
+_/graphics content ;
+_/grs content ;
+_/green content ;
+## greeklife: wordpress
+_/grenoble content ;
+## greetbu: wordpress
+_/gradanniversary1966 content ;
+_/gradanniversary1991 content ;
+_/gradanniversary2006 content ;
+_/gradanniversary2011 content ;
+_/gradanniversary2015 content ;
+_/gcc content ;
+## gc: wordpress
+## gdp: wordpress
+_/gds content ;
+## gdrs: wordpress
+_/geddes/kanji content ;
+_/geddes/course content ;
+## geddes: wordpress
+_/gep content ;
+_/gegi content ;
+_/gerontology content ;
+_/generalsurgery content ;
+_/genome content ;
+_/genetics content ;
+_/geriatrics content ;
+## geography: wordpress
+_/gensex content ;
+## geneva: wordpress
+_/geophysics content ;
+_/geochemistry content ;
+_/geosciences content ;
+_/geology content ;
+_/geoscience content ;
+_/getready content ;
+## gened: wordpress
+_/ghi content ;
+_/ghpci content ;
+## ghc: wordpress
+## ghblast: wordpress
+## ght-zanzibarbar: wordpress
+_/gift content ;
+_/giving content ;
+_/givethepoint content ;
+_/givetoday content ;
+_/givingback content ;
+_/giveonline content ;
+## gipgap: wordpress
+_/giftcalculator content ;
+_/give content ;
+_/give2busm content ;
+_/giveclassgift content ;
+_/givingday content ;
+_/givethroughbu content ;
+_/givingsocieties content ;
+_/givetobu content ;
+_/givingtuesday content ;
+_/givetobuti content ;
+_/givingmatters content ;
+_/givetowtbu content ;
+_/give2questrom content ;
+_/gk12 content ;
+_/gms content ;
+_/goglobal content ;
+_/go content ;
+_/google665a4eb2dcd06afe.html content ;
+_/googlehostedservice.html content ;
+_/googlesites content ;
+_/google content ;
+_/gobu content ;
+_/govcenter content ;
+_/google9f2e7abecb89081e.html content ;
+_/google46db49694c214422.html content ;
+_/googlec64352682593c8e8.html content ;
+_/google99ca0794d90971e7.html content ;
+## gpgg: wordpress
+_/gpmm content ;
+_/gpto content ;
+_/gpts/wp-assets content ;
+## gpts: wordpress
+## gplc: wordpress
+_/gsu content ;
+_/gsm content ;
+## gso: wordpress
+_/gsi content ;
+## gwise: wordpress
+_/gyoung content ;
+_/g2kge content ;
+_/abl content ;
+_/abroad-dublin content ;
+## abroad: wordpress
+_/abroadatbu content ;
+_/aboutcgs content ;
+_/abroad2 content ;
+## abrahamicreligionssymposium: wordpress
+_/act content ;
+_/academics/archive content ;
+## academics: wordpress
+_/acor content ;
+_/actuary content ;
+_/accreditation content ;
+_/acoustics content ;
+_/academy content ;
+_/actforhealth content ;
+_/acs content ;
+## aceilab: wordpress
+_/aclonline content ;
+_/academics-archive content ;
+_/academics-staging-backup content ;
+_/academics-prod-backup content ;
+_/addictions/wp-assets content ;
+## addictions: wordpress
+_/admissions/applicantlink content ;
+_/admissions/telegraph content ;
+_/admissions/presenter content ;
+## admissions: wordpress
+_/addiction content ;
+_/advancement content ;
+## adminsc: wordpress
+_/adlab content ;
+_/admissionsstatic content ;
+## admissions-signage: wordpress
+## admissions-event-manager-backup: wordpress
+## aac: wordpress
+## aat: wordpress
+_/aaastudy content ;
+_/afox content ;
+_/af-rotc content ;
+_/afr content ;
+## afam: wordpress
+_/africa/wp-assets content ;
+_/africa/publication-assets content ;
+## africa: wordpress
+_/afrotc content ;
+_/anajam content ;
+## anthrop: wordpress
+_/anxiety content ;
+_/answers content ;
+_/anep content ;
+_/anatomy content ;
+_/anatneuro content ;
+_/animal content ;
+_/annualfund content ;
+## anderssonlab: wordpress
+## analesgaldosianos: wordpress
+## animalcare: wordpress
+_/analytical-core content ;
+_/annualfundroster content ;
+_/annualgiving content ;
+_/apreso content ;
+_/apply content ;
+## aphasia: wordpress
+_/aparc content ;
+## apcsc: wordpress
+## apfd: wordpress
+## applied-linguistics: wordpress
+## aphasiacenter: wordpress
+## aphasiaresearch: wordpress
+_/apps-rewrite content ;
+## apls: wordpress
+## aparcrt: wordpress
+## apr: wordpress
+_/apc content ;
+## aphasiareflections: wordpress
+## ap: wordpress
+_/api content ;
+_/arn content ;
+## archaeology: wordpress
+_/archive-vista content ;
+_/arion/wp-assets content ;
+_/arion/forms content ;
+## arion: wordpress
+_/armyrotc content ;
+## art: wordpress
+_/artsaid content ;
+_/artaid content ;
+## artsadmin: wordpress
+_/armenia content ;
+## art.ro: wordpress
+_/archives content ;
+_/arthritis-center content ;
+## ars: wordpress
+_/archsci content ;
+## arts: wordpress
+_/arche content ;
+_/army content ;
+_/ar content ;
+_/arlington content ;
+_/artslive content ;
+## arcs: wordpress
+## arrows: wordpress
+## artsnow: wordpress
+## artofpoetry: wordpress
+_/aemdprl content ;
+_/aeacus content ;
+_/aegdalumnidinner content ;
+_/ag content ;
+## agep: wordpress
+_/agni content ;
+_/agganis content ;
+## agingbrain: wordpress
+_/agganis-redesign content ;
+## ah: wordpress
+_/aig content ;
+_/airo content ;
+_/aias content ;
+## aiaa: wordpress
+## ajlm: wordpress
+_/alumni/images content ;
+_/alumni/common content ;
+## alumni: wordpress
+_/alert content ;
+_/aldolase content ;
+_/albert content ;
+_/alzresearch/wp-assets content ;
+## alzresearch: wordpress
+## alumniweekend: wordpress
+## allocate: wordpress
+## alcohol-forum: wordpress
+_/alumni-forms content ;
+## alpha-1: wordpress
+_/alumnicollege content ;
+_/alumnirelations content ;
+_/alistaircooke content ;
+_/alcoholeducationforyouth content ;
+_/alumnicenter content ;
+## amnesp: wordpress
+_/ame content ;
+## amyloid: wordpress
+_/amp content ;
+_/aodhealth content ;
+_/asllrp content ;
+_/assistive_technology content ;
+_/assist_tech content ;
+_/asor content ;
+_/astronomy/ast_display content ;
+_/astronomy/wp-assets content ;
+_/astronomy/visualizations content ;
+## astronomy: wordpress
+## asianarc: wordpress
+## asian: wordpress
+_/asianalumni content ;
+_/athletics content ;
+_/atssa content ;
+_/atttend content ;
+_/attend content ;
+_/attention content ;
+_/athchallenge content ;
+_/aux content ;
+## autism: wordpress
+_/auctions content ;
+_/auckland content ;
+## auxiliary-services: wordpress
+## autismconnections: wordpress
+_/av content ;
+_/avl content ;
+_/avtonkov-today2 content ;
+## awship: wordpress
+_/awrecentgrads content ;
+## APPLY: redirect to lowercase
+_/coursenet content ;
+_/computing content ;
+_/comjobs content ;
+_/coredesign content ;
+_/com/givetoday content ;
+_/com/playitforward content ;
+_/com/greatdebate content ;
+_/com/test content ;
+_/com/scripts content ;
+_/com/ndow content ;
+_/com/networking content ;
+_/com/course-feeds content ;
+_/com/beaudoin-review content ;
+_/com/narrative content ;
+_/com/flash content ;
+_/com/support-necir content ;
+_/com/humor content ;
+_/com/pradvanced content ;
+_/com/crc content ;
+_/com/lib content ;
+_/com/redstonenyc content ;
+_/com/redstonewest content ;
+_/com/linkedin content ;
+_/com/registration content ;
+_/com/special content ;
+_/com/socialmediaday content ;
+_/com/orientation content ;
+_/com/live-it content ;
+_/com/ems-review content ;
+_/com/mobile-life-workshop content ;
+_/com/necir-registration content ;
+_/com/amp-registration content ;
+_/com/design-request content ;
+_/com/cmcs content ;
+_/com/new-courses content ;
+_/com/dar content ;
+_/com/lambert-review content ;
+_/com/data-storytelling content ;
+_/com/graduate content ;
+_/com/daly-review content ;
+_/com/labor-films content ;
+_/com/jaramillo-review content ;
+_/com/wu-review content ;
+_/com/student-magazines content ;
+_/com/graduate-programs content ;
+_/com/supa-review content ;
+_/com/film-tv-facts content ;
+_/com/photo-workshops content ;
+_/com/hong-review content ;
+_/com/science-storytelling content ;
+_/com/wtbu-radio content ;
+_/com/groshek-review content ;
+_/com/sports_institute content ;
+_/com/images content ;
+_/com/includes content ;
+## com: wordpress
+_/com-csc content ;
+_/commencement/wp-assets content ;
+## commencement: wordpress
+_/comp content ;
+## core: wordpress
+_/counseling content ;
+_/complete content ;
+_/commonground content ;
+_/copyright content ;
+_/common-place content ;
+_/cobth content ;
+## cogneuro: wordpress
+## community: wordpress
+_/construction content ;
+_/comit content ;
+## cod: wordpress
+_/countdown content ;
+_/corpfound content ;
+_/coi content ;
+_/common content ;
+_/contact content ;
+## cores: wordpress
+_/coreframework content ;
+_/conscious content ;
+_/commsurvey content ;
+## com-careers: wordpress
+## comet: wordpress
+_/com-dean-search content ;
+_/composition content ;
+_/cohenchallenge content ;
+_/commavefair content ;
+_/copley content ;
+_/collegechampion content ;
+_/computational-biomedicine content ;
+_/connect content ;
+## cort: wordpress
+_/compbiomed content ;
+## comtalk: wordpress
+_/courseware-manager django ;
+_/compnet content ;
+## codes: wordpress
+## corporations: wordpress
+_/congregationalstudies content ;
+## comlabs: wordpress
+_/comm content ;
+## consumer: wordpress
+_/computationalimmunology/documentation content ;
+## computationalimmunology: wordpress
+_/com100 content ;
+_/compliance/videos content ;
+## compliance: wordpress
+_/cohstar/wp-assets content ;
+## cohstar: wordpress
+_/casw content ;
+_/cagt content ;
+_/caryl content ;
+## careers: wordpress
+_/camping content ;
+_/cas/common content ;
+_/cas/invite content ;
+_/cas/newsletter content ;
+_/cas/impactx2 content ;
+_/cas/ar content ;
+_/cas/wp-assets content ;
+_/cas/telegraph content ;
+_/cas/magazine content ;
+## cas: wordpress
+_/catholic content ;
+_/calendar content ;
+_/cashelpdesk content ;
+## castle: wordpress
+_/campaign/docs content ;
+## campaign: wordpress
+_/cawses content ;
+_/caswriting content ;
+_/cab content ;
+_/caadlab content ;
+_/careerex content ;
+_/cap content ;
+## card: wordpress
+## cache: wordpress
+_/cateringonthecharles content ;
+## carnalknowledge: wordpress
+## campussurvey: wordpress
+_/cardiothoracicmain content ;
+_/care content ;
+_/casinternal content ;
+_/caswpinternal content ;
+_/cascsg content ;
+_/cas-scholars content ;
+_/caregivinghealthresearch content ;
+_/casstudentacademiclife content ;
+_/casdemo content ;
+## casecomp: wordpress
+## cas-tenure: wordpress
+## cas-promotion: wordpress
+_/casgov content ;
+## casadvising: wordpress
+## caspreprofessional: wordpress
+## casprograms: wordpress
+## case-melville: wordpress
+_/cardiovascular-medicine content ;
+_/campaignlaunch content ;
+_/campaignvip content ;
+_/campaignkickoff content ;
+## campaignkickoffvip: wordpress
+## casit: wordpress
+## cader: wordpress
+## caderonline: wordpress
+## catering: wordpress
+## cards: wordpress
+_/cac content ;
+## cas-academic-integrity: wordpress
+_/cball content ;
+_/cbm content ;
+## cbss: wordpress
+_/cdaly content ;
+_/cdn content ;
+## cdl: wordpress
+_/cd content ;
+_/cdc2007 content ;
+_/cermak content ;
+## cecb: wordpress
+## ceit: wordpress
+## cees: wordpress
+_/celop/dev content ;
+## celop: wordpress
+_/centers content ;
+_/cedh content ;
+_/censsis content ;
+## celop-hub: wordpress
+## cet: wordpress
+_/ce content ;
+_/celebrationvip content ;
+_/cellular-imaging content ;
+## center-for-anxiety-related-disorders: wordpress
+_/cellphone-compliance django ;
+_/celebrationofbu content ;
+_/ceei content ;
+_/cel content ;
+_/centurychallenge content ;
+_/celebrationcake content ;
+_/ces content ;
+_/cgs-events content ;
+_/cgs/wp-assets content ;
+## cgs: wordpress
+## cgcm: wordpress
+_/cghd/wp-assets content ;
+## cghd: wordpress
+_/cga content ;
+_/cgap content ;
+## cgsa: wordpress
+## cghdac: wordpress
+_/cgs60th content ;
+## cgsnow: wordpress
+## ckls: wordpress
+_/classgift content ;
+_/clarion content ;
+_/classics/wp-assets content ;
+## classics: wordpress
+## clas: wordpress
+## classrooms: wordpress
+_/climate content ;
+_/clerkship-subinternship content ;
+_/cleanenergyventures content ;
+_/classroom content ;
+_/cliveg content ;
+_/clinicalinvestigation content ;
+_/csharp content ;
+## csmet: wordpress
+_/csp/uv content ;
+_/csp/PASS content ;
+_/csp/Conferences content ;
+_/csp/seminar content ;
+_/csp/pss2012 content ;
+_/csp/MUAN content ;
+_/csp/trespass content ;
+_/csp/hall_display content ;
+## csp: wordpress
+## csc: wordpress
+_/css content ;
+## cste: wordpress
+## cscd: wordpress
+_/cs/wp-assets content ;
+## cs: wordpress
+_/csiacademy content ;
+## csn: wordpress
+_/cc content ;
+_/ccboard content ;
+_/ccrd content ;
+## ccsr: wordpress
+## cci: wordpress
+## ccs: wordpress
+_/cfa/incite content ;
+_/cfa/johndaverio content ;
+_/cfa/bcap content ;
+_/cfa/ppc1 content ;
+_/cfa/musiceducation.bu.edu content ;
+_/cfa/ppc2 content ;
+_/cfa/wp-assets content ;
+_/cfa/ppc3 content ;
+_/cfa/ppc4 content ;
+_/cfa/ppc5 content ;
+_/cfa/ppc6 content ;
+## cfa: wordpress
+_/cfdi content ;
+_/cfa-alumni content ;
+## cfa-dean-search: wordpress
+_/cfait content ;
+## cfo: wordpress
+## cflp: wordpress
+## cftcc: wordpress
+## chapel: wordpress
+_/choosemet content ;
+## charlesmed: wordpress
+_/charles content ;
+_/chinese content ;
+## childlab: wordpress
+## chemistry: wordpress
+## childlanguage: wordpress
+_/childcognition content ;
+_/checkpc content ;
+_/childhoodtrauma content ;
+_/chelmsford content ;
+## changingthegame: wordpress
+_/childlabs content ;
+_/citylabacademy content ;
+_/cise content ;
+_/cism content ;
+_/civsa content ;
+## cityplanning: wordpress
+_/ciap content ;
+_/citylab content ;
+_/citylab-olc content ;
+_/cip content ;
+## cims: wordpress
+_/citycoboston content ;
+_/cilse content ;
+_/citycoboston.bak content ;
+_/ciswh content ;
+_/cmrl content ;
+_/cme content ;
+_/cmld content ;
+## cmb: wordpress
+_/cmmh content ;
+_/cmetips content ;
+_/cms content ;
+## cmu: wordpress
+## cms-uploads: wordpress
+_/cmezian content ;
+## cmd: wordpress
+_/cnn-nanocancer content ;
+_/cpr content ;
+## cpt: wordpress
+_/cphs/archive content ;
+## cphs: wordpress
+_/crew content ;
+_/crtimes content ;
+_/creative content ;
+_/cre content ;
+_/crossdomain.xml content ;
+## creedd: wordpress
+_/crro content ;
+## creativewriting: wordpress
+_/crm content ;
+## crowdfunding: wordpress
+_/cruiseandlearn content ;
+_/ctf content ;
+## ctsi: wordpress
+## cte: wordpress
+## ctl: wordpress
+_/culture content ;
+_/culinaryarts content ;
+## cura: wordpress
+_/cughdental content ;
+_/cvn content ;
+_/cwf content ;
+_/cwc content ;
+_/search content ;
+## sequitur: wordpress
+_/security/advisories content ;
+## security: wordpress
+_/services content ;
+_/sed/wp-assets content ;
+## sed: wordpress
+## seo: wordpress
+_/securityinfo content ;
+_/senlab content ;
+## se: wordpress
+_/session content ;
+_/sep content ;
+_/securitycamp content ;
+_/securitycampimport content ;
+## sendoffs: wordpress
+## sedtfa: wordpress
+_/seniors content ;
+## service: wordpress
+_/seaurchinmeeting2011 content ;
+_/sedreadingclinic/wp-assets content ;
+## sedreadingclinic: wordpress
+_/service-now content ;
+_/sedimc content ;
+_/secret content ;
+## sed-gpape: wordpress
+## selstaff: wordpress
+## sed-jsp: wordpress
+## sedaccepted: wordpress
+## segrelab: wordpress
+## sed-gsa: wordpress
+_/se-demo content ;
+## sedadmitted: wordpress
+_/sedigital content ;
+## students: wordpress
+## staff: wordpress
+## sth: wordpress
+_/sthacker content ;
+_/stats content ;
+_/stayemployed content ;
+_/startup content ;
+_/strategicreport content ;
+_/studentvillage content ;
+_/stratcom content ;
+_/studentvillage2 content ;
+_/studentexperience content ;
+_/stationery content ;
+## stem: wordpress
+_/stepup content ;
+## sthlibrary: wordpress
+_/sthope content ;
+_/stimulus content ;
+## statehouse: wordpress
+## stat: wordpress
+_/studio content ;
+_/stamasfund content ;
+_/state content ;
+## studentaccountingservices: wordpress
+## studentloanaccounting: wordpress
+## sth-history: wordpress
+## studentleader: wordpress
+## sthconnect: wordpress
+_/storage-admin content ;
+_/sthfulladmission content ;
+_/studyfinder content ;
+_/stemcells content ;
+## sth-directory: wordpress
+## studentactivities: wordpress
+_/sth-sc content ;
+_/studentgov content ;
+_/study content ;
+_/story content ;
+_/stay content ;
+_/stay-test content ;
+## sth-mentors: wordpress
+_/stugov content ;
+_/sac content ;
+_/sara content ;
+_/sao content ;
+_/sargent/wp-assets content ;
+## sargent: wordpress
+_/sarpsych content ;
+_/satellite content ;
+_/sargentcamp content ;
+_/sargent.ro/wp-assets content ;
+## sargent.ro: wordpress
+_/sarhouse content ;
+_/safety/stand-up content ;
+## safety: wordpress
+_/sargenteconnection content ;
+_/sandbox content ;
+## sargentchoice: wordpress
+_/sardlb content ;
+_/samlab content ;
+_/saa content ;
+## sarp: wordpress
+_/sargentluncheon content ;
+## sage: wordpress
+_/sarorder content ;
+_/sarptat content ;
+## sargentservice: wordpress
+## salariedlecturers: wordpress
+_/shawnp content ;
+_/sha content ;
+## shs: wordpress
+_/shprp content ;
+_/showme content ;
+## shaw: wordpress
+## sha-dean-search: wordpress
+## shanghai: wordpress
+_/shongchallenge content ;
+## sicklecell: wordpress
+_/silber content ;
+_/simulation content ;
+_/sil content ;
+## sir: wordpress
+_/sif content ;
+## sicklegen: wordpress
+_/sixsixty content ;
+_/sites content ;
+_/smhaley content ;
+_/smscint content ;
+_/smg-em content ;
+## smscinst: wordpress
+_/smg-event content ;
+_/smec content ;
+_/smg content ;
+## smartlighting: wordpress
+_/smgalum content ;
+## smgmarcom: wordpress
+## smg-dean-search: wordpress
+_/smghonors content ;
+## smartmoney101: wordpress
+_/smartcities content ;
+## smg100: wordpress
+_/smgcentennial content ;
+_/sm322 content ;
+_/suemac content ;
+_/summerterm content ;
+_/summer content ;
+## surf: wordpress
+_/suppliers content ;
+_/supplier content ;
+## sustainability: wordpress
+_/supportingbusm content ;
+_/survey content ;
+_/summerfun content ;
+_/supportrotc content ;
+_/supportbu content ;
+_/supportpmh content ;
+_/supportquestrom content ;
+## susilo: wordpress
+_/supportanatomylab content ;
+_/supportaphasiacenter content ;
+_/summerinternhousing content ;
+_/sbrptraining content ;
+## sbd: wordpress
+_/scoe content ;
+_/sccc content ;
+_/schools content ;
+_/schoolphys content ;
+_/scarletkey content ;
+## scanning: wordpress
+_/scscb content ;
+_/scibowl content ;
+_/scv content ;
+_/scenery content ;
+_/sciguide content ;
+_/scv_import content ;
+## scriparts: wordpress
+_/schneiderslab content ;
+_/schoolofeducation content ;
+_/schneider content ;
+_/scnutrition content ;
+_/scnc/wp-assets content ;
+## scnc: wordpress
+_/scarlet-squad content ;
+_/sclerodermaworkshop content ;
+_/schroeter content ;
+_/sci content ;
+## sdll: wordpress
+_/sfa content ;
+## sfsf: wordpress
+_/sjmag content ;
+## slone: wordpress
+_/sleeplab content ;
+_/50000 content ;
+_/sleepmed content ;
+_/slatkin content ;
+## sloan: wordpress
+_/snc content ;
+_/snl content ;
+_/sn content ;
+_/sncn content ;
+## sociology: wordpress
+_/software content ;
+_/sourceguide content ;
+_/sourcing/contracted_suppliers_ui content ;
+## sourcing: wordpress
+_/south content ;
+_/southfloridacelebratesbu content ;
+_/speccol content ;
+_/spirithealth content ;
+_/spidr content ;
+_/sph/wp-assets content ;
+## sph: wordpress
+_/specialreports content ;
+## sportsmedicine: wordpress
+_/sports content ;
+_/space content ;
+_/spectrumarts content ;
+## sps: wordpress
+_/sph-imports content ;
+_/sportsmed content ;
+## speechlab: wordpress
+## specialty: wordpress
+## sph-coalitions: wordpress
+_/srp content ;
+_/ssw/common content ;
+_/ssw/wp-assets content ;
+_/ssw/usfostercare app ;
+## ssw: wordpress
+## sswit: wordpress
+_/sscores/downloads content ;
+## sscores: wordpress
+_/sswphd content ;
+## swrnet: wordpress
+_/synt content ;
+## systems: wordpress
+## systems-support: wordpress
+_/systems-programming content ;
+_/sysprg content ;
+_/synesthesia content ;
+## synapse: wordpress
+## sydney: wordpress
+_/systemsbiology content ;
+_/synbio content ;
+## systems-programming.RESTORED: redirect to lowercase
+_/faculty/ear content ;
+## faculty: wordpress
+_/faculty-council content ;
+## family: wordpress
+_/favicon.ico content ;
+_/favoritepoem content ;
+## families: wordpress
+_/fafc/wp-assets content ;
+## fafc: wordpress
+_/fammed content ;
+_/familymed/forms content ;
+_/familymed/distance content ;
+_/familymed/meddebt content ;
+## familymed: wordpress
+_/faqs content ;
+_/fabde content ;
+_/facilities/webcams content ;
+## facilities: wordpress
+_/fafc-files content ;
+_/fames content ;
+_/facultycentral content ;
+_/faculty-funding content ;
+_/faculty-mslade1 content ;
+_/facultycouncil content ;
+_/fanboyfoodtruck content ;
+_/fafc-temp content ;
+_/facial-rejuvenation content ;
+_/fetters content ;
+_/features content ;
+## federal: wordpress
+_/feltensteinchallenge content ;
+_/festival content ;
+_/franco content ;
+_/freshmen content ;
+_/frydmanlab content ;
+_/frombtou content ;
+_/forms content ;
+_/foo content ;
+_/forums content ;
+_/foodandwine content ;
+_/formerworker content ;
+_/forensicinvestigation content ;
+_/forensicanthro content ;
+_/forse content ;
+## foundations: wordpress
+## foreignpolicyconf: wordpress
+_/forensics content ;
+_/foodallergy content ;
+_/fcoi content ;
+_/fd content ;
+## fdretf: wordpress
+_/fhcmi content ;
+## fhs: wordpress
+_/finaid/pdfs content ;
+_/finaid/fedfunds content ;
+_/finaid/status_documents content ;
+_/finaid/test content ;
+## finaid: wordpress
+_/finplanners content ;
+## fitrec: wordpress
+_/firesafety content ;
+_/fifty-states content ;
+_/finance content ;
+## firstpoint: wordpress
+_/flexi-basic content ;
+## flow-cytometry: wordpress
+## fluidlab: wordpress
+_/flexi-framework content ;
+_/florencenightingale content ;
+_/fmherbalstudy content ;
+## fps: wordpress
+_/fsap content ;
+_/fsl content ;
+## fsao: wordpress
+_/ftl content ;
+## ftcc: wordpress
+_/ftp-survey content ;
+_/futuremba content ;
+## fye: wordpress
+_/fysopstyle content ;
+_/fy103 content ;
+_/prism content ;
+_/prc content ;
+_/presidentsearch content ;
+## prelaw: wordpress
+_/procurement content ;
+## prlab: wordpress
+_/provost/secure content ;
+_/provost/admin content ;
+_/provost/complexity2008 content ;
+## provost: wordpress
+## proxy: wordpress
+_/prs content ;
+_/prj content ;
+_/prssa content ;
+_/premed content ;
+_/president content ;
+_/professional content ;
+_/prerelease content ;
+_/proarte content ;
+_/prostars content ;
+_/preview content ;
+_/protected content ;
+## projectgo: wordpress
+_/provost2 content ;
+_/projects content ;
+_/printcenter content ;
+_/prudential content ;
+_/prevmedresidency content ;
+## premodern: wordpress
+## professorvoices: wordpress
+_/proposaldevelopment content ;
+## presidential-functions: wordpress
+## prehealth: wordpress
+_/preservation content ;
+_/pathology content ;
+_/padova content ;
+_/parklab content ;
+## pardee: wordpress
+_/parking/dbtemplates content ;
+## parking: wordpress
+_/partisanreview content ;
+_/parfund content ;
+_/paideia content ;
+## parentsprogram: wordpress
+_/parentsweekend content ;
+_/pace content ;
+_/paiella content ;
+## parkinsonsdisease: wordpress
+## panek: wordpress
+## paris: wordpress
+## pasi: wordpress
+_/pardeestaff content ;
+## parentmagazine: wordpress
+## padua: wordpress
+_/payment content ;
+## paprogram: wordpress
+_/parkstreet content ;
+## pasi-tsunami: wordpress
+_/parentfund content ;
+_/parents content ;
+## payroll: wordpress
+_/paadmissions content ;
+## pardeeschool: wordpress
+## parttimefaculty: wordpress
+_/parentgifts content ;
+_/parentsupport content ;
+## paymentservices: wordpress
+## pdc: wordpress
+## pdme: wordpress
+## photonics-reu: wordpress
+## philo: wordpress
+## photonics: wordpress
+_/photo content ;
+_/physics content ;
+_/phpbin phpbin ;
+_/phpbin.rw phpbin ;
+_/phylogeny content ;
+_/phys-biophys content ;
+_/phpbin.ro phpbin ;
+_/phhprc content ;
+## pharm: wordpress
+## photonics-ret: wordpress
+_/phpbin-selector phpbin ;
+_/ph123 content ;
+## FOO: redirect to lowercase
+_/pnemec content ;
+_/polymer content ;
+## polisci: wordpress
+## policies: wordpress
+_/police content ;
+_/porco content ;
+_/posenprogram content ;
+_/pocketmba content ;
+_/postdocs content ;
+_/pzekos content ;
+## pcsc: wordpress
+_/pcms content ;
+## pcl: wordpress
+_/pci content ;
+_/pc content ;
+_/pehc content ;
+_/personnel content ;
+_/perd content ;
+_/pep content ;
+_/pehs content ;
+_/pemba content ;
+_/peeradvising content ;
+_/peaclab/temm11 content ;
+_/peaclab/apmmi11 content ;
+## peaclab: wordpress
+## peermentor: wordpress
+_/perlstaff content ;
+## pemba-ga: wordpress
+## pemba-part-time: wordpress
+## pembainfo: wordpress
+_/pemba-essays content ;
+_/pike content ;
+_/pin content ;
+## picf: wordpress
+## pilj: wordpress
+_/pipgiving content ;
+## playwriting: wordpress
+_/playground content ;
+_/plan2015 content ;
+_/plannedgiving content ;
+_/plakias content ;
+_/pm content ;
+_/psp content ;
+_/psych/charris content ;
+## psych: wordpress
+_/psc content ;
+## psychdiversity: wordpress
+_/pt3 content ;
+_/ptc content ;
+## ptresidency: wordpress
+_/ptfellowship/wp-assets content ;
+## ptfellowship: wordpress
+_/publications content ;
+_/purchasing content ;
+_/pusteblume content ;
+_/publichealthworkforce content ;
+_/pulmonary-test content ;
+_/pulmonarycenter content ;
+_/pulmonary content ;
+_/publicsafety content ;
+## p2p: wordpress
+_/p2pguide content ;
+## news: wordpress
+_/newindex.html content ;
+_/newswire content ;
+_/newindex2.html content ;
+_/newindex3.html content ;
+_/newindex4.html content ;
+_/newman content ;
+## neuro: wordpress
+## neuropsychology: wordpress
+_/newmedia content ;
+_/nems content ;
+_/neural content ;
+## neidl: wordpress
+## neuroscience: wordpress
+_/neuromusculardisease content ;
+## neuron: wordpress
+_/neurorehab/wp-assets content ;
+## neurorehab: wordpress
+_/netreg content ;
+_/neuroengineering content ;
+## nehsummerworkshop: wordpress
+_/neurorehabilitationlab content ;
+## neft: wordpress
+## networks: wordpress
+## nerscic: wordpress
+_/new2bu content ;
+## neh: wordpress
+_/newyear content ;
+## nephtc: wordpress
+_/newyorkeveningwithbu content ;
+_/newyorkcelebratesbu content ;
+## neurophotonics-nrt: wordpress
+_/narrative content ;
+_/naeser content ;
+_/nano content ;
+_/navyrotc content ;
+_/nanoheat content ;
+_/nassr2013 content ;
+_/nassr-2013/wp-assets content ;
+## nassr-2013: wordpress
+## nano-bu: wordpress
+_/naturalconference content ;
+## nfc: wordpress
+## nf-kb: wordpress
+_/nis content ;
+_/nitrides content ;
+_/nida-mrc content ;
+_/nis-sym content ;
+_/nisdev content ;
+_/nis-bkup content ;
+_/nisprod content ;
+_/nisprojects content ;
+_/nisguide content ;
+## nishd: wordpress
+_/niscms content ;
+_/nislab content ;
+_/nightingale content ;
+_/niteo content ;
+## nm: wordpress
+_/nml content ;
+## nmrc: wordpress
+_/nox content ;
+_/northcampus content ;
+_/north-campus content ;
+## noyce: wordpress
+_/northmba content ;
+_/nonprofitmba content ;
+## npl: wordpress
+_/nrotc content ;
+## nrc: wordpress
+_/nseg content ;
+## nsg: wordpress
+## ntt: wordpress
+_/laloba content ;
+_/law/communications content ;
+_/law/graphics content ;
+_/law/seipp content ;
+_/law/events content ;
+_/law/workingpapers-archive content ;
+_/law/journals-archive content ;
+## law: wordpress
+_/lawlibrary content ;
+_/lawdean content ;
+_/lamilpa content ;
+_/laane content ;
+## lab: wordpress
+_/law.bkup content ;
+## las: wordpress
+_/lamovie content ;
+_/old.law content ;
+_/lawyearbooks content ;
+_/laprogram/wp-assets content ;
+## laprogram: wordpress
+_/language content ;
+## lawav: wordpress
+_/laverdes content ;
+_/lawgiving content ;
+_/latenightkitchen content ;
+## lawlibintranet: wordpress
+## lancet-commission-essential-medicines-policies: wordpress
+_/law-pub app ;
+_/lacelebratesbu content ;
+_/languagelearning content ;
+_/ljerrett content ;
+_/lcme content ;
+## lcsc: wordpress
+_/lcemp content ;
+_/lecture content ;
+_/lernet content ;
+_/leegroup content ;
+_/leboha content ;
+## lesotho: wordpress
+## lecturesincriticism: wordpress
+## leed: wordpress
+## learninglab: wordpress
+_/levantine-ceramics content ;
+_/leading-by-example content ;
+_/learn content ;
+_/leed100bsr content ;
+_/leadershipgifts content ;
+_/leadershipgiving content ;
+_/leadershipsupport content ;
+_/leap content ;
+## leap-lp: wordpress
+_/libdb-old content ;
+_/libdb content ;
+_/library/wp-assets content ;
+_/library/primo content ;
+## library: wordpress
+_/linguistics content ;
+_/libdb-tst content ;
+_/liberalstudies content ;
+_/linguistics.ro content ;
+_/literary content ;
+_/links content ;
+_/lifelong content ;
+_/lifelonglearning content ;
+_/lifebook content ;
+_/lite content ;
+_/lifesciences content ;
+_/life content ;
+_/linux content ;
+_/links2 content ;
+_/linga content ;
+_/liveon content ;
+## litphil: wordpress
+_/libfiles content ;
+_/library-workflow content ;
+_/lmn content ;
+_/lms content ;
+_/lovecanal content ;
+_/login content ;
+_/logout content ;
+## london: wordpress
+## losangeles: wordpress
+_/loyaltysociety content ;
+_/loyalty content ;
+_/lutheran content ;
+_/lungs content ;
+_/luce content ;
+_/lully content ;
+_/lu-lingzi-fund content ;
+## lvn: wordpress
+_/webmail content ;
+_/weblogin content ;
+_/websummit content ;
+_/webcast content ;
+## wellness: wordpress
+_/webcentral/common content ;
+## webcentral: wordpress
+_/webteam/mgburns content ;
+_/webteam/projects content ;
+_/webteam/hiring content ;
+_/webteam/presentations content ;
+_/webteam/clrux content ;
+## webteam: wordpress
+_/weddings content ;
+_/wgrimes content ;
+_/wgs/wp-assets content ;
+## wgs: wordpress
+_/wwildman content ;
+_/wwwv content ;
+_/www-test.bu.edu content ;
+_/washintern content ;
+## wara: wordpress
+_/washingtoncelebratesbu content ;
+## washington: wordpress
+_/wbball content ;
+_/wbur content ;
+_/wcp content ;
+## wcrew: wordpress
+_/wcbct2010 content ;
+_/wci-training-programs content ;
+_/whatsnew.html content ;
+_/whistlingduck content ;
+_/whatsnew content ;
+_/wireless content ;
+_/wine content ;
+_/wise content ;
+## wib: wordpress
+## winterfest: wordpress
+_/wiesel content ;
+_/wiki content ;
+_/wita content ;
+_/win/data content ;
+## win: wordpress
+_/wilsonwonglab content ;
+## wll: wordpress
+_/womenspolo content ;
+## womenstudies: wordpress
+_/woundbiotech content ;
+_/wolozinlab content ;
+_/womensguild/wp-assets content ;
+## womensguild: wordpress
+_/wonca content ;
+_/wow content ;
+_/wordpress content ;
+_/world content ;
+## wp-admin: wordpress
+_/wpmu/forms content ;
+_/wpmu/static content ;
+_/wpmu/foo content ;
+## wpmu: wordpress
+## wpnet: wordpress
+## wp-includes: wordpress
+## wp-content: wordpress
+_/wp-deploy app ;
+## wptraining: wordpress
+## writing: wordpress
+## writingprogram: wordpress
+_/wtbu content ;
+_/bemerson content ;
+_/beanpot-party content ;
+_/behavneuro content ;
+_/becf content ;
+_/bergethonlab content ;
+_/behaviorlab content ;
+## behaviorallab: wordpress
+## beelab: wordpress
+_/betonrhett content ;
+_/betabionics app ;
+_/because content ;
+_/beijing2014 content ;
+_/behere content ;
+## best: wordpress
+## benefitstaskforce: wordpress
+## beethovencenter: wordpress
+_/betterwaytowork content ;
+_/borinsky content ;
+_/bostonia/bostonia_archives content ;
+_/bostonia/web content ;
+_/bostonia/summer08 content ;
+_/bostonia/spring08 content ;
+_/bostonia/winter08 content ;
+_/bostonia/spring09 content ;
+_/bostonia/winter09 content ;
+_/bostonia/fall08 content ;
+_/bostonia/search content ;
+_/bostonia/global content ;
+_/bostonia/link content ;
+_/bostonia/summer11 content ;
+_/bostonia/extra content ;
+_/bostonia/email content ;
+_/bostonia/Scripts content ;
+_/bostonia/summer09 content ;
+_/bostonia/toc content ;
+_/bostonia/fall09 content ;
+_/bostonia/fall11 content ;
+_/bostonia/winter-spring12 content ;
+_/bostonia/winter-spring10 content ;
+_/bostonia/campaign12 content ;
+_/bostonia/css content ;
+_/bostonia/summer10 content ;
+_/bostonia/fall10 content ;
+_/bostonia/winter-spring11 content ;
+_/bostonia/summer12 content ;
+_/bostonia/wpassets content ;
+## bostonia: wordpress
+_/bostonscholars content ;
+_/books content ;
+_/bonrc content ;
+_/bostonroc/wp-assets content ;
+## bostonroc: wordpress
+## botlab: wordpress
+_/bostoneveningwithbu content ;
+_/bostoncelebratesbu content ;
+_/bpassoff content ;
+## bpt: wordpress
+## bpir: wordpress
+## bcdsp: wordpress
+_/bcrhhr content ;
+_/bahec content ;
+_/bands/graphics content ;
+_/bands/common content ;
+## bands: wordpress
+_/bam2012/wp-assets content ;
+## bam2012: wordpress
+_/barc2007 content ;
+## baumlab: wordpress
+_/backbay content ;
+_/baburmemorial content ;
+_/ballab content ;
+_/battleforbu content ;
+## backtoschool: wordpress
+_/barc2015 content ;
+_/bashoexpress content ;
+_/u content ;
+_/bfr2011 content ;
+## bgannon: wordpress
+_/bhlp content ;
+## bhr: wordpress
+_/bike content ;
+## bioinformatics: wordpress
+_/biomedforensic content ;
+_/bioskin content ;
+_/bioimaging content ;
+_/biosquare content ;
+## binaural: wordpress
+_/biology/herps content ;
+## biology: wordpress
+_/biomed content ;
+## biomediacenter: wordpress
+_/biosafety content ;
+_/biotech content ;
+_/bioimages content ;
+_/biochemistry content ;
+_/biomedcrimas content ;
+_/bikesaftey content ;
+## bikesafety: wordpress
+## bio-geo: wordpress
+_/biorobotics content ;
+_/biophysics content ;
+## bilingualaphasia: wordpress
+_/biomuseum content ;
+## biosci: wordpress
+_/biotechlab content ;
+_/bionicpancreas content ;
+_/blazars content ;
+_/blended content ;
+## blacklegacy: wordpress
+_/blogs content ;
+_/blendedlearning content ;
+## bme: wordpress
+## bmo: wordpress
+## bmel: wordpress
+## bmegsc: wordpress
+## bmb: wordpress
+## bmerc: wordpress
+_/bnorc content ;
+## bniart: wordpress
+_/bridge content ;
+_/braintree content ;
+_/brussels content ;
+_/bravi/archive content ;
+## bravi: wordpress
+_/brownstone content ;
+## brand: wordpress
+## brainlab: wordpress
+_/bsl content ;
+_/btm content ;
+_/btou content ;
+_/bucde content ;
+#bufellow/db-admin app ;
+_/bufellow/output content ;
+## bufellow: wordpress
+## bulletins: wordpress
+## bumo: wordpress
+## bump: wordpress
+_/bums content ;
+## bupp: wordpress
+_/busdm content ;
+_/bubin content ;
+_/business content ;
+## buohc: wordpress
+_/but content ;
+_/buildingbu content ;
+_/build content ;
+## budget: wordpress
+_/buvs content ;
+## buee: wordpress
+_/buspace content ;
+## busat: wordpress
+_/buworks/assets content ;
+_/buworks/error content ;
+_/buworks/help content ;
+## buworks: wordpress
+_/bucentral content ;
+#buniverse app ;
+## bucop: wordpress
+_/buwc content ;
+_/burc content ;
+_/buworks-staff content ;
+_/builders-leaders content ;
+_/buildyourgift content ;
+_/bumc-research content ;
+_/bucld/wp-assets content ;
+## bucld: wordpress
+_/bumobile phpbin ;
+## burgos: wordpress
+_/busm-pm content ;
+_/busm-facultycentral content ;
+_/bumc-admissions content ;
+## butp: wordpress
+_/bumc-pulmonarycenter content ;
+_/buworks-files content ;
+## budarwin: wordpress
+## bua-robotics: wordpress
+_/buworks-training content ;
+## burppe: wordpress
+## bunow: wordpress
+_/bucie/wp-assets content ;
+## bucie: wordpress
+_/buworkscentral content ;
+_/buc content ;
+## bufirst: wordpress
+_/buildbu content ;
+_/bumc-it content ;
+## buc-test: wordpress
+_/buworksforum content ;
+_/bumclive content ;
+_/bus content ;
+_/bumc-wellness content ;
+_/bumc content ;
+_/busm content ;
+## bullying: wordpress
+_/bumcprovost content ;
+## bulawreview: wordpress
+_/bucflp/wp-assets content ;
+## bucflp: wordpress
+_/buba content ;
+_/bumcparking content ;
+_/buonline content ;
+_/buildyourbu content ;
+_/bua content ;
+_/buleads content ;
+_/busmplus/form content ;
+## busmplus: wordpress
+_/bu.edu content ;
+_/buniverse.backup app ;
+_/buapayments/wp-assets content ;
+## buapayments: wordpress
+## bucflp-fig: wordpress
+_/bu2do content ;
+_/bu-nano content ;
+_/bunano content ;
+_/burst content ;
+_/budentalapparelsale content ;
+_/buzzlab content ;
+## bwhs: wordpress
+_/bysocelebrates content ;
+_/dan content ;
+_/danielsen/wp-assets content ;
+## danielsen: wordpress
+_/dar content ;
+_/darwin content ;
+_/darwin2009 content ;
+_/dayofservice content ;
+## dar-talent: wordpress
+## datamanagement: wordpress
+## darstaff: wordpress
+## darsecure: wordpress
+_/daysofservice content ;
+_/data content ;
+## darapps: wordpress
+_/danrather content ;
+## datascience: wordpress
+_/ddalton content ;
+_/dlanglai content ;
+## dli: wordpress
+_/dsmk content ;
+_/dsgsupport content ;
+_/dsg content ;
+_/ds-test content ;
+## ds-enrollment-a: wordpress
+## ds-enrollment-b: wordpress
+## ds-enrollment-c: wordpress
+## ds-enrollment-d: wordpress
+## ds-cas-a: wordpress
+## ds-cas-b: wordpress
+## ds-enrollment-e: wordpress
+## ds-1silberway: wordpress
+## ds-ensa: wordpress
+_/dssandbox content ;
+_/dbin-selector dbin ;
+## dcc: wordpress
+## dct: wordpress
+_/dcg content ;
+_/dev content ;
+## devcom: wordpress
+_/dental/lobbyscreen content ;
+_/dental/nerb-mcmanama content ;
+## dental: wordpress
+## deanshost: wordpress
+## deafstudies: wordpress
+_/degreecomplete content ;
+## demoarea: wordpress
+_/devbio content ;
+_/derm content ;
+## dental-research: wordpress
+_/degree-audit degree-advice ;
+_/degree-advice degree-advice ;
+_/dermatology-associates content ;
+## deafautism: wordpress
+_/dentures content ;
+_/dentalassisting content ;
+_/dining/api phpbin-prod.bu.edu:180/apps-rewrite ;
+_/dining/wp-assets content ;
+_/dining/report2015 content ;
+_/dining/report2013 content ;
+_/dining/report2014 content ;
+_/dining/report2016 content ;
+## dining: wordpress
+_/directory content ;
+_/diploma content ;
+_/distance content ;
+_/disted content ;
+_/disability/wp-assets content ;
+## disability: wordpress
+_/diversity content ;
+## dioa: wordpress
+_/digication content ;
+_/diabetescenter content ;
+_/discoveries content ;
+_/dinghysailors content ;
+## digital: wordpress
+_/discover content ;
+_/dinegreen content ;
+_/digitalrevolutionevent content ;
+_/diversitytaskforce/media content ;
+## diversitytaskforce: wordpress
+_/dje content ;
+_/dme content ;
+_/dnamixtures django ;
+_/dna content ;
+_/dos/lulingzi content ;
+_/dos/facebook content ;
+## dos: wordpress
+_/dos-test content ;
+_/double-it content ;
+_/doubleit content ;
+_/whole_staging_site_in.cms content ;
+## drts: wordpress
+## drrk: wordpress
+## dresden: wordpress
+_/dublinseminar content ;
+## dublin: wordpress
+_/echu content ;
+## ece: wordpress
+_/econ/RePEc content ;
+## econ: wordpress
+_/ecologyonline content ;
+_/ecrop content ;
+_/econometrics content ;
+## ec: wordpress
+_/ece-clotho content ;
+_/ece-cidar content ;
+## ecpt: wordpress
+_/ecofest content ;
+_/eso/wp-assets content ;
+_/eso/academic-data-warehouse content ;
+## eso: wordpress
+## es: wordpress
+_/esa content ;
+_/escort content ;
+_/esl content ;
+## esi: wordpress
+_/esf content ;
+_/estateplanning content ;
+## esprit: wordpress
+_/eas content ;
+## earth: wordpress
+## earlymusic: wordpress
+_/earthhouse content ;
+_/ebrochures content ;
+_/education content ;
+## editinst: wordpress
+## edrt: wordpress
+## edtechcouncil: wordpress
+## edneuro: wordpress
+_/eeef content ;
+_/eeo content ;
+_/ee content ;
+_/eforwarding content ;
+_/egch content ;
+## ehs: wordpress
+_/ehs-mc content ;
+_/ehsmc content ;
+_/ehs-mobile-test content ;
+## eida2z: wordpress
+## election: wordpress
+_/eliewieselarchive content ;
+_/emoc content ;
+_/emba content ;
+## emergency: wordpress
+_/eml content ;
+_/emba-facts content ;
+_/emba22 content ;
+_/embainfo content ;
+_/emba1 content ;
+_/emba09 content ;
+_/embafaculty content ;
+_/embacurriculum content ;
+_/emermgmt content ;
+_/emergingmedia content ;
+## eng: wordpress
+## english: wordpress
+_/encoder content ;
+## engit: wordpress
+## english-backup: wordpress
+_/entrepreneurship content ;
+_/enrsa content ;
+_/environment content ;
+## ensa: wordpress
+## energy: wordpress
+## eng-news: wordpress
+_/enact/wp-assets content ;
+## enact: wordpress
+## ensembles: wordpress
+_/energytransitions content ;
+## eng-gpo: wordpress
+## eoo: wordpress
+_/episcopal content ;
+_/eportfolio/wp-assets content ;
+## eportfolio: wordpress
+## erc: wordpress
+_/er content ;
+_/erp content ;
+_/etc content ;
+## ethics: wordpress
+_/ethno content ;
+_/ethnomusicology content ;
+_/euforyou content ;
+_/eugene content ;
+## european: wordpress
+_/events content ;
+_/evp content ;
+_/eveningmba content ;
+_/evergreen/htmlemail content ;
+## evergreen: wordpress
+_/evening content ;
+_/evening-info content ;
+## evcon: wordpress
+## everett: wordpress
+_/exerciseandcancer content ;
+_/extended content ;
+_/explorations content ;
+_/experience content ;
+_/experience-room content ;
+_/exec content ;
+_/exchange content ;
+_/executivevp content ;
+_/executivemba content ;
+_/execmba content ;
+## executive: wordpress
+_/explore app ;
+## exafmm: wordpress
+## experts: wordpress
+_/excellence content ;
+_/execed content ;
+_/exed content ;
+## eye: wordpress
+_/ezproxy content ;
+_/jamdocs content ;
+## japanese: wordpress
+_/jam content ;
+_/jamsponsor content ;
+_/jam-now content ;
+## jcap: wordpress
+_/jeremymb content ;
+_/jewishstudies/shtetl content ;
+## jewishstudies: wordpress
+_/jlengel content ;
+_/jlab/wp-assets content ;
+## jlab: wordpress
+_/jmedday content ;
+_/johndesz content ;
+_/jobs content ;
+_/journals content ;
+## jostl: wordpress
+_/journalofeducation/wp-assets content ;
+## journalofeducation: wordpress
+_/join-the-challenge content ;
+_/joevita content ;
+_/jd content ;
+_/jfa content ;
+_/jp content ;
+_/jts2000 content ;
+_/judaicstudies/shtetl content ;
+## judaicstudies: wordpress
+_/judicialaffairs content ;
+_/krugman content ;
+_/karystos content ;
+_/katkom content ;
+_/kandarian content ;
+_/katrina content ;
+## kcrm: wordpress
+_/kerberos content ;
+_/kerberosonly content ;
+_/kenmore content ;
+_/kendall content ;
+_/khalillab content ;
+## khc: wordpress
+_/kiosk content ;
+_/kidsworld content ;
+## kidsincontext: wordpress
+_/kidneypathlab content ;
+## klapperich: wordpress
+_/kpw content ;
+## kuntzelab: wordpress
+_/matthies content ;
+_/machozi content ;
+#maps content ;
+_/map content ;
+_/madlab content ;
+_/marcom/stationery content ;
+_/marcom/email content ;
+_/marcom/html-emails content ;
+_/marcom/formswritable content ;
+_/marcom/downloads content ;
+_/marcom/president content ;
+_/marcom/projects content ;
+## marcom: wordpress
+_/mahoa content ;
+_/management content ;
+_/marsh content ;
+_/marshplaza content ;
+_/masstwins content ;
+_/mattdm content ;
+_/mathfn content ;
+_/maci content ;
+## mailservices: wordpress
+_/management-event content ;
+_/marks-test content ;
+_/mathfinance content ;
+_/math/ness content ;
+_/math/wp-assets content ;
+## math: wordpress
+## madrid: wordpress
+_/makeagift content ;
+_/marks-test-blog content ;
+_/marketsandpolicy content ;
+_/marks-test-blog2 content ;
+_/marks-test-blog3 content ;
+## marketingscience2012: wordpress
+_/management-old content ;
+_/marshgiving content ;
+_/marketplaceinfo content ;
+_/mathematicseducation content ;
+_/masterit content ;
+_/make content ;
+## maintenance: wordpress
+_/match content ;
+## macs: wordpress
+_/masscoalitionfororalhealth content ;
+_/mathfinanceconference content ;
+_/whole_devl_site_is.app content ;
+_/mdowney content ;
+## mdrc: wordpress
+_/mdparents content ;
+_/medfellowship content ;
+_/mediaguidebook content ;
+_/met/common content ;
+_/met/advertising content ;
+_/met/linkedin content ;
+_/met/elive content ;
+_/met/htmlemail content ;
+_/met/military content ;
+_/met/output content ;
+_/met/northcampus content ;
+_/met/homepage content ;
+_/met/pm content ;
+_/met/shared content ;
+_/met/ads content ;
+_/met/forbes content ;
+_/met/acela content ;
+_/met/event-calendar content ;
+##DUPLICATE# met/USA content ;
+_/met/50 content ;
+_/met/usa content ;
+_/met/grad11 content ;
+_/met/bestofboston content ;
+_/met/health-it content ;
+_/met/pmi content ;
+_/met/yellowpages content ;
+_/met/audio content ;
+_/met/landing-pages content ;
+##DUPLICATE# met/Agganis content ;
+_/met/web content ;
+##DUPLICATE# met/Acela content ;
+_/met/magazine content ;
+_/met/mag content ;
+_/met/email-campaign content ;
+_/met/merry content ;
+_/met/commencement-photos-login content ;
+_/met/apply content ;
+_/met/agganis content ;
+## met: wordpress
+_/medschool content ;
+## media: wordpress
+## medieval: wordpress
+_/medalumni content ;
+_/mentornet content ;
+_/messiaen content ;
+_/meller content ;
+_/mediatoday content ;
+## me: wordpress
+_/metit/wp-assets content ;
+## metit: wordpress
+## met-research: wordpress
+_/menorca content ;
+_/medicine content ;
+_/mentalhealth content ;
+## medal: wordpress
+_/metro content ;
+_/metadmin content ;
+_/medalum content ;
+_/metfacultydevelopment content ;
+_/medstures content ;
+_/medevents content ;
+_/medaw content ;
+_/medenews content ;
+_/medlibstaff content ;
+_/metinternational/registration content ;
+_/metinternational/application content ;
+_/metinternational/dual-degree-application content ;
+_/metinternational/degree-pathway-application content ;
+## metinternational: wordpress
+_/medclassnotes content ;
+_/metropolitan content ;
+## medgrossanatomy: wordpress
+_/mec content ;
+## metpm: wordpress
+_/metabolomics content ;
+## mena: wordpress
+## metmarcom: wordpress
+## met-eti: wordpress
+_/mentoring content ;
+## meetatbu: wordpress
+_/medschoolgradprograms content ;
+_/met50 content ;
+_/mfeldman content ;
+_/mfll content ;
+_/mfd content ;
+_/mickswan content ;
+_/mille content ;
+_/microscopylab content ;
+_/military content ;
+_/mih content ;
+_/midas content ;
+_/microarray content ;
+## miaac: wordpress
+_/militarynight content ;
+_/microstratigraphy content ;
+## mii: wordpress
+_/minds content ;
+_/millionhours content ;
+## missiology: wordpress
+_/mkramer content ;
+_/mspring content ;
+_/msphotonics content ;
+_/mscasecomp content ;
+_/msim content ;
+## mse: wordpress
+_/msmba content ;
+_/msmf content ;
+_/msadvertising content ;
+_/mslade-test content ;
+## msm: wordpress
+_/msms content ;
+## mssp: wordpress
+_/mzank content ;
+_/mba content ;
+_/mba-event content ;
+_/mbabu content ;
+_/mba-facts content ;
+_/mba-apply content ;
+_/mba-programs content ;
+_/mba-guide content ;
+_/mbamph content ;
+_/mba-finance content ;
+_/mbta content ;
+_/mba2010 content ;
+## mbs: wordpress
+_/mbanorth content ;
+_/mba-ga content ;
+## mbainfo-ga: wordpress
+## mbainfo: wordpress
+_/mbafocus content ;
+_/mbasession content ;
+## mba-boston: wordpress
+_/mba-essays content ;
+_/mba-connect content ;
+_/mbainfo-li content ;
+_/mcapr content ;
+_/mch content ;
+## mcbb: wordpress
+## mcoh: wordpress
+_/mcinnes content ;
+_/mgburns/wp-assets content ;
+## mgburns: wordpress
+_/mgburns-medical content ;
+_/mhbm content ;
+_/mlcl/placement content ;
+## mlcl: wordpress
+_/mlkjr content ;
+_/mln content ;
+_/mlstaff content ;
+_/mlv content ;
+## mml: wordpress
+_/morin content ;
+_/modl content ;
+_/mobilelab content ;
+_/mobile content ;
+## motordevlab: wordpress
+_/motives content ;
+_/move-out content ;
+_/moc content ;
+_/mobile-life-workshop content ;
+## moss: wordpress
+_/moreinfo content ;
+_/mpact content ;
+## mrg: wordpress
+_/multimediapoet content ;
+## musicology: wordpress
+_/mugarlab content ;
+_/muhlbergerlab content ;
+_/muedpolicyproject content ;
+## mugarlib: wordpress
+_/mvp content ;
+_/myopathy content ;
+## mysummer: wordpress
+_/myprint content ;
+_/myocardial content ;
+_/mygift content ;
+_/mybuworks content ;
+_/mybuphone content ;
+_/mybuworks-sandbox content ;
+_/myhousing content ;
+_/tad content ;
+_/tanglewood content ;
+_/tanglewoodtwo content ;
+_/talks content ;
+_/tbergend content ;
+_/test content ;
+_/terriers content ;
+_/testing content ;
+## terriercard: wordpress
+## telecom: wordpress
+_/telefund content ;
+_/testprep content ;
+_/teenpanic content ;
+_/tech/plan content ;
+## tech: wordpress
+_/test-to-production content ;
+_/techv1 content ;
+_/test-blog content ;
+_/techinternal/wp-assets content ;
+## techinternal: wordpress
+## techhelp: wordpress
+_/techorg content ;
+_/tech-copy content ;
+_/tedbu content ;
+_/techweb-survey content ;
+_/techbios content ;
+## teal: wordpress
+_/techweb content ;
+_/tech-refresh content ;
+_/terrierpride content ;
+## tedxbu: wordpress
+_/tech-staging content ;
+_/tech-links content ;
+_/terriermarketplace content ;
+_/tech-restricted content ;
+_/tech-test content ;
+## tech-sn: wordpress
+_/tech-maintenance content ;
+_/terriertoasts content ;
+## terrierconnection: wordpress
+_/testnfs content ;
+_/tech-backup content ;
+_/tech-prod content ;
+_/test4proxyroute content ;
+_/techconnect content ;
+_/terriersconnect content ;
+_/tickle content ;
+## timeline: wordpress
+_/tims content ;
+_/tricia content ;
+_/trl content ;
+_/track content ;
+_/transportation content ;
+_/trusteescholars content ;
+_/transgenic content ;
+## trustees: wordpress
+_/travel content ;
+## training: wordpress
+## traumamemorylab: wordpress
+_/trustees-intranet/install content ;
+## trustees-intranet: wordpress
+## transcomm: wordpress
+## translation: wordpress
+## trb: wordpress
+_/transfer content ;
+## travelservices: wordpress
+_/tskoog content ;
+_/tso content ;
+## tsai: wordpress
+_/tcp content ;
+## thurman: wordpress
+_/thebus/gtfs content ;
+_/thebus/wp-assets content ;
+## thebus: wordpress
+_/theotrauma content ;
+## thenerve: wordpress
+_/theory content ;
+## themovement: wordpress
+## theaternow: wordpress
+_/thecology content ;
+_/thedash content ;
+_/thurmanarchives content ;
+_/thanksgiving content ;
+_/thomasmenino content ;
+_/thehive content ;
+## tlcstudy: wordpress
+_/tml content ;
+_/tmp-admissions content ;
+_/tmp-cghd content ;
+_/tmp-webcentral content ;
+_/tmp-orc content ;
+_/today/common content ;
+_/today/media content ;
+_/today/wpassets content ;
+_/today/bubooks content ;
+_/today/frozenfour content ;
+_/today/blasts content ;
+_/today/commencement content ;
+_/today/v2-devl content ;
+_/today/news content ;
+_/today/buniverse content ;
+_/today/v2 content ;
+## today: wordpress
+_/today-spash content ;
+_/tol content ;
+## tokyo: wordpress
+_/ttt content ;
+_/tutorials content ;
+_/tulliusgroup content ;
+_/turnitin content ;
+_/tuition content ;
+_/tv content ;
+_/tyngsboro content ;
+_/vangons content ;
+## vasculitis: wordpress
+_/vcb content ;
+_/vending/documents content ;
+## vending: wordpress
+## vetsatwins: wordpress
+## vesalius: wordpress
+_/visit content ;
+_/virtualpatient content ;
+_/video content ;
+## visionlab: wordpress
+_/vip content ;
+_/vista-archive content ;
+_/vista content ;
+_/vnns content ;
+_/vpdos content ;
+## vpfa: wordpress
+_/vpensa content ;
+_/vrc content ;
+_/xzhou content ;
+_/yac content ;
+## yearbook: wordpress
+_/youdo content ;
+_/yourimpact content ;
+_/yourgift content ;
+_/yourbusm content ;
+## zaman: wordpress
+## zgct: wordpress
+## zhanglab: wordpress
+_/zhdanovalab content ;
+## uav: wordpress
+## uapt: wordpress
+_/ub content ;
+## ubms: wordpress
+## ubx: wordpress
+_/uctech content ;
+## uc: wordpress
+## uccap: wordpress
+## ucccd: wordpress
+## ufmal: wordpress
+## ugneuro: wordpress
+## ugc: wordpress
+_/uhc content ;
+## uisacs: wordpress
+_/uis-core content ;
+## ul: wordpress
+## ultra-ex: wordpress
+_/uni content ;
+_/union content ;
+_/univcomputer content ;
+_/univcomp content ;
+_/universe content ;
+## Templates: redirect to lowercase
+## undergrad: wordpress
+## unlock: wordpress
+## undaunted: wordpress
+## universityprovostsearch: wordpress
+## uniformguidance: wordpress
+_/urc content ;
+_/urgent content ;
+## urop: wordpress
+_/ur content ;
+## urlc: wordpress
+_/ussi content ;
+## usc: wordpress
+_/us-microimaging content ;
+_/qale content ;
+_/qatest28 content ;
+## qa-1: wordpress
+_/qa-2 content ;
+_/qa-3 content ;
+_/qa-4 content ;
+_/qbp content ;
+_/qil content ;
+_/qsb content ;
+_/qst content ;
+_/qtencodersdp content ;
+_/qtencoder content ;
+_/quantum content ;
+_/quitnet content ;
+_/quantumconcepts content ;
+_/quickpolls content ;
+_/quito content ;
+_/qualtrics content ;
+_/questrom/secure content ;
+## questrom: wordpress
+_/questromeval content ;
+_/questromcareerlink content ;
+_/oas content ;
+## oad: wordpress
+_/oaa content ;
+_/obgyn content ;
+## obgyn-clerkship: wordpress
+_/ocs content ;
+_/ocn content ;
+## odbl: wordpress
+_/odsreunionsurvey content ;
+_/oep content ;
+_/offices content ;
+_/offcampus content ;
+_/ofa content ;
+_/office365 content ;
+## ogc: wordpress
+## oir: wordpress
+_/oittest content ;
+_/oma content ;
+_/om content ;
+_/omc content ;
+## ombuds: wordpress
+_/online/static content ;
+## online: wordpress
+_/online-portal content ;
+_/onbase-ug/training content ;
+## onbase-ug: wordpress
+_/onestop content ;
+_/opg content ;
+_/openaccess content ;
+## operations: wordpress
+## orientation: wordpress
+_/orpm content ;
+_/orl content ;
+## organlibrary: wordpress
+_/orcid content ;
+## orctraining: wordpress
+## orccommittees: wordpress
+## orc: wordpress
+_/ortho content ;
+## osp: wordpress
+_/osfm content ;
+_/osc content ;
+## osa_spie: wordpress
+## oscar-berman: wordpress
+_/ot content ;
+## otd: wordpress
+## otherwithin: wordpress
+_/outdoor content ;
+_/outreach content ;
+_/output content ;
+## overseers: wordpress
+_/ovc-care content ;
+_/25000 content ;
+_/200word content ;
+_/28qatest content ;
+## 236magazine: wordpress
+## 1970commencement: wordpress
+_/3dcampus content ;
+# summary of types
+#  content : 1804
+#  app : 17
