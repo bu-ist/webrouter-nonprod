@@ -171,7 +171,7 @@ _/casw content ;  # top-level
 _/catering content ;  # top-level
 _/careerex content ;  # top-level
 _/cab content ;  # top-level
-_/calendar content ;  # top-level
+_/calendar phpbin ;  # top-level
 _/casdemo content ;  # top-level
 _/caderonline content ;  # top-level
 _/cagt content ;  # top-level
