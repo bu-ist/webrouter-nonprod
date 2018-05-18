@@ -1,0 +1,10 @@
+# Technically vhosts.map and sites.map are identical.  The separation is more due to management.
+
+# The sites.map should only contain entries using the _ hostkey which represent the central bu.edu
+# website configuration.  This way www.bu.edu and its non-prod landscape versions (www-test, www-devl, etc)
+# share the same configuration.
+
+# The vhosts.map file should contain the Virtual host configuration.  Ideally this file should be 
+# identical between the various landscapes - the question is more which landscape a particular virtual host 
+# is pointed to.
+
