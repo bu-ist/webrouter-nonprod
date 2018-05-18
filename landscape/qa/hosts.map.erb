@@ -19,3 +19,10 @@ uiscgi_app <%= ENV['BACKEND_UISCGI_APP'] || "ist-uiscgi-app-#{ENV['LANDSCAPE']}.
 uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 content ist-w3-content-syst101.bu.edu ;
+
+# These are for the www-buwd sites
+buwd_uiscgi_app ist-uiscgi-app-buwd.bu.edu;
+
+buwd_uiscgi_content ist-uiscgi-content-buwd.bu.edu;
+
+buwd_content ist-web-content-buwd.bu.edu ;

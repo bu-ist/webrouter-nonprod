@@ -7,4 +7,10 @@
 # The vhosts.map file should contain the Virtual host configuration.  Ideally this file should be 
 # identical between the various landscapes - the question is more which landscape a particular virtual host 
 # is pointed to.
+#
+# These are for the www-buwd sites
+www-buwd.bu.edu/link/bin buwd_uiscgi_app;
 
+www-buwd.bu.edu/link buwd_uiscgi_content;
+
+www-buwd.bu.edu buwd_content;
