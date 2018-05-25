@@ -18,6 +18,7 @@ setup () {
 #}
 
 @test "wpapp-http-admissions" {
+  skip_landscapes qa buwd
   test_web http "$BUWEBHOST" /admissions/ 
   assert_status 200
   assert_backend "wordpress"
@@ -30,20 +31,21 @@ setup () {
 }
 
 @test "wpapp-https-admissions" {
+  skip_landscapes qa buwd
   test_web https "$BUWEBHOST" /admissions/ 
   assert_status 200
   assert_backend "wordpress"
 }
 
 @test "WordPress asset servers" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /admissions/files/2012/09/footbar_visit.png
   assert_status 200
   assert_backend "wpassets"
 }
 
 @test "WordPress admissions schedule your page" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /admissions/visit-us/schedule-your-visit/
   assert_status 200
   assert_backend "wordpress"
@@ -76,7 +78,7 @@ setup () {
 #}
 
 @test "Maps uses phpbin even though it is not in /phpbin" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /maps/
   assert_status 200
   assert_backend "phpbin"
@@ -84,7 +86,7 @@ setup () {
 }
 
 @test "BUuniverse uses phpbin even though it is not in /phpbin" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /buniverse/
   assert_status 200
   assert_backend "phpbin"
@@ -108,7 +110,7 @@ setup () {
 #}
 
 @test "Courseware Manager admin" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /courseware-manager/admin/
   assert_status 302
   assert_header_contains location "http://$BUWEBHOST/courseware-manager/admin/login/"
@@ -116,7 +118,7 @@ setup () {
 }
 
 @test "DNA mixtures" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /dnamixtures/
   assert_status 200
   assert_backend "django"
@@ -150,7 +152,7 @@ setup () {
 }
 
 @test "Students WordPress site" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /students/
   assert_status 200
   assert_backend wordpress
@@ -158,7 +160,7 @@ setup () {
 }
 
 @test "Degree-Advice root (http)" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /degree-advice/
   assert_status 301
   assert_backend degree-advice
@@ -174,7 +176,7 @@ setup () {
 #}
 
 @test "Degree-Advice cgi (http)" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web http "$BUWEBHOST" /degree-advice/IRISLink.cgi
   assert_status 302
   assert_backend degree-advice
@@ -182,7 +184,7 @@ setup () {
 }
 
 @test "Degree-Advice cgi (https)" {
-  skip_landscapes syst
+  skip_landscapes syst qa buwd
   test_web https "$BUWEBHOST" /degree-advice/IRISLink.cgi
   assert_status 302
   assert_backend degree-advice
