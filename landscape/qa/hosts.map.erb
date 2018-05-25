@@ -1,6 +1,14 @@
 legacy <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
-old_content <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+# until the new content backends are in place 
+content <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+content-cache <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+content-nocache <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+
+# once the new content backends are in place
+#content <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+#content-cache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+#content-nocache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 wpassets <%= ENV['BACKEND_WP_CONTENT'] || "ist-wp-assets-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
@@ -18,11 +26,12 @@ uiscgi_app <%= ENV['BACKEND_UISCGI_APP'] || "ist-uiscgi-app-#{ENV['LANDSCAPE']}.
 
 uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
-content ist-w3-content-syst101.bu.edu ;
-
 # These are for the www-buwd sites
 buwd_uiscgi_app ist-uiscgi-app-buwd.bu.edu;
 
 buwd_uiscgi_content ist-uiscgi-content-buwd.bu.edu;
 
-buwd_content ist-web-content-buwd.bu.edu ;
+# until the new content backends are in place 
+buwd_content ist-web-legacy-buwd.bu.edu ;
+# once the new content backends are in place
+#buwd_content ist-web-content-buwd.bu.edu ;
