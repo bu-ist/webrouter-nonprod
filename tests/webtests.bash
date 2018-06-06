@@ -107,6 +107,24 @@ function assert_redirect_to_weblogin {
   assert_header_contains set_cookie 'weblogin3='
 }
 
+function assert_does_not_contain {
+  if grep -q "$1" "${tmp_file}.output" ; then
+    return 1
+  else
+    return 0
+  fi
+}
+
+function assert_content {
+  gcontent=$(get_content)
+  if [ "x$1" != "x$gcontent" ]; then
+    echo "FAIL assert_content $1 (does not match $gcontent)"
+    return 1
+  else
+    return 0
+  fi
+}
+
 function assert_contains {
   if grep -q "$1" "${tmp_file}.output" ; then
     return 0
@@ -135,6 +153,25 @@ function assert_header {
     echo "FAIL assert_header $1 $2 (instead got $val)"
     return 1
   fi
+}
+
+function parse_content {
+  local line
+  local processed
+  local in_content=/bin/false
+
+  while read line ; do
+    processed=$( echo "$line" | tr -d "\r\n" ) 
+    if $in_content ; then
+      echo "$line"
+    elif [ -z "$processed" ]; then
+      in_content=/bin/true
+    fi
+  done
+}
+
+function get_content {
+  cat "${tmp_file}.output" | parse_content
 }
 
 function get_header {
