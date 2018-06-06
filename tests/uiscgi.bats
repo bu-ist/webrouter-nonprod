@@ -14,14 +14,14 @@ setup () {
 #  init_web
 #}
 
-@test "Add trailing slash to /link" {
+@test "http: Add trailing slash to /link" {
   test_web http "$BUWEBHOST" /link
   assert_status 301
   assert_header location "http://$BUWEBHOST/link/"
   assert_backend uiscgi_content
 }
 
-@test "Redirect /link/ to UISCGI" {
+@test "https: Redirect /link/ to UISCGI" {
   test_web https "$BUWEBHOST" /link/
   assert_status 302
   assert_header location "https://$BUWEBHOST/link/bin/uiscgi.pl/uismpl/menu"
@@ -29,21 +29,21 @@ setup () {
 }
 
 # this will eventually redirect to SSL
-@test "UISCGI non-ssl main menu" {
+@test "http: UISCGI non-ssl main menu" {
   test_web http "$BUWEBHOST" /link/bin/uiscgi.pl/uismpl/menu
   assert_status 200
   assert_contains "/link/system/images/bu-logo.gif"
   assert_backend uiscgi_app
 }
 
-@test "UISCGI ssl main menu shows the main menu" {
+@test "https: UISCGI ssl main menu shows the main menu" {
   test_web https "$BUWEBHOST" /link/bin/uiscgi.pl/uismpl/menu
   assert_status 200
   assert_contains "/link/system/images/bu-logo.gif"
   assert_backend uiscgi_app
 }
 
-@test "Test that UISCGI outputs cache control header" {
+@test "http: Test that UISCGI outputs cache control header" {
   test_web http "$BUWEBHOST" /link/bin/args.pl
   assert_status 200
   assert_backend "uiscgi_app"
@@ -53,7 +53,7 @@ setup () {
   assert_header cache_control "no-cache, no-store"
 }
 
-@test "Studentlink redirect" {
+@test "http: Studentlink redirect" {
   test_web http "$BUWEBHOST" /studentlink/
   assert_status 302
   assert_header location "http://$BUWEBHOST/link/bin/uiscgi_studentlink.pl/uismpl/?ModuleName=menu.pl&NewMenu=Home"
