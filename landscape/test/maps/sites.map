@@ -31,6 +31,7 @@ _/uis_eostc legacy ;
 # not certain that the following is necessary
 _/uiszl_eostc legacy ;
 _/uiszl_j2ee legacy ;
+_/formlogin legacy ;
 
 #admissions wordpress
 
