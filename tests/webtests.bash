@@ -206,12 +206,18 @@ function parse_headers {
 
 function test_web {
   local scheme="$1"
-  local host="$2"
-  local url="$3"
-  local retcode="$4"
-  if [ -z "$retcode" ]; then
-    retcode="200"
-  fi
+  shift
+  local host="$1"
+  shift
+  local url="$1"
+  shift
+  #local retcode="$1"
+  #if [ -z "$retcode" ]; then
+  #  retcode="200"
+  #else
+  #  shift
+  #fi
+  # anything else will be normal curl URLs
 
   # determine the host to connect to (if not provided)
   local connect="${CONNECT:-$host}"
@@ -219,7 +225,7 @@ function test_web {
   local url="${scheme}://${connect}${url}"
   echo "url=$url" 
 
-  if curl -i --insecure --silent --show-error -o "${tmp_file}.output" -H "Host:$host" "$url" ; then
+  if curl -i "$@" --insecure --silent --show-error -o "${tmp_file}.output" -H "Host:$host" "$url" ; then
     cat "${tmp_file}.output" | parse_headers > "${tmp_file}.headers"
   fi
 }
