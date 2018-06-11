@@ -21,25 +21,6 @@ setup () {
   #webrouter_header_size="1024"
 }
 
-@test "router_limits: max file upload size (http)" {
-  # create temp file of that size
-  #
-  tmp_file="/tmp/upload_test.$$"
-  /bin/head -c "$upload_test_size" /dev/zero | tr '\0' '\141' >"$tmp_file"
-
-  # test the upload
-  #
-  test_web http "$BUWEBHOST" "/nisdev/php5/antonk/aws-upload-test/wpoenoe2j03irf.php" -X POST -H "Content-Type: multipart/form-data" -F "data=@$tmp_file"
-
-  # remove the temp file prior to status checks
-  #
-  ls -lh "$tmp_file"
-  rm "$tmp_file"
-
-  #assert_status 200
-  assert_backend phpbin
-}
-
 @test "router_limits: max output header = 2k from upstream (http)" {
   #skip "TEST MANUALLY: enable Query Monitor on the hub site"
   # http://www.bu.edu/nisdev/php5/antonk/aws-header-size-test/p9ijp3oifnp.php/?size=1000
@@ -85,5 +66,43 @@ setup () {
   assert_backend "phpbin"
   assert_contains "OK"
 
+}
+
+@test "router_limits: 9M file upload test (http)" {
+  # create temp file of that size
+  #
+  tmp_file="/tmp/upload_test.$$"
+  head -c "9000000" /dev/zero | tr '\0' '\141' >"$tmp_file"
+
+  # test the upload
+  #
+  test_web http "$BUWEBHOST" "/nisdev/php5/antonk/aws-upload-test/wpoenoe2j03irf.php" -X POST -H "Content-Type: multipart/form-data" -F "data=@$tmp_file"
+
+  # remove the temp file prior to status checks
+  #
+  ls -lh "$tmp_file"
+  rm "$tmp_file"
+
+  assert_status 200
+  assert_backend phpbin
+}
+
+@test "router_limits: 20M file upload test (http)" {
+  # create temp file of that size
+  #
+  tmp_file="/tmp/upload_test.$$"
+  head -c "20000000" /dev/zero | tr '\0' '\141' >"$tmp_file"
+
+  # test the upload
+  #
+  test_web http "$BUWEBHOST" "/nisdev/php5/antonk/aws-upload-test/wpoenoe2j03irf.php" -X POST -H "Content-Type: multipart/form-data" -F "data=@$tmp_file"
+
+  # remove the temp file prior to status checks
+  #
+  ls -lh "$tmp_file"
+  rm "$tmp_file"
+
+  assert_status 200
+  assert_backend phpbin
 }
 
