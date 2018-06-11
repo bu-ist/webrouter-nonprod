@@ -12,7 +12,9 @@ teardown () {
 setup () {
   setup_web
 
-  webrouter_header_size="8192"
+  upload_test_size=95000000
+  #
+  webrouter_header_size="8000"
   #webrouter_header_size="7000"
   #webrouter_header_size="4096"
   #webrouter_header_size="2048"
@@ -20,15 +22,22 @@ setup () {
 }
 
 @test "router_limits: max file upload size (http)" {
-  skip "TEST MANUALLY: http://www.bu.edu/peaclab/wp-admin/async-upload.php"
-}
+  # create temp file of that size
+  #
+  tmp_file="/tmp/upload_test.$$"
+  /bin/head -c "$upload_test_size" /dev/zero | tr '\0' '\141' >"$tmp_file"
 
-@test "router_limits: max file upload size (https)" {
-  skip "TEST MANUALLY: https://www.bu.edu/peaclab/wp-admin/async-upload.php"
-  test_web https "$BUWEBHOST" /server/healthcheck
-  assert_status 200
-  assert_backend healthcheck
-  assert_contains OK
+  # test the upload
+  #
+  test_web http "$BUWEBHOST" "/nisdev/php5/antonk/aws-upload-test/wpoenoe2j03irf.php" -X POST -H "Content-Type: multipart/form-data" -F "data=@$tmp_file"
+
+  # remove the temp file prior to status checks
+  #
+  ls -lh "$tmp_file"
+  rm "$tmp_file"
+
+  #assert_status 200
+  assert_backend phpbin
 }
 
 @test "router_limits: max output header = 2k from upstream (http)" {
