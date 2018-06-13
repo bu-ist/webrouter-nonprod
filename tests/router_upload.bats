@@ -72,6 +72,7 @@ setup () {
 }
 
 @test "router_limits: 20M file upload test (http)" {
+  #skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
   # create temp file of that size
   #
   tmp_file="/tmp/upload_test.$$"
@@ -97,7 +98,7 @@ setup () {
 }
 
 @test "router_limits: 50M file upload test (http)" {
-  skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
+  #skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
   # create temp file of that size
   #
   tmp_file="/tmp/upload_test.$$"
@@ -123,7 +124,7 @@ setup () {
 }
 
 @test "router_limits: 90M file upload test (http)" {
-  skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
+  #skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
   # create temp file of that size
   #
   tmp_file="/tmp/upload_test.$$"
@@ -148,8 +149,8 @@ setup () {
   #assert_backend phpbin
 }
 
-@test "router_limits: 110M file upload test (http)" {
-  skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
+@test "router_limits: 110M file upload test should fail with 413 code (http)" {
+  #skip "SKIPPING for now as there is a timeout issue affecting larger file uploads"
   # create temp file of that size
   #
   tmp_file="/tmp/upload_test.$$"
@@ -169,7 +170,7 @@ setup () {
   #dump_web
   assert_status 100
   # This returns the status 100 prequel which messes up our simple parsing
-  assert_contains OK
+  assert_contains "413 Request Entity Too Large"
   #assert_content OK
   #assert_backend phpbin
 }
