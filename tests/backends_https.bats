@@ -14,7 +14,7 @@ setup () {
   # ####
   # Get our source IP according to the internet
   #
-  myip=$(/bin/dig +short myip.opendns.com @resolver1.opendns.com)
+  myip=$(dig +short myip.opendns.com @resolver1.opendns.com)
   #host=www-devl.bu.edu
 }
 

@@ -15,7 +15,7 @@ setup () {
   # Get our source IP according to the internet
   #
   if [ "x$myip" = "x" ]; then
-    myip=$(/bin/dig +short myip.opendns.com @resolver1.opendns.com)
+    myip=$(dig +short myip.opendns.com @resolver1.opendns.com)
   fi
   #host=www-devl.bu.edu
 }
