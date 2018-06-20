@@ -1396,6 +1396,7 @@ _/globalfuture content ;  # top-level
 _/glc content ;  # top-level
 _/globaldaysofservice content ;  # top-level
 _/globalops-questionnaire content ;  # top-level
+_/globalprograms/wp-assets content ; 
 _/glacier content ;  # top-level
 _/globe content ;  # top-level
 _/global content ;  # top-level
