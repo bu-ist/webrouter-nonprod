@@ -136,7 +136,7 @@ _/rrtcout content ;
 ## rs: wordpress
 _/rss content ;
 _/rsg content ;
-_/index.html content ;
+_/index.html aws_home_index ;
 _/index2.html content ;
 _/inst-tech content ;
 _/index3.html content ;
@@ -845,7 +845,8 @@ _/hiccse content ;
 _/hj2013 content ;
 _/homeimages content ;
 ## housing: wordpress
-_/home content ;
+_/home aws_home ;
+_/preview aws_home ;
 _/home-media content ;
 _/hospitality/revenator content ;
 _/hospitality/wp-assets content ;
@@ -858,7 +859,7 @@ _/housing2010 content ;
 _/hoarding content ;
 _/homepage content ;
 _/hockeygolf content ;
-_/homepage2 content ;
+_homepage2 content ;
 ## hockey-task-force: wordpress
 ## homiletical-theology-project: wordpress
 _/honordeanwells content ;
@@ -1835,7 +1836,6 @@ _/professional content ;
 _/prerelease content ;
 _/proarte content ;
 _/prostars content ;
-_/preview content ;
 _/protected content ;
 ## projectgo: wordpress
 _/provost2 content ;
