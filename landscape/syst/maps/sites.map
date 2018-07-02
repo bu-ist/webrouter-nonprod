@@ -1114,7 +1114,7 @@ _/aias content ;
 _/alumni/images content ;
 _/alumni/common content ;
 ## alumni: wordpress
-_/alert content-nocache ;
+_/alert content ;
 _/aldolase content ;
 _/albert content ;
 _/alzresearch/wp-assets content ;
