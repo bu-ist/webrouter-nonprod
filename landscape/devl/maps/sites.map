@@ -649,7 +649,7 @@ _/allocate content ;  # top-level
 _/alumni-forms content ;  # top-level
 _/alumniweekend content ;  # top-level
 _/alistaircooke content ;  # top-level
-_/alert content ;  # top-level
+_/alert content-nocache ;  # top-level
 _/alpha-1 content ;  # top-level
 _/alumnirelations content ;  # top-level
 _/alumni content ;  # top-level
