@@ -4,7 +4,7 @@
 #FROM buist/websites-webrouter-base:2018.03.20
 #FROM buist/websites-webrouter-base:2018.04.18
 #FROM buist/websites-webrouter-base:2018.04.23
-FROM buist/websites-webrouter-base:2018.06.11
+FROM buist/websites-webrouter-base:2018.06.26
 
 # for now this is our split and everything below this is for a different location
 #
