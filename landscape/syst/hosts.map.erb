@@ -19,6 +19,8 @@ uiscgi_app <%= ENV['BACKEND_UISCGI_APP'] || "ist-uiscgi-app-#{ENV['LANDSCAPE']}.
 uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 content ist-w3-content-syst101.bu.edu ;
+content-nocache ist-w3-content-syst101.bu.edu ;
+content-cache ist-w3-content-syst101.bu.edu ;
 
 # ###
 # The following backend types provide the homepage in S3.
