@@ -1644,7 +1644,6 @@ _/finaid/fedfunds content ;  #
 _/finplanners content ;  # top-level
 _/firesafety content ;  # top-level
 _/firstpoint content ;  # top-level
-_/fitrec content ;  # top-level
 ##TODO: get phpmap entry for fifty-states and put in separate file
 _/federal content ;  # top-level
 _/festival content ;  # top-level
