@@ -925,7 +925,7 @@ _/housing2010 content ;  # top-level
 _/hospitality/RevPASH content ;  # 
 _/hockeygolf content ;  # top-level
 _/homepage content ;  # top-level
-_/home content ;  # top-level
+_/home aws_home ;  # top-level
 _/holmul content ;  # top-level
 _/homecoming content ;  # top-level
 _/honoringeve content ;  # top-level
@@ -983,7 +983,7 @@ _/interv content ;  # top-level
 _/index2.html content ;  # top-level
 _/india-global content ;  # top-level
 _/investigate content ;  # top-level
-_/index.html content ;  # top-level
+_/index.html aws_home_index ;  # top-level
 _/inaugural content ;  # top-level
 _/inmlcfp content ;  # top-level
 _/infancp content ;  # top-level
