@@ -1228,7 +1228,7 @@ _/exerciseandcancer content ;  # top-level
 _/exec content ;  # top-level
 _/experience-room content ;  # top-level
 _/executive content ;  # top-level
-_/explore phpbin ;  # top-level
+_/explore content ;  # top-level
 _/extended content ;  # top-level
 _/explorations content ;  # top-level
 _/executivemba content ;  # top-level
