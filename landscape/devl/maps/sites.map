@@ -458,6 +458,7 @@ _/writing content ;  # top-level
 _/wgrimes content ;  # top-level
 _/wgs content ;  # top-level
 _/wpmu/static content ;  # 
+_/wpmu/isilononly content ; #
 _/wpnet content ;  # top-level
 _/wptraining content ;  # top-level
 ##TODO: get phpmap entry for wp-deploy and put in separate file
