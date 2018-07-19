@@ -1,5 +1,5 @@
 ### Common mapping to all bu.edu systems
-_/version 20180208 ;
+_/version 20180719 ;
 
 # redirects
 _/studentlink redirect_asis ;
