@@ -629,6 +629,7 @@ _/apply content ;  # top-level
 _/apps-rewrite content ;  # top-level
 _/apcsc content ;  # top-level
 _/api content ;  # top-level
+_/ap/wp-assets content ; #WP micro-site
 _/atttend content ;  # top-level
 _/attend content ;  # top-level
 _/athletics content ;  # top-level
