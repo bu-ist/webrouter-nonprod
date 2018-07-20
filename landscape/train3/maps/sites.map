@@ -1,12 +1,12 @@
 ### Common mapping to all bu.edu systems
 _/version 20180719 ;
 
-_/testurl content
-;
+_/dsmk redirect_asis ;
 
 # redirects
 _/studentlink redirect_asis ;
 _/geography/brdf redirect_asis ;
+_dsmk http://www.bu.edu/phpbin/directory/?q=David+King ;
 
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
