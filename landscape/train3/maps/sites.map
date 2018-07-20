@@ -1,6 +1,8 @@
 ### Common mapping to all bu.edu systems
 _/version 20180719 ;
 
+_/testurl content
+
 # redirects
 _/studentlink redirect_asis ;
 _/geography/brdf redirect_asis ;
