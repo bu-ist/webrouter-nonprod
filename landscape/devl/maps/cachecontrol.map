@@ -9,4 +9,7 @@
   # cached because Weblogin does not set the 
   # no-cache header on protected content.
   content "no-cache, no-store" ;
+  # temporarily setting WordPress backend to no-cache for debugging purposes
+  # this will either persist or revert based on debugging
+  wordpress "no-cache, no-store" ;
 
