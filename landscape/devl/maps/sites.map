@@ -1012,7 +1012,7 @@ _/hotelcommonwealth content ;  # top-level
 _/housing2010 content ;  # top-level
 _/hoarding content ;  # top-level
 _/hockeygolf content ;  # top-level
-_/homepage content ;  # top-level
+_/homepage aws_home ;  # top-level
 _/home aws_home ;  # top-level
 _/holmul content ;  # top-level
 _/hockey-task-force content ;  # top-level
