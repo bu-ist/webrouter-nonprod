@@ -1634,6 +1634,7 @@ _/plan2015 content ;  # top-level
 _/plannedgiving content ;  # top-level
 _/pt3 content ;  # top-level
 _/ptresidency content ;  # top-level
+_/ptfellowship/wp-assets content ; # 
 _/ptc content ;  # top-level
 _/psychdiversity content ;  # top-level
 _/psc content ;  # top-level
