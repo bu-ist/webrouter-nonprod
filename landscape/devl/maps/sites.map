@@ -99,22 +99,6 @@ _/interactive-design content ;
 #  phpbin content ;  # top-level
 #  phpbin.ro content ;  # top-level
 #  phpbin.rw content ;  # top-level
-##TODO: get phpmap entry for api and put in separate file
-##TODO: get phpmap entry for betabionics and put in separate file
-##TODO: get phpmap entry for bumobile and put in separate file
-##TODO: get phpmap entry for casdemo and put in separate file
-##TODO: get phpmap entry for cellphone-compliance and put in separate file
-##TODO: get phpmap entry for courseware-manager and put in separate file
-##TODO: get phpmap entry for degree-advice and put in separate file
-##TODO: get phpmap entry for degree-audit and put in separate file
-##TODO: get phpmap entry for dnamixtures and put in separate file
-##TODO: get phpmap entry for fifty-states and put in separate file
-##TODO: get phpmap entry for html-email and put in separate file
-##TODO: get phpmap entry for index and put in separate file
-##TODO: get phpmap entry for law-pub and put in separate file
-##TODO: get phpmap entry for rpm-agreements and put in separate file
-##TODO: get phpmap entry for search and put in separate file
-##TODO: get phpmap entry for wp-deploy and put in separate file
 _/1970commencement content ;  # top-level
 _/200word content ;  # top-level
 _/236magazine content ;  # top-level
