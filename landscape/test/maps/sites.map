@@ -1455,6 +1455,11 @@ _/festival content ;  # top-level
 _/feltensteinchallenge content ;  # top-level
 _/features content ;  # top-level
 _/fetters content ;  # top-level
+_/finaid/status_documents content ;  # top-level
+_/finaid/pdfs content ;  # top-level
+_/finaid/test content ;  # 
+_/finaid/fedfunds content ;  # top-level
+_/finaid wordpress ; # top-level
 _/formerworker content ;  # top-level
 _/foreignpolicyconf content ;  # top-level
 _/foo content ;  # top-level
