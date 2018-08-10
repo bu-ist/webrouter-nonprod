@@ -2235,3 +2235,29 @@ _/burppe content ;  # top-level
 ### 1 type
 ### 557 redirect2lower
 _/av/courses content-nocache ; #weblogin loop experienced, trying nocache to test
+### Added below for new content backend test
+_/africa/wp-assets content ;  #
+_/africa/publication-assets content ;  #
+_/alzresearch/wp-assets content ;  #
+_/arion/wp-assets content ;  #
+_/bu-wheelock-merger/wp-assets content ;  # top-level
+_/buapay/wp-assets content ;  #
+_/buapayments/wp-assets content ;  #
+_/busmplus/form content ;  #
+_/cfa/wp-assets content ;  #
+_/classics/wp-assets content ;  #
+_/cohstar/wp-assets content ;  #
+_/commencement/wp-assets content ;  #
+_/compliance/videos content ;  #
+_/compliance/videos_restricted1 content ;  #
+_/cs/wp-assets content ;  #
+_/dining/wp-assets content ;  #
+_/diversity content ;  # top-level
+_/ehs/wp-assets content ;  #
+_/enact/wp-assets content ;  #
+_/law/communications content ;  #
+_/law/events content ;  #
+_/lawlibrary/eJournals content ;  #
+_/lawlibrary/restrictedaccess content ;  #
+_/lawlibrary/facultypublications content ;  #
+_/lawlibrary/e-reserves content ;  #
