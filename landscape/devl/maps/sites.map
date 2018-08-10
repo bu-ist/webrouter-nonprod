@@ -152,7 +152,7 @@ _/campussurvey content ;  # top-level
 _/cashelpdesk content ;  # top-level
 _/case-melville content ;  # top-level
 _/campaignkickoff content ;  # top-level
-_/cas/magazine content ;  # 
+_/cas/magazine content ;  #
 _/castle content ;  # top-level
 _/catholic content ;  # top-level
 _/casstudentacademiclife content ;  # top-level
@@ -440,8 +440,8 @@ _/winterfest content ;  # top-level
 _/webcast content ;  # top-level
 _/webmail content ;  # top-level
 _/websummit content ;  # top-level
-_/webteam/mgburns content ;  # 
-_/webteam/awbauer content ;  # 
+_/webteam/mgburns content ;  #
+_/webteam/awbauer content ;  #
 _/webteam/projects content ; #match ignore_prod.cms
 _/weddings content ;  # top-level
 _/weblogin content ;  # top-level
@@ -457,7 +457,7 @@ _/writingprogram content ;  # top-level
 _/writing content ;  # top-level
 _/wgrimes content ;  # top-level
 _/wgs content ;  # top-level
-_/wpmu/static content ;  # 
+_/wpmu/static content ;  #
 _/wpmu/isilononly content ; #
 _/wpnet content ;  # top-level
 _/wptraining content ;  # top-level
@@ -691,7 +691,7 @@ _/addiction content ;  # top-level
 _/adminsc content ;  # top-level
 _/admissionsstatic content ;  # top-level
 _/adlab content ;  # top-level
-_/admissions/applicantlink content ;  # 
+_/admissions/applicantlink content ;  #
 _/auctions content ;  # top-level
 _/auth-test content ; #top-level for authentication load test
 _/autismconnections content ;  # top-level
@@ -841,7 +841,7 @@ _/media content ;  # top-level
 _/meller content ;  # top-level
 _/metmarcom content ;  # top-level
 _/medschool content ;  # top-level
-_/met/homepage content ;  # 
+_/met/homepage content ;  #
 _/metropolitan content ;  # top-level
 _/medalumni content ;  # top-level
 _/metit content ;  # top-level
@@ -1022,7 +1022,7 @@ _/honordeanwells content ;  # top-level
 _/homiletical-theology-project content ;  # top-level
 _/homeimages content ;  # top-level
 _/homepage2 content ;  # top-level
-_/hr/documents content ;  # 
+_/hr/documents content ;  #
 _/hrc content ;  # top-level
 _/hrpi content ;  # top-level
 _/hre content ;  # top-level
@@ -1460,8 +1460,8 @@ _/revpash content ;  # top-level
 _/remember content ;  # top-level
 _/retired content ;  # top-level
 _/resnet content ;  # top-level
-_/research/wp-assets content ;  # 
-_/research/email content ;  # 
+_/research/wp-assets content ;  #
+_/research/email content ;  #
 _/reunion content ;  # top-level
 _/resources content ;  # top-level
 _/robots.txt content ;  # top-level
@@ -1473,7 +1473,7 @@ _/rosa content ;  # top-level
 _/rocket content ;  # top-level
 _/rrtcout content ;  # top-level
 _/rl content ;  # top-level
-_/rpm/panos content ;  # 
+_/rpm/panos content ;  #
 ##TODO: get phpmap entry for rpm-agreements and put in separate file
 # skipping rp18p.GIF as we should only add the redirect2lower if necessary
 _/rsg content ;  # top-level
@@ -1638,9 +1638,9 @@ _/fmherbalstudy content ;  # top-level
 _/fhs content ;  # top-level
 _/fhcmi content ;  # top-level
 _/finance content ;  # top-level
-_/finaid/status_documents content ;  # 
-_/finaid/pdfs content ;  # 
-_/finaid/fedfunds content ;  # 
+_/finaid/status_documents content ;  #
+_/finaid/pdfs content ;  #
+_/finaid/fedfunds content ;  #
 _/finplanners content ;  # top-level
 _/firesafety content ;  # top-level
 _/firstpoint content ;  # top-level
@@ -1707,8 +1707,8 @@ _/lawgiving content ;  # top-level
 _/laverdes content ;  # top-level
 _/lamovie content ;  # top-level
 _/old.law content ;  # top-level
-_/law/workingpapers-archive content ;  # 
-_/law/journals-archive content ;  # 
+_/law/workingpapers-archive content ;  #
+_/law/journals-archive content ;  #
 _/laprogram content ;  # top-level
 _/lawyearbooks content ;  # top-level
 ##TODO: get phpmap entry for law-pub and put in separate file
@@ -1816,7 +1816,7 @@ _/pasi content ;  # top-level
 _/paadmissions content ;  # top-level
 _/parentfund content ;  # top-level
 _/padova content ;  # top-level
-_/parking/dbtemplates content ;  # 
+_/parking/dbtemplates content ;  #
 _/pace content ;  # top-level
 _/payment content ;  # top-level
 _/pm content ;  # top-level
@@ -1857,7 +1857,7 @@ _/policies content ;  # top-level
 _/police content ;  # top-level
 _/prerelease content ;  # top-level
 _/president content ;  # top-level
-_/preview aws_home ; 
+_/preview aws_home ;
 _/projectgo content ;  # top-level
 _/proposaldevelopment content ;  # top-level
 _/prism content ;  # top-level
@@ -1949,9 +1949,9 @@ _/tad content ;  # top-level
 _/tanglewoodtwo content ;  # top-level
 _/tanglewood content ;  # top-level
 _/talks content ;  # top-level
-_/tmp-orc/wp-assets content ;  # 
+_/tmp-orc/wp-assets content ;  #
 _/tml content ;  # top-level
-_/tmp-admissions/wp-assets content ;  # 
+_/tmp-admissions/wp-assets content ;  #
 _/tmp-webcentral content ;  # top-level
 _/tv content ;  # top-level
 _/thedash content ;  # top-level
@@ -1997,16 +1997,16 @@ _/techhelp content ;  # top-level
 _/techweb content ;  # top-level
 _/terriertoasts content ;  # top-level
 _/telecom content ;  # top-level
-_/today/common content ;  # 
-_/today/media content ;  # 
-_/today/bubooks content ;  # 
-_/today/frozenfour content ;  # 
-_/today/blasts content ;  # 
-_/today/commencement content ;  # 
-_/today/v2-devl content ;  # 
-_/today/news content ;  # 
-_/today/buniverse content ;  # 
-_/today/v2 content ;  # 
+_/today/common content ;  #
+_/today/media content ;  #
+_/today/bubooks content ;  #
+_/today/frozenfour content ;  #
+_/today/blasts content ;  #
+_/today/commencement content ;  #
+_/today/v2-devl content ;  #
+_/today/news content ;  #
+_/today/buniverse content ;  #
+_/today/v2 content ;  #
 _/tol content ;  # top-level
 _/tokyo content ;  # top-level
 _/today-spash content ;  # top-level
@@ -2166,7 +2166,7 @@ _/sedtfa content ;  # top-level
 _/software content ;  # top-level
 _/south content ;  # top-level
 _/sourceguide content ;  # top-level
-_/sourcing/wp-protected content ;  # 
+_/sourcing/wp-protected content ;  #
 _/sociology content ;  # top-level
 _/srp content ;  # top-level
 _/sfa content ;  # top-level
@@ -2337,7 +2337,7 @@ _/deanshost content ;  # top-level
 _/deafautism content ;  # top-level
   #whole_staging_site_in.cms content ;  # top-level
 _/doubleit content ;  # top-level
-_/dos/facebook content ;  # 
+_/dos/facebook content ;  #
 _/double-it content ;  # top-level
 _/drts content ;  # top-level
 _/dresden content ;  # top-level
@@ -2483,7 +2483,7 @@ _/beijing2014 content ;  # top-level
 _/behaviorallab content ;  # top-level
 _/botlab content ;  # top-level
 _/bonrc content ;  # top-level
-_/bostonia/wpassets content ;  # 
+_/bostonia/wpassets content ;  #
 _/bostonroc content ;  # top-level
 _/books content ;  # top-level
 _/bostonscholars content ;  # top-level
@@ -2599,8 +2599,8 @@ _/u content ;  # top-level
 # skipping BUFELLOW as we should only add the redirect2lower if necessary
 # skipping BUCDE as we should only add the redirect2lower if necessary
 # skipping BUILD as we should only add the redirect2lower if necessary
-### 1933 content 
-### 160 wordpress 
-### 16 app 
-### 1 type 
-### 558 redirect2lower 
+### 1933 content
+### 160 wordpress
+### 16 app
+### 1 type
+### 558 redirect2lower
