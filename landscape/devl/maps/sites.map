@@ -90,15 +90,6 @@ _/interactive-design content ;
 
 ####### From stub files/directory scan
 
-  #farewell content ;  # top-level
-  #whole_staging_site_in.cms content ;  # top-level
-  #whole_staging_site_in.cms content ;  # top-level
-#  buniverse content ;  # top-level
-#  maps content ;  # top-level
-#  nisdev content ;  # top-level
-#  phpbin content ;  # top-level
-#  phpbin.ro content ;  # top-level
-#  phpbin.rw content ;  # top-level
 _/1970commencement content ;  # top-level
 _/200word content ;  # top-level
 _/236magazine content ;  # top-level
