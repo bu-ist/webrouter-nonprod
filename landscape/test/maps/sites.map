@@ -336,6 +336,13 @@ _/culinaryarts content ;  # top-level
 _/cball content ;  # top-level
 _/cbm content ;  # top-level
 _/cbss content ;  # top-level
+_/cfa/wp-assets content ;  #
+_/classics/wp-assets content ;  #
+_/cohstar/wp-assets content ;  #
+_/commencement/wp-assets content ;  #
+_/compliance/videos content ;  #
+_/compliance/videos_restricted1 content ;  #
+_/cs/wp-assets content ;  #
 # skipping CCRD as we should only add the redirect2lower if necessary
 # skipping CC as we should only add the redirect2lower if necessary
 # skipping CCBOARD as we should only add the redirect2lower if necessary
@@ -657,6 +664,10 @@ _/aboutcgs content ;  # top-level
 _/abroad-dublin content ;  # top-level
 _/abroad2 content ;  # top-level
 _/abroadatbu content ;  # top-level
+_/africa/wp-assets content ;  #
+_/africa/publication-assets content ;  #
+_/alzresearch/wp-assets content ;  #
+_/arion/wp-assets content ;  #
 # skipping ACCREDITATION as we should only add the redirect2lower if necessary
 # skipping ACOUSTICS as we should only add the redirect2lower if necessary
 # skipping ACADEMY as we should only add the redirect2lower if necessary
@@ -1161,6 +1172,8 @@ _/edrt content ;  # top-level
 _/education content ;  # top-level
 _/euforyou content ;  # top-level
 _/ebrochures content ;  # top-level
+_/ehs/wp-assets content ;  #
+_/enact/wp-assets content ;  #
 # skipping ECE as we should only add the redirect2lower if necessary
 # skipping ECOLOGYONLINE as we should only add the redirect2lower if necessary
 # skipping ECON as we should only add the redirect2lower if necessary
@@ -1505,6 +1518,12 @@ _/lawgiving content ;  # top-level
 _/lamovie content ;  # top-level
 _/law/test content ;  #
 _/law/journals-archive content ;  #
+_/law/communications content ;  #
+_/law/events content ;  #
+_/lawlibrary/eJournals content ;  #
+_/lawlibrary/restrictedaccess content ;  #
+_/lawlibrary/facultypublications content ;  #
+_/lawlibrary/e-reserves content ;  #
 _/lawyearbooks content ;  # top-level
 ##TODO: get phpmap entry for law-pub and put in separate file
 _/lab content ;  # top-level
@@ -1978,6 +1997,7 @@ _/digital content ;  # top-level
 _/discoveries content ;  # top-level
 _/dioa content ;  # top-level
 _/dinegreen content ;  # top-level
+_/dining/wp-assets content ;  #
 _/discover content ;  # top-level
 _/disted content ;  # top-level
 ##TODO: get phpmap entry for dining/api and put in separate file
@@ -2192,6 +2212,9 @@ _/bumcit content ;  # top-level
 _/buleads content ;  # top-level
 _/build content ;  # top-level
 _/burppe content ;  # top-level
+_/bu-wheelock-merger/wp-assets content ;  # top-level
+_/buapay/wp-assets content ;  #
+_/buapayments/wp-assets content ;  #
 # skipping BCDSP as we should only add the redirect2lower if necessary
 # skipping BWHS as we should only add the redirect2lower if necessary
 # skipping BME as we should only add the redirect2lower if necessary
@@ -2236,28 +2259,3 @@ _/burppe content ;  # top-level
 ### 557 redirect2lower
 _/av/courses content-nocache ; #weblogin loop experienced, trying nocache to test
 ### Added below for new content backend test
-_/africa/wp-assets content ;  #
-_/africa/publication-assets content ;  #
-_/alzresearch/wp-assets content ;  #
-_/arion/wp-assets content ;  #
-_/bu-wheelock-merger/wp-assets content ;  # top-level
-_/buapay/wp-assets content ;  #
-_/buapayments/wp-assets content ;  #
-_/busmplus/form content ;  #
-_/cfa/wp-assets content ;  #
-_/classics/wp-assets content ;  #
-_/cohstar/wp-assets content ;  #
-_/commencement/wp-assets content ;  #
-_/compliance/videos content ;  #
-_/compliance/videos_restricted1 content ;  #
-_/cs/wp-assets content ;  #
-_/dining/wp-assets content ;  #
-_/diversity content ;  # top-level
-_/ehs/wp-assets content ;  #
-_/enact/wp-assets content ;  #
-_/law/communications content ;  #
-_/law/events content ;  #
-_/lawlibrary/eJournals content ;  #
-_/lawlibrary/restrictedaccess content ;  #
-_/lawlibrary/facultypublications content ;  #
-_/lawlibrary/e-reserves content ;  #
