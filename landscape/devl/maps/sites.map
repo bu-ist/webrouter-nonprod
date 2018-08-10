@@ -111,10 +111,6 @@ _/jts2000 content ;  # top-level
 _/jd content ;  # top-level
 _/judaicstudies content ;  # top-level
 _/judicialaffairs content ;  # top-level
-# skipping JOBS as we should only add the redirect2lower if necessary
-# skipping JOURNALS as we should only add the redirect2lower if necessary
-# skipping JTS2000 as we should only add the redirect2lower if necessary
-# skipping JUDICIALAFFAIRS as we should only add the redirect2lower if necessary
 _/zaman content ;  # top-level
 _/zhdanovalab content ;  # top-level
 _/zhanglab content ;  # top-level
@@ -338,71 +334,6 @@ _/culinaryarts content ;  # top-level
 _/cball content ;  # top-level
 _/cbm content ;  # top-level
 _/cbss content ;  # top-level
-# skipping CCRD as we should only add the redirect2lower if necessary
-# skipping CC as we should only add the redirect2lower if necessary
-# skipping CCBOARD as we should only add the redirect2lower if necessary
-# skipping CWF as we should only add the redirect2lower if necessary
-# skipping CWC as we should only add the redirect2lower if necessary
-# skipping CAMPING as we should only add the redirect2lower if necessary
-# skipping CAREERS as we should only add the redirect2lower if necessary
-# skipping CAMPAIGN as we should only add the redirect2lower if necessary
-# skipping CASWRITING as we should only add the redirect2lower if necessary
-# skipping CASHELPDESK as we should only add the redirect2lower if necessary
-# skipping CAS as we should only add the redirect2lower if necessary
-# skipping CASTLE as we should only add the redirect2lower if necessary
-# skipping CATHOLIC as we should only add the redirect2lower if necessary
-# skipping CASW as we should only add the redirect2lower if necessary
-# skipping CAB as we should only add the redirect2lower if necessary
-# skipping CALENDAR as we should only add the redirect2lower if necessary
-# skipping CAGT as we should only add the redirect2lower if necessary
-# skipping CMB as we should only add the redirect2lower if necessary
-# skipping CME as we should only add the redirect2lower if necessary
-# skipping CMLD as we should only add the redirect2lower if necessary
-# skipping CMRL as we should only add the redirect2lower if necessary
-# skipping CHILDHOODTRAUMA as we should only add the redirect2lower if necessary
-# skipping CHAPEL as we should only add the redirect2lower if necessary
-# skipping CHILDCOGNITION as we should only add the redirect2lower if necessary
-# skipping CHELSEA as we should only add the redirect2lower if necessary
-# skipping CHINESE as we should only add the redirect2lower if necessary
-# skipping CHECKPC as we should only add the redirect2lower if necessary
-# skipping CHEMISTRY as we should only add the redirect2lower if necessary
-# skipping CISM as we should only add the redirect2lower if necessary
-# skipping CENSSIS as we should only add the redirect2lower if necessary
-# skipping CELOP as we should only add the redirect2lower if necessary
-# skipping CENTERS as we should only add the redirect2lower if necessary
-# skipping CECB as we should only add the redirect2lower if necessary
-# skipping CEDH as we should only add the redirect2lower if necessary
-# skipping CET as we should only add the redirect2lower if necessary
-# skipping CEES as we should only add the redirect2lower if necessary
-# skipping COUNSELING as we should only add the redirect2lower if necessary
-# skipping COURSENET as we should only add the redirect2lower if necessary
-# skipping COMMUNITY as we should only add the redirect2lower if necessary
-# skipping COBTH as we should only add the redirect2lower if necessary
-# skipping COMMENCEMENT as we should only add the redirect2lower if necessary
-# skipping COMP as we should only add the redirect2lower if necessary
-# skipping COMMON-PLACE as we should only add the redirect2lower if necessary
-# skipping COGNEURO as we should only add the redirect2lower if necessary
-# skipping COM as we should only add the redirect2lower if necessary
-# skipping COMMONGROUND as we should only add the redirect2lower if necessary
-# skipping COMPUTING as we should only add the redirect2lower if necessary
-# skipping CORE as we should only add the redirect2lower if necessary
-# skipping COMJOBS as we should only add the redirect2lower if necessary
-# skipping COPYRIGHT as we should only add the redirect2lower if necessary
-# skipping CONSTRUCTION as we should only add the redirect2lower if necessary
-# skipping COM-CSC as we should only add the redirect2lower if necessary
-# skipping CREW as we should only add the redirect2lower if necessary
-# skipping CRE as we should only add the redirect2lower if necessary
-# skipping CGS as we should only add the redirect2lower if necessary
-# skipping CFA as we should only add the redirect2lower if necessary
-# skipping CLASSICS as we should only add the redirect2lower if necessary
-# skipping CPR as we should only add the redirect2lower if necessary
-# skipping CTF as we should only add the redirect2lower if necessary
-# skipping CSP as we should only add the redirect2lower if necessary
-# skipping CSS as we should only add the redirect2lower if necessary
-# skipping CD as we should only add the redirect2lower if necessary
-# skipping CDF as we should only add the redirect2lower if necessary
-# skipping CULTURE as we should only add the redirect2lower if necessary
-# skipping CULINARYARTS as we should only add the redirect2lower if necessary
 _/yac content ;  # top-level
 _/y2kpartners content ;  # top-level
 _/y2k content ;  # top-level
@@ -412,8 +343,6 @@ _/yourimpact content ;  # top-level
 _/yourbusm content ;  # top-level
 _/yourgift content ;  # top-level
 _/youdo content ;  # top-level
-# skipping YAC as we should only add the redirect2lower if necessary
-# skipping YEARBOOK as we should only add the redirect2lower if necessary
 _/wcp content ;  # top-level
 _/wci-training-programs content ;  # top-level
 _/wcbct2010 content ;  # top-level
@@ -465,31 +394,8 @@ _/wptraining content ;  # top-level
 _/wtbu content ;  # top-level
 _/wbball content ;  # top-level
 _/wbur content ;  # top-level
-# skipping WCP as we should only add the redirect2lower if necessary
-# skipping WCREW as we should only add the redirect2lower if necessary
-# skipping WWWV as we should only add the redirect2lower if necessary
-# skipping WhatsNew.html as we should only add the redirect2lower if necessary
-# skipping WHISTLINGDUCK as we should only add the redirect2lower if necessary
-# skipping WHATSNEW as we should only add the redirect2lower if necessary
-# skipping WINE as we should only add the redirect2lower if necessary
-# skipping WIRELESS as we should only add the redirect2lower if necessary
-# skipping WEBCAST as we should only add the redirect2lower if necessary
-# skipping WELLNESS as we should only add the redirect2lower if necessary
-# skipping WEBMAIL as we should only add the redirect2lower if necessary
-# skipping WEBSUMMIT as we should only add the redirect2lower if necessary
-# skipping WEBCENTRAL as we should only add the redirect2lower if necessary
-# skipping WEBLOGIN as we should only add the redirect2lower if necessary
-# skipping WOMENSPOLO as we should only add the redirect2lower if necessary
-# skipping WOUNDBIOTECH as we should only add the redirect2lower if necessary
-# skipping WOMENSTUDIES as we should only add the redirect2lower if necessary
-# skipping WORKANDFAMILY as we should only add the redirect2lower if necessary
-# skipping WRITING as we should only add the redirect2lower if necessary
-# skipping WTBU as we should only add the redirect2lower if necessary
-# skipping WBBALL as we should only add the redirect2lower if necessary
-# skipping WBUR as we should only add the redirect2lower if necessary
 _/xzhou content ;  # top-level
 _/xyz content ;  # top-level
-# skipping XYZ as we should only add the redirect2lower if necessary
 _/nassr-2013 content ;  # top-level
 _/naitest content ;  # top-level
 _/navyrotc content ;  # top-level
@@ -551,24 +457,6 @@ _/npl content ;  # top-level
 _/ntt content ;  # top-level
 _/nsg content ;  # top-level
 _/nseg content ;  # top-level
-# skipping NAITEST as we should only add the redirect2lower if necessary
-# skipping NARRATIVE as we should only add the redirect2lower if necessary
-# skipping NIDA-MRC as we should only add the redirect2lower if necessary
-# skipping NITRIDES as we should only add the redirect2lower if necessary
-# skipping NIS as we should only add the redirect2lower if necessary
-# skipping NEWSWIRE as we should only add the redirect2lower if necessary
-# skipping NEWMEDIA as we should only add the redirect2lower if necessary
-# skipping NEURO as we should only add the redirect2lower if necessary
-# skipping NEUROPSYCHOLOGY as we should only add the redirect2lower if necessary
-# skipping NEURAL as we should only add the redirect2lower if necessary
-# skipping NEWMAN as we should only add the redirect2lower if necessary
-# skipping NEWS as we should only add the redirect2lower if necessary
-# skipping NEMS as we should only add the redirect2lower if necessary
-# skipping NOX as we should only add the redirect2lower if necessary
-# skipping NROTC as we should only add the redirect2lower if necessary
-# skipping NSG as we should only add the redirect2lower if necessary
-# skipping NSEG as we should only add the redirect2lower if necessary
-# skipping NUTRITION as we should only add the redirect2lower if necessary
 _/accreditation content ;  # top-level
 _/acoustics content ;  # top-level
 _/aceilab content ;  # top-level
@@ -704,58 +592,6 @@ _/aboutcgs content ;  # top-level
 _/abrahamicreligionssymposium content ;  # top-level
 _/abroad-dublin content ;  # top-level
 _/abroadatbu content ;  # top-level
-# skipping ACCREDITATION as we should only add the redirect2lower if necessary
-# skipping ACOUSTICS as we should only add the redirect2lower if necessary
-# skipping ACADEMY as we should only add the redirect2lower if necessary
-# skipping ACOR as we should only add the redirect2lower if necessary
-# skipping ACTUARY as we should only add the redirect2lower if necessary
-# skipping ANATNEURO as we should only add the redirect2lower if necessary
-# skipping ANSWERS as we should only add the redirect2lower if necessary
-# skipping ANEP as we should only add the redirect2lower if necessary
-# skipping ANATOMY as we should only add the redirect2lower if necessary
-# skipping ANTHROP as we should only add the redirect2lower if necessary
-# skipping ANXIETY as we should only add the redirect2lower if necessary
-# skipping AMNESP as we should only add the redirect2lower if necessary
-# skipping AME as we should only add the redirect2lower if necessary
-# skipping AV as we should only add the redirect2lower if necessary
-# skipping AH as we should only add the redirect2lower if necessary
-# skipping AIG as we should only add the redirect2lower if necessary
-# skipping AEC as we should only add the redirect2lower if necessary
-# skipping AEMDPRL as we should only add the redirect2lower if necessary
-# skipping ARION as we should only add the redirect2lower if necessary
-# skipping ARCHAEOLOGYCENTER as we should only add the redirect2lower if necessary
-# skipping ARTAID as we should only add the redirect2lower if necessary
-# skipping ART as we should only add the redirect2lower if necessary
-# skipping ARMYROTC as we should only add the redirect2lower if necessary
-# skipping ARMENIA as we should only add the redirect2lower if necessary
-# skipping ARCHAEOLOGY as we should only add the redirect2lower if necessary
-# skipping ARTSAID as we should only add the redirect2lower if necessary
-# skipping ARTSADMIN as we should only add the redirect2lower if necessary
-# skipping AG as we should only add the redirect2lower if necessary
-# skipping AGNI as we should only add the redirect2lower if necessary
-# skipping AFAM as we should only add the redirect2lower if necessary
-# skipping AF-ROTC as we should only add the redirect2lower if necessary
-# skipping AFRICA as we should only add the redirect2lower if necessary
-# skipping AFR as we should only add the redirect2lower if necessary
-# skipping ALBERT as we should only add the redirect2lower if necessary
-# skipping ALZRESEARCH as we should only add the redirect2lower if necessary
-# skipping ALUMNI as we should only add the redirect2lower if necessary
-# skipping ALDOLASE as we should only add the redirect2lower if necessary
-# skipping APHASIA as we should only add the redirect2lower if necessary
-# skipping APARC as we should only add the redirect2lower if necessary
-# skipping APPLY as we should only add the redirect2lower if necessary
-# skipping ATHLETICS as we should only add the redirect2lower if necessary
-# skipping ASOR as we should only add the redirect2lower if necessary
-# skipping ASSISTIVE_TECHNOLOGY as we should only add the redirect2lower if necessary
-# skipping ASIANARC as we should only add the redirect2lower if necessary
-# skipping ASLLRP as we should only add the redirect2lower if necessary
-# skipping ASSIST_TECH as we should only add the redirect2lower if necessary
-# skipping ASTRONOMY as we should only add the redirect2lower if necessary
-# skipping ADMINISTRATION as we should only add the redirect2lower if necessary
-# skipping ADVANCEMENT as we should only add the redirect2lower if necessary
-# skipping ADMINSC as we should only add the redirect2lower if necessary
-# skipping ADMISSIONS as we should only add the redirect2lower if necessary
-# skipping Aux as we should only add the redirect2lower if necessary
 _/mzank content ;  # top-level
 _/mcinnes content ;  # top-level
 _/mcapr content ;  # top-level
@@ -900,38 +736,6 @@ _/mba-guide content ;  # top-level
 _/mbamph content ;  # top-level
 _/mba content ;  # top-level
 _/mba-facts content ;  # top-level
-# skipping MCAPR as we should only add the redirect2lower if necessary
-# skipping MCH as we should only add the redirect2lower if necessary
-# skipping MCBB as we should only add the redirect2lower if necessary
-# skipping MATHFN as we should only add the redirect2lower if necessary
-# skipping MAG as we should only add the redirect2lower if necessary
-# skipping MATTDM as we should only add the redirect2lower if necessary
-# skipping MARSHPLAZA as we should only add the redirect2lower if necessary
-# skipping MAP as we should only add the redirect2lower if necessary
-# skipping MAPS as we should only add the redirect2lower if necessary
-# skipping MARCOM as we should only add the redirect2lower if necessary
-# skipping MARSH as we should only add the redirect2lower if necessary
-# skipping MASSTWINS as we should only add the redirect2lower if necessary
-# skipping MACI as we should only add the redirect2lower if necessary
-# skipping MVR as we should only add the redirect2lower if necessary
-# skipping MILLE as we should only add the redirect2lower if necessary
-# skipping MILITARY as we should only add the redirect2lower if necessary
-# skipping MICROSCOPYLAB as we should only add the redirect2lower if necessary
-# skipping MIH as we should only add the redirect2lower if necessary
-# skipping MEDIAGUIDEBOOK as we should only add the redirect2lower if necessary
-# skipping MEDIEVAL as we should only add the redirect2lower if necessary
-# skipping MEDIA as we should only add the redirect2lower if necessary
-# skipping MEDSCHOOL as we should only add the redirect2lower if necessary
-# skipping MET as we should only add the redirect2lower if necessary
-# skipping MEDALUMNI as we should only add the redirect2lower if necessary
-# skipping MORIN as we should only add the redirect2lower if necessary
-# skipping MODL as we should only add the redirect2lower if necessary
-# skipping MFD as we should only add the redirect2lower if necessary
-# skipping MFG as we should only add the redirect2lower if necessary
-# skipping MFLL as we should only add the redirect2lower if necessary
-# skipping MPACT as we should only add the redirect2lower if necessary
-# skipping MSPHOTONICS as we should only add the redirect2lower if necessary
-# skipping MDRC as we should only add the redirect2lower if necessary
 _/28qatest content ;  # top-level
 _/236magazine content ;  # top-level
 _/25000 content ;  # top-level
@@ -951,10 +755,6 @@ _/qualtrics content ;  # top-level
 _/quantum content ;  # top-level
 _/quitnet content ;  # top-level
 _/qbp content ;  # top-level
-# skipping QALE as we should only add the redirect2lower if necessary
-# skipping QIL as we should only add the redirect2lower if necessary
-# skipping QUANTUM as we should only add the redirect2lower if necessary
-# skipping QUITNET as we should only add the redirect2lower if necessary
 _/vcb content ;  # top-level
 _/vnns content ;  # top-level
 _/vasculitis content ;  # top-level
@@ -972,11 +772,6 @@ _/vetsatwins content ;  # top-level
 _/vrc content ;  # top-level
 _/vpdos content ;  # top-level
 _/vpensa content ;  # top-level
-# skipping VCB as we should only add the redirect2lower if necessary
-# skipping VIRTUALPATIENT as we should only add the redirect2lower if necessary
-# skipping VISIT as we should only add the redirect2lower if necessary
-# skipping VIDEO as we should only add the redirect2lower if necessary
-# skipping VENDING as we should only add the redirect2lower if necessary
 _/hj2013 content ;  # top-level
 _/hcep content ;  # top-level
 _/hydrology content ;  # top-level
@@ -1044,30 +839,6 @@ _/hdwg content ;  # top-level
 _/huntington content ;  # top-level
 _/humandevelopment content ;  # top-level
 _/humanities content ;  # top-level
-# skipping HCEP as we should only add the redirect2lower if necessary
-# skipping HHH as we should only add the redirect2lower if necessary
-# skipping HIPAA as we should only add the redirect2lower if necessary
-# skipping HISTOLOGY as we should only add the redirect2lower if necessary
-# skipping HIPART as we should only add the redirect2lower if necessary
-# skipping HISTORY as we should only add the redirect2lower if necessary
-# skipping HISTORIC as we should only add the redirect2lower if necessary
-# skipping HILLEL as we should only add the redirect2lower if necessary
-# skipping Help as we should only add the redirect2lower if necessary
-# skipping HEALTHFIT as we should only add the redirect2lower if necessary
-# skipping HEALTHCONNECTION as we should only add the redirect2lower if necessary
-# skipping HELP as we should only add the redirect2lower if necessary
-# skipping HOTELCOMMONWEALTH as we should only add the redirect2lower if necessary
-# skipping HOSPITALITY as we should only add the redirect2lower if necessary
-# skipping HOMECOMING as we should only add the redirect2lower if necessary
-# skipping HOMEIMAGES as we should only add the redirect2lower if necessary
-# skipping HOUSING as we should only add the redirect2lower if necessary
-# skipping HRC as we should only add the redirect2lower if necessary
-# skipping HF as we should only add the redirect2lower if necessary
-# skipping HPL as we should only add the redirect2lower if necessary
-# skipping HTMG as we should only add the redirect2lower if necessary
-# skipping HDGOLF as we should only add the redirect2lower if necessary
-# skipping HDWG as we should only add the redirect2lower if necessary
-# skipping HUNTINGTON as we should only add the redirect2lower if necessary
 _/icshm content ;  # top-level
 _/ict content ;  # top-level
 _/icce15 content ;  # top-level
@@ -1177,41 +948,6 @@ _/isic content ;  # top-level
 _/isps content ;  # top-level
 _/id content ;  # top-level
 _/idp content ;  # top-level
-# skipping ICSHM as we should only add the redirect2lower if necessary
-# skipping ICT as we should only add the redirect2lower if necessary
-# skipping ICCE15 as we should only add the redirect2lower if necessary
-# skipping ICE as we should only add the redirect2lower if necessary
-# skipping ICONS as we should only add the redirect2lower if necessary
-# skipping INST-TECH as we should only add the redirect2lower if necessary
-# skipping INTERV as we should only add the redirect2lower if necessary
-# skipping INDEX.HTML as we should only add the redirect2lower if necessary
-# skipping INFO as we should only add the redirect2lower if necessary
-# skipping INDEX as we should only add the redirect2lower if necessary
-# skipping INTERACTIVE as we should only add the redirect2lower if necessary
-# skipping INFOSEC as we should only add the redirect2lower if necessary
-# skipping INJURYPSYCHOLOGY as we should only add the redirect2lower if necessary
-# skipping IAJ as we should only add the redirect2lower if necessary
-# skipping IAR as we should only add the redirect2lower if necessary
-# skipping IMAGES as we should only add the redirect2lower if necessary
-# skipping IVCF as we should only add the redirect2lower if necessary
-# skipping IHS as we should only add the redirect2lower if necessary
-# skipping IHI as we should only add the redirect2lower if necessary
-# skipping IEDP as we should only add the redirect2lower if necessary
-# skipping IKONCOPY as we should only add the redirect2lower if necessary
-# skipping IR as we should only add the redirect2lower if necessary
-# skipping IRWA as we should only add the redirect2lower if necessary
-# skipping IRAFA as we should only add the redirect2lower if necessary
-# skipping IRSD as we should only add the redirect2lower if necessary
-# skipping IGSW as we should only add the redirect2lower if necessary
-# skipping ILJ as we should only add the redirect2lower if necessary
-# skipping IP as we should only add the redirect2lower if necessary
-# skipping IT as we should only add the redirect2lower if necessary
-# skipping ITALIAN as we should only add the redirect2lower if necessary
-# skipping IT_FRONT_OFFICE as we should only add the redirect2lower if necessary
-# skipping ISEC as we should only add the redirect2lower if necessary
-# skipping ISSO as we should only add the redirect2lower if necessary
-# skipping ISCIP as we should only add the redirect2lower if necessary
-# skipping IST as we should only add the redirect2lower if necessary
 _/ezproxy content ;  # top-level
 _/ecpt content ;  # top-level
 _/echu content ;  # top-level
@@ -1310,32 +1046,6 @@ _/eugene content ;  # top-level
 _/european content ;  # top-level
 _/euforyou content ;  # top-level
 _/ebrochures content ;  # top-level
-# skipping ECE as we should only add the redirect2lower if necessary
-# skipping ECOLOGYONLINE as we should only add the redirect2lower if necessary
-# skipping ECON as we should only add the redirect2lower if necessary
-# skipping EXERCISEANDCANCER as we should only add the redirect2lower if necessary
-# skipping EXTENDED as we should only add the redirect2lower if necessary
-# skipping EXPLORATIONS as we should only add the redirect2lower if necessary
-# skipping ENCODER as we should only add the redirect2lower if necessary
-# skipping ENGIT as we should only add the redirect2lower if necessary
-# skipping ENTREPRENEURSHIP as we should only add the redirect2lower if necessary
-# skipping ENGLISH as we should only add the redirect2lower if necessary
-# skipping ENG as we should only add the redirect2lower if necessary
-# skipping EAS as we should only add the redirect2lower if necessary
-# skipping EVENTS as we should only add the redirect2lower if necessary
-# skipping EVERGREEN as we should only add the redirect2lower if necessary
-# skipping EHS-MC as we should only add the redirect2lower if necessary
-# skipping EHSMC as we should only add the redirect2lower if necessary
-# skipping EHS as we should only add the redirect2lower if necessary
-# skipping ERC as we should only add the redirect2lower if necessary
-# skipping EFORWARDING as we should only add the redirect2lower if necessary
-# skipping EPISCOPAL as we should only add the redirect2lower if necessary
-# skipping ETC as we should only add the redirect2lower if necessary
-# skipping ESA as we should only add the redirect2lower if necessary
-# skipping ESO as we should only add the redirect2lower if necessary
-# skipping ES as we should only add the redirect2lower if necessary
-# skipping EDUCATION as we should only add the redirect2lower if necessary
-# skipping EDITINST as we should only add the redirect2lower if necessary
 _/3dcampus content ;  # top-level
 _/kcrm content ;  # top-level
 _/kandarian content ;  # top-level
@@ -1355,7 +1065,6 @@ _/krugman content ;  # top-level
 _/klapperich content ;  # top-level
 _/kpw content ;  # top-level
 _/kuntzelab content ;  # top-level
-# skipping KARYSTOS as we should only add the redirect2lower if necessary
 _/ocn content ;  # top-level
 _/ocs content ;  # top-level
 _/onestop content ;  # top-level
@@ -1400,21 +1109,6 @@ _/outreach content ;  # top-level
 _/outdoor content ;  # top-level
 _/obgyn-clerkship content ;  # top-level
 _/obgyn content ;  # top-level
-# skipping OCS as we should only add the redirect2lower if necessary
-# skipping ONLINE as we should only add the redirect2lower if necessary
-# skipping OAS as we should only add the redirect2lower if necessary
-# skipping OMA as we should only add the redirect2lower if necessary
-# skipping OM as we should only add the redirect2lower if necessary
-# skipping OED2E as we should only add the redirect2lower if necessary
-# skipping OEP as we should only add the redirect2lower if necessary
-# skipping ORIENTATION as we should only add the redirect2lower if necessary
-# skipping ORPM as we should only add the redirect2lower if necessary
-# skipping OFFICES as we should only add the redirect2lower if necessary
-# skipping OT as we should only add the redirect2lower if necessary
-# skipping OSP as we should only add the redirect2lower if necessary
-# skipping OSFM as we should only add the redirect2lower if necessary
-# skipping OUTREACH as we should only add the redirect2lower if necessary
-# skipping OUTDOOR as we should only add the redirect2lower if necessary
 _/rcl content ;  # top-level
 _/rc content ;  # top-level
 _/rccp content ;  # top-level
@@ -1475,37 +1169,12 @@ _/rrtcout content ;  # top-level
 _/rl content ;  # top-level
 _/rpm/panos content ;  #
 ##TODO: get phpmap entry for rpm-agreements and put in separate file
-# skipping rp18p.GIF as we should only add the redirect2lower if necessary
 _/rsg content ;  # top-level
 _/rss content ;  # top-level
 _/rs content ;  # top-level
 _/rdlewis content ;  # top-level
 _/rbfl content ;  # top-level
 _/rbarnett content ;  # top-level
-# skipping RCL as we should only add the redirect2lower if necessary
-# skipping RC as we should only add the redirect2lower if necessary
-# skipping RCRC as we should only add the redirect2lower if necessary
-# skipping RAYLEIGH as we should only add the redirect2lower if necessary
-# skipping RISK as we should only add the redirect2lower if necessary
-# skipping RESLIFE as we should only add the redirect2lower if necessary
-# skipping RECYCLING as we should only add the redirect2lower if necessary
-# skipping REHAB as we should only add the redirect2lower if necessary
-# skipping RECORDING as we should only add the redirect2lower if necessary
-# skipping RESILIENCE as we should only add the redirect2lower if necessary
-# skipping REG as we should only add the redirect2lower if necessary
-# skipping REPORTS as we should only add the redirect2lower if necessary
-# skipping RELIGION as we should only add the redirect2lower if necessary
-# skipping REMAN as we should only add the redirect2lower if necessary
-# skipping REMEMBER as we should only add the redirect2lower if necessary
-# skipping RESNET as we should only add the redirect2lower if necessary
-# skipping RESEARCH as we should only add the redirect2lower if necessary
-# skipping REMOTESENSING as we should only add the redirect2lower if necessary
-# skipping REUNION as we should only add the redirect2lower if necessary
-# skipping RESOURCES as we should only add the redirect2lower if necessary
-# skipping ROYBAL as we should only add the redirect2lower if necessary
-# skipping ROR as we should only add the redirect2lower if necessary
-# skipping RRTCOUT as we should only add the redirect2lower if necessary
-# skipping RS as we should only add the redirect2lower if necessary
 _/gcc content ;  # top-level
 _/gc content ;  # top-level
 _/gyoung content ;  # top-level
@@ -1597,23 +1266,6 @@ _/gsi content ;  # top-level
 _/gdrs content ;  # top-level
 _/gdp content ;  # top-level
 _/gds content ;  # top-level
-# skipping Games as we should only add the redirect2lower if necessary
-# skipping GIVING as we should only add the redirect2lower if necessary
-# skipping GIVETHEPOINT as we should only add the redirect2lower if necessary
-# skipping GIFT as we should only add the redirect2lower if necessary
-# skipping GEP as we should only add the redirect2lower if necessary
-# skipping GENEPD as we should only add the redirect2lower if necessary
-# skipping GERONTOLOGY as we should only add the redirect2lower if necessary
-# skipping GENOME as we should only add the redirect2lower if necessary
-# skipping GEDDES as we should only add the redirect2lower if necessary
-# skipping GENETICS as we should only add the redirect2lower if necessary
-# skipping GOGLOBAL as we should only add the redirect2lower if necessary
-# skipping GRS as we should only add the redirect2lower if necessary
-# skipping GRAPHICS as we should only add the redirect2lower if necessary
-# skipping GLC as we should only add the redirect2lower if necessary
-# skipping GLOBAL as we should only add the redirect2lower if necessary
-# skipping GLOBALMFG as we should only add the redirect2lower if necessary
-# skipping GSU as we should only add the redirect2lower if necessary
 _/fcoi content ;  # top-level
 _/fye content ;  # top-level
 _/fysopstyle content ;  # top-level
@@ -1678,23 +1330,6 @@ _/fsao content ;  # top-level
 _/fdretf content ;  # top-level
 _/fd content ;  # top-level
 _/futuremba content ;  # top-level
-# skipping FAMILYMED as we should only add the redirect2lower if necessary
-# skipping FACULTY-COUNCIL as we should only add the redirect2lower if necessary
-# skipping FAMMED as we should only add the redirect2lower if necessary
-# skipping FAFC as we should only add the redirect2lower if necessary
-# skipping FAQS as we should only add the redirect2lower if necessary
-# skipping FAMILY as we should only add the redirect2lower if necessary
-# skipping FACULTY as we should only add the redirect2lower if necessary
-# skipping FAVORITEPOEM as we should only add the redirect2lower if necessary
-# skipping FHCMI as we should only add the redirect2lower if necessary
-# skipping FINAID as we should only add the redirect2lower if necessary
-# skipping FINPLANNERS as we should only add the redirect2lower if necessary
-# skipping FEATURES as we should only add the redirect2lower if necessary
-# skipping FOO as we should only add the redirect2lower if necessary
-# skipping FORMS as we should only add the redirect2lower if necessary
-# skipping FSL as we should only add the redirect2lower if necessary
-# skipping FSAP as we should only add the redirect2lower if necessary
-# skipping FSAO as we should only add the redirect2lower if necessary
 _/ljerrett content ;  # top-level
 _/lcme content ;  # top-level
 _/lcsc content ;  # top-level
@@ -1765,27 +1400,6 @@ _/lungs content ;  # top-level
 _/lully content ;  # top-level
 _/lutheran content ;  # top-level
 _/luce content ;  # top-level
-# skipping LAMILPA as we should only add the redirect2lower if necessary
-# skipping LAANE as we should only add the redirect2lower if necessary
-# skipping LAW as we should only add the redirect2lower if necessary
-# skipping LAB as we should only add the redirect2lower if necessary
-# skipping LAWDEAN as we should only add the redirect2lower if necessary
-# skipping LAWLIBRARY as we should only add the redirect2lower if necessary
-# skipping LIFEBOOK as we should only add the redirect2lower if necessary
-# skipping LITERARY as we should only add the redirect2lower if necessary
-# skipping LIBRARY as we should only add the redirect2lower if necessary
-# skipping LINGUISTICS as we should only add the redirect2lower if necessary
-# skipping LIFELONG as we should only add the redirect2lower if necessary
-# skipping LITE as we should only add the redirect2lower if necessary
-# skipping LIFELONGLEARNING as we should only add the redirect2lower if necessary
-# skipping LIBDB as we should only add the redirect2lower if necessary
-# skipping LIBDB-TST as we should only add the redirect2lower if necessary
-# skipping LEEGROUP as we should only add the redirect2lower if necessary
-# skipping LERNET as we should only add the redirect2lower if necessary
-# skipping LECTURE as we should only add the redirect2lower if necessary
-# skipping LOVECANAL as we should only add the redirect2lower if necessary
-# skipping LUNGS as we should only add the redirect2lower if necessary
-# skipping LUTHERAN as we should only add the redirect2lower if necessary
 _/pzekos content ;  # top-level
 _/pcl content ;  # top-level
 _/pc content ;  # top-level
@@ -1904,45 +1518,6 @@ _/purchasing content ;  # top-level
 _/pulmonarycenter content ;  # top-level
 _/publichealthworkforce content ;  # top-level
 _/publicsafety content ;  # top-level
-# skipping PCL as we should only add the redirect2lower if necessary
-# skipping PCSC as we should only add the redirect2lower if necessary
-# skipping PCMS as we should only add the redirect2lower if necessary
-# skipping PACLAB as we should only add the redirect2lower if necessary
-# skipping PATHOLOGY as we should only add the redirect2lower if necessary
-# skipping PARTISANREVIEW as we should only add the redirect2lower if necessary
-# skipping PARENTS as we should only add the redirect2lower if necessary
-# skipping PARDEE as we should only add the redirect2lower if necessary
-# skipping PARKING as we should only add the redirect2lower if necessary
-# skipping PHOTO as we should only add the redirect2lower if necessary
-# skipping PHOTONICS as we should only add the redirect2lower if necessary
-# skipping PHILO as we should only add the redirect2lower if necessary
-# skipping PHYSICS as we should only add the redirect2lower if necessary
-# skipping PIKE as we should only add the redirect2lower if necessary
-# skipping PIN as we should only add the redirect2lower if necessary
-# skipping PERSONNEL as we should only add the redirect2lower if necessary
-# skipping PERD as we should only add the redirect2lower if necessary
-# skipping PEHC as we should only add the redirect2lower if necessary
-# skipping POLISCI as we should only add the redirect2lower if necessary
-# skipping POLICIES as we should only add the redirect2lower if necessary
-# skipping POLICE as we should only add the redirect2lower if necessary
-# skipping PRESIDENT as we should only add the redirect2lower if necessary
-# skipping PROFESSIONAL as we should only add the redirect2lower if necessary
-# skipping PRC as we should only add the redirect2lower if necessary
-# skipping PROVOST as we should only add the redirect2lower if necessary
-# skipping PROARTE as we should only add the redirect2lower if necessary
-# skipping PRSSA as we should only add the redirect2lower if necessary
-# skipping PRJ as we should only add the redirect2lower if necessary
-# skipping PRACTICE as we should only add the redirect2lower if necessary
-# skipping PRELAW as we should only add the redirect2lower if necessary
-# skipping PROXY as we should only add the redirect2lower if necessary
-# skipping PROCUREMENT as we should only add the redirect2lower if necessary
-# skipping PT3 as we should only add the redirect2lower if necessary
-# skipping PTC as we should only add the redirect2lower if necessary
-# skipping PSYCH as we should only add the redirect2lower if necessary
-# skipping PSP as we should only add the redirect2lower if necessary
-# skipping PUBLICATIONS as we should only add the redirect2lower if necessary
-# skipping PURCHASING as we should only add the redirect2lower if necessary
-# skipping PUBLICHEALTHWORKFORCE as we should only add the redirect2lower if necessary
 _/tcp content ;  # top-level
 _/tyngsboro content ;  # top-level
 _/tad content ;  # top-level
@@ -2032,22 +1607,6 @@ _/turnitin content ;  # top-level
 _/tutorials content ;  # top-level
 _/tulliusgroup content ;  # top-level
 _/tbergend content ;  # top-level
-# skipping TAD as we should only add the redirect2lower if necessary
-# skipping TANGLEWOOD as we should only add the redirect2lower if necessary
-# skipping THURMAN as we should only add the redirect2lower if necessary
-# skipping Templates as we should only add the redirect2lower if necessary
-# skipping TERRIERCARD as we should only add the redirect2lower if necessary
-# skipping TERRIERS as we should only add the redirect2lower if necessary
-# skipping TESTPREP as we should only add the redirect2lower if necessary
-# skipping TELECOM as we should only add the redirect2lower if necessary
-# skipping TRANSPORTATION as we should only add the redirect2lower if necessary
-# skipping TRL as we should only add the redirect2lower if necessary
-# skipping TRANSGENIC as we should only add the redirect2lower if necessary
-# skipping TRUSTEESCHOLARS as we should only add the redirect2lower if necessary
-# skipping TRACK as we should only add the redirect2lower if necessary
-# skipping TLTR as we should only add the redirect2lower if necessary
-# skipping TSO as we should only add the redirect2lower if necessary
-# skipping TSAI as we should only add the redirect2lower if necessary
 _/sjmag content ;  # top-level
 _/schroeter content ;  # top-level
 _/scoe content ;  # top-level
@@ -2071,7 +1630,6 @@ _/schoolphys content ;  # top-level
 _/scnc content ;  # top-level
 _/scv content ;  # top-level
 _/scv_import content ;  # top-level
-# skipping systems-programming.RESTORED as we should only add the redirect2lower if necessary
 _/synbio content ;  # top-level
 _/synapse content ;  # top-level
 _/systemsbiology content ;  # top-level
@@ -2238,54 +1796,6 @@ _/supportrotc content ;  # top-level
 _/supplier content ;  # top-level
 _/sbd content ;  # top-level
 _/sbrptraining content ;  # top-level
-# skipping SCOE as we should only add the redirect2lower if necessary
-# skipping SCANNING as we should only add the redirect2lower if necessary
-# skipping SCHOOLS as we should only add the redirect2lower if necessary
-# skipping SCARLETKEY as we should only add the redirect2lower if necessary
-# skipping SCHOOLPHYS as we should only add the redirect2lower if necessary
-# skipping SYSTEMS as we should only add the redirect2lower if necessary
-# skipping SYSTEMS-PROGRAMMING as we should only add the redirect2lower if necessary
-# skipping SYSTEMS-SUPPORT as we should only add the redirect2lower if necessary
-# skipping SYNT as we should only add the redirect2lower if necessary
-# skipping SARGENTCAMP as we should only add the redirect2lower if necessary
-# skipping SARGENT as we should only add the redirect2lower if necessary
-# skipping SAO as we should only add the redirect2lower if necessary
-# skipping SARHOUSE as we should only add the redirect2lower if necessary
-# skipping SAC as we should only add the redirect2lower if necessary
-# skipping SARPSYCH as we should only add the redirect2lower if necessary
-# skipping SATELLITE as we should only add the redirect2lower if necessary
-# skipping SMG-EM as we should only add the redirect2lower if necessary
-# skipping SMG as we should only add the redirect2lower if necessary
-# skipping SMEC as we should only add the redirect2lower if necessary
-# skipping SHS as we should only add the redirect2lower if necessary
-# skipping SHPRP as we should only add the redirect2lower if necessary
-# skipping SHA as we should only add the redirect2lower if necessary
-# skipping SIL as we should only add the redirect2lower if necessary
-# skipping SICKLECELL as we should only add the redirect2lower if necessary
-# skipping SIMULATION as we should only add the redirect2lower if necessary
-# skipping SEARCH as we should only add the redirect2lower if necessary
-# skipping SED as we should only add the redirect2lower if necessary
-# skipping SEO as we should only add the redirect2lower if necessary
-# skipping SECURITYINFO as we should only add the redirect2lower if necessary
-# skipping SERVICES as we should only add the redirect2lower if necessary
-# skipping SECURITY as we should only add the redirect2lower if necessary
-# skipping SOFTWARE as we should only add the redirect2lower if necessary
-# skipping SOURCEGUIDE as we should only add the redirect2lower if necessary
-# skipping SOCIOLOGY as we should only add the redirect2lower if necessary
-# skipping SFA as we should only add the redirect2lower if necessary
-# skipping SLONE as we should only add the redirect2lower if necessary
-# skipping SPIRITHEALTH as we should only add the redirect2lower if necessary
-# skipping SPIDR as we should only add the redirect2lower if necessary
-# skipping SPECIALREPORTS as we should only add the redirect2lower if necessary
-# skipping SPECCOL as we should only add the redirect2lower if necessary
-# skipping STH as we should only add the redirect2lower if necessary
-# skipping STUDENTS as we should only add the redirect2lower if necessary
-# skipping STUDENTVILLAGE as we should only add the redirect2lower if necessary
-# skipping STATS as we should only add the redirect2lower if necessary
-# skipping STRATCOM as we should only add the redirect2lower if necessary
-# skipping SSW as we should only add the redirect2lower if necessary
-# skipping SUMMERTERM as we should only add the redirect2lower if necessary
-# skipping SUMMER as we should only add the redirect2lower if necessary
 _/dje content ;  # top-level
 _/dcg content ;  # top-level
 _/dct content ;  # top-level
@@ -2358,22 +1868,6 @@ _/ddalton content ;  # top-level
 _/dublin content ;  # top-level
 _/dublinseminar content ;  # top-level
 _/dbin-selector content ;  # top-level
-# skipping DCG as we should only add the redirect2lower if necessary
-# skipping DAR as we should only add the redirect2lower if necessary
-# skipping DANIELSEN as we should only add the redirect2lower if necessary
-# skipping DME as we should only add the redirect2lower if necessary
-# skipping DISABILITY as we should only add the redirect2lower if necessary
-# skipping DIRECTORY as we should only add the redirect2lower if necessary
-# skipping DISTANCE as we should only add the redirect2lower if necessary
-# skipping DISTED as we should only add the redirect2lower if necessary
-# skipping DINING as we should only add the redirect2lower if necessary
-# skipping DEAFSTUDIES as we should only add the redirect2lower if necessary
-# skipping DEGREECOMPLETE as we should only add the redirect2lower if necessary
-# skipping DEV as we should only add the redirect2lower if necessary
-# skipping DENTAL as we should only add the redirect2lower if necessary
-# skipping DEANSHOST as we should only add the redirect2lower if necessary
-# skipping DSGSUPPORT as we should only add the redirect2lower if necessary
-# skipping DUBLINSEMINAR as we should only add the redirect2lower if necessary
 _/uc content ;  # top-level
 _/uctech content ;  # top-level
 _/ucccd content ;  # top-level
@@ -2382,7 +1876,6 @@ _/universe content ;  # top-level
 _/union content ;  # top-level
 _/universityprovostsearch content ;  # top-level
 _/unlock content ;  # top-level
-# skipping Templates as we should only add the redirect2lower if necessary
 _/univcomp content ;  # top-level
 _/undergrad content ;  # top-level
 _/undaunted content ;  # top-level
@@ -2410,20 +1903,8 @@ _/ussi content ;  # top-level
 _/ub content ;  # top-level
 _/ubms content ;  # top-level
 _/ubx content ;  # top-level
-# skipping UC as we should only add the redirect2lower if necessary
-# skipping UCTECH as we should only add the redirect2lower if necessary
-# skipping UNION as we should only add the redirect2lower if necessary
-# skipping UNIVCOMP as we should only add the redirect2lower if necessary
-# skipping UNI as we should only add the redirect2lower if necessary
-# skipping UIS as we should only add the redirect2lower if necessary
-# skipping UISACS as we should only add the redirect2lower if necessary
-# skipping URC as we should only add the redirect2lower if necessary
-# skipping URGENT as we should only add the redirect2lower if necessary
-# skipping UR as we should only add the redirect2lower if necessary
-# skipping UROP as we should only add the redirect2lower if necessary
-# skipping USC as we should only add the redirect2lower if necessary
-# skipping USSI as we should only add the redirect2lower if necessary
-# skipping UB as we should only add the redirect2lower if necessary
+
+
 _/1970commencement content ;  # top-level
 _/bcrhhr content ;  # top-level
 _/bcdsp content ;  # top-level
@@ -2562,43 +2043,6 @@ _/buleads content ;  # top-level
 _/build content ;  # top-level
 _/burppe content ;  # top-level
 _/u content ;  # top-level
-# skipping BCDSP as we should only add the redirect2lower if necessary
-# skipping BWHS as we should only add the redirect2lower if necessary
-# skipping BME as we should only add the redirect2lower if necessary
-# skipping BIKE as we should only add the redirect2lower if necessary
-# skipping BIOSQUARE as we should only add the redirect2lower if necessary
-# skipping BIOINFORMATICS as we should only add the redirect2lower if necessary
-# skipping BIOMEDIACENTER as we should only add the redirect2lower if necessary
-# skipping BINAURAL as we should only add the redirect2lower if necessary
-# skipping BIOMED as we should only add the redirect2lower if necessary
-# skipping BIOLOGY as we should only add the redirect2lower if necessary
-# skipping BIOSKIN as we should only add the redirect2lower if necessary
-# skipping BEANPOT-PARTY as we should only add the redirect2lower if necessary
-# skipping BEHAVNEURO as we should only add the redirect2lower if necessary
-# skipping BOSTONIA as we should only add the redirect2lower if necessary
-# skipping BOOKS as we should only add the redirect2lower if necessary
-# skipping BRAINTREE as we should only add the redirect2lower if necessary
-# skipping BRAVI as we should only add the redirect2lower if necessary
-# skipping BRUSSELS as we should only add the redirect2lower if necessary
-# skipping BRIDGE as we should only add the redirect2lower if necessary
-# skipping BLAZARS as we should only add the redirect2lower if necessary
-# skipping BPT as we should only add the redirect2lower if necessary
-# skipping BTM as we should only add the redirect2lower if necessary
-# skipping BSL as we should only add the redirect2lower if necessary
-# skipping BUSDM as we should only add the redirect2lower if necessary
-# skipping BUbin as we should only add the redirect2lower if necessary
-# skipping BUOHC as we should only add the redirect2lower if necessary
-# skipping BUSINESS as we should only add the redirect2lower if necessary
-# skipping BUPP as we should only add the redirect2lower if necessary
-# skipping BUMS as we should only add the redirect2lower if necessary
-# skipping BUILDINGBU as we should only add the redirect2lower if necessary
-# skipping BUMP as we should only add the redirect2lower if necessary
-# skipping BUMO as we should only add the redirect2lower if necessary
-# skipping BULLETINS as we should only add the redirect2lower if necessary
-# skipping BUT as we should only add the redirect2lower if necessary
-# skipping BUFELLOW as we should only add the redirect2lower if necessary
-# skipping BUCDE as we should only add the redirect2lower if necessary
-# skipping BUILD as we should only add the redirect2lower if necessary
 ### 1933 content
 ### 160 wordpress
 ### 16 app
