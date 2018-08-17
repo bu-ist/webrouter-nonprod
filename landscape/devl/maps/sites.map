@@ -16,7 +16,7 @@ _/saml/content content ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
-#
+
 #degree-advice degreeadvice ;
 
 _/django apps ;
@@ -42,7 +42,6 @@ _/testing legacy ;
 
 # Send old-style redirects and aliases to the content backend
 # we are not transitioning anything older than 2009 unless necessary.
-#
 
 ##### END of common prefix
 ###############################################
@@ -79,8 +78,6 @@ _/law-pub                        django ;
 ### PHPBIN apps
 
 _/bumobile phpbin ;
-
-#
 
 _/degree-advice degree-advice ;
 _/degree-audit degree-advice ;
@@ -389,7 +386,7 @@ _/caryl content ;
 _/cas-promotion content ;
 _/cas-scholars content ;
 _/cas-tenure content ;
-_/cas/magazine content ;  #
+_/cas/magazine content ;
 _/casadvising content ;
 _/cascsg content ;
 _/case-melville content ;
@@ -609,7 +606,7 @@ _/dentalassisting content ;
 _/dentures content ;
 _/derm content ;
 _/dermatology-associates content ;
-_/dev content ; #top-level;
+_/dev content ;
 _/devbio content ;
 _/devcom content ;
 _/diabetescenter content ;
@@ -630,7 +627,7 @@ _/dlanglai content ;
 _/dli content ;
 _/dme content ;
 _/dna content ;
-_/dos/facebook content ;  #
+_/dos/facebook content ;
 _/double-it content ;
 _/doubleit content ;
 _/dresden content ;
@@ -773,9 +770,9 @@ _/festival content ;
 _/fetters content ;
 _/fhcmi content ;
 _/fhs content ;
-_/finaid/fedfunds content ;  #
-_/finaid/pdfs content ;  #
-_/finaid/status_documents content ;  #
+_/finaid/fedfunds content ;
+_/finaid/pdfs content ;
+_/finaid/status_documents content ;
 _/finance content ;
 _/finplanners content ;
 _/firesafety content ;
@@ -953,7 +950,7 @@ _/hpcworkshop content ;
 _/hpl content ;
 _/hprp content ;
 _/hps-scied content ;
-_/hr/documents content ;  #
+_/hr/documents content ;
 _/hrc content ;
 _/hre content ;
 _/hrpi content ;
@@ -1124,8 +1121,8 @@ _/las content ;
 _/latenightkitchen content ;
 _/laverdes content ;
 _/law.bkup content ;
-_/law/journals-archive content ;  #
-_/law/workingpapers-archive content ;  #
+_/law/journals-archive content ;
+_/law/workingpapers-archive content ;
 _/lawav content ;
 _/lawdean content ;
 _/lawgiving content ;
@@ -1257,7 +1254,7 @@ _/mentornet content ;
 _/messiaen content ;
 _/met-eti content ;
 _/met-research content ;
-_/met/homepage content ;  #
+_/met/homepage content ;
 _/metabolomics content ;
 _/metadmin content ;
 _/metfacultydevelopment content ;
@@ -1446,7 +1443,7 @@ _/parents content ;
 _/parentsprogram content ;
 _/parentsweekend content ;
 _/paris content ;
-_/parking/dbtemplates content ;  #
+_/parking/dbtemplates content ;
 _/parklab content ;
 _/parkstreet content ;
 _/partisanreview content ;
@@ -1590,8 +1587,8 @@ _/reports content ;
 _/research-compliance content ;
 _/research-external content ;
 _/research-internal content ;
-_/research/email content ;  #
-_/research/wp-assets content ;  #
+_/research/email content ;
+_/research/wp-assets content ;
 _/researchcommittees content ;
 _/resilience content ;
 _/reslife content ;
@@ -1616,7 +1613,7 @@ _/rohp content ;
 _/ror content ;
 _/rosa content ;
 _/roybal content ;
-_/rpm/panos content ;  #
+_/rpm/panos content ;
 _/rrtcout content ;
 _/rs content ;
 _/rsg content ;
@@ -1740,7 +1737,7 @@ _/snl content ;
 _/sociology content ;
 _/software content ;
 _/sourceguide content ;
-_/sourcing/wp-protected content ;  #
+_/sourcing/wp-protected content ;
 _/south content ;
 _/space content ;
 _/speccol content ;
@@ -1844,8 +1841,8 @@ _/test-blog content ;
 _/testnfs content ;
 _/testnfs2 content ;
 _/testprep content ;
-_/testshibro content-nocache ; #top-level
-_/testshibrw content-nocache ; #top-level
+_/testshibro content-nocache ;
+_/testshibrw content-nocache ;
 _/theaternow content ;
 _/thecology content ;
 _/thedash content ;
@@ -1861,20 +1858,20 @@ _/timeline content ;
 _/tims content ;
 _/tlcstudy content ;
 _/tml content ;
-_/tmp-admissions/wp-assets content ;  #
-_/tmp-orc/wp-assets content ;  #
+_/tmp-admissions/wp-assets content ;
+_/tmp-orc/wp-assets content ;
 _/tmp-webcentral content ;
 _/today-spash content ;
-_/today/blasts content ;  #
-_/today/bubooks content ;  #
-_/today/buniverse content ;  #
-_/today/commencement content ;  #
-_/today/common content ;  #
-_/today/frozenfour content ;  #
-_/today/media content ;  #
-_/today/news content ;  #
-_/today/v2 content ;  #
-_/today/v2-devl content ;  #
+_/today/blasts content ;
+_/today/bubooks content ;
+_/today/buniverse content ;
+_/today/commencement content ;
+_/today/common content ;
+_/today/frozenfour content ;
+_/today/media content ;
+_/today/news content ;
+_/today/v2 content ;
+_/today/v2-devl content ;
 _/tokyo content ;
 _/tol content ;
 _/track content ;
