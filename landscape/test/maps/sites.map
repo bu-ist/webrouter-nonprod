@@ -937,7 +937,7 @@ _/hotelcommonwealth content ;  # top-level
 _/housing2010 content ;  # top-level
 _/hospitality/RevPASH content ;  #
 _/hockeygolf content ;  # top-level
-_/homepage content ;  # top-level
+_/homepage aws_home ;  # top-level
 _/home aws_home ;  # top-level
 _/holmul content ;  # top-level
 _/homecoming content ;  # top-level
