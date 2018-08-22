@@ -110,9 +110,6 @@ _/explore phpbin ;
 _/maps/livebus phpbin ;
 _/bumobile phpbin ;
 
-_/marcom content ;
-_/interactive-design content ;
-
 ####### From stub files/directory scan
 
 _/jamdocs content ;  # top-level
