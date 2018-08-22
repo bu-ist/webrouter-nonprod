@@ -54,16 +54,16 @@ _/index                          django ;       # 2012-04-04 TEST & DEVL ONLY
 _/dnamixtures                    django ;
 _/systems-programming/django     django ;
 _/cellphone-compliance           django ;
-_/courseware-manager             django ;       #            kgrin
-_/casdemo                        django ;       #            kgrin
-_/summer/admin                   django ;       # 2011-03    scottm
-_/fifty-states                   django ;       # 2012-03-08 scottm
+_/courseware-manager             django ;
+_/casdemo                        django ;
+_/summer/admin                   django ;
+_/fifty-states                   django ;
 _/ssw/usfostercare               django ;
-_/html-email                     django ;       # 2012-12-12 fwolf
-_/betabionics                    django ;       # 2012-23-01 isingh
-_/rpm-agreements                 django ;       # 2013-01-29 mgburns
-_/wp-deploy                      django ;       #            isingh
-_/search                         django ;       # 2014-03-24 ntk
+_/html-email                     django ;
+_/betabionics                    django ;
+_/rpm-agreements                 django ;
+_/wp-deploy                      django ;
+_/search                         django ;
 _/api                            django ;
 _/globalhealth                   django ;
 _/law-pub                        django ;
