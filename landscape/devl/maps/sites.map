@@ -68,13 +68,6 @@ _/api                            django ;
 _/globalhealth                   django ;
 _/law-pub                        django ;
 
-# Ask Web team about:
-
-#/phpbin/bfenster-test           http://testapp1-buphptest.rhcloud.com:80
-
-# The following line was added on 5/3/2017 by Barry Fitzgibbon per Ben Fenster
-#/phpbin/courseware              http://ist-phpbin-devl.bu.edu:182
-
 ### PHPBIN apps
 
 _/bumobile phpbin ;
