@@ -75,9 +75,6 @@ _/bumobile phpbin ;
 _/degree-advice degree-advice ;
 _/degree-audit degree-advice ;
 
-_/marcom content ;
-_/interactive-design content ;
-
 ####### From stub files/directory scan
 
 _/1970commencement content ;
