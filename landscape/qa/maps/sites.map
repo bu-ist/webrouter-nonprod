@@ -2,7 +2,7 @@ _/version 20180202 ;
 
 # items from the Apache configuration
 _/htbin legacy ;
-_/studentlink redirect_asis ; 
+_/studentlink redirect_asis ;
 
 # UIS content
 _/uis content ;
@@ -1845,7 +1845,6 @@ _/prudential content ;
 _/prevmedresidency content ;
 ## premodern: wordpress
 ## professorvoices: wordpress
-_/proposaldevelopment content ;
 ## presidential-functions: wordpress
 ## prehealth: wordpress
 _/preservation content ;
