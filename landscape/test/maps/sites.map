@@ -154,12 +154,12 @@ _/cas-promotion content ;
 _/cap content ;
 _/cashelpdesk content ;
 _/campaignkickoff content ;
-_/cas/common content ;  #
-_/cas/programs content ;  #
-_/cas/invite content ;  #
-_/cas/newsletter content ;  #
-_/cas/ar content ;  #
-_/cas/magazine content ;  #
+_/cas/common content ;
+_/cas/programs content ;
+_/cas/invite content ;
+_/cas/newsletter content ;
+_/cas/ar content ;
+_/cas/magazine content ;
 _/catholic content ;
 _/cas-tenure content ;
 _/caswpinternal content ;
@@ -200,7 +200,7 @@ _/citylabacademy content ;
 _/ciap content ;
 _/celebrationvip content ;
 _/censsis content ;
-_/celop/dev content ;  #
+_/celop/dev content ;
 _/centurychallenge content ;
 ##TODO: get phpmap entry for cellphone-compliance and put in separate file
 _/centers content ;
@@ -227,57 +227,57 @@ _/corpfound content ;
 _/com100 content ;
 _/commavefair content ;
 _/coredesign content ;
-_/com/givetoday content ;  #
-_/com/playitforward content ;  #
-_/com/greatdebate content ;  #
-_/com/test content ;  #
-_/com/scripts content ;  #
-_/com/ndow content ;  #
-_/com/networking content ;  #
-_/com/course-feeds content ;  #
-_/com/beaudoin-review content ;  #
-_/com/narrative content ;  #
-_/com/flash content ;  #
-_/com/support-necir content ;  #
-_/com/humor content ;  #
-_/com/pradvanced content ;  #
-_/com/crc content ;  #
-_/com/lib content ;  #
-_/com/redstonenyc content ;  #
-_/com/redstonewest content ;  #
-_/com/linkedin content ;  #
-_/com/registration content ;  #
-_/com/special content ;  #
-_/com/socialmediaday content ;  #
-_/com/orientation content ;  #
-_/com/live-it content ;  #
-_/com/ems-review content ;  #
-_/com/mobile-life-workshop content ;  #
-_/com/necir-registration content ;  #
-_/com/amp-registration content ;  #
-_/com/design-request content ;  #
-_/com/cmcs content ;  #
-_/com/new-courses content ;  #
-_/com/dar content ;  #
-_/com/lambert-review content ;  #
-_/com/data-storytelling content ;  #
-_/com/daly-review content ;  #
-_/com/labor-films content ;  #
-_/com/student-magazines content ;  #
-_/com/graduate-programs content ;  #
-_/com/supa-review content ;  #
-_/com/film-tv-facts content ;  #
-_/com/photo-workshops content ;  #
-_/com/hong-review content ;  #
-_/com/science-storytelling content ;  #
-_/com/wtbu-radio content ;  #
-_/com/science-communication content ;  #
-_/com/social-media-analysis content ;  #
-_/com/tsay-vogel-review content ;  #
-_/com/vigil-review content ;  #
-_/com/sports_institute content ;  #
-_/com/images content ;  #
-_/com/includes content ;  #
+_/com/givetoday content ;
+_/com/playitforward content ;
+_/com/greatdebate content ;
+_/com/test content ;
+_/com/scripts content ;
+_/com/ndow content ;
+_/com/networking content ;
+_/com/course-feeds content ;
+_/com/beaudoin-review content ;
+_/com/narrative content ;
+_/com/flash content ;
+_/com/support-necir content ;
+_/com/humor content ;
+_/com/pradvanced content ;
+_/com/crc content ;
+_/com/lib content ;
+_/com/redstonenyc content ;
+_/com/redstonewest content ;
+_/com/linkedin content ;
+_/com/registration content ;
+_/com/special content ;
+_/com/socialmediaday content ;
+_/com/orientation content ;
+_/com/live-it content ;
+_/com/ems-review content ;
+_/com/mobile-life-workshop content ;
+_/com/necir-registration content ;
+_/com/amp-registration content ;
+_/com/design-request content ;
+_/com/cmcs content ;
+_/com/new-courses content ;
+_/com/dar content ;
+_/com/lambert-review content ;
+_/com/data-storytelling content ;
+_/com/daly-review content ;
+_/com/labor-films content ;
+_/com/student-magazines content ;
+_/com/graduate-programs content ;
+_/com/supa-review content ;
+_/com/film-tv-facts content ;
+_/com/photo-workshops content ;
+_/com/hong-review content ;
+_/com/science-storytelling content ;
+_/com/wtbu-radio content ;
+_/com/science-communication content ;
+_/com/social-media-analysis content ;
+_/com/tsay-vogel-review content ;
+_/com/vigil-review content ;
+_/com/sports_institute content ;
+_/com/images content ;
+_/com/includes content ;
 _/commonground content ;
 _/computationalimmunology content ;
 _/computing content ;
@@ -332,13 +332,13 @@ _/culinaryarts content ;
 _/cball content ;
 _/cbm content ;
 _/cbss content ;
-_/cfa/wp-assets content ;  #
-_/classics/wp-assets content ;  #
-_/cohstar/wp-assets content ;  #
-_/commencement/wp-assets content ;  #
-_/compliance/videos content ;  #
-_/compliance/videos_restricted1 content ;  #
-_/cs/wp-assets content ;  #
+_/cfa/wp-assets content ;
+_/classics/wp-assets content ;
+_/cohstar/wp-assets content ;
+_/commencement/wp-assets content ;
+_/compliance/videos content ;
+_/compliance/videos_restricted1 content ;
+_/cs/wp-assets content ;
 _/yac content ;
 _/y2kpartners content ;
 _/y2k content ;
@@ -373,8 +373,8 @@ _/winterfest content ;
 _/webcast content ;
 _/webmail content ;
 _/websummit content ;
-_/webteam/mgburns content ;  #
-_/webteam/projects content ;  # match ignore_prod.cms
+_/webteam/mgburns content ;
+_/webteam/projects content ; match ignore_prod.cms
 _/weblogin content ;
 _/womenspolo content ;
 _/womensguild content ;
@@ -385,8 +385,8 @@ _/wordpress content ;
 _/wolozinlab content ;
 _/wgrimes content ;
 _/wgs content ;
-_/wpmu/wp-assets content ;  #
-_/wpmu/static content ;  #
+_/wpmu/wp-assets content ;
+_/wpmu/static content ;
 _/wpnet content ;
 ##TODO: get phpmap entry for wp-deploy and put in separate file
 _/wtbu content ;
@@ -506,11 +506,11 @@ _/albert content ;
 _/allocate content ;
 _/alumni-forms content ;
 _/alistaircooke content ;
-  # disable caching
+ disable caching
 _/alert content-nocache ;
-_/alumni/link content ;  #
-_/alumni/images content ;  #
-_/alumni/common content ;  #
+_/alumni/link content ;
+_/alumni/images content ;
+_/alumni/common content ;
 _/alcoholeducationforyouth content ;
 _/aldolase content ;
 _/aphasia content ;
@@ -534,15 +534,15 @@ _/assistive_technology content ;
 _/asianarc content ;
 _/asllrp content ;
 _/assist_tech content ;
-_/astronomy/wp-assets content ;  #
+_/astronomy/wp-assets content ;
 _/advancement content ;
 _/admissions-signage content ;
 _/addictions content ;
 _/addiction content ;
 _/admissionsstatic content ;
 _/adlab content ;
-_/admissions/applicantlink content ;  #
-#  admissions/applicantlink - archive content ;  #
+_/admissions/applicantlink content ;
+#  admissions/applicantlink - archive content ;
 _/auctions content ;
 _/auth-test content ; #top-level for authentication load test
 _/autism content ;
@@ -552,10 +552,10 @@ _/aboutcgs content ;
 _/abroad-dublin content ;
 _/abroad2 content ;
 _/abroadatbu content ;
-_/africa/wp-assets content ;  #
-_/africa/publication-assets content ;  #
-_/alzresearch/wp-assets content ;  #
-_/arion/wp-assets content ;  #
+_/africa/wp-assets content ;
+_/africa/publication-assets content ;
+_/alzresearch/wp-assets content ;
+_/arion/wp-assets content ;
 _/mzank content ;
 _/mcapr content ;
 _/mch content ;
@@ -615,21 +615,21 @@ _/metro content ;
 _/meller content ;
 _/metmarcom content ;
 _/medschool content ;
-_/met/output content ;  #
-_/met/ads.old content ;  #
-_/met/ads content ;  #
-_/met/forbes content ;  #
-_/met/acela content ;  #
-#  met/USA content ;  #
-_/met/usa content ;  #
-_/met/bestofboston content ;  #
-_/met/yellowpages content ;  #
-_/met/audio content ;  #
-#  met/Acela content ;  #
-_/met/magazine content ;  #
-_/met/mag content ;  #
-_/met/merry content ;  #
-_/met/apply content ;  #
+_/met/output content ;
+_/met/ads.old content ;
+_/met/ads content ;
+_/met/forbes content ;
+_/met/acela content ;
+#  met/USA content ;
+_/met/usa content ;
+_/met/bestofboston content ;
+_/met/yellowpages content ;
+_/met/audio content ;
+#  met/Acela content ;
+_/met/magazine content ;
+_/met/mag content ;
+_/met/merry content ;
+_/met/apply content ;
 _/metit content ;
 _/mena content ;
 _/medstures content ;
@@ -718,7 +718,7 @@ _/hipaa content ;
 _/histology content ;
 _/hipart content ;
 _/hiccse content ;
-_/history/apps content ;  #
+_/history/apps content ;
 _/hi content ;
 _/historic content ;
 _/healthfit content ;
@@ -730,7 +730,7 @@ _/help content ;
 _/home-media content ;
 _/hotelcommonwealth content ;
 _/housing2010 content ;
-_/hospitality/RevPASH content ;  #
+_/hospitality/RevPASH content ;
 _/hockeygolf content ;
 _/homepage aws_home ;
 _/home aws_home ;
@@ -908,8 +908,8 @@ _/edrt content ;
 _/education content ;
 _/euforyou content ;
 _/ebrochures content ;
-_/ehs/wp-assets content ;  #
-_/enact/wp-assets content ;  #
+_/ehs/wp-assets content ;
+_/enact/wp-assets content ;
 _/3dcampus content ;
 _/kcrm content ;
 _/kandarian content ;
@@ -928,7 +928,7 @@ _/kpw content ;
 _/kuntzelab content ;
 _/ocn content ;
 _/ocs content ;
-_/oad/voting content ;  #
+_/oad/voting content ;
 _/oas content ;
 _/oma content ;
 _/omc content ;
@@ -996,11 +996,11 @@ _/revpash content ;
 _/remember content ;
 _/retired content ;
 _/resnet content ;
-_/research/xml content ;  #
-_/research/wp-assets content ;  #
-_/research/magazine2008 content ;  #
-_/research/email content ;  #
-_/research/careerfair2016 content ;  #
+_/research/xml content ;
+_/research/wp-assets content ;
+_/research/magazine2008 content ;
+_/research/email content ;
+_/research/careerfair2016 content ;
 _/reunion content ;
 _/resources content ;
 _/robots.txt content ;
@@ -1011,7 +1011,7 @@ _/ror content ;
 _/rosa content ;
 _/rrtcout content ;
 _/rl content ;
-_/rpm/panos content ;  #
+_/rpm/panos content ;
 ##TODO: get phpmap entry for rpm-agreements and put in separate file
 _/rss content ;
 _/rdlewis content ;
@@ -1108,7 +1108,7 @@ _/fafc-files content ;
 _/facultycouncil content ;
 _/faqs content ;
 _/family content ;
-_/faculty/ear content ;  #
+_/faculty/ear content ;
 _/favoritepoem content ;
 _/fmherbalstudy content ;
 _/fhcmi content ;
@@ -1122,7 +1122,7 @@ _/features content ;
 _/fetters content ;
 _/finaid/status_documents content ;
 _/finaid/pdfs content ;
-_/finaid/test content ;  #
+_/finaid/test content ;
 _/finaid/fedfunds content ;
 _/finaid wordpress ;
 _/formerworker content ;
@@ -1151,14 +1151,14 @@ _/laane content ;
 _/law.bkup content ;
 _/lawgiving content ;
 _/lamovie content ;
-_/law/test content ;  #
-_/law/journals-archive content ;  #
-_/law/communications content ;  #
-_/law/events content ;  #
-_/lawlibrary/eJournals content ;  #
-_/lawlibrary/restrictedaccess content ;  #
-_/lawlibrary/facultypublications content ;  #
-_/lawlibrary/e-reserves content ;  #
+_/law/test content ;
+_/law/journals-archive content ;
+_/law/communications content ;
+_/law/events content ;
+_/lawlibrary/eJournals content ;
+_/lawlibrary/restrictedaccess content ;
+_/lawlibrary/facultypublications content ;
+_/lawlibrary/e-reserves content ;
 _/lawyearbooks content ;
 ##TODO: get phpmap entry for law-pub and put in separate file
 _/lab content ;
@@ -1221,7 +1221,7 @@ _/parents content ;
 _/pasi content ;
 _/paadmissions content ;
 _/parentfund content ;
-_/parking/dbtemplates content ;  #
+_/parking/dbtemplates content ;
 _/pace content ;
 _/payment content ;
 _/pm content ;
@@ -1256,7 +1256,7 @@ _/premodern content ;
 _/prudential content ;
 _/professional content ;
 _/prc content ;
-_/provost/secure content ;  #
+_/provost/secure content ;
 _/proarte content ;
 _/presidentsearch content ;
 _/prssa content ;
@@ -1316,8 +1316,8 @@ _/terrierconnection content ;
 _/tech-backup content ;
 _/tech-restricted content ;
 _/test-to-production content ;
-_/testshibro content ; #top-level
-_/testshibrw content ; #top-level
+_/testshibro content ;
+_/testshibrw content ;
 _/techorg content ;
 _/terriers content ;
 _/tech-staging content ;
@@ -1326,17 +1326,17 @@ _/tech-test content ;
 _/techhelp content ;
 _/techweb content ;
 _/terriertoasts content ;
-_/today/common content ;  #
-_/today/media content ;  #
-_/today/wpassets content ;  #
-_/today/bubooks content ;  #
-_/today/frozenfour content ;  #
-_/today/blasts content ;  #
-_/today/commencement content ;  #
-_/today/v2-devl content ;  #
-_/today/news content ;  #
-_/today/buniverse content ;  #
-_/today/v2 content ;  #
+_/today/common content ;
+_/today/media content ;
+_/today/wpassets content ;
+_/today/bubooks content ;
+_/today/frozenfour content ;
+_/today/blasts content ;
+_/today/commencement content ;
+_/today/v2-devl content ;
+_/today/news content ;
+_/today/buniverse content ;
+_/today/v2 content ;
 _/tokyo content ;
 _/today-spash content ;
 _/traumamemorylab content ;
@@ -1456,7 +1456,7 @@ _/sports content ;
 _/storage-admin content ;
 _/startup content ;
 _/studentexperience content ;
-_/sthacker/stata content ;  #
+_/sthacker/stata content ;
 _/state content ;
 _/stepup content ;
 _/studentvillage content ;
@@ -1472,7 +1472,7 @@ _/statehouse content ;
 _/stratcom content ;
 _/stayemployed content ;
 _/stamasfund content ;
-_/ssw/common content ;  #
+_/ssw/common content ;
 ##TODO: get phpmap entry for ssw/usfostercare and put in separate file
 _/sscores content ;
 _/summerterm content ;
@@ -1507,7 +1507,7 @@ _/digital content ;
 _/discoveries content ;
 _/dioa content ;
 _/dinegreen content ;
-_/dining/wp-assets content ;  #
+_/dining/wp-assets content ;
 _/discover content ;
 _/disted content ;
 ##TODO: get phpmap entry for dining/api and put in separate file
@@ -1519,14 +1519,14 @@ _/dentures content ;
 _/devcom content ;
 _/dentalassisting content ;
 ##TODO: get phpmap entry for degree-audit and put in separate file
-_/dental/lobbyscreen content ;  #
-_/dental/nerb-mcmanama content ;  #
+_/dental/lobbyscreen content ;
+_/dental/nerb-mcmanama content ;
 #  degree advice content ;
 _/deanshost content ;
 _/dos-test content ;
 _/doubleit content ;
-_/dos/lulingzi content ;  #
-_/dos/facebook content ;  #
+_/dos/lulingzi content ;
+_/dos/facebook content ;
 _/double-it content ;
 _/drts content ;
 _/drrk content ;
@@ -1606,34 +1606,34 @@ _/behavneuro content ;
 _/because content ;
 _/beijing2014 content ;
 _/bonrc content ;
-_/bostonia/bostonia_archives content ;  #
-_/bostonia/web content ;  #
-_/bostonia/summer08 content ;  #
-_/bostonia/spring08 content ;  #
-_/bostonia/winter08 content ;  #
-_/bostonia/spring09 content ;  #
-_/bostonia/winter09 content ;  #
-_/bostonia/fall08 content ;  #
-_/bostonia/search content ;  #
-_/bostonia/global content ;  #
-_/bostonia/link content ;  #
-_/bostonia/summer11 content ;  #
-_/bostonia/extra content ;  #
-_/bostonia/email content ;  #
-_/bostonia/Scripts content ;  #
-_/bostonia/summer09 content ;  #
-_/bostonia/toc content ;  #
-_/bostonia/fall09 content ;  #
-_/bostonia/fall11 content ;  #
-_/bostonia/winter-spring12 content ;  #
-_/bostonia/winter-spring10 content ;  #
-_/bostonia/campaign12 content ;  #
-_/bostonia/css content ;  #
-_/bostonia/summer10 content ;  #
-_/bostonia/fall10 content ;  #
-_/bostonia/winter-spring11 content ;  #
-_/bostonia/summer12 content ;  #
-_/bostonia/wpassets content ;  #
+_/bostonia/bostonia_archives content ;
+_/bostonia/web content ;
+_/bostonia/summer08 content ;
+_/bostonia/spring08 content ;
+_/bostonia/winter08 content ;
+_/bostonia/spring09 content ;
+_/bostonia/winter09 content ;
+_/bostonia/fall08 content ;
+_/bostonia/search content ;
+_/bostonia/global content ;
+_/bostonia/link content ;
+_/bostonia/summer11 content ;
+_/bostonia/extra content ;
+_/bostonia/email content ;
+_/bostonia/Scripts content ;
+_/bostonia/summer09 content ;
+_/bostonia/toc content ;
+_/bostonia/fall09 content ;
+_/bostonia/fall11 content ;
+_/bostonia/winter-spring12 content ;
+_/bostonia/winter-spring10 content ;
+_/bostonia/campaign12 content ;
+_/bostonia/css content ;
+_/bostonia/summer10 content ;
+_/bostonia/fall10 content ;
+_/bostonia/winter-spring11 content ;
+_/bostonia/summer12 content ;
+_/bostonia/wpassets content ;
 _/bostonroc content ;
 _/books content ;
 _/bostonscholars content ;
@@ -1693,8 +1693,8 @@ _/buleads content ;
 _/build content ;
 _/burppe content ;
 _/bu-wheelock-merger/wp-assets content ;
-_/buapay/wp-assets content ;  #
-_/buapayments/wp-assets content ;  #
+_/buapay/wp-assets content ;
+_/buapayments/wp-assets content ;
 ### 1526 content
 ### 679 wordpress
 ### 16 app
