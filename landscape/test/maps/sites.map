@@ -1633,7 +1633,7 @@ _/weblogin content ;
 _/webmail content ;
 _/websummit content ;
 _/webteam/mgburns content ;
-_/webteam/projects content ; match ignore_prod.cms
+_/webteam/projects content ; # match ignore_prod.cms
 _/wgrimes content ;
 _/wgs content ;
 _/whatsnew content ;
