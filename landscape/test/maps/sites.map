@@ -1692,10 +1692,5 @@ _/burppe content ;
 _/bu-wheelock-merger/wp-assets content ;
 _/buapay/wp-assets content ;
 _/buapayments/wp-assets content ;
-### 1526 content
-### 679 wordpress
-### 16 app
-### 1 type
-### 557 redirect2lower
 _/av/courses content-nocache ; #weblogin loop experienced, trying nocache to test
 ### Added below for new content backend test
