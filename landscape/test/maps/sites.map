@@ -199,7 +199,6 @@ _/celebrationvip content ;
 _/censsis content ;
 _/celop/dev content ;
 _/centurychallenge content ;
-##TODO: get phpmap entry for cellphone-compliance and put in separate file
 _/centers content ;
 _/celebrationofbu content ;
 _/cedh content ;
@@ -280,7 +279,6 @@ _/computationalimmunology content ;
 _/computing content ;
 _/comet content ;
 _/connect content ;
-##TODO: get phpmap entry for courseware-manager and put in separate file
 _/comjobs content ;
 _/copyright content ;
 _/collegechampion content ;
@@ -385,7 +383,6 @@ _/wgs content ;
 _/wpmu/wp-assets content ;
 _/wpmu/static content ;
 _/wpnet content ;
-##TODO: get phpmap entry for wp-deploy and put in separate file
 _/wtbu content ;
 _/wbball content ;
 _/wbur content ;
@@ -744,7 +741,6 @@ _/hf content ;
 _/hpcworkshop content ;
 _/hpl content ;
 _/htbin.ph content ;
-##TODO: get phpmap entry for html-email and put in separate file
 _/htmg content ;
 _/hdgolf content ;
 _/hdr content ;
@@ -769,7 +765,6 @@ _/inaugural content ;
 _/inmlcfp content ;
 _/infancp content ;
 _/index99.html content ;
-##TODO: get phpmap entry for index and put in separate file
 _/inauguration content ;
 _/index3.html content ;
 _/interactive content ;
@@ -843,7 +838,6 @@ _/exerciseandcancer content ;
 _/exec content ;
 _/experience-room content ;
 _/executive content ;
-##TODO: get phpmap entry for explore and put in separate file
 _/extended content ;
 _/explorations content ;
 _/executivemba content ;
@@ -1009,7 +1003,6 @@ _/rosa content ;
 _/rrtcout content ;
 _/rl content ;
 _/rpm/panos content ;
-##TODO: get phpmap entry for rpm-agreements and put in separate file
 _/rss content ;
 _/rdlewis content ;
 _/rbfl content ;
@@ -1157,7 +1150,6 @@ _/lawlibrary/restrictedaccess content ;
 _/lawlibrary/facultypublications content ;
 _/lawlibrary/e-reserves content ;
 _/lawyearbooks content ;
-##TODO: get phpmap entry for law-pub and put in separate file
 _/lab content ;
 _/laloba content ;
 _/lawdean content ;
@@ -1470,7 +1462,6 @@ _/stratcom content ;
 _/stayemployed content ;
 _/stamasfund content ;
 _/ssw/common content ;
-##TODO: get phpmap entry for ssw/usfostercare and put in separate file
 _/sscores content ;
 _/summerterm content ;
 _/suemac content ;
@@ -1484,7 +1475,6 @@ _/supplier content ;
 _/sbrptraining content ;
 _/dcg content ;
 _/dcc content ;
-##TODO: get phpmap entry for dnamixtures and put in separate file
 _/darwin2009 content ;
 _/darwin content ;
 _/dan content ;
@@ -1507,15 +1497,12 @@ _/dinegreen content ;
 _/dining/wp-assets content ;
 _/discover content ;
 _/disted content ;
-##TODO: get phpmap entry for dining/api and put in separate file
-##TODO: get phpmap entry for degree-advice and put in separate file
 _/deafstudies content ;
 _/degreecomplete content ;
 _/dev content ;
 _/dentures content ;
 _/devcom content ;
 _/dentalassisting content ;
-##TODO: get phpmap entry for degree-audit and put in separate file
 _/dental/lobbyscreen content ;
 _/dental/nerb-mcmanama content ;
 #  degree advice content ;
@@ -1597,7 +1584,6 @@ _/becf content ;
 _/benefitstransition content ;
 _/bemerson content ;
 _/beanpot-party content ;
-##TODO: get phpmap entry for betabionics and put in separate file
 _/betonrhett content ;
 _/behavneuro content ;
 _/because content ;
@@ -1660,7 +1646,6 @@ _/bunow content ;
 _/business content ;
 _/buildyourbu content ;
 _/buworks-files content ;
-##TODO: get phpmap entry for bumobile and put in separate file
 _/bumc-admissions content ;
 _/builders-leaders content ;
 _/bums content ;
@@ -1675,7 +1660,6 @@ _/bucentral content ;
 _/buwc content ;
 _/bulletins content ;
 _/but content ;
-##TODO: get phpmap entry for buniverse and put in separate file
 _/bus content ;
 _/buworks-training content ;
 _/bufellow content ;
