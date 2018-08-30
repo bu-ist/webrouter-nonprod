@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker-compose -f www-test-compose.yml up --build
+  - docker-compose -f www-test-compose.yml run --rm web-router /usr/sbin/run-nginx.sh -t
