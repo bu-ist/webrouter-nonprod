@@ -7,6 +7,7 @@ _/studentlink redirect_asis ;
 # UIS content
 _/uis content ;
 _/uis_web3270 legacy ;
+_/uiszl_pdf legacy ;
 
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
