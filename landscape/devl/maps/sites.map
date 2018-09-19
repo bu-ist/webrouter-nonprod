@@ -27,6 +27,7 @@ _/link uiscgi_content ;
 
 #uis content ;
 _/uis_web3270 legacy ;
+_/uiszl_pdf legacy ;
 
 #admissions wordpress
 
