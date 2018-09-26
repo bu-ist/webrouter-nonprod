@@ -1467,6 +1467,7 @@ _/philo content ;
 _/photo content ;
 _/photonics content ;
 _/phpbin-selector content ;
+_/phpinfo phpbin-isilon ;
 _/phylogeny content ;
 _/phys-biophys content ;
 _/physics content ;
