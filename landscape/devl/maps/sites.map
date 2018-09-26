@@ -357,7 +357,7 @@ _/cab content ;
 _/cader content ;
 _/caderonline content ;
 _/cagt content ;
-_/calendar phpbin ;
+_/calendar phpbin-isilon ;
 _/campaignkickoff content ;
 _/campaignkickoffvip content ;
 _/campaignlaunch content ;
