@@ -1,12 +1,13 @@
   uiscgi_app "no-cache, no-store" ;
   phpbin "no-cache, no-store" ;
+  phpbin-isilon "no-cache, no-store" ;
   dbin "no-cache, no-store" ;
   degree-advice "no-cache, no-store" ;
   legacy "no-cache, no-store" ;
   django "no-cache, no-store" ;
   content-nocache "no-cache, no-store" ;
   # non-WordPress static content can not be
-  # cached because Weblogin does not set the 
+  # cached because Weblogin does not set the
   # no-cache header on protected content.
   content "no-cache, no-store" ;
 

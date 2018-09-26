@@ -14,6 +14,8 @@ dbin <%= ENV['BACKEND_DBIN'] || "ist-web-dbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 phpbin <%= ENV['BACKEND_PHPBIN'] || "ist-web-phpbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
+phpbin-isilon <%= ENV['BACKEND_PHPBIN_ISILON'] || "ist-phpbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+
 degree-advice <%= ENV['BACKEND_DEGREE_ADVICE'] || "ist-degreeadvice-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 django <%= ENV['BACKEND_DJANGO'] || "ist-web-django-#{ENV['LANDSCAPE']}.bu.edu" %> ;
@@ -24,7 +26,7 @@ uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['L
 
 # ###
 # The following backend types provide the homepage in S3.
-# There are multiple entries because the the homepage needs to map to 
+# There are multiple entries because the the homepage needs to map to
 # a subdirectory on the S3 bucket.
 #
 # This aws_homepage bucket is used for everything that maps normally:
