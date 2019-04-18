@@ -4,6 +4,7 @@ _/version 20180719 ;
 # redirects
 _/studentlink redirect_asis ;
 _/geography/brdf redirect_asis ;
+_/awslogin redirect_asis ;
 
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
