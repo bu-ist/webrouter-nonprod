@@ -5,3 +5,6 @@
 # StudentLink main menu
 _/studentlink /link/bin/uiscgi_studentlink.pl/uismpl/?ModuleName=menu.pl&NewMenu=Home ;
 _/geography/brdf http://www-modis.bu.edu/brdf ;
+
+# Other redirects
+_/awslogin https://shib-test.bu.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=urn:amazon:webservices ;
