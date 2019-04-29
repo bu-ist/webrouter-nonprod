@@ -1891,6 +1891,7 @@ _/parentsupport content ;
 _/photo content ;
 _/physics content ;
 _/phpbin phpbin ;
+_/phpbin/sciguide phpbin-aws ;
 _/phpbin.rw phpbin ;
 _/phylogeny content ;
 _/phys-biophys content ;
