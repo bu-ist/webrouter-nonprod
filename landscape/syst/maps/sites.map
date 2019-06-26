@@ -137,7 +137,7 @@ _/rrtcout content ;
 ## rs: wordpress
 _/rss content ;
 _/rsg content ;
-_/index.html aws_home ;
+_/index.html aws_home_index ;
 _/index2.html content ;
 _/inst-tech content ;
 _/index3.html content ;
