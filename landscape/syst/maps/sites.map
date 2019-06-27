@@ -137,13 +137,9 @@ _/rrtcout content ;
 ## rs: wordpress
 _/rss content ;
 _/rsg content ;
-_/index.html aws_home_index ;
-_/index2.html content ;
+_/index.html aws_home ;
 _/inst-tech content ;
-_/index3.html content ;
 _/interv content ;
-## index: wordpress
-_/index99.html content ;
 _/info/downloads content ;
 ## info: wordpress
 _/interactive content ;
@@ -494,8 +490,6 @@ _/i3e-ac content ;
 ## ILJ: redirect to lowercase
 ## INFO: redirect to lowercase
 ## INST-TECH: redirect to lowercase
-## INDEX: redirect to lowercase
-## INDEX.HTML: redirect to lowercase
 ## INTERV: redirect to lowercase
 ## INJURYPSYCHOLOGY: redirect to lowercase
 ## INTERACTIVE: redirect to lowercase
@@ -1965,11 +1959,7 @@ _/publicsafety content ;
 ## p2p: wordpress
 _/p2pguide content ;
 ## news: wordpress
-_/newindex.html content ;
 _/newswire content ;
-_/newindex2.html content ;
-_/newindex3.html content ;
-_/newindex4.html content ;
 _/newman content ;
 ## neuro: wordpress
 ## neuropsychology: wordpress

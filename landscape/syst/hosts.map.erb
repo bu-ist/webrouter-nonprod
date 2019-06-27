@@ -24,17 +24,5 @@ content ist-w3-content-syst101.bu.edu ;
 content-nocache ist-w3-content-syst101.bu.edu ;
 content-cache ist-w3-content-syst101.bu.edu ;
 
-# ###
-# The following backend types provide the homepage in S3.
-# There are multiple entries because the the homepage needs to map to 
-# a subdirectory on the S3 bucket.
-#
-# This aws_homepage bucket is used for everything that maps normally:
-# S3 home bucket in WebTeam account
-#aws_home homepage-devl.s3-website-us-east-1.amazonaws.com ;
-# S3 home bucket in web2cloud-nonprod account
+# For the homepage specifically (not other S3 content):
 aws_home buaws-websites-homepage-test.s3.amazonaws.com ;
-
-# Needed to specifically handle index.html
-aws_home_index buaws-websites-homepage-test.s3.amazonaws.com/index.html ;
-
