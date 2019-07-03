@@ -25,14 +25,6 @@ uiscgi_app <%= ENV['BACKEND_UISCGI_APP'] || "ist-uiscgi-app-#{ENV['LANDSCAPE']}.
 uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 # ###
-# The following backend types provide the homepage in S3.
-# There are multiple entries because the the homepage needs to map to
-# a subdirectory on the S3 bucket.
-#
-# This aws_homepage bucket is used for everything that maps normally:
-aws_home buaws-websites-homepage-devl.s3-website-us-east-1.amazonaws.com ;
-
-# These entries are necessary to map to specific URLs in the /home space:
-#
-aws_home_index buaws-websites-homepage-devl.s3-website-us-east-1.amazonaws.com/home/index.html ;
+# The following backend provides the homepage in S3.
+aws_home buaws-websites-homepage-test.s3-website-us-east-1.amazonaws.com ;
 

@@ -11,3 +11,5 @@
   # no-cache header on protected content.
   content "no-cache, no-store" ;
 
+  # set specific max-age for the home page
+   aws_home "max-age=1800" ;
