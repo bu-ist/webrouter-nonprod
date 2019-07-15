@@ -71,6 +71,8 @@ _/law-pub                        django ;
 
 ### PHPBIN apps
 
+_/phpbin/lawyearbooks aws_eb_lawyearbooks ;
+
 _/bumobile phpbin ;
 
 _/degree-advice degree-advice ;
