@@ -16,8 +16,9 @@ _/bufellow/db-admin django ;
 
 # These mappings are needed for Shibboleth authentication
 # weblogin retirement
-saml/content content ;
-saml/wp-assets wpassets ;
+_/saml/content content ;
+# _/saml/wp-app wordpress ; # not-needed, wordpress is default
+_/saml/wp-assets wpassets ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
