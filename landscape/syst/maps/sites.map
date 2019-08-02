@@ -14,6 +14,11 @@ _/buniverse phpbin ;
 _/maps phpbin ;
 _/bufellow/db-admin django ;
 
+# These mappings are needed for Shibboleth authentication
+# weblogin retirement
+saml/content content ;
+saml/wp-assets wpassets ;
+
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
 #
