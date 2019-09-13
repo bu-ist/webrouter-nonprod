@@ -13,6 +13,9 @@ _/nisdev phpbin ;
 
 # These mappings are needed for Shibboleth authentication
 _/saml/content content ;
+#_/saml/wp-app wordpress ; -- default not required
+# djgannon: 2019.0913 -- weblogin retirement project
+_/saml/wp-assets wpassets ;
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
