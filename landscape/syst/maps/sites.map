@@ -1288,7 +1288,7 @@ _/cas/telegraph content ;
 _/cas/magazine content ;
 ## cas: wordpress
 _/catholic content ;
-_/calendar content ;
+_/calendar phpbin-aws ;
 _/cashelpdesk content ;
 ## castle: wordpress
 _/campaign/docs content ;
@@ -1891,7 +1891,9 @@ _/parentsupport content ;
 _/photo content ;
 _/physics content ;
 _/phpbin phpbin ;
-_/phpbin/sciguide phpbin-aws ;
+_/phpbin/calendar-client phpbin-aws ;
+_/phpbin/faculty-applicants phpbin-aws ;
+_/phpbin/hello-world phpbin-aws ;
 _/phpbin.rw phpbin ;
 _/phylogeny content ;
 _/phys-biophys content ;
