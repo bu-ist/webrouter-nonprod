@@ -1337,7 +1337,7 @@ _/cball content ;
 _/cbm content ;
 ## cbss: wordpress
 _/cdaly content ;
-_/cdn content ;
+_/cdn content-cache ;
 ## cdl: wordpress
 _/cd content ;
 _/cdc2007 content ;

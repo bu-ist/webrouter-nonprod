@@ -4,6 +4,7 @@
   degree-advice "no-cache, no-store" ;
   legacy "no-cache, no-store" ;
   django "no-cache, no-store" ;
+  content-cache "max-age=1800" ;
   content-nocache "no-cache, no-store" ;
   # non-WordPress static content can not be
   # cached because Weblogin does not set the 
