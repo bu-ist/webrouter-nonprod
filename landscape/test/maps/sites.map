@@ -45,6 +45,8 @@ _/formlogin legacy ;
 # default application backends
 _/dbin dbin ;
 _/phpbin phpbin ;
+_/phpbin/faculty-applicants phpbin-aws ;
+_/phpbin/hello-world phpbin-aws ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 _/htbin legacy ;
@@ -376,7 +378,7 @@ _/cab content ;
 _/cache content ;
 _/caderonline content ;
 _/cagt content ;
-_/calendar phpbin ;
+_/calendar phpbin-aws ;
 _/campaignkickoff content ;
 _/campaignlaunch content ;
 _/campaignvip content ;
