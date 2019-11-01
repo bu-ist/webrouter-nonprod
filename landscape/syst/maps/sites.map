@@ -1891,7 +1891,6 @@ _/parentsupport content ;
 _/photo content ;
 _/physics content ;
 _/phpbin phpbin ;
-_/phpbin/calendar-client phpbin-aws ;
 _/phpbin/faculty-applicants phpbin-aws ;
 _/phpbin/hello-world phpbin-aws ;
 _/phpbin.rw phpbin ;
