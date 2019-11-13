@@ -11,8 +11,20 @@ _/maps phpbin ;
 _/bufellow/db-admin django ;
 _/nisdev phpbin ;
 
-# These mappings are needed for Shibboleth authentication
+
+###############################################
+# Shibboleth:
+
+# After successful Shibboleth authentication, the Shibboleth IdP needs
+# to redirect the visitor to the backend that requested the
+# authentication. If it was wpassets authenticating, the request needs
+# to land back on the wpassets backend. We do that by sending to
+# www.bu.edu/saml/BACKEND-HERE
+
 _/saml/content content ;
+_/saml/wp-app wordpress ;  # Not required, but let's be explicit here.
+_/saml/wp-assets wpassets ;
+###############################################
 
 # DegreeAdvice needs to be added
 # we should make a third party table for http backend services (maybe)
