@@ -1892,7 +1892,6 @@ _/photo content ;
 _/physics content ;
 _/phpbin phpbin ;
 _/phpbin/faculty-applicants phpbin-aws ;
-_/phpbin/hello-world phpbin-aws ;
 _/phpbin.rw phpbin ;
 _/phylogeny content ;
 _/phys-biophys content ;
