@@ -46,7 +46,6 @@ _/formlogin legacy ;
 _/dbin dbin ;
 _/phpbin phpbin ;
 _/phpbin/faculty-applicants phpbin-aws ;
-_/phpbin/hello-world phpbin-aws ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 _/htbin legacy ;
