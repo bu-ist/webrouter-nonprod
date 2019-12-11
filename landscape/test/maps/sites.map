@@ -116,6 +116,9 @@ _/explore phpbin ;
 _/maps/livebus phpbin ;
 _/bumobile phpbin ;
 
+_/phpbin/cecredential phpbin-aws ;
+
+
 ####### From stub files/directory scan
 
 #  admissions/applicantlink - archive content ;
