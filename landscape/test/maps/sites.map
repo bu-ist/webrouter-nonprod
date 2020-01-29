@@ -47,7 +47,7 @@ _/dbin dbin ;
 _/phpbin phpbin ;
 _/phpbin/faculty-applicants phpbin-aws ;
 _/phpbin/directory phpbin-aws ;
-#_/phpbin/oompatech phpbin-aws ;
+_/phpbin/oompatech phpbin-aws ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 _/htbin legacy ;
