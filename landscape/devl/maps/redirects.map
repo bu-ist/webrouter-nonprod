@@ -7,3 +7,6 @@ _/studentlink /link/bin/uiscgi_studentlink.pl/uismpl/?ModuleName=menu.pl&NewMenu
 _/geography/brdf http://www-modis.bu.edu/brdf ;
 
 _/buworkscentral https://ppo.buw.bu.edu ;
+
+
+_/phpbin/coursedesc2 https://www.bu.edu/phpbin/courses/ ;

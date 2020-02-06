@@ -85,6 +85,8 @@ _/law-pub                        django ;
 
 _/phpbin/lawyearbooks aws_eb_lawyearbooks ;
 
+_/phpbin/coursedesc2 redirect_asis ;
+
 _/bumobile phpbin ;
 
 _/degree-advice degree-advice ;
