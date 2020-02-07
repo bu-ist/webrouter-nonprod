@@ -45,9 +45,6 @@ _/formlogin legacy ;
 # default application backends
 _/dbin dbin ;
 _/phpbin phpbin ;
-_/phpbin/faculty-applicants phpbin-aws ;
-_/phpbin/directory phpbin-aws ;
-_/phpbin/oompatech phpbin-aws ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 _/htbin legacy ;
@@ -96,13 +93,6 @@ _/law-pub        django ;
 #/dbin/admissions  software15.bu.edu:260
 #/dbin/sleep   malahide.bu.edu:80      # Django test
 
-##############
-# /phpbin misc:
-##############
-#/phpbin/efs   http://software33-dbin.bu.edu:181
-##generic phpauth testing for vista
-#/phpbin/vista-devl  balancer://phpauth
-#/phpbin/vista   balancer://phpauth
 
 ##############
 # The /dbin USW34 or USW18 Section:
@@ -119,7 +109,10 @@ _/maps/livebus phpbin ;
 _/bumobile phpbin ;
 
 _/phpbin/cecredential phpbin-aws ;
-
+_/phpbin/course-search phpbin-aws ;
+_/phpbin/faculty-applicants phpbin-aws ;
+_/phpbin/directory phpbin-aws ;
+_/phpbin/oompatech phpbin-aws ;
 
 ####### From stub files/directory scan
 
