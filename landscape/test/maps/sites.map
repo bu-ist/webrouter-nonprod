@@ -113,6 +113,8 @@ _/phpbin/course-search phpbin-aws ;
 _/phpbin/faculty-applicants phpbin-aws ;
 _/phpbin/directory phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
+_/phpbin/organ-library phpbin-aws ;
+_/phpbin/vp-lunch phpbin-aws ;
 
 ####### From stub files/directory scan
 
