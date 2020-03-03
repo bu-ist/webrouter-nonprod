@@ -116,6 +116,7 @@ _/phpbin/lawyearbooks phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
 _/phpbin/signup phpbin-aws ;
+_/phpbin/sleep phpbin-aws ;
 _/phpbin/vp-lunch phpbin-aws ;
 
 ####### From stub files/directory scan
