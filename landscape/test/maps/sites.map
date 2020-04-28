@@ -1008,6 +1008,7 @@ _/law.bkup content ;
 _/law/communications content ;
 _/law/events content ;
 _/law/journals-archive content ;
+_/law/planner phpbin-aws ;
 _/law/test content ;
 _/lawdean content ;
 _/lawgiving content ;
