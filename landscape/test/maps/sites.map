@@ -98,26 +98,26 @@ _/law-pub        django ;
 # The /dbin USW34 or USW18 Section:
 # PLEASE HAVE 2 ENTRIES FOR EACH:
 ##############
-#/dbin/today     usoftware34.bu.edu:261
 
 # PHPBIN sites
 _/summer/courses-test phpbin ;
 _/summer/courses phpbin ;
-_/dining/api phpbin ;
-_/explore phpbin ;
-_/maps/livebus phpbin ;
-_/bumobile phpbin ;
+
+_/bumobile phpbin-aws ;
 
 _/dbin/dance phpbin-aws ;
 
 _/phpbin/cecredential phpbin-aws ;
 _/phpbin/cise phpbin-aws ;
 _/phpbin/course-search phpbin-aws ;
+_/phpbin/emailer phpbin-aws ;
 _/phpbin/faculty-applicants phpbin-aws ;
 _/phpbin/directory phpbin-aws ;
+_/phpbin/hilleldining phpbin-aws ;
 _/phpbin/ijahs phpbin-aws ;
 _/phpbin/lawyearbooks phpbin-aws ;
 _/phpbin/meal-donation phpbin-aws ;
+_/phpbin/nispm phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
 _/phpbin/signup phpbin-aws ;
