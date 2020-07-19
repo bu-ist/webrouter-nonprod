@@ -107,6 +107,7 @@ _/bumobile phpbin-aws ;
 
 _/dbin/dance phpbin-aws ;
 
+_/phpbin/cader phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
 _/phpbin/cise phpbin-aws ;
 _/phpbin/course-search phpbin-aws ;
