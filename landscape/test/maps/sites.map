@@ -1,31 +1,41 @@
 ### Common mapping to all bu.edu systems
 _/version 20180719 ;
 
-# redirects
+#####################################################################
+# Shibboleth:
+# 
+# After successful Shibboleth authentication, the Shibboleth IdP needs
+# to redirect the visitor to the backend that requested the
+# authentication. If it was wpassets authenticating, the request needs
+# to land back on the wpassets backend. We do that by sending to
+# www.bu.edu/saml/BACKEND-HERE
+#
+#####################################################################
+
+_/saml/content content ;
+_/saml/wp-app wordpress ; # Not required, but let's be explicit here
+_/saml/wp-assets wpassets ;
+
+
+
+#####################################################################
+# Marketing URLs:
+#
+# Setup with cost-recovery fee to IS&T Applications
+#
+#####################################################################
+
 _/studentlink redirect_asis ;
 _/geography/brdf redirect_asis ;
 _/awslogin redirect_asis ;
 
-# items from the www:phpmap.txt
-_/buniverse phpbin ;
-_/maps phpbin ;
-_/bufellow/db-admin django ;
-_/nisdev phpbin ;
 
-# These mappings are needed for Shibboleth authentication
-_/saml/content content ;
-#_/saml/wp-app wordpress ; -- default not required
-# cball: 2019.0802 -- weblogin retirement project
-_/saml/wp-assets wpassets ;
-
-# DegreeAdvice needs to be added
-# we should make a third party table for http backend services (maybe)
+#####################################################################
+# UISCGI/Link:
 #
-#degree-advice degreeadvice ;
+# 
+#####################################################################
 
-_/django apps ;
-
-# UISCGI/link entries
 _/link/bin uiscgi_app ;
 _/link uiscgi_content ;
 
@@ -33,80 +43,60 @@ _/link uiscgi_content ;
 _/uis_web3270 legacy ;
 _/uis_eostc legacy ;
 _/uiszl_pdf legacy ;
+
 # not certain that the following is necessary
 _/uiszl_eostc legacy ;
 _/uiszl_j2ee legacy ;
 _/formlogin legacy ;
 
-#admissions wordpress
-
-# dbin
-
-# default application backends
-_/dbin dbin ;
-_/phpbin phpbin ;
 
 # old CGI script locations (right now we send those to the existing Solaris backend)
 _/htbin legacy ;
 _/testing legacy ;
 
-# by default we map degree-advice although it should be listed in the phpmap file
+
+#####################################################################
+# Degree Advice:
+#
+#####################################################################
+
 _/degree-advice degree-advice ;
 _/degree-audit degree-advice ;
 
-# Send old-style redirects and aliases to the content backend
-# we are not transitioning anything older than 2009 unless necessary.
+
+#####################################################################
+# Web Applications:
 #
-
-##### END of common prefix
-###############################################
-
-##### PHPMAP items
-
-### Django applications
+# These sites are mainly in dbin or phpbin.
+# Questions To: IS&T Web Applications 
 #
-_/index django ;
-##
-_/fifty-states       django ;
-#changed fifty-states Name to /ssw/usfostercare
+#####################################################################
+
+# Standalone Sites:
+
+_/betabionics        django ;
+_/bufellow/db-admin django ;
 _/ssw/usfostercare     django ;
 _/cellphone-compliance     django ;
-_/dnamixtures        django ;
-_/systems-programming/django-sysmon  django ;
 _/courseware-manager     django ;
-_/bufellow/admin       django ;
-_/summer/admin       django ;
+_/dnamixtures        django ;
 _/html-email       django ;
-_/betabionics        django ;
-_/rpm-agreements       django ;
-_/provost        django ;
-_/wp-deploy        django ;
-#ghir          django ; # /ghir = /globalhealth
-#globalhealth        django ; # Wait to add this
 _/law-pub        django ;
+_/summer/admin       django ;
+_/systems-programming/django-sysmon  django ;
 
-# Ask Web team about:
-#
-##############
-# /dbin misc:
-##############
-#/dbin/admissions  software15.bu.edu:260
-#/dbin/sleep   malahide.bu.edu:80      # Django test
-
-
-##############
-# The /dbin USW34 or USW18 Section:
-# PLEASE HAVE 2 ENTRIES FOR EACH:
-##############
-
-# PHPBIN sites
+_/bumobile phpbin-aws ;
+_/buniverse phpbin ;
+_/dbin/dance phpbin-aws ;
+_/maps phpbin ;
+_/nisdev phpbin ;
 _/summer/courses-test phpbin ;
 _/summer/courses phpbin ;
 
-_/bumobile phpbin-aws ;
 
-_/dbin/dance phpbin-aws ;
+# phpbin:
 
+_/phpbin phpbin ;
 _/phpbin/cader phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
 _/phpbin/cise phpbin-aws ;
@@ -128,17 +118,18 @@ _/phpbin/vp-lunch phpbin-aws ;
 _/phpbin/webdis phpbin-aws ;
 _/phpbin/wiki phpbin-aws ;
 
-####### From stub files/directory scan
 
-#  admissions/applicantlink - archive content ;
-#  degree advice content ;
-#  fifty-states content ;
-#  maps content ;
-#  met/Acela content ;
-#  met/USA content ;
-#  nisdev content ;
-#  phpbin content ;
-#  testing content ;
+# dbin:
+
+_/dbin dbin ;
+
+
+
+#####################################################################
+# Microsites:
+#
+#####################################################################
+
 _/200word content ;
 _/236magazine content ;
 _/25000 content ;
