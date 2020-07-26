@@ -86,9 +86,8 @@ _/summer/admin       django ;
 _/systems-programming/django-sysmon  django ;
 
 _/bumobile phpbin-aws ;
-_/buniverse phpbin ;
+_/buniverse phpbin-aws ;
 _/dbin/dance phpbin-aws ;
-_/maps phpbin ;
 _/nisdev phpbin ;
 _/summer/courses-test phpbin ;
 _/summer/courses phpbin ;
