@@ -109,6 +109,7 @@ _/phpbin/directory phpbin-aws ;
 _/phpbin/hilleldining phpbin-aws ;
 _/phpbin/ijahs phpbin-aws ;
 _/phpbin/lawyearbooks phpbin-aws ;
+_/phpbin/marconi phpbin-aws ;
 _/phpbin/meal-donation phpbin-aws ;
 _/phpbin/nispm phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
