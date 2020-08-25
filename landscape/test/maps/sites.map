@@ -88,8 +88,6 @@ _/systems-programming/django-sysmon  django ;
 _/bumobile phpbin-aws ;
 _/buniverse phpbin-aws ;
 _/calendar phpbin-aws ;
-_/dbin/agni phpbin-aws ;
-_/dbin/dance phpbin-aws ;
 _/nisdev phpbin ;
 _/summer/courses-test phpbin ;
 _/summer/courses phpbin ;
@@ -128,6 +126,9 @@ _/phpbin/wiki phpbin-aws ;
 # dbin:
 
 _/dbin dbin ;
+_/dbin/agni phpbin-aws ;
+_/dbin/dance phpbin-aws ;
+_/dbin/pma phpbin-aws ;
 
 
 
