@@ -129,6 +129,7 @@ _/dbin dbin ;
 _/dbin/agni phpbin-aws ;
 _/dbin/dance phpbin-aws ;
 _/dbin/pma phpbin-aws ;
+_/dbin/stemcells phpbin-aws ;
 
 
 
