@@ -128,6 +128,7 @@ _/phpbin/wiki phpbin-aws ;
 _/dbin dbin ;
 _/dbin/agni phpbin-aws ;
 _/dbin/dance phpbin-aws ;
+_/dbin/jupiter-auroral-mapping phpbin-aws ;
 _/dbin/pma phpbin-aws ;
 _/dbin/stemcells phpbin-aws ;
 
