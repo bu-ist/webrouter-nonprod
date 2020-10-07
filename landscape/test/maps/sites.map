@@ -109,6 +109,7 @@ _/phpbin/ijahs phpbin-aws ;
 _/phpbin/lawyearbooks phpbin-aws ;
 _/phpbin/marconi phpbin-aws ;
 _/phpbin/meal-donation phpbin-aws ;
+_/phpbin/medlib phpbin-aws ;
 _/phpbin/nispm phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
