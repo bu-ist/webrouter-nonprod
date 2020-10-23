@@ -96,7 +96,6 @@ _/summer/courses phpbin ;
 # phpbin:
 
 _/phpbin phpbin ;
-_/phpbin/cader phpbin-aws ;
 _/phpbin/calendar phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
 _/phpbin/cise phpbin-aws ;
@@ -118,6 +117,7 @@ _/phpbin/registration-manager2 phpbin-aws ;
 _/phpbin/security phpbin-aws ;
 _/phpbin/signup phpbin-aws ;
 _/phpbin/sleep phpbin-aws ;
+_/phpbin/ssw-network phpbin-aws ;
 _/phpbin/training phpbin-aws ;
 _/phpbin/vp-lunch phpbin-aws ;
 _/phpbin/webdis phpbin-aws ;
