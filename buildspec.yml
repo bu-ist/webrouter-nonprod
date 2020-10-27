@@ -8,7 +8,9 @@ phases:
       - TAG="$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | head -c 8)"
       - IMAGEURI="${REPOSITORY_URI}:${TAG}"
       - ls -ld /etc/*version* /etc/*release*
+      - cat /etc/debian_version
       - echo "$DOCKERHUB"
+      - apt-get update
       - apt-get install jq
       - which jq
       - DOCKER_PW=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .user )
