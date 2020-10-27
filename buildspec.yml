@@ -13,8 +13,10 @@ phases:
       - apt-get update
       - apt-get install jq
       - which jq
-      - DOCKER_PW=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .user )
-      - echo "docker_pw=$DOCKER_PW"
+      - DOCKERHUB_PASSWORD=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .password )
+      - DOCKERHUB_USER=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .user )
+      - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+      - docker info
       - exit 1
   build:
     commands:
