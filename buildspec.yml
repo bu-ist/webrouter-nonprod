@@ -7,8 +7,8 @@ phases:
       - $(aws ecr get-login --no-include-email )
       - TAG="$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | head -c 8)"
       - IMAGEURI="${REPOSITORY_URI}:${TAG}"
-      - aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString
       - which jq
+      - ls -ld /etc/*version* /etc/*release*
       - DOCKER_PW=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .user )
       - echo "docker_pw=$DOCKER_PW"
       - exit 1
