@@ -9,6 +9,8 @@ phases:
       - IMAGEURI="${REPOSITORY_URI}:${TAG}"
       - aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString
       - which jq
+      - DOCKER_PW=$(aws secretsmanager get-secret-value --secret-id websites-webrouter-dockerhub-secret --query SecretString | jq --raw-output . | jq .user )
+      - echo "docker_pw=$DOCKER_PW"
       - exit 1
   build:
     commands:
