@@ -7,6 +7,9 @@ phases:
       - $(aws ecr get-login --no-include-email )
       - TAG="$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | head -c 8)"
       - IMAGEURI="${REPOSITORY_URI}:${TAG}"
+      - aws secretsmanager get-secret-value --secret-id $GITHUB_CREDENTIALS_SECRET --query SecretString
+      - which jq
+      - exit 1
   build:
     commands:
       - docker build --build-arg "landscape=$LANDSCAPE" --tag "$IMAGEURI" .
