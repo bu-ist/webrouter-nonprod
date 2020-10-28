@@ -9,7 +9,7 @@ phases:
       - IMAGEURI="${REPOSITORY_URI}:${TAG}"
       - apt-get update
       - apt-get install jq
-      - DOCKERHUB=$( aws secretsmanager get-secret-value websites-webrouter/dockerhub-credentials --query SecretString )
+      - DOCKERHUB=$( aws secretsmanager get-secret-value --secret-id websites-webrouter/dockerhub-credentials --query SecretString )
       - DOCKERHUB_PASSWORD=$(echo "$DOCKERHUB" | jq --raw-output . | jq -r .password )
       - DOCKERHUB_USERNAME=$(echo "$DOCKERHUB" | jq --raw-output . | jq -r .user )
       - echo "user=$DOCKERHUB_USERNAME"
