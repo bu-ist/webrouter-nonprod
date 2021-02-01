@@ -130,6 +130,7 @@ _/dbin/cupidcubesat phpbin-aws ;
 _/dbin/dance phpbin-aws ;
 _/dbin/jupiter-auroral-mapping phpbin-aws ;
 _/dbin/pma phpbin-aws ;
+_/dbin/project-inclusive phpbin-aws ;
 _/dbin/stemcells phpbin-aws ;
 
 
