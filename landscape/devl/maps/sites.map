@@ -21,7 +21,7 @@ _/nisdev phpbin ;
 # to land back on the wpassets backend. We do that by sending to
 # www.bu.edu/saml/BACKEND-HERE
 
-_/saml/content content ;
+_/saml/content content-restricted ;
 _/saml/wp-app wordpress ;  # Not required, but let's be explicit here.
 _/saml/wp-assets wpassets ;
 ###############################################
