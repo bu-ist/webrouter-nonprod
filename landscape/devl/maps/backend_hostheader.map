@@ -26,4 +26,4 @@ aws_home_index buaws-websites-homepage-devl.s3-website-us-east-1.amazonaws.com ;
 
 
 # AWS would not recognize a bucket named "www-devl.bu.edu" so we must provide them the correct bucket name (i.e., Host header)
-content-aws bfenster-test-bucket.s3-website-us-east-1.amazonaws.com ;
+content-aws gmt-bucket.s3-website-us-east-1.amazonaws.com ;
