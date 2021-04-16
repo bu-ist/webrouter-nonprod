@@ -97,6 +97,7 @@ _/phpbin phpbin ;
 _/phpbin/alert phpbin-aws ;
 _/phpbin/calendar phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
+_/phpbin/change-entry phpbin-aws ;
 _/phpbin/cise phpbin-aws ;
 _/phpbin/course-search phpbin-aws ;
 _/phpbin/courseware phpbin-aws ;
