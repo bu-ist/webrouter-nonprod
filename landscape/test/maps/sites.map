@@ -88,12 +88,10 @@ _/bumobile phpbin-aws ;
 _/buniverse phpbin-aws ;
 _/calendar phpbin-aws ;
 _/html-email phpbin-aws ;
-_/nisdev phpbin ;
 
 
 # phpbin:
 
-_/phpbin phpbin ;
 _/phpbin/alert phpbin-aws ;
 _/phpbin/calendar phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
@@ -114,6 +112,7 @@ _/phpbin/medlib phpbin-aws ;
 _/phpbin/nispm phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
+_/phpbin/parking phpbin-aws ;
 _/phpbin/rcr phpbin-aws ;
 _/phpbin/registration-manager2 phpbin-aws ;
 _/phpbin/security phpbin-aws ;
