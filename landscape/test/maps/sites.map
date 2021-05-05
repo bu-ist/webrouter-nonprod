@@ -743,7 +743,7 @@ _/gds redirect_asis ;
 _/geddes/course content ;
 _/geddes/kanji content ;
 _/gegi redirect_asis ;
-_/genchem static ;
+_/genchem content-aws ;
 _/geochemistry redirect_asis ;
 _/geology redirect_asis ;
 _/geophysics redirect_asis ;
