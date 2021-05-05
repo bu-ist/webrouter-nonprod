@@ -561,7 +561,7 @@ _/compliance/videos content ;
 _/compliance/videos_restricted1 content ;
 _/compnet content ;
 _/computationalimmunology/documentation content ;
-_/computing content ;
+_/computing content-aws ;
 _/connect redirect_asis ;
 _/connects redirect_asis ;
 _/conscious content ;
