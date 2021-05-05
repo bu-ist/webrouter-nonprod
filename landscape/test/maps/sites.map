@@ -27,7 +27,6 @@ _/saml/wp-assets wpassets ;
 
 _/studentlink redirect_asis ;
 _/geography/brdf redirect_asis ;
-_/awslogin redirect_asis ;
 
 
 #####################################################################
