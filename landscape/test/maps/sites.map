@@ -867,7 +867,7 @@ _/hdwg content ;
 _/healthconnection content ;
 _/healthfit content ;
 _/healthyminds content ;
-_/hello-restricted content-aws ;
+_/hello-restricted static-protected ;
 _/help content ;
 _/hem-masters content ;
 _/herbalstudy content ;
