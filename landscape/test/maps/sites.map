@@ -675,7 +675,7 @@ _/familymed/meddebt static-public ;
 _/fammed static-public ;
 _/faqs static-public ;
 _/favicon.ico static-public ;
-_/favoritepoem static-protected ;
+_/favoritepoem static-public ;
 _/feltensteinchallenge redirect_asis ;
 _/festival redirect_asis ;
 _/fhcmi static-public ;
