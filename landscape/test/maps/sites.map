@@ -427,7 +427,7 @@ _/cas/magazine static-public ;
 _/casdemo static-public ;
 _/cashelpdesk static-public ;
 _/cateringonthecharles redirect_asis ;
-_/cawses static-protected ;
+_/cawses static-public ;
 _/cball static-public ;
 _/ccboard static-public ;
 _/cci redirect_asis ;
