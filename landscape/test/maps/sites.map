@@ -585,7 +585,7 @@ _/dental/lobbyscreen static-public ;
 _/dental/nerb-mcmanama static-public ;
 _/dentalassisting redirect_asis ;
 _/dentures redirect_asis ;
-_/dev static-protected ;
+_/dev/crtimes static-public ;
 _/digication redirect_asis ;
 _/digital-strategy redirect_asis ;
 _/digitalrevolutionevent redirect_asis ;
