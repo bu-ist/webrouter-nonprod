@@ -99,7 +99,6 @@ _/html-email phpbin-aws ;
 
 # phpbin:
 
-_/alert phpbin ;
 _/phpbin/alert phpbin-aws ;
 _/phpbin/calendar phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
