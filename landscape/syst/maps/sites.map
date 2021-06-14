@@ -1,8 +1,10 @@
 _/version 20180719 ;
+# redirects
+_/cader redirect ;
 
 # items from the Apache configuration
 _/htbin legacy ;
-_/studentlink redirect_asis ; 
+_/studentlink redirect_asis ;
 
 # UIS content
 _/uis content ;
