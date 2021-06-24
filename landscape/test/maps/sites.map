@@ -981,6 +981,7 @@ _/links2 redirect_asis ;
 _/linux static-public ;
 _/lite static-public ;
 _/liveon static-public ;
+_/lm/test static-public ;
 _/login redirect_asis ;
 _/logout redirect_asis ;
 _/loyalty redirect_asis ;
