@@ -580,6 +580,7 @@ _/daysofservice redirect_asis ;
 _/dbin-cnsb-assets static-public ;
 _/dbin-cupidcubesat-data static-public ;
 _/dbin-dance static-public ;
+_/dd/test static-public ;
 _/degreecomplete redirect_asis ;
 _/dental/lobbyscreen static-public ;
 _/dental/nerb-mcmanama static-public ;
