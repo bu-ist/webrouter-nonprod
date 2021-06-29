@@ -1,24 +1,17 @@
 legacy <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
+
 content <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
 content-nocache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
 content-cache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
-content-aws static-sites-syst-public.s3-website-us-east-1.amazonaws.com ;
+static-public static-sites-syst-public.s3-website-us-east-1.amazonaws.com ;
+static-protected ist-web-static-sites-syst.bu.edu ;
 
-content-restricted ist-web-content-syst.bu.edu ;
 
 wpassets <%= ENV['BACKEND_WP_CONTENT'] || "ist-wp-assets-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
 wordpress <%= ENV['BACKEND_WP_APP'] || "ist-wp-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
-dbin <%= ENV['BACKEND_DBIN'] || "ist-web-dbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
-phpbin <%= ENV['BACKEND_PHPBIN'] || "ist-web-phpbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
-phpbin-isilon <%= ENV['BACKEND_PHPBIN_ISILON'] || "ist-phpbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 degree-advice <%= ENV['BACKEND_DEGREE_ADVICE'] || "ist-degreeadvice-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
@@ -30,8 +23,4 @@ uiscgi_content <%= ENV['BACKEND_UISCGI_CONTENT'] || "ist-uiscgi-content-#{ENV['L
 
 # ###
 # The following backend provides the homepage in S3.
-aws_home buaws-websites-homepage-devl.s3-website-us-east-1.amazonaws.com ;
-
-
-# Elastic Beanstalk for Web Applications:
-aws_eb_lawyearbooks lawyearbooks-env.gxbmuerrst.us-east-1.elasticbeanstalk.com ;
+aws_home static-sites-syst-public.s3-website-us-east-1.amazonaws.com ;
