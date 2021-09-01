@@ -6,7 +6,7 @@
 export LOG_LEVEL=warn
 # ideally LANDSCAPE is automatically set by what is running it
 #export LANDSCAPE=devl
-export ROBOTS_TXT=/home/robots.txt.test
+#export ROBOTS_TXT=/home/robots.txt.test
 # backends until we get the F5 intermediaries in place
 #export BACKEND_REDIRECT=www-devl.bu.edu
 #export BACKEND_WEB_LEGACY=10.254.17.53
