@@ -1,3 +1,6 @@
+# Custom Domains POC fake domain
+fred.bu.edu redirector ;
+
 _/version 20180719 ;
 # redirects
 _/cader redirect ;

@@ -13,3 +13,7 @@
 
   # set specific max-age for the home page
   aws_home "max-age=1800" ;
+
+# Custom Domain POC
+redirector "no-cache, no-store" ;
+#redirector "max-age=600" ;

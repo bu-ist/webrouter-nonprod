@@ -18,3 +18,5 @@ aws_home_index http ;
 # This test entry is to a fixed value to simplify the test scripts
 checkhostheader http ;
 
+# Custom Domain POC 
+redirector https ;
