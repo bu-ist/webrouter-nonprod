@@ -16,4 +16,4 @@
 
 # Custom Domain POC
 redirector "no-cache, no-store" ;
-#redirector "max-age=600" ;
+#redirector "max-age=10" ;
