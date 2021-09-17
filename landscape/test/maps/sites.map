@@ -1548,3 +1548,37 @@ _/yourbusm redirect_asis ;
 _/yourgift redirect_asis ;
 _/yourimpact redirect_asis ;
 _/zerowasteplan redirect_asis ;
+
+
+# Custom Domains
+660corp.com redirect_asis ;
+activistlab.bu.edu redirect_asis ;
+agni.bu.edu redirect_asis ;
+alumni.bu.edu redirect_asis ;
+bioinformatics.bu.edu redirect_asis ;
+biophysics.bumc.bu.edu redirect_asis ;
+bostoniamagazine.com redirect_asis ;
+bu-mbi.org redirect_asis ;
+city-convenience.com redirect_asis ;
+dmca.bu.edu redirect_asis ;
+ece.bu.edu redirect_asis ;
+fitrec.bu.edu redirect ;
+geography.bu.edu redirect_asis ;
+indigobirds.com redirect ;
+isps.bu.edu redirect_asis ;
+leap.bu.edu redirect_asis ;
+lite.bu.edu redirect ;
+newmedia.bu.edu redirect_asis ;
+quantum.bu.edu redirect ;
+quantumconcepts.bu.edu redirect ;
+smartlighting.bu.edu redirect_asis ;
+today.bu.edu redirect_asis ;
+webmail.bu.edu redirect_asis ;
+www.660corp.com redirect_asis ;
+www.auxin.org redirect_asis ;
+www.bostoniamagazine.com redirect_asis ;
+www.bu-mbi.org redirect_asis ;
+www.cassavetes.com redirect_asis ;
+www.city-convenience.com redirect_asis ;
+www.indigobirds.com redirect ;
+www.otm.bu.edu redirect_asis ;
