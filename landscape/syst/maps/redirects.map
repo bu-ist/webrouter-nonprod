@@ -2,6 +2,10 @@
 # value and the URI is not put on the end
 #
 
+# Custom Domain checks
+fred.rexden.us https://www.bu.edu/tech ;
+fred2.rexden.us https://www.bu.edu/tech ;
+
 # StudentLink main menu
 _/studentlink /link/bin/uiscgi_studentlink.pl/uismpl/?ModuleName=menu.pl&NewMenu=Home ;
 

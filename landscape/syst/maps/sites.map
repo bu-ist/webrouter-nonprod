@@ -1,6 +1,10 @@
 # Custom Domains POC fake domain
 fred.bu.edu redirector ;
 
+# Some simple Custom Domains
+fred.rexden.us redirect ;
+fred2.rexden.us redirect_asis ;
+
 _/version 20180719 ;
 # redirects
 _/cader redirect ;
