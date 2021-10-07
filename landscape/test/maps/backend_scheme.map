@@ -19,4 +19,3 @@ aws_home_index http ;
 checkhostheader http ;
 
 static-public http ;
-static-public-prod http ;
