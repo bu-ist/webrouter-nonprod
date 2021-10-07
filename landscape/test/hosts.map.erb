@@ -7,6 +7,8 @@ content-cache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAP
 static-public static-sites-test-public.s3-website-us-east-1.amazonaws.com ;
 static-protected ist-web-static-sites-test.bu.edu ;
 
+static-public-prod static-sites-prod-public.s3-website-us-east-1.amazonaws.com ;
+
 
 wpassets <%= ENV['BACKEND_WP_CONTENT'] || "ist-wp-assets-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
