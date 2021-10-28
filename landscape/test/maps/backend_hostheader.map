@@ -25,4 +25,4 @@ aws_home $backend_hostname ;
 aws_home_index buaws-websites-homepage-test.s3-website-us-east-1.amazonaws.com ;
 
 static-public static-sites-test-public.s3-website-us-east-1.amazonaws.com ;
-www-rewrite-wiki www-test.bu.edu ;
+www-rewrite-wiki wiki-test.bu.edu ;
