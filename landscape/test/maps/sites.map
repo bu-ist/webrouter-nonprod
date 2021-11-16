@@ -1404,6 +1404,7 @@ _/studentgiving redirect_asis ;
 _/study redirect_asis ;
 _/studyfinder redirect_asis ;
 _/studyspace redirect_asis ;
+_/summer/chain-select-tool static-public ;
 _/summer/courses phpbin-aws ;
 _/summerfun redirect_asis ;
 _/summerterm redirect_asis ;
