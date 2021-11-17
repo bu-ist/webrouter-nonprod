@@ -44,6 +44,11 @@ _/link uiscgi_content ;
 # dbin
 _/dbin dbin ;
 
+# These mappings are needed for Shibboleth authentication
+_/saml/content content ;
+## saml/wp-admin: wordpress
+## saml/wp-assets: wpassets
+
 ## LAW: redirect to lowercase
 ## LAWLIBRARY: redirect to lowercase
 ## LAWDEAN: redirect to lowercase
