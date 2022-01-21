@@ -91,7 +91,6 @@ _/law-pub        django ;
 _/summer/admin       django ;
 _/systems-programming/django-sysmon  django ;
 
-_/bumobile phpbin-aws ;
 _/buniverse phpbin-aws ;
 _/calendar phpbin-aws ;
 _/html-email phpbin-aws ;
