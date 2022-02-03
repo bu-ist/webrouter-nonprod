@@ -12,4 +12,7 @@
   # set specific max-age for the home page
   aws_home "max-age=1800" ;
 
-  usl1 "no-cache, no-store" ;
+  mainframe-java-881 "no-cache, no-store" ;
+  mainframe-java-8080 "no-cache, no-store" ;
+  mainframe-java-8082 "no-cache, no-store" ;
+  mainframe-pdf-converter "no-cache, no-store" ;

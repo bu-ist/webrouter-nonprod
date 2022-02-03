@@ -1,7 +1,12 @@
 legacy <%= ENV['BACKEND_WEB_LEGACY'] || "ist-web-legacy-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 # These backends are what "legacy" routed traffic to:
-usl1 usl1.bu.edu:8082 ;
+mainframe-java-881 usl1.bu.edu:881/hod ;
+mainframe-java-8080 usl1.bu.edu:8080 ;
+mainframe-java-8082 usl1.bu.edu:8082 ;
+
+mainframe-pdf-converter uslpdfp.bu.edu:8080 ;
+
 
 content <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 content-nocache <%= ENV['BACKEND_WEB_CONTENT'] || "ist-web-content-#{ENV['LANDSCAPE']}.bu.edu" %> ;
