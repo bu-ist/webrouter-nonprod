@@ -19,3 +19,5 @@ aws_home_index http ;
 checkhostheader http ;
 
 static-public http ;
+
+uis1 http ;
