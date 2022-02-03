@@ -20,4 +20,4 @@ checkhostheader http ;
 
 static-public http ;
 
-uis1 http ;
+usl1 http ;

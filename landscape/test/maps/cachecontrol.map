@@ -12,4 +12,4 @@
   # set specific max-age for the home page
   aws_home "max-age=1800" ;
 
-  uis1 "no-cache, no-store" ;
+  usl1 "no-cache, no-store" ;
