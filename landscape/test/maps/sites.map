@@ -233,6 +233,7 @@ _/athchallenge redirect_asis ;
 _/athletics redirect_asis ;
 _/attend redirect_asis ;
 _/auctions static-public ;
+_/autodiscover static-public ;
 _/avl static-public ;
 _/awrecentgrads redirect_asis ;
 _/awslogin redirect_asis ;
