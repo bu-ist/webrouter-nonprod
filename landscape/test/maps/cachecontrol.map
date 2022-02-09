@@ -16,3 +16,5 @@
   mainframe-java-8080 "no-cache, no-store" ;
   mainframe-java-8082 "no-cache, no-store" ;
   mainframe-pdf-converter "no-cache, no-store" ;
+
+  static-favoritepoem "no-cache, no-store" ;

@@ -20,6 +20,8 @@ checkhostheader http ;
 
 static-public http ;
 
+static-favoritepoem http ;
+
 mainframe-java-881 http ;
 mainframe-java-8080 http ;
 mainframe-java-8082 http ;
