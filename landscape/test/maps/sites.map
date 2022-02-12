@@ -106,6 +106,7 @@ _/phpbin/courseware phpbin-aws ;
 _/phpbin/courses phpbin-aws ;
 _/phpbin/emailer phpbin-aws ;
 _/phpbin/faculty-applicants phpbin-aws ;
+_/phpbin/dining phpbin-aws ;
 _/phpbin/directory redirect_asis ;
 _/phpbin/hilleldining phpbin-aws ;
 _/phpbin/ijahs phpbin-aws ;
