@@ -256,6 +256,7 @@ _/benefitstaskforce static-public ;
 _/betonrhett redirect_asis ;
 _/betterwaytowork redirect_asis ;
 _/bettyandken redirect_asis ;
+_/bfenster-test wpengine-bfenster-test ;
 _/bfr2011 static-public ;
 _/bigdatasf redirect_asis ;
 _/bike static-public ;
