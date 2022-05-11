@@ -13,3 +13,9 @@
 
   # set specific max-age for the home page
    aws_home "max-age=1800" ;
+
+
+
+# For DEVL only, we do not want to cache anything in WordPress; these are actively-managed sandboxes
+wordpress "no-cache, no-store" ;
+wpassets "no-cache, no-store" ;
