@@ -13,7 +13,6 @@ FROM buist/websites-webrouter-base:2021.11.09
 ARG landscape=syst
 
 # These files remains in the landscape specific CodePipeline area.
-ADD landscape/${landscape}/vars.sh /etc/nginx/vars.sh
-ADD landscape/${landscape}/hosts.map.erb /etc/erb/nginx/hosts.map.erb
-ADD landscape/${landscape}/maps /etc/nginx/maps
+ADD maps/hosts.map.erb /etc/erb/nginx/hosts.map.erb
+ADD maps /etc/nginx/maps
 
