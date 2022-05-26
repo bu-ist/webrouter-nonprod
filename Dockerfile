@@ -1,16 +1,9 @@
-# These are all defined in the base image
-#
-#FROM dsmk/web-router-base:latest
-#FROM buist/websites-webrouter-base:2018.03.20
-#FROM buist/websites-webrouter-base:2018.04.18
-#FROM buist/websites-webrouter-base:2018.04.23
-#FROM buist/websites-webrouter-base:2019.07.02
-FROM buist/websites-webrouter-base:2021.11.09
+FROM buist/websites-webrouter-base:2022.05.18
 
 # for now this is our split and everything below this is for a different location
 #
 # the final default landscape should be test
-ARG landscape=syst
+ARG landscape=qa
 
 # These files remains in the landscape specific CodePipeline area.
 ADD maps/hosts.map.erb /etc/erb/nginx/hosts.map.erb
