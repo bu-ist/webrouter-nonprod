@@ -18,3 +18,5 @@
   mainframe-pdf-converter "no-cache, no-store" ;
 
   static-favoritepoem "no-cache, no-store" ;
+
+  search "no-cache, no-store" ;

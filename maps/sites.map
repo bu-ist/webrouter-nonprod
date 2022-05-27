@@ -77,6 +77,9 @@ _/degree-audit degree-advice ;
 #
 #####################################################################
 
+# search.bu.edu
+search-test.bu.edu search ;
+
 # Standalone Sites:
 
 _/betabionics        django ;
@@ -1819,7 +1822,6 @@ quantumconcepts.bu.edu redirect ;
 questromconnect.bu.edu redirect_asis ;
 questromfixit.bu.edu redirect_asis ;
 sarcoid.org redirect ;
-search.bu.edu redirect_asis ;
 sed-it.bu.edu redirect ;
 sed-survey.bu.edu redirect ;
 service-now.bu.edu redirect_asis ;
