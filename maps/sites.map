@@ -643,6 +643,7 @@ _/emf redirect_asis ;
 _/eml static-public ;
 _/emoc static-public ;
 _/encoder static-public ;
+_/eng/app phpbin-aws ;
 _/eng/rankings static-public ;
 _/entrepreneurship redirect_asis ;
 _/environment redirect_asis ;
