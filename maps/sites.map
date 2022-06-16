@@ -41,8 +41,6 @@ _/link/bin uiscgi_app ;
 _/link uiscgi_content ;
 
 #admissions wordpress
-# dbin
-_/dbin dbin ;
 
 ## LAW: redirect to lowercase
 ## LAWLIBRARY: redirect to lowercase
@@ -2453,7 +2451,6 @@ _/ds-test content ;
 ## ds-1silberway: wordpress
 ## ds-ensa: wordpress
 _/dssandbox content ;
-_/dbin-selector dbin ;
 ## dcc: wordpress
 ## dct: wordpress
 _/dcg content ;
