@@ -89,7 +89,7 @@ _/cellphone-compliance     django ;
 _/courseware-manager     django ;
 _/dnamixtures        django ;
 _/law-pub        django ;
-_/summer/admin       django ;
+_/summer/admin       phpbin-aws ;
 _/systems-programming/django-sysmon  django ;
 
 _/buniverse phpbin-aws ;
