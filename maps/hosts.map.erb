@@ -9,10 +9,8 @@ static-public static-sites-syst-public.s3-website-us-east-1.amazonaws.com ;
 static-protected ist-web-static-sites-syst.bu.edu ;
 
 # Both wpassets and wordpress (app) are the same servers now.
-wordpress <%= ENV['BACKEND_WP_APP'] || "ist-wp-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-wpassets <%= ENV['BACKEND_WP_APP'] || "ist-wp-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
-wordpress-centos7 ist-wp-app-dv01.bu.edu ;
+wordpress ist-wp-app-dv01.bu.edu ;
+wpassets ist-wp-app-dv01.bu.edu ;
 
 degree-advice <%= ENV['BACKEND_DEGREE_ADVICE'] || "ist-degreeadvice-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
