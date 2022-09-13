@@ -8,7 +8,6 @@ _/geography/brdf http://www-modis.bu.edu/brdf ;
 
 # Other redirects
 _/awslogin https://shib-test.bu.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=urn:amazon:webservices ;
-_/uis_eostc http://ist-eos-te01.bu.edu:8080/eos-access/#/login ;
 _/phpbin/directory https://www.bu.edu/directory/ ;
 
 
