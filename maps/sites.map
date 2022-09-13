@@ -48,7 +48,7 @@ _/link uiscgi_content ;
 
 # These are the old tomcat servlets on the server
 _/uis_web3270 mainframe-java-881 ;
-_/uis_eostc mainframe-eos-access ;
+_/uis_eostc mainframe-java-8082 ;
 _/uiszl_pdf mainframe-pdf-converter ;
 
 # not certain that the following is necessary
