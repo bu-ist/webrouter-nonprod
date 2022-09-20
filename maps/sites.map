@@ -137,7 +137,6 @@ _/phpbin/wiki phpbin-aws ;
 
 # dbin:
 
-_/dbin dbin ;
 _/dbin/agni phpbin-aws ;
 _/dbin/bands phpbin-aws ;
 _/dbin/cupidcubesat phpbin-aws ;
@@ -151,6 +150,7 @@ _/dbin/mlkjr phpbin-aws ;
 _/dbin/pma phpbin-aws ;
 _/dbin/project-inclusive phpbin-aws ;
 _/dbin/quantumconcepts phpbin-aws ;
+_/dbin/research-demographic-data phpbin-aws ;
 _/dbin/stemcells phpbin-aws ;
 
 
