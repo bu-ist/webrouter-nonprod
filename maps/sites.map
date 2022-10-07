@@ -84,11 +84,9 @@ search-test.bu.edu search ;
 
 _/betabionics        django ;
 _/bufellow/db-admin django ;
-_/ssw/usfostercare     django ;
 _/cellphone-compliance     django ;
 _/courseware-manager     django ;
 _/dnamixtures        django ;
-_/summer/admin       phpbin-aws ;
 _/systems-programming/django-sysmon  django ;
 
 _/buniverse phpbin-aws ;
@@ -1396,6 +1394,7 @@ _/sphgiving redirect_asis ;
 _/spirithealth static-public ;
 _/sscores/downloads static-public ;
 _/ssw/common static-public ;
+_/ssw/usfostercare phpbin-aws ;
 _/sswemergencyfund redirect_asis ;
 _/stamasfund redirect_asis ;
 _/startup static-public ;
@@ -1414,6 +1413,7 @@ _/studentgiving redirect_asis ;
 _/study redirect_asis ;
 _/studyfinder redirect_asis ;
 _/studyspace redirect_asis ;
+_/summer/admin phpbin-aws ;
 _/summer/chain-select-tool static-public ;
 _/summer/courses phpbin-aws ;
 _/summerfun redirect_asis ;
