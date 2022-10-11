@@ -82,11 +82,8 @@ search-test.bu.edu search ;
 
 # Standalone Sites:
 
-_/betabionics        django ;
-_/bufellow/db-admin django ;
 _/cellphone-compliance     django ;
 _/courseware-manager     django ;
-_/systems-programming/django-sysmon  django ;
 
 _/buniverse phpbin-aws ;
 _/calendar phpbin-aws ;
