@@ -86,7 +86,6 @@ _/betabionics        django ;
 _/bufellow/db-admin django ;
 _/cellphone-compliance     django ;
 _/courseware-manager     django ;
-_/dnamixtures        django ;
 _/systems-programming/django-sysmon  django ;
 
 _/buniverse phpbin-aws ;
@@ -614,6 +613,7 @@ _/distance redirect_asis ;
 _/disted static-protected ;
 _/diversitytaskforce/media static-protected ;
 _/dme static-public ;
+_/dnamixtures phpbin-aws ;
 _/donorwebinar redirect_asis ;
 _/dos/facebook static-public ;
 _/double-it redirect_asis ;
