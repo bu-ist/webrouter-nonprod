@@ -50,16 +50,6 @@ setup () {
   #dump_web
 }
 
-@test "backendip-https-django" {
-  skip "TEST MANUALLY: ipcheck does not work with django server"
-  test_web https "$BUWEBHOST" "/server/backend/django/htbin/ipcheck/$myip"
-  assert_status 200
-  assert_backend "django"
-  assert_content "OK"
-
-  #dump_web
-}
-
 @test "backendip-https-wordpress" {
   skip "TEST MANUALLY: Wordpress does not yet have the ipcheck script"
   test_web https "$BUWEBHOST" "/server/backend/wordpress/htbin/ipcheck/$myip"

@@ -71,12 +71,6 @@ This is still a work in progress and we still need to address the following issu
   based approaches.  If we use those solutions then hopefully the routing table could just have a "redirect" 
   backend that points to the solution.
 
-- Internal load balancers for backends: Our existing front-ends handle load balancing for the WordPress and 
-  Django backends (mod_proxy_balancer Apache 2.2).  One refinement would be to have internal application load
-  balancers so all load balancing is handled (and monitored/tracked) by AWS load balancing services.  In 
-  addition, the WordPress ALB could potentially handle selecting between Application and Asset servers which 
-  would simplify this NGINX/HTTPD configuration even more. 
-
 The general workflow while we are building the system is to:
 
 1) Update the test/sut/test_app.sh script to test the new functionality with the current Solaris.  This involves 

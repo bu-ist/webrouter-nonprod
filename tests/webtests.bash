@@ -82,8 +82,6 @@ function assert_backend {
     val="uiscgi_content"
   elif [ "x${val:0:10}" = "xhttp://vsc" ]; then
     val="degree-advice"
-  elif [ "x$val" = "xbalancer://django" ]; then
-    val="django"
   elif [ "x${val:0:14}" = "xhttp://phpbin-" ]; then
     val="phpbin"
   elif [ "x${val:0:5}" = "xdbin-" ]; then
