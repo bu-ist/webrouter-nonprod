@@ -82,7 +82,6 @@ search-test.bu.edu search ;
 
 # Standalone Sites:
 
-_/cellphone-compliance     django ;
 _/courseware-manager     django ;
 
 _/buniverse phpbin-aws ;
