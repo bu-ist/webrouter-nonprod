@@ -118,36 +118,4 @@ setup () {
   assert_contains 'generated in'
 }
 
-@test "Degree-Advice root (http)" {
-  skip_landscapes syst
-  test_web http "$BUWEBHOST" /degree-advice/
-  assert_status 301
-  assert_backend degree-advice
-  assert_header_contains location "http://${BUWEBHOST}/degree-advice/IRISLink.cgi"
-}
-
-#@test "Degree-Advice root (https)" {
-#  skip_landscapes syst
-#  test_web https "$BUWEBHOST" /degree-advice/
-#  assert_status 301
-#  assert_backend degree-advice
-#  assert_header_contains location "http://${BUWEBHOST}/degree-advice/IRISLink.cgi"
-#}
-
-@test "Degree-Advice cgi (http)" {
-  skip_landscapes syst
-  test_web http "$BUWEBHOST" /degree-advice/IRISLink.cgi
-  assert_status 302
-  assert_backend degree-advice
-  assert_header_contains location "/idp/profile/SAML2/Redirect/SSO"
-}
-
-@test "Degree-Advice cgi (https)" {
-  skip_landscapes syst
-  test_web https "$BUWEBHOST" /degree-advice/IRISLink.cgi
-  assert_status 302
-  assert_backend degree-advice
-  assert_header_contains location "/idp/profile/SAML2/Redirect/SSO"
-}
-
 

@@ -31,8 +31,6 @@ phpbin-aws ist-web-phpbin-aws-test.bu.edu ;
 phpbin ist-web-phpbin-test.bu.edu ;
 # Legacy phpbin is exclusively for serving BU Alert files out of AFS.
 
-degree-advice <%= ENV['BACKEND_DEGREE_ADVICE'] || "ist-degreeadvice-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-
 django <%= ENV['BACKEND_DJANGO'] || "ist-web-django-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
 uiscgi_app <%= ENV['BACKEND_UISCGI_APP'] || "ist-uiscgi-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;

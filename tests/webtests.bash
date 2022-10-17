@@ -80,8 +80,6 @@ function assert_backend {
     val="uiscgi_app"
   elif [ "x$val" = "xist-uiscgi-content" ]; then
     val="uiscgi_content"
-  elif [ "x${val:0:10}" = "xhttp://vsc" ]; then
-    val="degree-advice"
   elif [ "x${val:0:14}" = "xhttp://phpbin-" ]; then
     val="phpbin"
   elif [ "x${val:0:5}" = "xdbin-" ]; then
