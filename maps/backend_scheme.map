@@ -26,3 +26,5 @@ mainframe-java-881 http ;
 mainframe-java-8080 http ;
 mainframe-java-8082 http ;
 mainframe-pdf-converter http ;
+
+wp-deploy http ;
