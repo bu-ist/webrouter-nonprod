@@ -30,3 +30,5 @@ static-favoritepoem static-sites-test-public.s3-website-us-east-1.amazonaws.com 
 www-rewrite-wiki wiki-test.bu.edu ;
 
 wpengine-bubrainaging bubrainaging.wpengine.com ;
+
+wp-deploy ist-wp-bld-pr01.bu.edu ;
