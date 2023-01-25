@@ -588,6 +588,7 @@ _/digital-strategy redirect_asis ;
 _/digitalrevolutionevent redirect_asis ;
 _/dinegreen redirect_asis ;
 _/dining/digital-menu-boards static-public ;
+_/dining/display static-public ;
 _/dining/report2013 static-public ;
 _/dining/report2014 static-public ;
 _/dining/report2015 static-public ;
