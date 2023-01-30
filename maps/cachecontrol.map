@@ -20,3 +20,5 @@
 wordpress "no-cache, no-store" ;
 wpassets "no-cache, no-store" ;
 wpassets-jaydub "no-cache, no-store" ;
+
+wordpress-php74 "no-cache, no-store" ;
