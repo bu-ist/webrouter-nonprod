@@ -1350,7 +1350,6 @@ _/shawcenter redirect_asis ;
 _/shongchallenge redirect_asis ;
 _/shsmobile redirect_asis ;
 _/simulation static-public ;
-_/sisrenewal redirect_asis ;
 _/sites redirect_asis ;
 _/sixsixty static-public ;
 _/sjmag static-public ;
