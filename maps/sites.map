@@ -3,7 +3,7 @@ _/version 20180719 ;
 
 #####################################################################
 # Shibboleth:
-# 
+#
 # After successful Shibboleth authentication, the Shibboleth IdP needs
 # to redirect the visitor to the backend that requested the
 # authentication. If it was wpassets authenticating, the request needs
@@ -19,10 +19,10 @@ _/saml/wp-assets wpassets ;
 
 #####################################################################
 # Backend Health Checks:
-# 
+#
 # These directories proxy to specific backends specifically to verify
 # the health of the individual backend in an end-to-end test.
-# 
+#
 # This works the same as the /saml/ directories above but will also
 # cover non-Shibboleth backends
 #
@@ -37,7 +37,7 @@ _/webrouter-health/wp-assets wpassets ;
 #####################################################################
 # UISCGI/Link:
 #
-# 
+#
 #####################################################################
 
 _/studentlink redirect_asis ;
@@ -75,7 +75,7 @@ _/testing legacy ;
 # Web Applications:
 #
 # These sites are mainly in dbin or phpbin.
-# Questions To: IS&T Web Applications 
+# Questions To: IS&T Web Applications
 #
 #####################################################################
 
@@ -1501,3 +1501,4 @@ bfenster.cms-devl.bu.edu wordpress-php74 ;
 lmcguire.cms-devl.bu.edu wordpress-php74 ;
 dd74.cms-devl.bu.edu wordpress-php74 ;
 acalog-test.cms-devl.bu.edu wordpress-php74 ;
+dcrews74.cms.devl.bu.edu wordpress-php74 ;
