@@ -8,7 +8,7 @@ _/geography/brdf http://www-modis.bu.edu/brdf ;
 
 # Other redirects
 _/awslogin https://shib-test.bu.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=urn:amazon:webservices ;
-_/phpbin/directory https://www.bu.edu/directory/ ;
+_/phpbin/directory https://www-test.bu.edu/directory/ ;
 
 
 # Custom Domains
