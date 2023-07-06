@@ -23,7 +23,7 @@ static-favoritepoem static-sites-test-public.s3-website-us-east-1.amazonaws.com/
 
 # Both wpassets and wordpress (app) are the same servers now.
 wpassets <%= ENV['BACKEND_WP_APP'] || "ist-wp-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;
-wordpress <%= ENV['BACKEND_WP_APP'] || "ist-wp-app-#{ENV['LANDSCAPE']}.bu.edu" %> ;
+wordpress internal-wordpress-test-639194967.us-east-1.elb.amazonaws.com ;
 
 dbin <%= ENV['BACKEND_DBIN'] || "ist-web-dbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
