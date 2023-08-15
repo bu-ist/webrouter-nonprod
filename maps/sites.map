@@ -107,7 +107,6 @@ _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
 _/phpbin/parking phpbin-aws ;
 _/phpbin/policelink phpbin-aws ;
-_/phpbin/police-link phpbin-aws ;
 _/phpbin/proxy-groups phpbin-aws ;
 _/phpbin/rcr phpbin-aws ;
 _/phpbin/registration-manager2 phpbin-aws ;
