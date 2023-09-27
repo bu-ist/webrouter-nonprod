@@ -1510,4 +1510,8 @@ id-jamie.cms-devl.bu.edu wordpress-php74 ;
 djgannon-php74.cms-devl.bu.edu wordpress-php74 ;
 s3-test-net.cms-devl.bu.edu wordpress-php74 ;
 
+bfenster.cms-devl.bu.edu/parking redirect ;
+_/parking redirect ;
+
+
 wp-deploy.cms-devl.bu.edu wp-deploy ;
