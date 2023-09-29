@@ -27,8 +27,7 @@ wordpress internal-wordpress-test-639194967.us-east-1.elb.amazonaws.com ;
 
 dbin <%= ENV['BACKEND_DBIN'] || "ist-web-dbin-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
-phpbin-aws www-test-alb.phpbin-apps-nonprod.bu.edu ;
-# Legacy phpbin is exclusively for serving BU Alert files out of AFS.
+phpbin-aws www-test.phpbin-apps-nonprod.bu.edu ;
 
 django <%= ENV['BACKEND_DJANGO'] || "ist-web-django-#{ENV['LANDSCAPE']}.bu.edu" %> ;
 
