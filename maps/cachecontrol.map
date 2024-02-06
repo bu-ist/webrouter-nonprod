@@ -22,5 +22,6 @@ wpassets "no-cache, no-store" ;
 wpassets-jaydub "no-cache, no-store" ;
 
 wordpress-php74 "no-cache, no-store" ;
+wordpress-aws-alb "no-cache, no-store" ;
 
 wp-deploy "no-cache, no-store" ;
