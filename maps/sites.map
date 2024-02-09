@@ -1499,6 +1499,7 @@ _/zerowasteplan redirect_asis ;
 
 bfenster.cms-devl.bu.edu wordpress-aws-alb ;
 dcrews-development.cms-devl.bu.edu wordpress-aws-alb ;
+felonymurderlaws.cms-devl.bu.edu phpbin-aws ;
 lmcguire.cms-devl.bu.edu wordpress-php74 ;
 dd74.cms-devl.bu.edu wordpress-php74 ;
 acalog74.cms-devl.bu.edu wordpress-php74 ;
