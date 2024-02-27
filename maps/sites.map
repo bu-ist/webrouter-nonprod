@@ -83,6 +83,7 @@ _/html-email phpbin-aws ;
 # phpbin:
 
 _/phpbin/alert phpbin-aws ;
+_/phpbin/blackboard-course-copy phpbin-aws ;
 _/phpbin/calendar phpbin-aws ;
 _/phpbin/cecredential phpbin-aws ;
 _/phpbin/change-entry phpbin-aws ;
