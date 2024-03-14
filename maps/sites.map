@@ -1497,8 +1497,8 @@ _/yourgift redirect_asis ;
 _/yourimpact redirect_asis ;
 _/zerowasteplan redirect_asis ;
 
-blogs-devl.bu.edu wordpress-devl ;
-
+bfenster.cms-devl.bu.edu wordpress-aws-alb ;
+dcrews-development.cms-devl.bu.edu wordpress-aws-alb ;
 lmcguire.cms-devl.bu.edu wordpress-php74 ;
 dd74.cms-devl.bu.edu wordpress-php74 ;
 acalog74.cms-devl.bu.edu wordpress-php74 ;
