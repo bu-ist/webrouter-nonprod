@@ -1517,3 +1517,5 @@ _/parking redirect ;
 
 
 wp-deploy.cms-devl.bu.edu wp-deploy ;
+
+blogs-devl.bu.edu wordpress-php74 ;
