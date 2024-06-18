@@ -73,8 +73,6 @@ search-test.bu.edu search ;
 
 # Standalone Sites:
 
-_/courseware-manager     django ;
-
 _/buniverse phpbin-aws ;
 _/calendar phpbin-aws ;
 _/html-email phpbin-aws ;
