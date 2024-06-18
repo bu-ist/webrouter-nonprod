@@ -91,38 +91,6 @@ setup () {
   assert_contains "buniverse"
 }
 
-#@test "Cellphone Compliance django app (http)" {
-#  skip_landscapes syst
-#  test_web http "$BUWEBHOST" /cellphone-compliance/
-#  assert_status 302
-#  assert_header location "http://$BUWEBHOST/cellphone-compliance/accounts/login/?next=/cellphone-compliance/"
-#  assert_backend "django"
-#}
-
-#@test "Cellphone Compliance django app (https)" {
-#  skip_landscapes syst
-#  test_web https "$BUWEBHOST" /cellphone-compliance/
-#  assert_status 302
-#  assert_header location "https://$BUWEBHOST/cellphone-compliance/accounts/login/?next=/cellphone-compliance/"
-#  assert_backend "django"
-#}
-
-@test "Courseware Manager admin" {
-  skip_landscapes syst
-  test_web http "$BUWEBHOST" /courseware-manager/admin/
-  assert_status 302
-  assert_header_contains location "http://$BUWEBHOST/courseware-manager/admin/login/"
-  assert_backend "django"
-}
-
-@test "DNA mixtures" {
-  skip_landscapes syst
-  test_web http "$BUWEBHOST" /dnamixtures/
-  assert_status 200
-  assert_backend "django"
-  assert_contains "/dnamixtures/static/dna_lessons"
-}
-
 @test "Robots.txt" {
   test_web http "$BUWEBHOST" /robots.txt
   assert_status 200

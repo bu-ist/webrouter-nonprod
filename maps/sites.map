@@ -79,18 +79,6 @@ _/testing legacy ;
 #
 #####################################################################
 
-# Standalone Sites:
-
-_/betabionics        django ;
-_/bufellow/db-admin django ;
-_/ssw/usfostercare     django ;
-_/cellphone-compliance     django ;
-_/courseware-manager     django ;
-_/dnamixtures        django ;
-_/law-pub        django ;
-_/summer/admin       django ;
-_/systems-programming/django-sysmon  django ;
-
 
 # phpbin:
 # Omitted on www-devl (not available in this environment)
