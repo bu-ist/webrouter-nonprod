@@ -239,11 +239,6 @@ echo "Starting test series PHP"
 echo "### Test PHP services" >>${LOGFILE}
 test_url "dbin-http-oittest" http://${CONNECT_TO}/dbin/oittest/info.php 200 dbin '<h2>PHP License</h2>' >>${LOGFILE}
 test_url "phpbin-http-buniverse" http://${CONNECT_TO}/buniverse/ 200 phpbin buniverse >>${LOGFILE}
-test_url "django-http-cellphone" http://${CONNECT_TO}/cellphone-compliance/ 302 django "Location: http://$HOST/cellphone-compliance/accounts/login" >>${LOGFILE}
-test_url "django-https-cellphone" https://${CONNECT_TO}/cellphone-compliance/ 302 django "Location: https://$HOST/cellphone-compliance/accounts/login" >>${LOGFILE}
-test_url "django-http-cwaremgr" http://${CONNECT_TO}/courseware-manager/admin/ 302 django "Location: http://$HOST/courseware-manager/admin/login/" >>${LOGFILE}
-test_url "django-http-dnamixtures" http://${CONNECT_TO}/dnamixtures/ 200 django /dnamixtures/static/dna_lessons >>${LOGFILE}
-#test_url "django-http-bufellow-new" http://${CONNECT_TO}/bufellow/db-admin/ 200 django buniverse >>${LOGFILE}
 test_url "phpbin-http-maps" http://${CONNECT_TO}/maps/ 200 phpbin 'var BUMapsVersion = 1' >>${LOGFILE}
 #test_url "phpbin-http-mapslivebus-new" http://${CONNECT_TO}/maps/livebus/ 200 phpbin buniverse >>${LOGFILE}
 

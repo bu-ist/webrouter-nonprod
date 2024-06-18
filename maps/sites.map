@@ -21,7 +21,6 @@ _/uiszl_pdf legacy ;
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
 _/maps phpbin ;
-_/bufellow/db-admin django ;
 
 # These mappings are needed for Shibboleth authentication
 # weblogin retirement
@@ -33,8 +32,6 @@ _/saml/wp-assets wpassets ;
 # we should make a third party table for http backend services (maybe)
 #
 #degree-advice degreeadvice ;
-
-_/django apps ;
 
 # UISCGI/link entries
 _/link/bin uiscgi_app ;
@@ -1266,7 +1263,6 @@ _/connect content ;
 ## cort: wordpress
 _/compbiomed content ;
 ## comtalk: wordpress
-_/courseware-manager django ;
 _/compnet content ;
 ## codes: wordpress
 ## corporations: wordpress
@@ -1364,7 +1360,6 @@ _/ce content ;
 _/celebrationvip content ;
 _/cellular-imaging content ;
 ## center-for-anxiety-related-disorders: wordpress
-_/cellphone-compliance django ;
 _/celebrationofbu content ;
 _/ceei content ;
 _/cel content ;
@@ -2499,7 +2494,6 @@ _/diversitytaskforce/media content ;
 ## diversitytaskforce: wordpress
 _/dje content ;
 _/dme content ;
-_/dnamixtures django ;
 _/dna content ;
 _/dos/lulingzi content ;
 _/dos/facebook content ;
