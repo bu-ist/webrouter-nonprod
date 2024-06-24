@@ -1258,7 +1258,7 @@ _/qtencodersdp static-public ;
 _/qualtrics redirect_asis ;
 _/quantum static-public ;
 _/quantumconcepts static-protected ;
-_/questrom1 wpengine-questrom ;
+_/questrom wpengine-questrom ;
 _/questrom-phd redirect_asis ;
 _/questrom/its-docs static-protected ;
 _/questrom/secure static-protected ;
