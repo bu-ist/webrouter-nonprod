@@ -22,6 +22,8 @@ _/uiszl_pdf legacy ;
 _/buniverse phpbin ;
 _/maps phpbin ;
 
+_/phpbin/dining phpbin-aws ;
+
 # These mappings are needed for Shibboleth authentication
 # weblogin retirement
 _/saml/content content ;
