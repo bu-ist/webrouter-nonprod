@@ -1,12 +1,14 @@
 _/version 20180719 ;
 
 # items from the Apache configuration
-_/htbin legacy ;
+# 2024-07-12: commented out legacy backends as part of Solaris decommissioning 
+#_/htbin legacy ;
 _/studentlink redirect_asis ; 
 
 # UIS content
 _/uis content ;
-_/uis_web3270 legacy ;
+# 2024-07-12: commented out legacy backends as part of Solaris decommissioning 
+#_/uis_web3270 legacy ;
 
 # items from the www:phpmap.txt
 _/buniverse phpbin ;
