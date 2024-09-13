@@ -110,6 +110,7 @@ _/phpbin/policelink phpbin-aws ;
 _/phpbin/proxy-groups phpbin-aws ;
 _/phpbin/rcr phpbin-aws ;
 _/phpbin/registration-manager2 phpbin-aws ;
+__/phpbin/search phpbin-aws ;
 _/phpbin/security phpbin-aws ;
 _/phpbin/security-dev phpbin-aws ;
 _/phpbin/signup phpbin-aws ;
