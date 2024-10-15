@@ -106,7 +106,7 @@ _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
 _/phpbin/parking phpbin-aws ;
 _/phpbin/pdf-info phpbin-aws ;
-_/phpbin/policelink phpbin-aws ;
+_/phpbin/policelink redirect_asis ;
 _/phpbin/proxy-groups phpbin-aws ;
 _/phpbin/rcr phpbin-aws ;
 _/phpbin/registration-manager2 phpbin-aws ;
@@ -1313,6 +1313,7 @@ _/rural-ancillary-portal redirect_asis ;
 _/saa redirect_asis ;
 _/sac redirect_asis ;
 _/safety/stand-up static-public ;
+_/safetylink phpbin-aws
 _/sail redirect_asis ;
 _/sao static-public ;
 _/sargent/wp-assets static-protected ;
