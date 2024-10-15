@@ -1313,7 +1313,7 @@ _/rural-ancillary-portal redirect_asis ;
 _/saa redirect_asis ;
 _/sac redirect_asis ;
 _/safety/stand-up static-public ;
-_/safetylink phpbin-aws
+_/safetylink phpbin-aws ;
 _/sail redirect_asis ;
 _/sao static-public ;
 _/sargent/wp-assets static-protected ;
