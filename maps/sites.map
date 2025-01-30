@@ -104,6 +104,7 @@ _/phpbin/medlib phpbin-aws ;
 _/phpbin/nispm phpbin-aws ;
 _/phpbin/oompatech phpbin-aws ;
 _/phpbin/organ-library phpbin-aws ;
+_/phpbin/onbase phpbin-aws ;
 _/phpbin/parking phpbin-aws ;
 _/phpbin/pdf-info phpbin-aws ;
 _/phpbin/policelink redirect_asis ;
