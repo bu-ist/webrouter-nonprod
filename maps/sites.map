@@ -1462,6 +1462,7 @@ _/thebus/gtfs static-public ;
 _/thedash redirect_asis ;
 _/thehive redirect_asis ;
 _/theology redirect_asis ;
+_/third-party-payments-test static-public ;
 _/thomasmenino redirect_asis ;
 _/thurmanarchives redirect_asis ;
 _/tims redirect_asis ;
