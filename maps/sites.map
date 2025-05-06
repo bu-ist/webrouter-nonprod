@@ -135,6 +135,7 @@ _/dbin/dance phpbin-aws ;
 _/dbin/disted phpbin-aws ;
 _/dbin/ejournals phpbin-aws ;
 _/dbin/eng phpbin-aws ;
+_/dbin/gpts phpbin-aws ;
 _/dbin/jupiter-auroral-mapping phpbin-aws ;
 _/dbin/mlkjr phpbin-aws ;
 _/dbin/pma phpbin-aws ;
