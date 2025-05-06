@@ -897,6 +897,7 @@ _/isps redirect_asis ;
 _/isso/av static-public ;
 _/isso/wp-assets static-protected ;
 _/ist static-protected ;
+_/ist/private-directory phpbin-aws ;
 _/ist-automation/webdis redirect_asis ;
 _/ist-sa static-protected ;
 _/istnews redirect_asis ;
