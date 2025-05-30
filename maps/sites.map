@@ -120,6 +120,7 @@ _/phpbin/sleep phpbin-aws ;
 _/phpbin/ssw-network phpbin-aws ;
 _/phpbin/starrez phpbin-aws ;
 _/phpbin/static-sites phpbin-aws ;
+_/phpbin/tcp phpbin-aws ;
 _/phpbin/training phpbin-aws ;
 _/phpbin/vending phpbin-aws ;
 _/phpbin/webdis phpbin-aws ;
