@@ -435,7 +435,7 @@ _/cball static-public ;
 _/ccboard static-public ;
 _/cci redirect_asis ;
 _/cdaly static-public ;
-_/cdn content-cache ;
+_/cdn static-public ;
 _/cds redirect_asis ;
 _/cds-center redirect_asis ;
 _/cedh static-public ;
