@@ -277,7 +277,6 @@ _/i3e-ac content ;
 ## TLTR: redirect to lowercase
 ## TRL: redirect to lowercase
 ## TRACK: redirect to lowercase
-## TRANSPORTATION: redirect to lowercase
 ## TRUSTEESCHOLARS: redirect to lowercase
 ## TRANSGENIC: redirect to lowercase
 ## TSO: redirect to lowercase
@@ -2953,7 +2952,6 @@ _/tims content ;
 _/tricia content ;
 _/trl content ;
 _/track content ;
-_/transportation content ;
 _/trusteescholars content ;
 _/transgenic content ;
 ## trustees: wordpress
