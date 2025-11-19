@@ -1501,6 +1501,7 @@ rfera213-php74.cms-devl.bu.edu wordpress-php74 ;
 s3-test-net.cms-devl.bu.edu wordpress-php74 ;
 
 bfenster.cms-devl.bu.edu/parking redirect ;
+bfenster.cms-devl.bu.edu/robots.txt static-public ;
 _/parking redirect ;
 
 
