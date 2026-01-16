@@ -1379,6 +1379,7 @@ _/testprep redirect_asis ;
 _/thebus redirect ;
 _/theology redirect_asis ;
 _/third-party-payments static-public ;
+_/third-party-payments-test static-public ;
 _/thomasmenino redirect_asis ;
 _/thurmanarchives redirect_asis ;
 _/today/blasts static-public ;
