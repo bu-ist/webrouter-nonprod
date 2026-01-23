@@ -22,7 +22,7 @@ checkhostheader hostheader.bu.edu ;
 aws_home $backend_hostname ;
 
 # These backends map to specific URLs and need to be hardcoded
-aws_home_index buaws-websites-homepage-test.s3-website-us-east-1.amazonaws.com ;
+aws_home_index websites-homepage-capture-s3-test-files.s3-website-us-east-1.amazonaws.com ;
 
 static-public static-sites-test-public.s3-website-us-east-1.amazonaws.com ;
 static-favoritepoem static-sites-test-public.s3-website-us-east-1.amazonaws.com ;
