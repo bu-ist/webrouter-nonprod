@@ -202,8 +202,6 @@ _/ai redirect_asis ;
 _/aias redirect_asis ;
 _/alcoholeducationforyouth static-public ;
 _/aldolase static-public ;
-# This is a common 404 page; routing away from WordPress for efficiency:
-_/alert/css static-public ;
 _/alex redirect_asis ;
 _/alistaircooke redirect_asis ;
 _/alum24 redirect_asis ;
