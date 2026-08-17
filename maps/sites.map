@@ -129,8 +129,6 @@ _/aig redirect_asis ;
 _/airo static-public ;
 _/alcoholeducationforyouth static-public ;
 _/aldolase static-public ;
-# This is a common 404 page; routing away from WordPress for efficiency:
-_/alert/css static-public ;
 _/alistaircooke redirect_asis ;
 _/alumni/wp-assets static-public ;
 _/alumnicenter redirect_asis ;
