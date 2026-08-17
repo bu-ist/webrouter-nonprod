@@ -115,6 +115,8 @@ _/admissions wordpress ;
 _/admissions/applicantlink static-public ;
 _/admissions/telegraph static-public ;
 _/admissionsstatic static-public ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ads.txt static-public ;
 _/aeacus static-public ;
 _/aegdalumnidinner redirect_asis ;
 _/af-rotc redirect_asis ;
@@ -127,6 +129,8 @@ _/aig redirect_asis ;
 _/airo static-public ;
 _/alcoholeducationforyouth static-public ;
 _/aldolase static-public ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/alert/css static-public ;
 _/alistaircooke redirect_asis ;
 _/alumni/wp-assets static-public ;
 _/alumnicenter redirect_asis ;
@@ -150,6 +154,8 @@ _/apc redirect_asis ;
 _/apfd redirect_asis ;
 _/aphasia redirect_asis ;
 _/api static-public ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/api/v1 static-public ;
 _/apply static-public ;
 _/appspace redirect_asis ;
 _/ar static-public ;
@@ -159,6 +165,8 @@ _/arlington redirect_asis ;
 _/army static-public ;
 _/armyrotc redirect_asis ;
 _/ars redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/arts/calendar static-public ;
 _/artslive redirect_asis ;
 _/ascend redirect_asis ;
 _/asianalumni static-public ;
@@ -513,6 +521,8 @@ _/cughdental redirect_asis ;
 _/culinaryarts static-public ;
 _/culture static-public ;
 _/cwc redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/d2l/api static-public ;
 _/danrather redirect_asis ;
 _/darwin static-public ;
 _/data static-protected ;
@@ -592,6 +602,8 @@ _/eveningmba redirect_asis ;
 _/events static-public ;
 _/evergreen redirect_asis ;
 _/evp redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ews/exchange.asmx static-public ;
 _/excellence redirect_asis ;
 _/exchange static-public ;
 _/exec redirect_asis ;
@@ -821,6 +833,8 @@ _/interactive-design/2 static-public ;
 _/intracghd redirect_asis ;
 _/investigate static-public ;
 _/investinprevention redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ip static-public ;
 _/ipl static-public ;
 _/iraopportunity redirect_asis ;
 _/irc redirect_asis ;
@@ -1028,6 +1042,8 @@ _/met/usa static-public ;
 _/met/web static-protected ;
 _/met/yellowpages static-public ;
 _/met50 redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/meta.json static-public ;
 _/metadmin static-protected ;
 _/metinternational/application static-public ;
 _/metinternational/degree-pathway-application static-public ;
@@ -1087,6 +1103,8 @@ _/newyorkeveningwithbu redirect_asis ;
 _/nexus redirect_asis ;
 _/nightingale redirect_asis ;
 _/nis static-protected ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/nis/lib static-public ;
 _/nisprod static-protected ;
 _/niteo redirect_asis ;
 _/nitrides static-public ;
