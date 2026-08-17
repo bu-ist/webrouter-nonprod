@@ -183,6 +183,8 @@ _/admissions/applicantlink static-public ;
 _/admissions/presenter static-protected ;
 _/admissions/telegraph static-public ;
 _/admissionsstatic static-public ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ads.txt static-public ;
 _/advocates redirect_asis ;
 _/aeacus static-public ;
 _/aegdalumnidinner redirect_asis ;
@@ -221,6 +223,8 @@ _/aparc redirect_asis ;
 _/apc redirect_asis ;
 _/apfd redirect_asis ;
 _/aphasia redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/api/v1 static-public ;
 _/apply redirect_asis ;
 _/apply/financial-aid redirect_asis ;
 _/apply/graduate redirect_asis ;
@@ -236,6 +240,8 @@ _/armyrotc redirect_asis ;
 _/ars redirect_asis ;
 _/art redirect_asis ;
 _/arts redirect ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/arts/calendar static-public ;
 _/artsnow redirect_asis ;
 _/ascend redirect_asis ;
 _/asllrp static-public ;
@@ -574,6 +580,8 @@ _/culinaryarts redirect_asis ;
 _/cwc redirect_asis ;
 _/cye24 redirect_asis ;
 _/cye25 redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/d2l/api static-public ;
 _/danrather redirect_asis ;
 _/daratlas redirect_asis ;
 _/darstaff redirect_asis ;
@@ -654,6 +662,8 @@ _/euforyou redirect_asis ;
 _/eufutures redirect_asis ;
 _/events redirect_asis ;
 _/evergreen redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ews/exchange.asmx static-public ;
 _/exchange redirect_asis ;
 _/exec redirect_asis ;
 _/execed redirect_asis ;
@@ -881,6 +891,8 @@ _/international redirect_asis ;
 _/internships redirect_asis ; ### reserved for Emma Bonanomi/Provost see INC20636359 ###
 _/intracghd redirect_asis ;
 _/investinprevention redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/ip static-public ;
 _/irwa redirect_asis ;
 _/ise redirect_asis ;
 _/isec redirect_asis ;
@@ -1036,6 +1048,8 @@ _/met/htmlemail static-public ;
 _/met/shared static-public ;
 _/met24 redirect_asis ;
 _/met25 redirect_asis ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/meta.json static-public ;
 _/metadmin static-protected ;
 _/mickswan static-public ;
 _/mih static-public ;
@@ -1083,6 +1097,8 @@ _/new2bu static-public ;
 _/newmedia static-public ;
 _/nexus redirect_asis ;
 _/nis static-protected ;
+# This is a common 404 page; routing away from WordPress for efficiency:
+_/nis/lib static-public ;
 _/nisprod static-protected ;
 _/niteo redirect_asis ;
 _/nitrides static-public ;
