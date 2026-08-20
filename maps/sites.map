@@ -1749,6 +1749,7 @@ servicenow.bu.edu redirect ;
 smartlighting.bu.edu redirect_asis ;
 sph.bu.edu redirect ;
 sph.bu.edu/otlt redirect ;
+storybook-test.webteam.bu.edu phpbin-aws ;
 terrieredev.bu.edu redirect_asis ;
 theruralstudy.org redirect ;
 today.bu.edu redirect_asis ;
