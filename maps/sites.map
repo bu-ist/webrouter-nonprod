@@ -141,6 +141,7 @@ _/dbin/pma phpbin-aws ;
 _/dbin/project-inclusive phpbin-aws ;
 _/dbin/quantumconcepts phpbin-aws ;
 _/dbin/research-demographic-data phpbin-aws ;
+_/dbin/starr-query phpbin-aws ;
 _/dbin/stemcells phpbin-aws ;
 
 
